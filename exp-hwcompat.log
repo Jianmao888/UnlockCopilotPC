@@ -1,0 +1,63 @@
+==== EXPERIMENT: force HardwareCompatibility=1 + restart wuauserv ==== 
+ 
+[1] BEFORE 
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\WindowsAI\LastConfiguration
+    HardwareCompatibility    REG_DWORD    0x0
+    ITManaged    REG_DWORD    0x0
+    AllowedInRegion    REG_DWORD    0x1
+    PolicyConfigured    REG_DWORD    0x0
+    PolicyEnabled    REG_DWORD    0x0
+    FTDisabledState    REG_DWORD    0x0
+    MeetsAdditionalDriverRequirements    REG_DWORD    0x1
+    LastOperationKind    REG_DWORD    0x2
+    AttemptedInstallCount    REG_DWORD    0x0
+    LastBuild    REG_DWORD    0x23d0
+    MaxInstallAttemptsAllowed    REG_DWORD    0x5
+    LastKnownLCUVersion    REG_SZ    10.0.26100.9550
+
+ 
+[2] SET HardwareCompatibility=1 
+操作成功完成。
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\WindowsAI\LastConfiguration
+    HardwareCompatibility    REG_DWORD    0x1
+
+ 
+[3] RESTART wuauserv 
+没有启动 Windows 更新 服务。
+
+请键入 NET HELPMSG 3521 以获得更多的帮助。
+
+Windows 更新 服务正在启动 .
+Windows 更新 服务已经启动成功。
+
+ 
+[4] SERVICE STATE 
+
+SERVICE_NAME: wuauserv 
+        TYPE               : 30  WIN32  
+        STATE              : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_PRESHUTDOWN)
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+ 
+[5] AFTER (immediately) 
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\WindowsAI\LastConfiguration
+    HardwareCompatibility    REG_DWORD    0x1
+    ITManaged    REG_DWORD    0x0
+    AllowedInRegion    REG_DWORD    0x1
+    PolicyConfigured    REG_DWORD    0x0
+    PolicyEnabled    REG_DWORD    0x0
+    FTDisabledState    REG_DWORD    0x0
+    MeetsAdditionalDriverRequirements    REG_DWORD    0x1
+    LastOperationKind    REG_DWORD    0x2
+    AttemptedInstallCount    REG_DWORD    0x0
+    LastBuild    REG_DWORD    0x23d0
+    MaxInstallAttemptsAllowed    REG_DWORD    0x5
+    LastKnownLCUVersion    REG_SZ    10.0.26100.9550
+
+DONE 

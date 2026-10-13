@@ -1,0 +1,51 @@
+{"event": "start", "pid": 16236, "seconds": 200, "mode": "patch-aipc"}
+{"event": "warmup-load", "ts": 1791896872615, "proc": "wuauserv", "target": "wuauserv"}
+{"event": "winhttp-loaded", "ts": 1791896872615, "proc": "wuauserv", "name": "winhttp.dll", "base": "0x7ffdfb2b0000", "target": "wuauserv"}
+{"event": "hooked", "ts": 1791896872615, "proc": "wuauserv", "api": "WinHttpOpen", "target": "wuauserv"}
+{"event": "hooked", "ts": 1791896872615, "proc": "wuauserv", "api": "WinHttpConnect", "target": "wuauserv"}
+{"event": "hooked", "ts": 1791896872615, "proc": "wuauserv", "api": "WinHttpOpenRequest", "target": "wuauserv"}
+{"event": "hooked", "ts": 1791896872616, "proc": "wuauserv", "api": "WinHttpSendRequest", "target": "wuauserv"}
+{"event": "hooked", "ts": 1791896872616, "proc": "wuauserv", "api": "WinHttpWriteData", "target": "wuauserv"}
+{"event": "hooked", "ts": 1791896872616, "proc": "wuauserv", "api": "WinHttpReceiveResponse", "target": "wuauserv"}
+{"event": "hooked", "ts": 1791896872616, "proc": "wuauserv", "api": "WinHttpQueryDataAvailable", "target": "wuauserv"}
+{"event": "hooked", "ts": 1791896872617, "proc": "wuauserv", "api": "WinHttpQueryHeaders", "target": "wuauserv"}
+{"event": "hooked", "ts": 1791896872617, "proc": "wuauserv", "api": "WinHttpReadData", "target": "wuauserv"}
+{"event": "hooked", "ts": 1791896872618, "proc": "wuauserv", "api": "WinHttpCloseHandle", "target": "wuauserv"}
+{"event": "session-loaded", "target": "wuauserv", "pid": 16236}
+{"event": "winhttp-loaded", "ts": 1791896874637, "proc": "uso-11156", "name": "WINHTTP.dll", "base": "0x7ffdfb2b0000", "target": "uso-11156"}
+{"event": "hooked", "ts": 1791896874637, "proc": "uso-11156", "api": "WinHttpOpen", "target": "uso-11156"}
+{"event": "hooked", "ts": 1791896874637, "proc": "uso-11156", "api": "WinHttpConnect", "target": "uso-11156"}
+{"event": "hooked", "ts": 1791896874637, "proc": "uso-11156", "api": "WinHttpOpenRequest", "target": "uso-11156"}
+{"event": "hooked", "ts": 1791896874637, "proc": "uso-11156", "api": "WinHttpSendRequest", "target": "uso-11156"}
+{"event": "hooked", "ts": 1791896874637, "proc": "uso-11156", "api": "WinHttpWriteData", "target": "uso-11156"}
+{"event": "hooked", "ts": 1791896874637, "proc": "uso-11156", "api": "WinHttpReceiveResponse", "target": "uso-11156"}
+{"event": "hooked", "ts": 1791896874637, "proc": "uso-11156", "api": "WinHttpQueryDataAvailable", "target": "uso-11156"}
+{"event": "hooked", "ts": 1791896874638, "proc": "uso-11156", "api": "WinHttpQueryHeaders", "target": "uso-11156"}
+{"event": "hooked", "ts": 1791896874638, "proc": "uso-11156", "api": "WinHttpReadData", "target": "uso-11156"}
+{"event": "hooked", "ts": 1791896874638, "proc": "uso-11156", "api": "WinHttpCloseHandle", "target": "uso-11156"}
+{"event": "session-loaded", "target": "uso-11156", "pid": 11156}
+{"event": "uso-watch", "pid": 11156, "attached": true}
+{"event": "resp-status", "ts": 1791896876416, "proc": "uso-11156", "handle": "0x16e79aa14f0", "status": 304, "target": "uso-11156"}
+{"event": "resp-raw-headers", "ts": 1791896876418, "proc": "uso-11156", "handle": "0x16e79aa14f0", "enc": "utf16", "headers": "HTTP/1.1 304 \r\nDate: Tue, 13 Oct 2026 13:07:56 GMT\r\nContent-Length: 0\r\nContent-Type: text/html;charset=utf-8\r\nETag: \"67E24067::2F2C816386\"\r\nServer: Microsoft-HTTPAPI/2.0\r\nx-content-type-options: nosniff\r\ncontent-security-policy: script-src https://settings-sandbox.data.microsoft.com https://settings-ppe.data.microsoft.com https://settings.data.microsoft.com http://onesettings-xbox-rp.com https://settings-win.data.microsoft.com\r\nstrict-transport-security: max-age=31536000; includeSubDomains\r\nx-ms-onesetinterval: 1322\r\n\r\n", "target": "uso-11156"}
+{"event": "close", "ts": 1791896876418, "proc": "uso-11156", "handle": "0x16e79aa14f0", "target": "uso-11156"}
+{"event": "receive-response", "ts": 1791896876418, "proc": "uso-11156", "handle": "0x16e79aa14f0", "ok": true, "target": "uso-11156"}
+{"event": "close", "ts": 1791896876419, "proc": "uso-11156", "handle": "0x16e7a035170", "target": "uso-11156"}
+{"event": "close", "ts": 1791896876419, "proc": "uso-11156", "handle": "0x16e79b0e5e0", "target": "uso-11156"}
+{"event": "close", "ts": 1791896876421, "proc": "uso-11156", "handle": "0x16e79a8d9b0", "target": "uso-11156"}
+{"event": "open", "ts": 1791896883772, "proc": "wuauserv", "agent": "MS-WebServices/1.0", "target": "wuauserv"}
+{"event": "close", "ts": 1791896883774, "proc": "wuauserv", "handle": "0x17b9403e040", "target": "wuauserv"}
+{"event": "open", "ts": 1791896883782, "proc": "wuauserv", "agent": "MS-WebServices/1.0", "target": "wuauserv"}
+{"event": "connect", "ts": 1791896883783, "proc": "wuauserv", "host": "fe3cr.delivery.mp.microsoft.com", "port": 443, "target": "wuauserv"}
+{"event": "open-request", "ts": 1791896883790, "proc": "wuauserv", "verb": "POST", "path": "/ClientWebService/client.asmx", "flags": 8389056, "handle": "0x17b89d4a610", "target": "wuauserv"}
+{"event": "blob", "proc": "wuauserv", "tag": "body-before-0x17b9402a570", "seq": 1, "len": 18138, "ts": 1791896883794, "file": "pblob-001-wuauserv-body-before-0x17b9402a570.bin", "target": "wuauserv"}
+{"event": "patched", "ts": 1791896883795, "proc": "wuauserv", "offset": 10972, "from": "IsA9CapablePC=0", "to": "IsA9CapablePC=1", "byte_before": 48, "byte_after": 49, "total": 1, "body_len": 18138, "target": "wuauserv"}
+{"event": "blob", "proc": "wuauserv", "tag": "body-after-0x17b9402a570", "seq": 2, "len": 18138, "ts": 1791896883797, "file": "pblob-002-wuauserv-body-after-0x17b9402a570.bin", "target": "wuauserv"}
+{"event": "send-request", "ts": 1791896883797, "proc": "wuauserv", "handle": "0x17b9402a570", "headers_len": 0, "body_len": 18138, "total_len": 18138, "headers": null, "patched": true, "body_ptr": "0x17b942d7040", "target": "wuauserv"}
+{"event": "close", "ts": 1791896883807, "proc": "wuauserv", "handle": "0x17b94ca4b00", "target": "wuauserv"}
+{"event": "receive-response", "ts": 1791896885860, "proc": "wuauserv", "handle": "0x17b9402a570", "ok": true, "target": "wuauserv"}
+{"event": "resp-status", "ts": 1791896885861, "proc": "wuauserv", "handle": "0x17b9402a570", "status": 200, "target": "wuauserv"}
+{"event": "close", "ts": 1791896885862, "proc": "wuauserv", "handle": "0x17b9402a570", "target": "wuauserv"}
+{"event": "close", "ts": 1791896887297, "proc": "wuauserv", "handle": "0x17b94156aa0", "target": "wuauserv"}
+{"event": "close", "ts": 1791896887297, "proc": "wuauserv", "handle": "0x17b89d4a610", "target": "wuauserv"}
+{"event": "close", "ts": 1791896887297, "proc": "wuauserv", "handle": "0x17b94156730", "target": "wuauserv"}
+{"event": "close", "ts": 1791896887297, "proc": "wuauserv", "handle": "0x17b94157bd0", "target": "wuauserv"}

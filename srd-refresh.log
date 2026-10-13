@@ -1,0 +1,17 @@
+START 
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+ Volume in drive C has no label.
+ Volume Serial Number is E432-F923
+
+ Directory of C:\Users\jianm\Code\DeepseekHarness\srd-copy2
+
+26/10/13  15:29    <DIR>          .
+26/10/13  15:29    <DIR>          ..
+26/10/13  15:16         8,388,608 StateRepository-Machine.srd
+26/10/13  15:15            32,768 StateRepository-Machine.srd-shm
+26/10/13  15:16            28,872 StateRepository-Machine.srd-wal
+               3 File(s)      8,450,248 bytes
+               2 Dir(s)  439,573,700,608 bytes free
+DONE 

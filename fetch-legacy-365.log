@@ -1,0 +1,57 @@
+源 MSU: Windows11.0-KB5066835-x64.msu
+选中 13 个, 共 194.0 MB
+
+[1/13] WindowsWorkload.Data.Analysis.365.1 v1.2509.1022.0  (0.05 MB)
+
+          0.05/0.05 MB    0.1 MB/s
+      ✔ SHA1 通过   包名=WindowsWorkload.Data.Analysis.365.1 v1.2509.1022.0
+[2/13] WindowsWorkload.Data.ContentExtraction.365.1 v1.2509.1022.0  (0.05 MB)
+
+          0.05/0.05 MB    0.1 MB/s
+      ✔ SHA1 通过   包名=WindowsWorkload.Data.ContentExtraction.365.1 v1.2509.1022.0
+[3/13] WindowsWorkload.Manager.1 v1.2506.707.0  (0.29 MB)
+      ✔ 已存在且 SHA1 匹配，跳过
+[4/13] WindowsWorkload.PSTokenizer.365.2.7 v1.2509.1022.0  (0.33 MB)
+
+          0.33/0.33 MB    0.3 MB/s
+      ✔ SHA1 通过   包名=WindowsWorkload.PSTokenizer.365.2.7 v1.2509.1022.0
+[5/13] WindowsWorkload.SessionManager.1 v1.2509.1022.0  (0.36 MB)
+      ✔ 已存在且 SHA1 匹配，跳过
+[6/13] WindowsWorkload.SemanticText.365.1 v1.2509.1022.0  (0.72 MB)
+
+          0.72/0.72 MB    0.6 MB/s
+      ✔ SHA1 通过   包名=WindowsWorkload.SemanticText.365.1 v1.2509.1022.0
+[7/13] WindowsWorkload.QueryProcessor.365.1 v1.2509.1022.0  (0.77 MB)
+
+          0.77/0.77 MB    0.7 MB/s
+      ✔ SHA1 通过   包名=WindowsWorkload.QueryProcessor.365.1 v1.2509.1022.0
+[8/13] WindowsWorkload.ScrRegDetection.365.1 v1.2509.1022.0  (0.85 MB)
+
+          0.85/0.85 MB    0.7 MB/s
+      ✔ SHA1 通过   包名=WindowsWorkload.ScrRegDetection.365.1 v1.2509.1022.0
+[9/13] WindowsWorkload.QueryBlockList.1 v1.2509.1022.0  (2.33 MB)
+      ✔ 已存在且 SHA1 匹配，跳过
+[10/13] WindowsWorkload.PSOnnxRuntime.365.3.7 v1.2509.1022.0  (5.49 MB)
+
+          5.49/5.49 MB    2.2 MB/s
+      ✔ SHA1 通过   包名=WindowsWorkload.PSOnnxRuntime.365.3.7 v1.2509.1022.0
+[11/13] WindowsWorkload.PSTokenizerShared.365.3.7 v1.2509.1022.0  (11.35 MB)
+
+         11.35/11.35 MB    2.4 MB/s
+      ✔ SHA1 通过   包名=WindowsWorkload.PSTokenizerShared.365.3.7 v1.2509.1022.0
+[12/13] WindowsWorkload.TextRecognition.365.1 v1.2508.888.0  (81.75 MB)
+
+         33.55/81.75 MB    6.1 MB/s
+         67.11/81.75 MB    7.4 MB/s
+         81.75/81.75 MB    7.6 MB/s
+      ✔ SHA1 通过   包名=WindowsWorkload.TextRecognition.365.1 v1.2508.888.0
+[13/13] WindowsWorkload.QueryProcessor.Data.1 v1.7.817.0  (89.64 MB)
+
+         33.55/89.64 MB    4.6 MB/s
+         67.11/89.64 MB    5.1 MB/s
+         89.64/89.64 MB    5.2 MB/s
+      ✔ SHA1 通过   包名=WindowsWorkload.QueryProcessor.Data.1 v1.7.817.0
+
+======================================================================
+成功 13   失败 0
+输出: C:\Users\jianm\Code\DeepseekHarness\ai-packages-legacy

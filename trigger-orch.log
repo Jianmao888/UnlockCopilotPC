@@ -1,0 +1,61 @@
+==== restart orchestrator services ==== 
+ 
+[stop] UsoSvc 
+更新 Orchestrator 服务 服务正在停止.
+更新 Orchestrator 服务 服务已成功停止。
+
+ 
+[stop] wuauserv 
+Windows 更新 服务正在停止.
+Windows 更新 服务已成功停止。
+
+ 
+[stop] WSAIFabricSvc 
+Windows AI 组件主机 服务正在停止.
+Windows AI 组件主机 服务已成功停止。
+
+ 
+[start] WSAIFabricSvc 
+Windows AI 组件主机 服务正在启动 .
+Windows AI 组件主机 服务已经启动成功。
+
+ 
+[start] wuauserv 
+Windows 更新 服务正在启动 .
+Windows 更新 服务已经启动成功。
+
+ 
+[start] UsoSvc 
+更新 Orchestrator 服务 服务正在启动 .
+更新 Orchestrator 服务 服务已经启动成功。
+
+ 
+[state] 
+
+SERVICE_NAME: UsoSvc 
+        TYPE               : 30  WIN32  
+        STATE              : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_PRESHUTDOWN)
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: wuauserv 
+        TYPE               : 30  WIN32  
+        STATE              : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_PRESHUTDOWN)
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: WSAIFabricSvc 
+        TYPE               : 30  WIN32  
+        STATE              : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+DONE 

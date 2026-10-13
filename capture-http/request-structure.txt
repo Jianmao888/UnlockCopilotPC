@@ -1,0 +1,48 @@
+==============================================================================
+请求体结构清单（元素 → 出现次数）
+==============================================================================
+/Envelope                                                  x1   
+/Envelope/Body                                             x1   
+/Envelope/Body/SyncUpdates                                 x1   
+/Envelope/Body/SyncUpdates/cookie                          x1   
+/Envelope/Body/SyncUpdates/cookie/EncryptedData            x1    len=260    ATVNqfLH9EAdrZGpzH5KSedbV0mM00ZPuYIvvb8d+YLO6LhE9OUo3OG50ojoMbsBAiYsmT
+/Envelope/Body/SyncUpdates/cookie/Expiration               x1    len=28     2026-12-26T16:08:25.1348698Z
+/Envelope/Body/SyncUpdates/parameters                      x1   
+/Envelope/Body/SyncUpdates/parameters/AlsoPerformRegularSync x1    len=4      true
+/Envelope/Body/SyncUpdates/parameters/ClientPreferredLanguages x1   
+/Envelope/Body/SyncUpdates/parameters/ClientPreferredLanguages/string x1    len=10     zh-Hans-CN
+/Envelope/Body/SyncUpdates/parameters/ComputerSpec         x1   
+/Envelope/Body/SyncUpdates/parameters/ExpressQuery         x1    len=5      false
+/Envelope/Body/SyncUpdates/parameters/ExtendedUpdateInfoParameters x1   
+/Envelope/Body/SyncUpdates/parameters/ExtendedUpdateInfoParameters/GeoId x1    len=3      CHN
+/Envelope/Body/SyncUpdates/parameters/ExtendedUpdateInfoParameters/Locales x1   
+/Envelope/Body/SyncUpdates/parameters/ExtendedUpdateInfoParameters/Locales/string x2    len=5      zh-CN
+/Envelope/Body/SyncUpdates/parameters/ExtendedUpdateInfoParameters/XmlUpdateFragmentTypes x1   
+/Envelope/Body/SyncUpdates/parameters/ExtendedUpdateInfoParameters/XmlUpdateFragmentTypes/XmlUpdateFragmentType x3    len=8      Extended
+/Envelope/Body/SyncUpdates/parameters/FilterAppCategoryIds x1   
+/Envelope/Body/SyncUpdates/parameters/FilterAppCategoryIds/CategoryIdentifier x2   
+/Envelope/Body/SyncUpdates/parameters/FilterAppCategoryIds/CategoryIdentifier/Id x2    len=36     bcc64481-0fdb-4242-9ed7-48027a7cae9c
+/Envelope/Body/SyncUpdates/parameters/InstalledNonLeafUpdateIDs x1   
+/Envelope/Body/SyncUpdates/parameters/InstalledNonLeafUpdateIDs/int x65   len=1      1
+/Envelope/Body/SyncUpdates/parameters/NeedTwoGroupOutOfScopeUpdates x1    len=4      true
+/Envelope/Body/SyncUpdates/parameters/OtherCachedUpdateDeploymentIDs x1   
+/Envelope/Body/SyncUpdates/parameters/OtherCachedUpdateDeploymentIDs/Update x74  
+/Envelope/Body/SyncUpdates/parameters/OtherCachedUpdateDeploymentIDs/Update/DeploymentId x74   len=8      96957136
+/Envelope/Body/SyncUpdates/parameters/OtherCachedUpdateDeploymentIDs/Update/UpdateId x74   len=2      10
+/Envelope/Body/SyncUpdates/parameters/ProductsParameters   x1   
+/Envelope/Body/SyncUpdates/parameters/ProductsParameters/CallerAttributes x1    len=94     E:Interactive=1&SheddingAware=1&Id=MoUpdateOrchestrator&AADDeviceToken
+/Envelope/Body/SyncUpdates/parameters/ProductsParameters/DeviceAttributes x1    len=2240   E:IsContainerMgrInstalled=1&FlightRing=Retail&TelemetryLevel=3&IsVbsEn
+/Envelope/Body/SyncUpdates/parameters/ProductsParameters/Products x1    len=53     PN=Windows.Workload.ContentExtraction.amd64&V=0.0.0.0
+/Envelope/Body/SyncUpdates/parameters/ProductsParameters/SyncCurrentVersionOnly x1    len=5      false
+/Envelope/Body/SyncUpdates/parameters/SkipSoftwareSync     x1    len=5      false
+/Envelope/Header                                           x1   
+/Envelope/Header/Action                                    x1    len=81     http://www.microsoft.com/SoftwareDistribution/Server/ClientWebService/
+/Envelope/Header/MessageID                                 x1    len=45     urn:uuid:3cf00ea7-cae9-4f12-9baa-6e0a5fb37de6
+/Envelope/Header/Security                                  x1   
+/Envelope/Header/Security/Timestamp                        x1   
+/Envelope/Header/Security/Timestamp/Created                x1    len=24     2026-10-13T12:57:41.514Z
+/Envelope/Header/Security/Timestamp/Expires                x1    len=24     2026-10-13T13:02:41.514Z
+/Envelope/Header/Security/WindowsUpdateTicketsToken        x1   
+/Envelope/Header/Security/WindowsUpdateTicketsToken/TicketType x1   
+/Envelope/Header/Security/WindowsUpdateTicketsToken/TicketType/User x1    len=5112   ZQB5AEoAaABiAEcAYwBpAE8AaQBKAFMAVQAwAEUAdABUADAARgBGAFUAQwBJAHMASQBtAF
+/Envelope/Header/To                                        x1    len=68     https://fe3cr.delivery.mp.microsoft.com/ClientWebService/client.asmx

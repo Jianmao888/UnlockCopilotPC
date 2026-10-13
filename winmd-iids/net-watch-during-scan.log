@@ -1,0 +1,33 @@
+﻿SAMPLE-START 00:05:13.498 secs=240
+00:05:19.153 NEW-CONN pid=3572 proc=OneDrive.Sync.Service svc=[] remote=2603:1061:13f0:1d01::365:590:443
+00:05:20.562 NEW-CONN pid=3956 proc=AndrowsSvr svc=[AndrowsSvr] remote=240e:928:1400:1001::7f:443
+00:05:21.788 NEW-CONN pid=3572 proc=OneDrive.Sync.Service svc=[] remote=2603:1061:13f0:c22::365:590:443
+00:05:23.068 NEW-CONN pid=3572 proc=OneDrive.Sync.Service svc=[] remote=198.18.0.25:443
+00:05:24.298 NEW-CONN pid=12916 proc=ChatGPT svc=[] remote=198.18.0.24:443
+00:05:25.703 NEW-CONN pid=26208 proc=FlClashCore svc=[] remote=120.53.53.53:443
+00:05:26.842 NEW-CONN pid=19660 proc=codex svc=[] remote=198.18.0.23:443
+00:05:28.222 NEW-CONN pid=12608 proc=codex svc=[] remote=198.18.0.11:443
+00:05:29.549 NEW-CONN pid=12916 proc=ChatGPT svc=[] remote=198.18.0.27:443
+00:05:30.884 NEW-CONN pid=26208 proc=FlClashCore svc=[] remote=223.5.5.5:443
+00:05:32.076 NEW-CONN pid=12608 proc=codex svc=[] remote=198.18.0.27:443
+00:05:33.173 NEW-CONN pid=20560 proc=msedge svc=[] remote=198.18.0.172:443
+00:05:34.258 NEW-CONN pid=15572 proc=ChatGPT svc=[] remote=198.18.0.17:443
+00:05:35.315 NEW-CONN pid=6220 proc=svchost svc=[WpnService] remote=198.18.0.26:443
+00:05:37.982 NEW-CONN pid=18072 proc=unknown svc=[] remote=198.18.0.41:443
+00:05:39.205 NEW-CONN pid=12916 proc=ChatGPT svc=[] remote=198.18.0.11:443
+00:05:40.485 NEW-CONN pid=3572 proc=OneDrive.Sync.Service svc=[] remote=198.18.0.77:443
+00:05:41.692 NEW-CONN pid=19512 proc=OneDrive svc=[] remote=198.18.0.4:443
+00:05:44.367 NEW-CONN pid=20560 proc=msedge svc=[] remote=198.18.0.7:443
+00:05:58.173 NEW-CONN pid=26208 proc=FlClashCore svc=[] remote=223.6.6.6:443
+00:06:07.515 NEW-CONN pid=19512 proc=OneDrive svc=[] remote=198.18.0.28:443
+00:07:02.924 NEW-CONN pid=20560 proc=msedge svc=[] remote=198.18.0.124:443
+00:07:15.982 NEW-CONN pid=20560 proc=msedge svc=[] remote=198.18.0.173:443
+00:07:26.180 NEW-CONN pid=26208 proc=FlClashCore svc=[] remote=2400:3200::1:443
+00:07:39.772 NEW-CONN pid=20560 proc=msedge svc=[] remote=198.18.0.125:443
+00:08:03.688 NEW-CONN pid=12916 proc=ChatGPT svc=[] remote=198.18.0.13:443
+00:08:14.864 NEW-CONN pid=20560 proc=msedge svc=[] remote=198.18.0.126:443
+00:08:27.853 NEW-CONN pid=5892 proc=MpDefenderCoreService svc=[MDCoreSvc] remote=198.18.0.52:443
+00:09:05.087 NEW-CONN pid=12916 proc=ChatGPT svc=[] remote=198.18.0.56:443
+00:09:14.842 NEW-CONN pid=13968 proc=QQ svc=[] remote=198.18.0.15:443
+SAMPLE-END 00:09:15.046
+DONE

@@ -1,0 +1,200 @@
+源 MSU: Windows11.0-KB5124010-x64.msu  (4.69 GB)
+待下载: 53 个, 共 2077.7 MB
+
+[1/53] WindowsWorkload.Data.ContentExtraction.Lnl.1_1.2608.951.0_x64.msix  (0.05 MB)
+      ✔ 已存在且 SHA1 匹配，跳过
+[2/53] WindowsWorkload.Data.ImageSearch.365.1_1.2608.951.0_x64.msix  (0.05 MB)
+      ✔ 已存在且 SHA1 匹配，跳过
+[3/53] WindowsWorkload.Data.Analysis.Stx.1_1.2608.951.0_x64.msix  (0.05 MB)
+      ✔ 已存在且 SHA1 匹配，跳过
+[4/53] WindowsWorkload.Data.SettingsModel.Lnl.1_1.2608.951.0_x64.msix  (0.05 MB)
+      ✔ 已存在且 SHA1 匹配，跳过
+[5/53] WindowsWorkload.Data.SettingsModel.Stx.1_1.2608.951.0_x64.msix  (0.05 MB)
+      ✔ 已存在且 SHA1 匹配，跳过
+[6/53] WindowsWorkload.Data.ImageSearch.Lnl.1_1.2608.951.0_x64.msix  (0.05 MB)
+      ✔ 已存在且 SHA1 匹配，跳过
+[7/53] WindowsWorkload.Data.Analysis.365.1_1.2608.951.0_x64.msix  (0.05 MB)
+      ✔ 已存在且 SHA1 匹配，跳过
+[8/53] WindowsWorkload.Data.Analysis.Lnl.1_1.2608.951.0_x64.msix  (0.05 MB)
+      ✔ 已存在且 SHA1 匹配，跳过
+[9/53] WindowsWorkload.Data.ContentExtraction.Stx.1_1.2608.951.0_x64.msix  (0.05 MB)
+      ✔ 已存在且 SHA1 匹配，跳过
+[10/53] WindowsWorkload.Data.ImageSearch.Stx.1_1.2608.951.0_x64.msix  (0.05 MB)
+      ✔ 已存在且 SHA1 匹配，跳过
+[11/53] WindowsWorkload.Data.ContentExtraction.365.1_1.2608.951.0_x64.msix  (0.05 MB)
+      ✔ 已存在且 SHA1 匹配，跳过
+[12/53] WindowsWorkload.SessionManager.1_1.2608.951.0_x64.msix  (0.34 MB)
+      ✔ 已存在且 SHA1 匹配，跳过
+[13/53] WindowsWorkload.PSTokenizer.Lnl.2.7_1.2608.951.0_x64.msix  (0.35 MB)
+      ✔ 已存在且 SHA1 匹配，跳过
+[14/53] WindowsWorkload.PSTokenizer.365.2.7_1.2608.951.0_x64.msix  (0.35 MB)
+      ✔ 已存在且 SHA1 匹配，跳过
+[15/53] WindowsWorkload.PSTokenizer.Stx.2.7_1.2608.951.0_x64.msix  (0.35 MB)
+      ✔ 已存在且 SHA1 匹配，跳过
+[16/53] WindowsWorkload.Manager.1_1.2511.1196.0_x64.msix  (0.43 MB)
+      ✔ 已存在且 SHA1 匹配，跳过
+[17/53] WindowsWorkload.TextRecognition.365.1_1.2608.951.0_x64.msix  (0.67 MB)
+      ✔ 已存在且 SHA1 匹配，跳过
+[18/53] WindowsWorkload.SemanticText.365.1_1.2608.951.0_x64.msix  (0.81 MB)
+      ✔ 已存在且 SHA1 匹配，跳过
+[19/53] WindowsWorkload.SemanticText.Lnl.1_1.2608.951.0_x64.msix  (0.81 MB)
+      ✔ 已存在且 SHA1 匹配，跳过
+[20/53] WindowsWorkload.SemanticText.Stx.1_1.2608.951.0_x64.msix  (0.81 MB)
+      ✔ 已存在且 SHA1 匹配，跳过
+[21/53] WindowsWorkload.QueryProcessor.365.1_1.2608.951.0_x64.msix  (0.86 MB)
+      ✔ 已存在且 SHA1 匹配，跳过
+[22/53] WindowsWorkload.QueryProcessor.Stx.1_1.2608.951.0_x64.msix  (0.86 MB)
+      ✔ 已存在且 SHA1 匹配，跳过
+[23/53] WindowsWorkload.QueryProcessor.Lnl.1_1.2608.951.0_x64.msix  (0.86 MB)
+      ✔ 已存在且 SHA1 匹配，跳过
+[24/53] WindowsWorkload.ImageContentModeration.1_1.2608.951.0_x64.msix  (0.92 MB)
+      ✔ 已存在且 SHA1 匹配，跳过
+[25/53] WindowsWorkload.ScrRegDetection.365.1_1.2608.951.0_x64.msix  (0.92 MB)
+      ✔ 已存在且 SHA1 匹配，跳过
+[26/53] WindowsWorkload.ScrRegDetection.Stx.1_1.2608.951.0_x64.msix  (0.92 MB)
+      ✔ 已存在且 SHA1 匹配，跳过
+[27/53] WindowsWorkload.ScrRegDetection.Lnl.1_1.2608.951.0_x64.msix  (0.92 MB)
+      ✔ 已存在且 SHA1 匹配，跳过
+[28/53] WindowsWorkload.ImageTextSearch.365.3_1.2608.951.0_x64.msix  (1.15 MB)
+      ✔ 已存在且 SHA1 匹配，跳过
+[29/53] WindowsWorkload.ImageTextSearch.Lnl.3_1.2608.951.0_x64.msix  (1.15 MB)
+      ✔ 已存在且 SHA1 匹配，跳过
+[30/53] WindowsWorkload.ImageTextSearch.Stx.3_1.2608.951.0_x64.msix  (1.15 MB)
+      ✔ 已存在且 SHA1 匹配，跳过
+[31/53] WindowsWorkload.ImageSearch.365.3_1.2608.951.0_x64.msix  (1.30 MB)
+      ✔ 已存在且 SHA1 匹配，跳过
+[32/53] WindowsWorkload.ImageSearch.Stx.3_1.2608.951.0_x64.msix  (1.30 MB)
+      ✔ 已存在且 SHA1 匹配，跳过
+[33/53] WindowsWorkload.ImageSearch.Lnl.3_1.2608.951.0_x64.msix  (1.30 MB)
+      ✔ 已存在且 SHA1 匹配，跳过
+[34/53] WindowsWorkload.QueryBlockList.1_1.2608.951.0_x64.msix  (2.32 MB)
+      ✔ 已存在且 SHA1 匹配，跳过
+[35/53] WindowsWorkload.SettingsModel.Lnl.1_1.2608.951.0_x64.msix  (3.30 MB)
+      ✔ 已存在且 SHA1 匹配，跳过
+[36/53] WindowsWorkload.SettingsModel.Stx.1_1.2608.951.0_x64.msix  (3.30 MB)
+      ✔ 已存在且 SHA1 匹配，跳过
+[37/53] WindowsWorkload.ScrRegDetection.Data.1_1.2608.951.0_x64.msix  (16.94 MB)
+
+         16.94/16.94 MB     4.0 MB/s
+      ✔ SHA1 校验通过, SHA256=3d582ba4f4e389c9...
+[38/53] WindowsWorkload.TextRecognition.Stx.1_1.2608.951.0_x64.msix  (17.15 MB)
+
+         17.15/17.15 MB     6.2 MB/s
+      ✔ SHA1 校验通过, SHA256=7ff36c52b6f31c0d...
+[39/53] WindowsWorkload.TextRecognition.Lnl.1_1.2608.951.0_x64.msix  (17.15 MB)
+
+         17.15/17.15 MB     5.7 MB/s
+      ✔ SHA1 校验通过, SHA256=032e8842b8d726fc...
+[40/53] WindowsWorkload.WinMLShared.5.2_1.2608.951.0_x64.msix  (17.87 MB)
+
+         17.87/17.87 MB     2.9 MB/s
+      ✔ SHA1 校验通过, SHA256=23f5a475edb611e5...
+[41/53] WindowsWorkload.PSTokenizerShared.Lnl.5.2_1.2608.951.0_x64.msix  (26.41 MB)
+
+         26.41/26.41 MB     6.8 MB/s
+      ✔ SHA1 校验通过, SHA256=ad4b690e68e03559...
+[42/53] WindowsWorkload.PSTokenizerShared.Stx.5.2_1.2608.951.0_x64.msix  (26.41 MB)
+
+         26.41/26.41 MB     1.2 MB/s
+      ✔ SHA1 校验通过, SHA256=ecb8a82d0a41623c...
+[43/53] WindowsWorkload.SemanticText.Data.1_1.2511.1196.0_x64.msix  (29.24 MB)
+
+         29.24/29.24 MB     6.8 MB/s
+      ✔ SHA1 校验通过, SHA256=e36073038a94c121...
+[44/53] WindowsWorkload.ImageContentModeration.Data.1_1.2605.851.0_x64.msix  (43.39 MB)
+
+         33.55/43.39 MB     4.2 MB/s
+         43.39/43.39 MB     4.9 MB/s
+      ✔ SHA1 校验通过, SHA256=5bba988517fef7e3...
+[45/53] WindowsWorkload.PSTokenizerShared.365.5.2_1.2607.837.0_x64.msix  (52.80 MB)
+
+         33.55/52.80 MB     8.7 MB/s
+         52.80/52.80 MB     9.7 MB/s
+      ✔ SHA1 校验通过, SHA256=78bab98aa979dd8c...
+[46/53] WindowsWorkload.EP.Intel.OpenVINO.Framework.1.8_1.8.81.0_x64.msix  (57.78 MB)
+
+         33.55/57.78 MB     7.7 MB/s
+         57.78/57.78 MB     8.7 MB/s
+      ✔ SHA1 校验通过, SHA256=de5a3f929f778b45...
+[47/53] WindowsWorkload.ImageSearch.Data.3_1.2511.1196.0_x64.msix  (80.70 MB)
+
+         33.55/80.70 MB     6.9 MB/s
+         67.11/80.70 MB     4.2 MB/s
+         80.70/80.70 MB     3.9 MB/s
+      ✔ SHA1 校验通过, SHA256=8942196418c2643d...
+[48/53] WindowsWorkload.ImageTextSearch.Data.3_1.2511.1196.0_x64.msix  (81.21 MB)
+
+         33.55/81.21 MB     8.0 MB/s
+         67.11/81.21 MB     9.2 MB/s
+         81.21/81.21 MB     8.9 MB/s
+      ✔ SHA1 校验通过, SHA256=7e0e3b2dfb871ff6...
+[49/53] WindowsWorkload.QueryProcessor.Data.1_1.2605.851.0_x64.msix  (89.63 MB)
+
+         33.55/89.63 MB     3.2 MB/s
+         67.11/89.63 MB     4.1 MB/s
+         89.63/89.63 MB     4.5 MB/s
+      ✔ SHA1 校验通过, SHA256=246adf98e0128261...
+[50/53] WindowsWorkload.TextRecognition.Data.OPT.1_1.2606.719.0_x64.msix  (153.90 MB)
+
+         33.55/153.90 MB     8.0 MB/s
+         67.11/153.90 MB     9.6 MB/s
+        100.66/153.90 MB    10.3 MB/s
+        134.22/153.90 MB    10.5 MB/s
+        153.90/153.90 MB    10.7 MB/s
+      ✔ SHA1 校验通过, SHA256=1516ae9d5a771cd4...
+[51/53] WindowsWorkload.EP.AMD.VitisAI.Framework.1.8_1.8.63.0_x64.msix  (252.39 MB)
+
+         33.55/252.39 MB     6.3 MB/s
+         67.11/252.39 MB     8.3 MB/s
+        100.66/252.39 MB     8.9 MB/s
+        134.22/252.39 MB     9.4 MB/s
+        167.77/252.39 MB     9.8 MB/s
+        201.33/252.39 MB    10.0 MB/s
+        234.88/252.39 MB    10.2 MB/s
+        252.39/252.39 MB    10.3 MB/s
+      ✔ SHA1 校验通过, SHA256=c5cbabffe46325da...
+[52/53] WindowsWorkload.SettingsModel.Data.1_1.2605.628.0_x64.msix  (448.48 MB)
+
+         33.55/448.48 MB     7.6 MB/s
+         67.11/448.48 MB     8.7 MB/s
+        100.66/448.48 MB     8.8 MB/s
+        134.22/448.48 MB     9.1 MB/s
+        167.77/448.48 MB     9.2 MB/s
+        201.33/448.48 MB     9.3 MB/s
+        234.88/448.48 MB     9.4 MB/s
+        268.44/448.48 MB     9.5 MB/s
+        301.99/448.48 MB     9.5 MB/s
+        335.54/448.48 MB     9.6 MB/s
+        369.10/448.48 MB     9.8 MB/s
+        402.65/448.48 MB     9.9 MB/s
+        436.21/448.48 MB    10.2 MB/s
+        448.48/448.48 MB    10.2 MB/s
+      ✔ SHA1 校验通过, SHA256=33525be968f8c766...
+[53/53] WindowsWorkload.PSTokenizerShared.Data.5.2_1.2607.837.0_x64.msix  (638.22 MB)
+
+         33.55/638.22 MB     8.8 MB/s
+         67.11/638.22 MB     9.5 MB/s
+        100.66/638.22 MB    10.3 MB/s
+        134.22/638.22 MB     5.7 MB/s
+        167.77/638.22 MB     4.1 MB/s
+        201.33/638.22 MB     3.1 MB/s
+        234.88/638.22 MB     2.8 MB/s
+        268.44/638.22 MB     2.6 MB/s
+        301.99/638.22 MB     2.4 MB/s
+        335.54/638.22 MB     2.4 MB/s
+        369.10/638.22 MB     2.4 MB/s
+        402.65/638.22 MB     2.3 MB/s
+        436.21/638.22 MB     2.2 MB/s
+        469.76/638.22 MB     2.2 MB/s
+        503.32/638.22 MB     2.2 MB/s
+        536.87/638.22 MB     2.1 MB/s
+        570.43/638.22 MB     2.1 MB/s
+        603.98/638.22 MB     2.2 MB/s
+        637.53/638.22 MB     2.2 MB/s
+        638.22/638.22 MB     2.2 MB/s
+      ✔ SHA1 校验通过, SHA256=7bdedfd9b9bd2e4b...
+
+======================================================================
+成功 17   跳过 36   失败 0
+输出目录: C:\Users\jianm\Code\DeepseekHarness\ai-packages
+报告: C:\Users\jianm\Code\DeepseekHarness\ai-packages\_report.json

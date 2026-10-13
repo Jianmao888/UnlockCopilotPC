@@ -1,0 +1,7 @@
+=== lm probe start 00:05:13 ===
+target pid=20244
+== Microsoft.Windows.AI.Text.LanguageModel
+   factory-ok {"t": 1791907513815, "cls": "Microsoft.Windows.AI.Text.LanguageModel"}
+   QI hit 8f18f9af-6095-553b-8d9d-6bcc98026546
+   implemented interfaces: 1
+   trying slot6 on 8f18f9af-6095-553b-8d9d-6bcc98026546 ...

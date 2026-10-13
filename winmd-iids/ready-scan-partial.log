@@ -1,0 +1,28 @@
+=== ready scan2 start 23:58:51 (iids=525) ===
+target pid=20528
+-- Microsoft.Windows.AI.Imaging.TextRecognizer
+   factory ok
+   QI ok: 3788c2fd-e496-53ab-85a7-e54a135824e9
+     slot6 3788c2fd-e496-53ab-85a7-e54a135824e9 hr=0 v=[1, 0, 0]
+     >> GetReadyState = 1  (iid 3788c2fd-e496-53ab-85a7-e54a135824e9)
+     >> EnsureReadyAsync -> {"hr": 0, "p": "0x226e56ef5c0"}
+        poll 1s = 0
+        poll 2s = 0
+        poll 3s = 0
+        poll 4s = 0
+        poll 5s = 0
+        poll 6s = 0
+        poll 7s = 0
+        poll 8s = 0
+        poll 9s = 0
+        poll 10s = 0
+        poll 11s = 0
+        poll 12s = 0
+-- Microsoft.Windows.AI.Video.VideoScaler
+   factory ok
+   QI ok: 311dd8bb-b7ac-55a7-a3d3-1a6c84430f84
+     slot6 311dd8bb-b7ac-55a7-a3d3-1a6c84430f84 hr=0 v=[0, 0, 0]
+     >> GetReadyState = 0  (iid 311dd8bb-b7ac-55a7-a3d3-1a6c84430f84)
+-- Microsoft.Windows.AI.Text.LanguageModel
+   factory ok
+   QI ok: 8f18f9af-6095-553b-8d9d-6bcc98026546

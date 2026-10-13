@@ -1,0 +1,30 @@
+源 MSU: Windows11.0-KB5066835-x64.msu
+选中 1 个, 共 638.4 MB
+
+[1/1] WindowsWorkload.PSTokenizerShared.Data.3.7 v1.2509.1022.0  (638.44 MB)
+
+         33.55/638.44 MB    3.7 MB/s
+         67.11/638.44 MB    5.0 MB/s
+        100.66/638.44 MB    5.5 MB/s
+        134.22/638.44 MB    3.8 MB/s
+        167.77/638.44 MB    3.1 MB/s
+        201.33/638.44 MB    2.9 MB/s
+        234.88/638.44 MB    2.9 MB/s
+        268.44/638.44 MB    2.9 MB/s
+        301.99/638.44 MB    2.9 MB/s
+        335.54/638.44 MB    2.9 MB/s
+        369.10/638.44 MB    2.8 MB/s
+        402.65/638.44 MB    2.8 MB/s
+        436.21/638.44 MB    2.8 MB/s
+        469.76/638.44 MB    2.7 MB/s
+        503.32/638.44 MB    2.7 MB/s
+        536.87/638.44 MB    2.7 MB/s
+        570.43/638.44 MB    2.6 MB/s
+        603.98/638.44 MB    2.5 MB/s
+        637.53/638.44 MB    2.5 MB/s
+        638.44/638.44 MB    2.5 MB/s
+      ✔ SHA1 通过   包名=WindowsWorkload.PSTokenizerShared.Data.3.7 v1.2509.1022.0
+
+======================================================================
+成功 1   失败 0
+输出: C:\Users\jianm\Code\DeepseekHarness\ai-packages-legacy

@@ -1,0 +1,19 @@
+==== RESTORE HardwareCompatibility to 0 ==== 
+操作成功完成。
+ 
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\WindowsAI\LastConfiguration
+    HardwareCompatibility    REG_DWORD    0x0
+    ITManaged    REG_DWORD    0x0
+    AllowedInRegion    REG_DWORD    0x1
+    PolicyConfigured    REG_DWORD    0x0
+    PolicyEnabled    REG_DWORD    0x0
+    FTDisabledState    REG_DWORD    0x0
+    MeetsAdditionalDriverRequirements    REG_DWORD    0x1
+    LastOperationKind    REG_DWORD    0x2
+    AttemptedInstallCount    REG_DWORD    0x0
+    LastBuild    REG_DWORD    0x23d0
+    MaxInstallAttemptsAllowed    REG_DWORD    0x5
+    LastKnownLCUVersion    REG_SZ    10.0.26100.9550
+
+DONE 

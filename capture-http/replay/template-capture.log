@@ -1,0 +1,20 @@
+{"event": "start", "pid": 10164, "seconds": 150}
+{"event": "winhttp-loaded", "ts": 1791897687726, "base": "0x7ffdfb2b0000"}
+{"event": "hooked", "ts": 1791897687727, "api": "WinHttpOpen"}
+{"event": "hooked", "ts": 1791897687727, "api": "WinHttpConnect"}
+{"event": "hooked", "ts": 1791897687727, "api": "WinHttpOpenRequest"}
+{"event": "hooked", "ts": 1791897687727, "api": "WinHttpAddRequestHeaders"}
+{"event": "hooked", "ts": 1791897687727, "api": "WinHttpSendRequest"}
+{"event": "hooked", "ts": 1791897687727, "api": "WinHttpReceiveResponse"}
+{"event": "hooked", "ts": 1791897687728, "api": "WinHttpQueryHeaders"}
+{"event": "hooked", "ts": 1791897687728, "api": "WinHttpReadData"}
+{"event": "open", "ts": 1791897720770, "agent": "MS-WebServices/1.0"}
+{"event": "open", "ts": 1791897720779, "agent": "MS-WebServices/1.0"}
+{"event": "connect", "ts": 1791897720780, "host": "fe3cr.delivery.mp.microsoft.com", "port": 443}
+{"event": "open-request", "ts": 1791897720785, "verb": "POST", "path": "/ClientWebService/client.asmx", "handle": "0x161488c6050"}
+{"event": "add-headers", "ts": 1791897720786, "handle": "0x161488c67b0", "len": 49, "modifiers": 536870912, "headers": "Content-Type: application/soap+xml; charset=utf-8"}
+{"event": "add-headers", "ts": 1791897720788, "handle": "0x161488c67b0", "len": 133, "modifiers": 268435456, "headers": "accept-encoding: xpress\r\nuser-agent: Windows-Update-Agent/1510.2608.26052.0 Client-Protocol/2.90\r\nMS-CV: TEdA0EqFzE2lIuZd.0.1.1.0.2.1"}
+{"event": "send-request", "ts": 1791897720788, "handle": "0x161488c67b0", "body_len": 18138, "total_len": 18138}
+{"event": "blob", "tag": "template-body", "seq": 1, "len": 18138, "ts": 1791897720789, "file": "tplblob-01-template-body.bin"}
+{"event": "receive-response", "ts": 1791897723005, "handle": "0x161488c67b0", "ok": true}
+{"event": "resp-status", "ts": 1791897723005, "handle": "0x161488c67b0", "status": 200}

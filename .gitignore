@@ -1,0 +1,50 @@
+# ---- huge artifacts: never commit ----
+ai-packages/
+ai-packages-legacy/
+extracted/
+oneocr-extract/
+ghidra-proj/
+ghidra-proj2/
+ghidra-out/
+ghidra_scripts/
+install-experiment/
+targeting-backup/
+HKLM/
+hunt-out/
+capture/
+capture-mitm/
+capture-svc/
+capture-wu/
+mitm-ca/
+oem/*.html
+oem/*.cab
+.research/
+docs/
+.dsh-tmp/
+
+# ---- state repository snapshots (8 MB each) ----
+*.srd
+*.srd-wal
+*.srd-shm
+srd-backup-*.srd
+srd-copy*/
+srd-*.srd
+
+# ---- installer binaries / traces ----
+*.msix
+*.msixbundle
+*.appx
+*.cab
+*.zip
+*.7z
+*.etl
+*.msi
+
+# ---- misc ----
+__pycache__/
+*.pyc
+*.bak
+elevation-test.txt
+procs.txt
+stale.txt
+sudo-alive.txt

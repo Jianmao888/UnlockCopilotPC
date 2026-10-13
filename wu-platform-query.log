@@ -1,0 +1,63 @@
+[ 1] fe2cr | (Product='Windows.Workload.ContentExtraction.amd64')
+        rc=3 count=0
+[ 2] fe2cr | (Product='Windows.Workload.ContentExtraction.amd64' and IsInstalled=0)
+        rc=3 count=0
+[ 3] fe2cr | (Product='Windows.Workload.ContentExtraction.amd64' and IsInstalled=1)
+        rc=3 count=0
+[ 4] fe2cr | (Product='Windows.Workload.ContentExtraction.LNL.amd64')
+        rc=2 count=0
+[ 5] fe2cr | (Product='Windows.Workload.ContentExtraction.LNL.amd64' and IsInstalled=0)
+        rc=2 count=0
+[ 6] fe2cr | (Product='Windows.Workload.ContentExtraction.LNL.amd64' and IsInstalled=1)
+        rc=2 count=0
+[ 7] fe2cr | (Product='Windows.Workload.ContentExtraction.365.amd64')
+        rc=2 count=0
+[ 8] fe2cr | (Product='Windows.Workload.ContentExtraction.365.amd64' and IsInstalled=0)
+        rc=2 count=0
+[ 9] fe2cr | (Product='Windows.Workload.ContentExtraction.365.amd64' and IsInstalled=1)
+        rc=2 count=0
+[10] fe3cr | (Product='Windows.Workload.ContentExtraction.amd64')
+        rc=EXC count=-1
+[11] fe3cr | (Product='Windows.Workload.ContentExtraction.amd64' and IsInstalled=0)
+        rc=EXC count=-1
+[12] fe3cr | (Product='Windows.Workload.ContentExtraction.amd64' and IsInstalled=1)
+        rc=EXC count=-1
+[13] fe3cr | (Product='Windows.Workload.ContentExtraction.LNL.amd64')
+        rc=2 count=0
+[14] fe3cr | (Product='Windows.Workload.ContentExtraction.LNL.amd64' and IsInstalled=0)
+        rc=2 count=0
+[15] fe3cr | (Product='Windows.Workload.ContentExtraction.LNL.amd64' and IsInstalled=1)
+        rc=2 count=0
+[16] fe3cr | (Product='Windows.Workload.ContentExtraction.365.amd64')
+        rc=2 count=0
+[17] fe3cr | (Product='Windows.Workload.ContentExtraction.365.amd64' and IsInstalled=0)
+        rc=2 count=0
+[18] fe3cr | (Product='Windows.Workload.ContentExtraction.365.amd64' and IsInstalled=1)
+        rc=2 count=0
+
+############ SUMMARY ############
+
+svc   product                                       rc count
+---   -------                                       -- -----
+fe2cr Windows.Workload.ContentExtraction.amd64       3     0
+fe2cr Windows.Workload.ContentExtraction.amd64       3     0
+fe2cr Windows.Workload.ContentExtraction.amd64       3     0
+fe2cr Windows.Workload.ContentExtraction.LNL.amd64   2     0
+fe2cr Windows.Workload.ContentExtraction.LNL.amd64   2     0
+fe2cr Windows.Workload.ContentExtraction.LNL.amd64   2     0
+fe2cr Windows.Workload.ContentExtraction.365.amd64   2     0
+fe2cr Windows.Workload.ContentExtraction.365.amd64   2     0
+fe2cr Windows.Workload.ContentExtraction.365.amd64   2     0
+fe3cr Windows.Workload.ContentExtraction.amd64     EXC    -1
+fe3cr Windows.Workload.ContentExtraction.amd64     EXC    -1
+fe3cr Windows.Workload.ContentExtraction.amd64     EXC    -1
+fe3cr Windows.Workload.ContentExtraction.LNL.amd64   2     0
+fe3cr Windows.Workload.ContentExtraction.LNL.amd64   2     0
+fe3cr Windows.Workload.ContentExtraction.LNL.amd64   2     0
+fe3cr Windows.Workload.ContentExtraction.365.amd64   2     0
+fe3cr Windows.Workload.ContentExtraction.365.amd64   2     0
+fe3cr Windows.Workload.ContentExtraction.365.amd64   2     0
+
+
+non-zero results: 0
+DONE

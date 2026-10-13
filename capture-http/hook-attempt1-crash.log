@@ -1,0 +1,20 @@
+{"event": "start", "pid": 9324, "seconds": 200, "t": 1791895137.9301748}
+{"event": "winhttp-loaded", "ts": 1791895139653, "name": "WINHTTP.dll", "base": "0x7ffdfb2b0000", "size": 1220608}
+{"event": "hooked", "ts": 1791895139653, "api": "WinHttpOpen"}
+{"event": "hooked", "ts": 1791895139653, "api": "WinHttpConnect"}
+{"event": "hooked", "ts": 1791895139653, "api": "WinHttpOpenRequest"}
+{"event": "hooked", "ts": 1791895139654, "api": "WinHttpSendRequest"}
+{"event": "hooked", "ts": 1791895139654, "api": "WinHttpWriteData"}
+{"event": "hooked", "ts": 1791895139654, "api": "WinHttpReceiveResponse"}
+{"event": "hooked", "ts": 1791895139654, "api": "WinHttpQueryHeaders"}
+{"event": "hooked", "ts": 1791895139654, "api": "WinHttpReadData"}
+{"event": "hooked", "ts": 1791895139654, "api": "WinHttpCloseHandle"}
+{"event": "loaded"}
+{"event": "open", "ts": 1791895155249, "agent": "MS-WebServices/1.0"}
+{"event": "close", "ts": 1791895155252, "handle": "0x1b1d9eec8f0"}
+{"event": "open", "ts": 1791895155252, "agent": "MS-WebServices/1.0"}
+{"event": "connect", "ts": 1791895155254, "host": "fe3cr.delivery.mp.microsoft.com", "port": 443}
+{"event": "open-request", "ts": 1791895155254, "verb": "POST", "path": "/ClientWebService/client.asmx", "version": null, "flags": 8389056, "handle": "0x1b1e45ffd00"}
+{"event": "send-request", "ts": 1791895155255, "handle": "0x1b1d9ecf450", "headers_len": -637773376, "body_len": 18138, "headers": null}
+{"event": "summary", "blobs": 0}
+{"event": "done"}

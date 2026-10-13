@@ -1,0 +1,35 @@
+﻿SAMPLE-START 00:14:45.812 secs=260
+00:14:51.230 NEW-CONN pid=3572 proc=OneDrive.Sync.Service svc=[] remote=2603:1061:13f0:1d01::365:590:443
+00:14:52.254 NEW-CONN pid=3956 proc=AndrowsSvr svc=[AndrowsSvr] remote=240e:928:1400:1001::7f:443
+00:14:53.172 NEW-CONN pid=3572 proc=OneDrive.Sync.Service svc=[] remote=2603:1061:13f0:c22::365:590:443
+00:14:54.137 NEW-CONN pid=12916 proc=ChatGPT svc=[] remote=198.18.0.24:443
+00:14:55.124 NEW-CONN pid=12916 proc=ChatGPT svc=[] remote=198.18.0.11:443
+00:14:56.262 NEW-CONN pid=3572 proc=OneDrive.Sync.Service svc=[] remote=198.18.0.25:443
+00:14:57.143 NEW-CONN pid=26208 proc=FlClashCore svc=[] remote=120.53.53.53:443
+00:14:58.173 NEW-CONN pid=19660 proc=codex svc=[] remote=198.18.0.23:443
+00:14:58.932 NEW-CONN pid=26208 proc=FlClashCore svc=[] remote=223.5.5.5:443
+00:14:59.716 NEW-CONN pid=20560 proc=msedge svc=[] remote=198.18.0.124:443
+00:15:00.485 NEW-CONN pid=19512 proc=OneDrive svc=[] remote=198.18.0.4:443
+00:15:01.266 NEW-CONN pid=12300 proc=DeepSeek Harness svc=[] remote=198.18.0.30:443
+00:15:02.303 NEW-CONN pid=15572 proc=ChatGPT svc=[] remote=198.18.0.17:443
+00:15:03.150 NEW-CONN pid=6220 proc=svchost svc=[WpnService] remote=198.18.0.26:443
+00:15:04.072 NEW-CONN pid=12608 proc=codex svc=[] remote=198.18.0.11:443
+00:15:06.304 NEW-CONN pid=12608 proc=codex svc=[] remote=198.18.0.27:443
+00:15:07.230 NEW-CONN pid=20560 proc=msedge svc=[] remote=198.18.0.172:443
+00:15:13.706 NEW-CONN pid=20560 proc=msedge svc=[] remote=198.18.0.7:443
+00:15:14.807 NEW-CONN pid=12916 proc=ChatGPT svc=[] remote=198.18.0.27:443
+00:15:21.360 NEW-CONN pid=3572 proc=OneDrive.Sync.Service svc=[] remote=198.18.0.77:443
+00:15:35.811 NEW-CONN pid=26208 proc=FlClashCore svc=[] remote=223.6.6.6:443
+00:15:55.243 NEW-CONN pid=10300 proc=QQ svc=[] remote=240d:c000:2010:1a1f:0:9ee4:4340:f714:443
+00:15:57.315 NEW-CONN pid=10300 proc=QQ svc=[] remote=43.163.178.46:443
+00:16:38.246 NEW-CONN pid=26208 proc=FlClashCore svc=[] remote=2400:3200:baba::1:443
+00:16:39.255 NEW-CONN pid=26208 proc=FlClashCore svc=[] remote=2400:3200::1:443
+00:16:40.160 NEW-CONN pid=19512 proc=OneDrive svc=[] remote=198.18.0.28:443
+00:16:52.063 NEW-CONN pid=13968 proc=QQ svc=[] remote=198.18.0.15:443
+00:17:04.610 NEW-CONN pid=12916 proc=ChatGPT svc=[] remote=198.18.0.13:443
+00:17:15.653 NEW-CONN pid=20560 proc=msedge svc=[] remote=198.18.0.173:443
+00:17:22.560 NEW-CONN pid=4604 proc=svchost svc=[lfsvc] remote=198.18.0.165:443
+00:17:23.511 NEW-CONN pid=19512 proc=OneDrive svc=[] remote=198.18.0.25:443
+00:18:16.891 NEW-CONN pid=13968 proc=QQ svc=[] remote=198.18.0.94:443
+00:18:19.274 NEW-CONN pid=12300 proc=DeepSeek Harness svc=[] remote=198.18.0.29:443
+00:18:47.115 NEW-CONN pid=25276 proc=svchost svc=[wlidsvc] remote=198.18.0.54:443

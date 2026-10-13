@@ -1,0 +1,14 @@
+C:\Users\jianm\Code\DeepseekHarness\ai-packages\WindowsWorkload.Data.Analysis.365.1_1.2608.951.0_x64.msix
+C:\Users\jianm\Code\DeepseekHarness\ai-packages\WindowsWorkload.Data.ContentExtraction.365.1_1.2608.951.0_x64.msix
+C:\Users\jianm\Code\DeepseekHarness\ai-packages\WindowsWorkload.Data.ImageSearch.365.1_1.2608.951.0_x64.msix
+C:\Users\jianm\Code\DeepseekHarness\ai-packages\WindowsWorkload.ImageSearch.365.3_1.2608.951.0_x64.msix
+C:\Users\jianm\Code\DeepseekHarness\ai-packages\WindowsWorkload.ImageTextSearch.365.3_1.2608.951.0_x64.msix
+C:\Users\jianm\Code\DeepseekHarness\ai-packages\WindowsWorkload.Manager.1_1.2511.1196.0_x64.msix
+C:\Users\jianm\Downloads\Windows-AI-?\01-??3.7-KB5066835\2-?????\WindowsWorkload.PSOnnxRuntime.365.3.7_1.2509.1022.0_x64__2c14f2b4.msix
+C:\Users\jianm\Code\DeepseekHarness\ai-packages\WindowsWorkload.PSTokenizer.365.2.7_1.2608.951.0_x64.msix
+C:\Users\jianm\Downloads\Windows-AI-?\01-??3.7-KB5066835\5-???\WindowsWorkload.PSTokenizerShared.365.3.7_1.2509.1022.0_x64__998f3e45.msix
+C:\Users\jianm\Code\DeepseekHarness\ai-packages\WindowsWorkload.QueryProcessor.365.1_1.2608.951.0_x64.msix
+C:\Users\jianm\Code\DeepseekHarness\ai-packages\WindowsWorkload.ScrRegDetection.365.1_1.2608.951.0_x64.msix
+C:\Users\jianm\Code\DeepseekHarness\ai-packages\WindowsWorkload.SemanticText.365.1_1.2608.951.0_x64.msix
+C:\Users\jianm\Code\DeepseekHarness\ai-packages\WindowsWorkload.SessionManager.1_1.2608.951.0_x64.msix
+C:\Users\jianm\Code\DeepseekHarness\ai-packages\WindowsWorkload.TextRecognition.365.1_1.2608.951.0_x64.msix

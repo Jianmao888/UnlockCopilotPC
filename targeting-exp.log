@@ -1,0 +1,62 @@
+==== TargetingInfo experiment ==== 
+ 
+[0] BACKUP 
+操作成功完成。
+ 
+[1] BEFORE - DynamicInstalled 
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Update\TargetingInfo\DynamicInstalled\Hammer.amd64
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Update\TargetingInfo\DynamicInstalled\osclient.coreai.amd64
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Update\TargetingInfo\DynamicInstalled\OSClient.SxS.amd64
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Update\TargetingInfo\DynamicInstalled\SedimentPack.amd64
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Update\TargetingInfo\DynamicInstalled\UUS.amd64
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Update\TargetingInfo\DynamicInstalled\Windows.OS.Emergency.EXE.amd64
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Update\TargetingInfo\DynamicInstalled\{085afad4-2aa4-5b0b-ae91-9cbbbc3cdd10}_amd64
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Update\TargetingInfo\DynamicInstalled\{0dfdd376-ab49-5688-8b6d-e2f2b0c65117}_amd64
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Update\TargetingInfo\DynamicInstalled\{2d1ed1b9-4d09-5849-a36b-443c2f6de239}_amd64
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Update\TargetingInfo\DynamicInstalled\{36389777-6360-5579-b931-bd3c6aabda71}_amd64
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Update\TargetingInfo\DynamicInstalled\{6f72e0fe-91b4-5cc8-9260-799a97c9b02a}_amd64
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Update\TargetingInfo\DynamicInstalled\{8306edfd-b14d-5050-8aa2-8dab3843772d}_amd64
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Update\TargetingInfo\DynamicInstalled\{86bbbda5-0364-56d4-aaf1-8904fa9bb234}_amd64
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Update\TargetingInfo\DynamicInstalled\{a8dd6ecf-aa3e-54c3-bb19-feb8aa7af747}_amd64
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Update\TargetingInfo\DynamicInstalled\{ad6295b9-6417-567a-b2a3-868a2a7a7d8c}_amd64
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Update\TargetingInfo\DynamicInstalled\{c3f89342-ddf1-53d2-8d7a-995941335154}_amd64
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Update\TargetingInfo\DynamicInstalled\{eb25e964-8bc4-5110-abd7-151863c9c5ac}_amd64
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Update\TargetingInfo\DynamicInstalled\{eeb123ef-a1c5-581b-a264-5ab13160a806}_amd64
+ 
+[2] ADD product keys 
+操作成功完成。
+操作成功完成。
+ 
+[3] AFTER - DynamicInstalled 
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Update\TargetingInfo\DynamicInstalled\Hammer.amd64
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Update\TargetingInfo\DynamicInstalled\osclient.coreai.amd64
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Update\TargetingInfo\DynamicInstalled\OSClient.SxS.amd64
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Update\TargetingInfo\DynamicInstalled\SedimentPack.amd64
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Update\TargetingInfo\DynamicInstalled\UUS.amd64
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Update\TargetingInfo\DynamicInstalled\Windows.OS.Emergency.EXE.amd64
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Update\TargetingInfo\DynamicInstalled\Windows.Workload.Analysis.amd64
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Update\TargetingInfo\DynamicInstalled\Windows.Workload.ContentExtraction.amd64
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Update\TargetingInfo\DynamicInstalled\{085afad4-2aa4-5b0b-ae91-9cbbbc3cdd10}_amd64
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Update\TargetingInfo\DynamicInstalled\{0dfdd376-ab49-5688-8b6d-e2f2b0c65117}_amd64
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Update\TargetingInfo\DynamicInstalled\{2d1ed1b9-4d09-5849-a36b-443c2f6de239}_amd64
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Update\TargetingInfo\DynamicInstalled\{36389777-6360-5579-b931-bd3c6aabda71}_amd64
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Update\TargetingInfo\DynamicInstalled\{6f72e0fe-91b4-5cc8-9260-799a97c9b02a}_amd64
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Update\TargetingInfo\DynamicInstalled\{8306edfd-b14d-5050-8aa2-8dab3843772d}_amd64
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Update\TargetingInfo\DynamicInstalled\{86bbbda5-0364-56d4-aaf1-8904fa9bb234}_amd64
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Update\TargetingInfo\DynamicInstalled\{a8dd6ecf-aa3e-54c3-bb19-feb8aa7af747}_amd64
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Update\TargetingInfo\DynamicInstalled\{ad6295b9-6417-567a-b2a3-868a2a7a7d8c}_amd64
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Update\TargetingInfo\DynamicInstalled\{c3f89342-ddf1-53d2-8d7a-995941335154}_amd64
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Update\TargetingInfo\DynamicInstalled\{eb25e964-8bc4-5110-abd7-151863c9c5ac}_amd64
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Update\TargetingInfo\DynamicInstalled\{eeb123ef-a1c5-581b-a264-5ab13160a806}_amd64
+ 
+[4] RESTART wuauserv 
+没有启动 Windows 更新 服务。
+
+请键入 NET HELPMSG 3521 以获得更多的帮助。
+
+Windows 更新 服务正在启动 .
+Windows 更新 服务已经启动成功。
+
+DONE 

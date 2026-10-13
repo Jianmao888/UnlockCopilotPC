@@ -1,0 +1,9 @@
+=== speech probe start 00:14:45 ===
+pid=25616
+   begin 
+   factory-ok 
+   qi-ok 
+   GetReadyState: {'hr': 0, 'v': 0}
+   done 
+=== speech probe end 00:18:09 ===
+SPEECH-DONE

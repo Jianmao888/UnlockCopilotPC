@@ -1,0 +1,614 @@
+{
+  "total_packages": 76,
+  "total_bytes": 2347354788,
+  "packages": [
+    {
+      "source": "KB5066835 (旧代 3.7)",
+      "file": "a4f674ab-fdca-58e2-cbff-a461ff265c0b_1.2509.1022.0_x64.msix",
+      "package": "WindowsWorkload.Data.Analysis.365.1",
+      "version": "1.2509.1022.0",
+      "arch": "x64",
+      "bytes": 49004
+    },
+    {
+      "source": "KB5066835 (旧代 3.7)",
+      "file": "c15eb352-5ea9-1f86-c2cf-c672f144f202_1.2509.1022.0_x64.msix",
+      "package": "WindowsWorkload.Data.Analysis.Lnl.1",
+      "version": "1.2509.1022.0",
+      "arch": "x64",
+      "bytes": 49010
+    },
+    {
+      "source": "KB5066835 (旧代 3.7)",
+      "file": "b4fb10e5-8f5f-b754-64b1-9404039cce68_1.2509.1022.0_x64.msix",
+      "package": "WindowsWorkload.Data.ContentExtraction.365.1",
+      "version": "1.2509.1022.0",
+      "arch": "x64",
+      "bytes": 49031
+    },
+    {
+      "source": "KB5066835 (旧代 3.7)",
+      "file": "a7d5832f-17ea-735d-fc9c-3558b64b909c_1.2509.1022.0_x64.msix",
+      "package": "WindowsWorkload.Data.ContentExtraction.Lnl.1",
+      "version": "1.2509.1022.0",
+      "arch": "x64",
+      "bytes": 49043
+    },
+    {
+      "source": "KB5066835 (旧代 3.7)",
+      "file": "51645a2a-725b-fadc-49a9-9db46e4563ec_1.2506.707.0_x64.msix",
+      "package": "WindowsWorkload.Manager.1",
+      "version": "1.2506.707.0",
+      "arch": "x64",
+      "bytes": 291372
+    },
+    {
+      "source": "KB5066835 (旧代 3.7)",
+      "file": "2c14f2b4-8294-f78e-8592-0cdc988f364a_1.2509.1022.0_x64.msix",
+      "package": "WindowsWorkload.PSOnnxRuntime.365.3.7",
+      "version": "1.2509.1022.0",
+      "arch": "x64",
+      "bytes": 5492102
+    },
+    {
+      "source": "KB5066835 (旧代 3.7)",
+      "file": "5a4c95f6-4267-042e-5211-148ada7530cc_1.2509.1022.0_x64.msix",
+      "package": "WindowsWorkload.PSOnnxRuntime.Lnl.3.7",
+      "version": "1.2509.1022.0",
+      "arch": "x64",
+      "bytes": 14350084
+    },
+    {
+      "source": "KB5066835 (旧代 3.7)",
+      "file": "a3ac1fea-be48-4f71-cb90-e7ba8f1b8f55_1.2509.1022.0_x64.msix",
+      "package": "WindowsWorkload.PSTokenizer.365.2.7",
+      "version": "1.2509.1022.0",
+      "arch": "x64",
+      "bytes": 331606
+    },
+    {
+      "source": "KB5066835 (旧代 3.7)",
+      "file": "6645a2ea-5804-a115-f379-7e4b27132a00_1.2509.1022.0_x64.msix",
+      "package": "WindowsWorkload.PSTokenizer.Lnl.2.7",
+      "version": "1.2509.1022.0",
+      "arch": "x64",
+      "bytes": 331570
+    },
+    {
+      "source": "KB5066835 (旧代 3.7)",
+      "file": "998f3e45-8cce-d02e-3d25-5fb4709afb3f_1.2509.1022.0_x64.msix",
+      "package": "WindowsWorkload.PSTokenizerShared.365.3.7",
+      "version": "1.2509.1022.0",
+      "arch": "x64",
+      "bytes": 11354599
+    },
+    {
+      "source": "KB5066835 (旧代 3.7)",
+      "file": "9fd35909-0e0b-702d-3552-7ae5e4d7ab39_1.2509.1022.0_x64.msix",
+      "package": "WindowsWorkload.PSTokenizerShared.Lnl.3.7",
+      "version": "1.2509.1022.0",
+      "arch": "x64",
+      "bytes": 12499618
+    },
+    {
+      "source": "KB5066835 (旧代 3.7)",
+      "file": "e28da4dd-c4ea-371a-b8fa-3ac749d1bedd_1.2509.1022.0_x64.msix",
+      "package": "WindowsWorkload.QueryBlockList.1",
+      "version": "1.2509.1022.0",
+      "arch": "x64",
+      "bytes": 2329657
+    },
+    {
+      "source": "KB5066835 (旧代 3.7)",
+      "file": "e0ea85e9-6cbb-36ba-6f68-ea14911e974c_1.2509.1022.0_x64.msix",
+      "package": "WindowsWorkload.QueryProcessor.365.1",
+      "version": "1.2509.1022.0",
+      "arch": "x64",
+      "bytes": 771407
+    },
+    {
+      "source": "KB5066835 (旧代 3.7)",
+      "file": "3b280eb3-0240-ab9f-ffbb-15a3b17483f5_1.7.817.0_x64.msix",
+      "package": "WindowsWorkload.QueryProcessor.Data.1",
+      "version": "1.7.817.0",
+      "arch": "x64",
+      "bytes": 89638000
+    },
+    {
+      "source": "KB5066835 (旧代 3.7)",
+      "file": "91c85e29-7596-a250-23da-d10c968374e4_1.2509.1022.0_x64.msix",
+      "package": "WindowsWorkload.QueryProcessor.Lnl.1",
+      "version": "1.2509.1022.0",
+      "arch": "x64",
+      "bytes": 790595
+    },
+    {
+      "source": "KB5066835 (旧代 3.7)",
+      "file": "d0252b71-ca68-c4d7-a0ad-935df1374e18_1.2509.1022.0_x64.msix",
+      "package": "WindowsWorkload.ScrRegDetection.365.1",
+      "version": "1.2509.1022.0",
+      "arch": "x64",
+      "bytes": 845793
+    },
+    {
+      "source": "KB5066835 (旧代 3.7)",
+      "file": "a21d731f-299f-19d9-6ea2-53d0ed10823c_1.2508.879.0_x64.msix",
+      "package": "WindowsWorkload.ScrRegDetection.Data.1",
+      "version": "1.2508.879.0",
+      "arch": "x64",
+      "bytes": 16781431
+    },
+    {
+      "source": "KB5066835 (旧代 3.7)",
+      "file": "99c8c976-ccf8-753b-683d-07c62b9e7e6c_1.2509.1022.0_x64.msix",
+      "package": "WindowsWorkload.ScrRegDetection.Lnl.1",
+      "version": "1.2509.1022.0",
+      "arch": "x64",
+      "bytes": 864075
+    },
+    {
+      "source": "KB5066835 (旧代 3.7)",
+      "file": "7333d900-4d25-2b09-990f-9537c9fca549_1.2509.1022.0_x64.msix",
+      "package": "WindowsWorkload.SemanticText.365.1",
+      "version": "1.2509.1022.0",
+      "arch": "x64",
+      "bytes": 720473
+    },
+    {
+      "source": "KB5066835 (旧代 3.7)",
+      "file": "7f26acc0-d169-1844-1b15-f330069e4df7_1.7.817.0_x64.msix",
+      "package": "WindowsWorkload.SemanticText.Data.1",
+      "version": "1.7.817.0",
+      "arch": "x64",
+      "bytes": 29236299
+    },
+    {
+      "source": "KB5066835 (旧代 3.7)",
+      "file": "bc8dfc28-22bf-7bba-001d-1bd953401d71_1.2509.1022.0_x64.msix",
+      "package": "WindowsWorkload.SemanticText.Lnl.1",
+      "version": "1.2509.1022.0",
+      "arch": "x64",
+      "bytes": 740336
+    },
+    {
+      "source": "KB5066835 (旧代 3.7)",
+      "file": "c3ea969e-3d1d-004e-18b6-fa25dc6e5ab0_1.2509.1022.0_x64.msix",
+      "package": "WindowsWorkload.SessionManager.1",
+      "version": "1.2509.1022.0",
+      "arch": "x64",
+      "bytes": 364349
+    },
+    {
+      "source": "KB5066835 (旧代 3.7)",
+      "file": "87ce00be-9888-c3a1-f1c5-9e045a886c66_1.2508.888.0_x64.msix",
+      "package": "WindowsWorkload.TextRecognition.365.1",
+      "version": "1.2508.888.0",
+      "arch": "x64",
+      "bytes": 81747567
+    },
+    {
+      "source": "KB5124010 (新代 5.2/1.8)",
+      "file": "WindowsWorkload.Data.Analysis.365.1_1.2608.951.0_x64.msix",
+      "package": "WindowsWorkload.Data.Analysis.365.1",
+      "version": "1.2608.951.0",
+      "arch": "x64",
+      "bytes": 51037
+    },
+    {
+      "source": "KB5124010 (新代 5.2/1.8)",
+      "file": "WindowsWorkload.Data.Analysis.Lnl.1_1.2608.951.0_x64.msix",
+      "package": "WindowsWorkload.Data.Analysis.Lnl.1",
+      "version": "1.2608.951.0",
+      "arch": "x64",
+      "bytes": 51041
+    },
+    {
+      "source": "KB5124010 (新代 5.2/1.8)",
+      "file": "WindowsWorkload.Data.Analysis.Stx.1_1.2608.951.0_x64.msix",
+      "package": "WindowsWorkload.Data.Analysis.Stx.1",
+      "version": "1.2608.951.0",
+      "arch": "x64",
+      "bytes": 51011
+    },
+    {
+      "source": "KB5124010 (新代 5.2/1.8)",
+      "file": "WindowsWorkload.Data.ContentExtraction.365.1_1.2608.951.0_x64.msix",
+      "package": "WindowsWorkload.Data.ContentExtraction.365.1",
+      "version": "1.2608.951.0",
+      "arch": "x64",
+      "bytes": 51087
+    },
+    {
+      "source": "KB5124010 (新代 5.2/1.8)",
+      "file": "WindowsWorkload.Data.ContentExtraction.Lnl.1_1.2608.951.0_x64.msix",
+      "package": "WindowsWorkload.Data.ContentExtraction.Lnl.1",
+      "version": "1.2608.951.0",
+      "arch": "x64",
+      "bytes": 51003
+    },
+    {
+      "source": "KB5124010 (新代 5.2/1.8)",
+      "file": "WindowsWorkload.Data.ContentExtraction.Stx.1_1.2608.951.0_x64.msix",
+      "package": "WindowsWorkload.Data.ContentExtraction.Stx.1",
+      "version": "1.2608.951.0",
+      "arch": "x64",
+      "bytes": 51041
+    },
+    {
+      "source": "KB5124010 (新代 5.2/1.8)",
+      "file": "WindowsWorkload.Data.ImageSearch.365.1_1.2608.951.0_x64.msix",
+      "package": "WindowsWorkload.Data.ImageSearch.365.1",
+      "version": "1.2608.951.0",
+      "arch": "x64",
+      "bytes": 51010
+    },
+    {
+      "source": "KB5124010 (新代 5.2/1.8)",
+      "file": "WindowsWorkload.Data.ImageSearch.Lnl.1_1.2608.951.0_x64.msix",
+      "package": "WindowsWorkload.Data.ImageSearch.Lnl.1",
+      "version": "1.2608.951.0",
+      "arch": "x64",
+      "bytes": 51026
+    },
+    {
+      "source": "KB5124010 (新代 5.2/1.8)",
+      "file": "WindowsWorkload.Data.ImageSearch.Stx.1_1.2608.951.0_x64.msix",
+      "package": "WindowsWorkload.Data.ImageSearch.Stx.1",
+      "version": "1.2608.951.0",
+      "arch": "x64",
+      "bytes": 51064
+    },
+    {
+      "source": "KB5124010 (新代 5.2/1.8)",
+      "file": "WindowsWorkload.Data.SettingsModel.Lnl.1_1.2608.951.0_x64.msix",
+      "package": "WindowsWorkload.Data.SettingsModel.Lnl.1",
+      "version": "1.2608.951.0",
+      "arch": "x64",
+      "bytes": 51019
+    },
+    {
+      "source": "KB5124010 (新代 5.2/1.8)",
+      "file": "WindowsWorkload.Data.SettingsModel.Stx.1_1.2608.951.0_x64.msix",
+      "package": "WindowsWorkload.Data.SettingsModel.Stx.1",
+      "version": "1.2608.951.0",
+      "arch": "x64",
+      "bytes": 51019
+    },
+    {
+      "source": "KB5124010 (新代 5.2/1.8)",
+      "file": "WindowsWorkload.EP.AMD.VitisAI.Framework.1.8_1.8.63.0_x64.msix",
+      "package": "WindowsWorkload.EP.AMD.VitisAI.Framework.1.8",
+      "version": "1.8.63.0",
+      "arch": "x64",
+      "bytes": 252389027
+    },
+    {
+      "source": "KB5124010 (新代 5.2/1.8)",
+      "file": "WindowsWorkload.EP.Intel.OpenVINO.Framework.1.8_1.8.81.0_x64.msix",
+      "package": "WindowsWorkload.EP.Intel.OpenVINO.Framework.1.8",
+      "version": "1.8.81.0",
+      "arch": "x64",
+      "bytes": 57780487
+    },
+    {
+      "source": "KB5124010 (新代 5.2/1.8)",
+      "file": "WindowsWorkload.ImageContentModeration.1_1.2608.951.0_x64.msix",
+      "package": "WindowsWorkload.ImageContentModeration.1",
+      "version": "1.2608.951.0",
+      "arch": "x64",
+      "bytes": 920900
+    },
+    {
+      "source": "KB5124010 (新代 5.2/1.8)",
+      "file": "WindowsWorkload.ImageContentModeration.Data.1_1.2605.851.0_x64.msix",
+      "package": "WindowsWorkload.ImageContentModeration.Data.1",
+      "version": "1.2605.851.0",
+      "arch": "x64",
+      "bytes": 43387772
+    },
+    {
+      "source": "KB5124010 (新代 5.2/1.8)",
+      "file": "WindowsWorkload.ImageSearch.365.3_1.2608.951.0_x64.msix",
+      "package": "WindowsWorkload.ImageSearch.365.3",
+      "version": "1.2608.951.0",
+      "arch": "x64",
+      "bytes": 1299476
+    },
+    {
+      "source": "KB5124010 (新代 5.2/1.8)",
+      "file": "WindowsWorkload.ImageSearch.Data.3_1.2511.1196.0_x64.msix",
+      "package": "WindowsWorkload.ImageSearch.Data.3",
+      "version": "1.2511.1196.0",
+      "arch": "x64",
+      "bytes": 80702487
+    },
+    {
+      "source": "KB5124010 (新代 5.2/1.8)",
+      "file": "WindowsWorkload.ImageSearch.Lnl.3_1.2608.951.0_x64.msix",
+      "package": "WindowsWorkload.ImageSearch.Lnl.3",
+      "version": "1.2608.951.0",
+      "arch": "x64",
+      "bytes": 1299693
+    },
+    {
+      "source": "KB5124010 (新代 5.2/1.8)",
+      "file": "WindowsWorkload.ImageSearch.Stx.3_1.2608.951.0_x64.msix",
+      "package": "WindowsWorkload.ImageSearch.Stx.3",
+      "version": "1.2608.951.0",
+      "arch": "x64",
+      "bytes": 1299626
+    },
+    {
+      "source": "KB5124010 (新代 5.2/1.8)",
+      "file": "WindowsWorkload.ImageTextSearch.365.3_1.2608.951.0_x64.msix",
+      "package": "WindowsWorkload.ImageTextSearch.365.3",
+      "version": "1.2608.951.0",
+      "arch": "x64",
+      "bytes": 1148457
+    },
+    {
+      "source": "KB5124010 (新代 5.2/1.8)",
+      "file": "WindowsWorkload.ImageTextSearch.Data.3_1.2511.1196.0_x64.msix",
+      "package": "WindowsWorkload.ImageTextSearch.Data.3",
+      "version": "1.2511.1196.0",
+      "arch": "x64",
+      "bytes": 81208863
+    },
+    {
+      "source": "KB5124010 (新代 5.2/1.8)",
+      "file": "WindowsWorkload.ImageTextSearch.Lnl.3_1.2608.951.0_x64.msix",
+      "package": "WindowsWorkload.ImageTextSearch.Lnl.3",
+      "version": "1.2608.951.0",
+      "arch": "x64",
+      "bytes": 1148650
+    },
+    {
+      "source": "KB5124010 (新代 5.2/1.8)",
+      "file": "WindowsWorkload.ImageTextSearch.Stx.3_1.2608.951.0_x64.msix",
+      "package": "WindowsWorkload.ImageTextSearch.Stx.3",
+      "version": "1.2608.951.0",
+      "arch": "x64",
+      "bytes": 1148679
+    },
+    {
+      "source": "KB5124010 (新代 5.2/1.8)",
+      "file": "WindowsWorkload.Manager.1_1.2511.1196.0_x64.msix",
+      "package": "WindowsWorkload.Manager.1",
+      "version": "1.2511.1196.0",
+      "arch": "x64",
+      "bytes": 425261
+    },
+    {
+      "source": "KB5124010 (新代 5.2/1.8)",
+      "file": "WindowsWorkload.PSTokenizer.365.2.7_1.2608.951.0_x64.msix",
+      "package": "WindowsWorkload.PSTokenizer.365.2.7",
+      "version": "1.2608.951.0",
+      "arch": "x64",
+      "bytes": 352430
+    },
+    {
+      "source": "KB5124010 (新代 5.2/1.8)",
+      "file": "WindowsWorkload.PSTokenizer.Lnl.2.7_1.2608.951.0_x64.msix",
+      "package": "WindowsWorkload.PSTokenizer.Lnl.2.7",
+      "version": "1.2608.951.0",
+      "arch": "x64",
+      "bytes": 352386
+    },
+    {
+      "source": "KB5124010 (新代 5.2/1.8)",
+      "file": "WindowsWorkload.PSTokenizer.Stx.2.7_1.2608.951.0_x64.msix",
+      "package": "WindowsWorkload.PSTokenizer.Stx.2.7",
+      "version": "1.2608.951.0",
+      "arch": "x64",
+      "bytes": 352435
+    },
+    {
+      "source": "KB5124010 (新代 5.2/1.8)",
+      "file": "WindowsWorkload.PSTokenizerShared.365.5.2_1.2607.837.0_x64.msix",
+      "package": "WindowsWorkload.PSTokenizerShared.365.5.2",
+      "version": "1.2607.837.0",
+      "arch": "x64",
+      "bytes": 52796025
+    },
+    {
+      "source": "KB5124010 (新代 5.2/1.8)",
+      "file": "WindowsWorkload.PSTokenizerShared.Data.5.2_1.2607.837.0_x64.msix",
+      "package": "WindowsWorkload.PSTokenizerShared.Data.5.2",
+      "version": "1.2607.837.0",
+      "arch": "x64",
+      "bytes": 638215050
+    },
+    {
+      "source": "KB5124010 (新代 5.2/1.8)",
+      "file": "WindowsWorkload.PSTokenizerShared.Lnl.5.2_1.2608.951.0_x64.msix",
+      "package": "WindowsWorkload.PSTokenizerShared.Lnl.5.2",
+      "version": "1.2608.951.0",
+      "arch": "x64",
+      "bytes": 26410629
+    },
+    {
+      "source": "KB5124010 (新代 5.2/1.8)",
+      "file": "WindowsWorkload.PSTokenizerShared.Stx.5.2_1.2608.951.0_x64.msix",
+      "package": "WindowsWorkload.PSTokenizerShared.Stx.5.2",
+      "version": "1.2608.951.0",
+      "arch": "x64",
+      "bytes": 26410675
+    },
+    {
+      "source": "KB5124010 (新代 5.2/1.8)",
+      "file": "WindowsWorkload.QueryBlockList.1_1.2608.951.0_x64.msix",
+      "package": "WindowsWorkload.QueryBlockList.1",
+      "version": "1.2608.951.0",
+      "arch": "x64",
+      "bytes": 2318337
+    },
+    {
+      "source": "KB5124010 (新代 5.2/1.8)",
+      "file": "WindowsWorkload.QueryProcessor.365.1_1.2608.951.0_x64.msix",
+      "package": "WindowsWorkload.QueryProcessor.365.1",
+      "version": "1.2608.951.0",
+      "arch": "x64",
+      "bytes": 857551
+    },
+    {
+      "source": "KB5124010 (新代 5.2/1.8)",
+      "file": "WindowsWorkload.QueryProcessor.Data.1_1.2605.851.0_x64.msix",
+      "package": "WindowsWorkload.QueryProcessor.Data.1",
+      "version": "1.2605.851.0",
+      "arch": "x64",
+      "bytes": 89633115
+    },
+    {
+      "source": "KB5124010 (新代 5.2/1.8)",
+      "file": "WindowsWorkload.QueryProcessor.Lnl.1_1.2608.951.0_x64.msix",
+      "package": "WindowsWorkload.QueryProcessor.Lnl.1",
+      "version": "1.2608.951.0",
+      "arch": "x64",
+      "bytes": 857805
+    },
+    {
+      "source": "KB5124010 (新代 5.2/1.8)",
+      "file": "WindowsWorkload.QueryProcessor.Stx.1_1.2608.951.0_x64.msix",
+      "package": "WindowsWorkload.QueryProcessor.Stx.1",
+      "version": "1.2608.951.0",
+      "arch": "x64",
+      "bytes": 857801
+    },
+    {
+      "source": "KB5124010 (新代 5.2/1.8)",
+      "file": "WindowsWorkload.ScrRegDetection.365.1_1.2608.951.0_x64.msix",
+      "package": "WindowsWorkload.ScrRegDetection.365.1",
+      "version": "1.2608.951.0",
+      "arch": "x64",
+      "bytes": 922040
+    },
+    {
+      "source": "KB5124010 (新代 5.2/1.8)",
+      "file": "WindowsWorkload.ScrRegDetection.Data.1_1.2608.951.0_x64.msix",
+      "package": "WindowsWorkload.ScrRegDetection.Data.1",
+      "version": "1.2608.951.0",
+      "arch": "x64",
+      "bytes": 16939639
+    },
+    {
+      "source": "KB5124010 (新代 5.2/1.8)",
+      "file": "WindowsWorkload.ScrRegDetection.Lnl.1_1.2608.951.0_x64.msix",
+      "package": "WindowsWorkload.ScrRegDetection.Lnl.1",
+      "version": "1.2608.951.0",
+      "arch": "x64",
+      "bytes": 922192
+    },
+    {
+      "source": "KB5124010 (新代 5.2/1.8)",
+      "file": "WindowsWorkload.ScrRegDetection.Stx.1_1.2608.951.0_x64.msix",
+      "package": "WindowsWorkload.ScrRegDetection.Stx.1",
+      "version": "1.2608.951.0",
+      "arch": "x64",
+      "bytes": 922184
+    },
+    {
+      "source": "KB5124010 (新代 5.2/1.8)",
+      "file": "WindowsWorkload.SemanticText.365.1_1.2608.951.0_x64.msix",
+      "package": "WindowsWorkload.SemanticText.365.1",
+      "version": "1.2608.951.0",
+      "arch": "x64",
+      "bytes": 807583
+    },
+    {
+      "source": "KB5124010 (新代 5.2/1.8)",
+      "file": "WindowsWorkload.SemanticText.Data.1_1.2511.1196.0_x64.msix",
+      "package": "WindowsWorkload.SemanticText.Data.1",
+      "version": "1.2511.1196.0",
+      "arch": "x64",
+      "bytes": 29243590
+    },
+    {
+      "source": "KB5124010 (新代 5.2/1.8)",
+      "file": "WindowsWorkload.SemanticText.Lnl.1_1.2608.951.0_x64.msix",
+      "package": "WindowsWorkload.SemanticText.Lnl.1",
+      "version": "1.2608.951.0",
+      "arch": "x64",
+      "bytes": 807905
+    },
+    {
+      "source": "KB5124010 (新代 5.2/1.8)",
+      "file": "WindowsWorkload.SemanticText.Stx.1_1.2608.951.0_x64.msix",
+      "package": "WindowsWorkload.SemanticText.Stx.1",
+      "version": "1.2608.951.0",
+      "arch": "x64",
+      "bytes": 807912
+    },
+    {
+      "source": "KB5124010 (新代 5.2/1.8)",
+      "file": "WindowsWorkload.SessionManager.1_1.2608.951.0_x64.msix",
+      "package": "WindowsWorkload.SessionManager.1",
+      "version": "1.2608.951.0",
+      "arch": "x64",
+      "bytes": 336851
+    },
+    {
+      "source": "KB5124010 (新代 5.2/1.8)",
+      "file": "WindowsWorkload.SettingsModel.Data.1_1.2605.628.0_x64.msix",
+      "package": "WindowsWorkload.SettingsModel.Data.1",
+      "version": "1.2605.628.0",
+      "arch": "x64",
+      "bytes": 448482808
+    },
+    {
+      "source": "KB5124010 (新代 5.2/1.8)",
+      "file": "WindowsWorkload.SettingsModel.Lnl.1_1.2608.951.0_x64.msix",
+      "package": "WindowsWorkload.SettingsModel.Lnl.1",
+      "version": "1.2608.951.0",
+      "arch": "x64",
+      "bytes": 3302695
+    },
+    {
+      "source": "KB5124010 (新代 5.2/1.8)",
+      "file": "WindowsWorkload.SettingsModel.Stx.1_1.2608.951.0_x64.msix",
+      "package": "WindowsWorkload.SettingsModel.Stx.1",
+      "version": "1.2608.951.0",
+      "arch": "x64",
+      "bytes": 3302709
+    },
+    {
+      "source": "KB5124010 (新代 5.2/1.8)",
+      "file": "WindowsWorkload.TextRecognition.365.1_1.2608.951.0_x64.msix",
+      "package": "WindowsWorkload.TextRecognition.365.1",
+      "version": "1.2608.951.0",
+      "arch": "x64",
+      "bytes": 666186
+    },
+    {
+      "source": "KB5124010 (新代 5.2/1.8)",
+      "file": "WindowsWorkload.TextRecognition.Data.OPT.1_1.2606.719.0_x64.msix",
+      "package": "WindowsWorkload.TextRecognition.Data.OPT.1",
+      "version": "1.2606.719.0",
+      "arch": "x64",
+      "bytes": 153897503
+    },
+    {
+      "source": "KB5124010 (新代 5.2/1.8)",
+      "file": "WindowsWorkload.TextRecognition.Lnl.1_1.2608.951.0_x64.msix",
+      "package": "WindowsWorkload.TextRecognition.Lnl.1",
+      "version": "1.2608.951.0",
+      "arch": "x64",
+      "bytes": 17154335
+    },
+    {
+      "source": "KB5124010 (新代 5.2/1.8)",
+      "file": "WindowsWorkload.TextRecognition.Stx.1_1.2608.951.0_x64.msix",
+      "package": "WindowsWorkload.TextRecognition.Stx.1",
+      "version": "1.2608.951.0",
+      "arch": "x64",
+      "bytes": 17154331
+    },
+    {
+      "source": "KB5124010 (新代 5.2/1.8)",
+      "file": "WindowsWorkload.WinMLShared.5.2_1.2608.951.0_x64.msix",
+      "package": "WindowsWorkload.WinMLShared.5.2",
+      "version": "1.2608.951.0",
+      "arch": "x64",
+      "bytes": 17872329
+    }
+  ]
+}

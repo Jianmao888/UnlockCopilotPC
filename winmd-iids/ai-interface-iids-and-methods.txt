@@ -1,0 +1,137 @@
+### Microsoft.Windows.AI.Text.winmd
+Microsoft.Windows.AI.Text.IConversationItem = 957b0b85-4d7e-5788-baae-af7cf256bb8e
+    METHODS Microsoft.Windows.AI.Text.IConversationItem: get_Participant, put_Participant, get_Message, put_Message
+Microsoft.Windows.AI.Text.IConversationSummaryOptions = 360bce9f-fd14-5d0e-bd24-fd78ed3038e6
+    METHODS Microsoft.Windows.AI.Text.IConversationSummaryOptions: get_InputKind, put_InputKind, get_IncludeMessageCitations, put_IncludeMessageCitations, get_IncludeParticipantAttribution, put_IncludeParticipantAttribution, get_MaxKeyPoints, put_MaxKeyPoints, get_Language, put_Language
+Microsoft.Windows.AI.Text.ILanguageModel = 6331c629-8c86-5bfe-8c4e-9ca5573cc14b
+Microsoft.Windows.AI.Text.ILanguageModel2 = 653b714e-f9b3-51cb-954f-5ea58f63ab89
+    METHODS Microsoft.Windows.AI.Text.ILanguageModel2: GenerateResponseAsync, GenerateResponseAsync, GenerateResponseAsync, GenerateResponseFromEmbeddingsAsync, GenerateResponseFromEmbeddingsAsync, GenerateResponseFromEmbeddingsAsync, GenerateEmbeddingVectors, GenerateEmbeddingVectors, GetUsablePromptLength, GetUsablePromptLength, GetVectorSpaceId, CreateContext, CreateContext, CreateContext
+Microsoft.Windows.AI.Text.ILanguageModelContext = 518b305c-7b69-5a33-8129-d47d6b8eec4e
+Microsoft.Windows.AI.Text.ILanguageModelEmbeddingVectorResult = 4dbdb154-ee3c-56f6-a40b-413e95bd5acb
+    METHODS Microsoft.Windows.AI.Text.ILanguageModelEmbeddingVectorResult: get_EmbeddingVectors, get_Status, get_ExtendedError
+Microsoft.Windows.AI.Text.ILanguageModelLowRankAdapter = dc67c5f1-4a8b-5178-a0fd-5488fd49a681
+Microsoft.Windows.AI.Text.ILanguageModelLowRankAdapterResult = b23af149-70fd-53f1-9e5c-51ba642a7836
+    METHODS Microsoft.Windows.AI.Text.ILanguageModelLowRankAdapterResult: get_LowRankAdapter, get_ExtendedError
+Microsoft.Windows.AI.Text.ILanguageModelLowRankAdapterStatics = e3b61010-37c3-56d5-b112-1aa57ad5bfc7
+    METHODS Microsoft.Windows.AI.Text.ILanguageModelLowRankAdapterStatics: CreateFromPath
+Microsoft.Windows.AI.Text.ILanguageModelOptions = 7f380003-5a09-5f1f-afb0-aa483e3670cc
+    METHODS Microsoft.Windows.AI.Text.ILanguageModelOptions: get_Temperature, put_Temperature, get_TopP, put_TopP, get_TopK, put_TopK, get_ContentFilterOptions, put_ContentFilterOptions
+Microsoft.Windows.AI.Text.ILanguageModelOptions2 = 8fac9616-a95f-56f7-96d8-e01ebdda1d39
+    METHODS Microsoft.Windows.AI.Text.ILanguageModelOptions2: get_LowRankAdapter, put_LowRankAdapter
+Microsoft.Windows.AI.Text.ILanguageModelResponseResult = 3a256fff-a426-5d3b-8e4b-3ac84162471e
+    METHODS Microsoft.Windows.AI.Text.ILanguageModelResponseResult: get_Text, get_Status, get_ExtendedError
+Microsoft.Windows.AI.Text.ILanguageModelStatics = 8f18f9af-6095-553b-8d9d-6bcc98026546
+    METHODS Microsoft.Windows.AI.Text.ILanguageModelStatics: GetReadyState, EnsureReadyAsync, CreateAsync
+Microsoft.Windows.AI.Text.ITextRewriter = eb1e7cf0-e110-506c-b0ea-7a288d8e7778
+    METHODS Microsoft.Windows.AI.Text.ITextRewriter: RewriteAsync
+Microsoft.Windows.AI.Text.ITextRewriter2 = 7937d261-13ce-5b24-b17c-fe5cd0be23b6
+    METHODS Microsoft.Windows.AI.Text.ITextRewriter2: RewriteAsync
+Microsoft.Windows.AI.Text.ITextRewriter3 = 622eb80a-ed1a-5525-80d8-c6e80236a195
+    METHODS Microsoft.Windows.AI.Text.ITextRewriter3: RewriteCustomAsync
+Microsoft.Windows.AI.Text.ITextRewriterFactory = f452e60d-ef50-5bc9-b483-217d5b4e7151
+    METHODS Microsoft.Windows.AI.Text.ITextRewriterFactory: CreateInstance
+Microsoft.Windows.AI.Text.ITextSummarizer = eef548c5-d7bc-50be-a8ab-29e241b78bd1
+    METHODS Microsoft.Windows.AI.Text.ITextSummarizer: SummarizeAsync, SummarizeParagraphAsync
+Microsoft.Windows.AI.Text.ITextSummarizer2 = 9e20797d-1ff6-5295-8cb6-d48fb8ba483b
+    METHODS Microsoft.Windows.AI.Text.ITextSummarizer2: SummarizeConversationAsync
+Microsoft.Windows.AI.Text.ITextSummarizer3 = 493d32b9-dbc9-5d4b-802f-90473850500e
+    METHODS Microsoft.Windows.AI.Text.ITextSummarizer3: IsPromptLargerThanContext
+Microsoft.Windows.AI.Text.ITextSummarizer4 = 5b7a28c0-7777-52e5-9934-b95b514cf535
+    METHODS Microsoft.Windows.AI.Text.ITextSummarizer4: IsPromptLargerThanContext
+Microsoft.Windows.AI.Text.ITextSummarizerFactory = b6a75913-4a1e-59e7-856a-ae7ab2383864
+    METHODS Microsoft.Windows.AI.Text.ITextSummarizerFactory: CreateInstance
+Microsoft.Windows.AI.Text.ITextToTableConverter = a008d9ad-25ce-5a6b-9ceb-d8e95d04e10b
+    METHODS Microsoft.Windows.AI.Text.ITextToTableConverter: ConvertAsync
+Microsoft.Windows.AI.Text.ITextToTableConverterFactory = bb84cbb5-19c8-5857-b65d-705aa1486404
+    METHODS Microsoft.Windows.AI.Text.ITextToTableConverterFactory: CreateInstance
+Microsoft.Windows.AI.Text.ITextToTableResponseResult = 391fbf11-59cd-575d-834a-9ef823116f98
+    METHODS Microsoft.Windows.AI.Text.ITextToTableResponseResult: GetRows, get_Status, get_ExtendedError
+Microsoft.Windows.AI.Text.ITextToTableRow = 036294fe-e53c-5e66-93d2-7c92338db881
+    METHODS Microsoft.Windows.AI.Text.ITextToTableRow: GetColumns
+### Microsoft.Windows.AI.Speech.winmd
+Microsoft.Windows.AI.Speech.IAudioConfiguration = efd7a9d4-bc63-5fc0-a31b-3ba4edd060b4
+Microsoft.Windows.AI.Speech.IAudioConfigurationStatics = 767b540a-dfab-5b91-ae27-50bc31ec6f08
+    METHODS Microsoft.Windows.AI.Speech.IAudioConfigurationStatics: FromAudioDevice, FromFile, ForProvider, FromStream
+Microsoft.Windows.AI.Speech.IBatchRecognition = 65a87ee7-ac70-5ba8-baf8-9b94ff1d1512
+    METHODS Microsoft.Windows.AI.Speech.IBatchRecognition: RecognizeFromFile, Recognize
+Microsoft.Windows.AI.Speech.IBatchRecognitionFactory = 6fa0ad1d-da19-5079-a589-5861a5be2c2c
+    METHODS Microsoft.Windows.AI.Speech.IBatchRecognitionFactory: CreateInstance
+Microsoft.Windows.AI.Speech.ISpeechAudioProvider = b364fe63-7c03-50c9-9ca8-6681eed4c6c0
+    METHODS Microsoft.Windows.AI.Speech.ISpeechAudioProvider: PushData
+Microsoft.Windows.AI.Speech.ISpeechRecognitionModel = 9fb55f55-b2e2-50fc-8a8d-78474d9408fa
+Microsoft.Windows.AI.Speech.ISpeechRecognitionModelResult = 4fde4faa-a2d7-577c-97ef-ac710015c074
+    METHODS Microsoft.Windows.AI.Speech.ISpeechRecognitionModelResult: get_SpeechModel, get_ExtendedError
+Microsoft.Windows.AI.Speech.ISpeechRecognitionModelStatics = cdba31c1-2b5a-58fc-a8e9-deb640372526
+    METHODS Microsoft.Windows.AI.Speech.ISpeechRecognitionModelStatics: GetReadyState, EnsureReadyAsync, TryCreateAsync
+Microsoft.Windows.AI.Speech.IStreamingRecognition = dd55a106-f6af-52b5-a530-33325d10809d
+    METHODS Microsoft.Windows.AI.Speech.IStreamingRecognition: StartContinuousRecognitionAsync, StopContinuousRecognition, add_Recognizing, remove_Recognizing, add_Recognized, remove_Recognized
+Microsoft.Windows.AI.Speech.IStreamingRecognitionFactory = cde15562-f16a-5a5c-ba7e-bef52168e51e
+    METHODS Microsoft.Windows.AI.Speech.IStreamingRecognitionFactory: CreateInstance
+Microsoft.Windows.AI.Speech.IStreamingRecognizedEventArgs = 8eadad63-ca3c-5bf2-8083-1bc787bdac3a
+    METHODS Microsoft.Windows.AI.Speech.IStreamingRecognizedEventArgs: get_Text, get_Offset, get_Duration, get_IsFinal
+Microsoft.Windows.AI.Speech.IStreamingRecognizingEventArgs = 9f085e2a-929a-5f25-b992-781b237d1f57
+    METHODS Microsoft.Windows.AI.Speech.IStreamingRecognizingEventArgs: get_Text
+### Microsoft.Windows.AI.Video.winmd
+Microsoft.Windows.AI.Video.IVideoScaler = e5abe769-63cc-5498-a5e1-74205106bdfd
+    METHODS Microsoft.Windows.AI.Video.IVideoScaler: Scale, ScaleImageBuffer
+Microsoft.Windows.AI.Video.IVideoScalerOptions = 3a1427f8-ddad-519e-a028-7322bde4c4d2
+    METHODS Microsoft.Windows.AI.Video.IVideoScalerOptions: get_RegionsOfInterest
+Microsoft.Windows.AI.Video.IVideoScalerResult = 24a228fb-0af2-5a00-bb6d-52946d9460da
+    METHODS Microsoft.Windows.AI.Video.IVideoScalerResult: get_Status
+Microsoft.Windows.AI.Video.IVideoScalerStatics = 311dd8bb-b7ac-55a7-a3d3-1a6c84430f84
+    METHODS Microsoft.Windows.AI.Video.IVideoScalerStatics: GetReadyState, EnsureReadyAsync, CreateAsync
+### Microsoft.Windows.AI.Imaging.winmd
+Microsoft.Windows.AI.Imaging.IImageDescriptionGenerator = 576b989e-9829-5682-91b0-a7110fa7d51e
+    METHODS Microsoft.Windows.AI.Imaging.IImageDescriptionGenerator: DescribeAsync
+Microsoft.Windows.AI.Imaging.IImageDescriptionGeneratorStatics = 5fb50b2a-5700-55a7-b413-6073b4b7f175
+    METHODS Microsoft.Windows.AI.Imaging.IImageDescriptionGeneratorStatics: GetReadyState, EnsureReadyAsync, CreateAsync
+Microsoft.Windows.AI.Imaging.IImageDescriptionResult = a066dd0c-110b-5275-a635-52bed7519a2f
+    METHODS Microsoft.Windows.AI.Imaging.IImageDescriptionResult: get_Description, get_Status
+Microsoft.Windows.AI.Imaging.IImageForegroundExtractor = 231cbec4-9aa1-53ba-8340-2cdba192946e
+    METHODS Microsoft.Windows.AI.Imaging.IImageForegroundExtractor: GetMaskFromSoftwareBitmap, GetMaskFromImageBuffer
+Microsoft.Windows.AI.Imaging.IImageForegroundExtractorStatics = ffe2e9f1-d6ce-53b7-aaa1-cf1ec9039868
+    METHODS Microsoft.Windows.AI.Imaging.IImageForegroundExtractorStatics: GetReadyState, EnsureReadyAsync, CreateAsync
+Microsoft.Windows.AI.Imaging.IImageFromImageGenerationOptions = f8046d25-4c20-5399-a01e-78fb84014888
+    METHODS Microsoft.Windows.AI.Imaging.IImageFromImageGenerationOptions: get_Style, put_Style, get_ColorPreservation, put_ColorPreservation
+Microsoft.Windows.AI.Imaging.IImageFromTextGenerationOptions = 904d72dc-7356-5dde-9110-f5971c77425c
+    METHODS Microsoft.Windows.AI.Imaging.IImageFromTextGenerationOptions: get_Style, put_Style
+Microsoft.Windows.AI.Imaging.IImageGenerationOptions = cdf68067-aa0e-5416-be24-ea65808c0e39
+    METHODS Microsoft.Windows.AI.Imaging.IImageGenerationOptions: get_MaxInferenceSteps, put_MaxInferenceSteps, get_Creativity, put_Creativity, get_Seed, put_Seed, get_ContentFilterOptions, put_ContentFilterOptions
+Microsoft.Windows.AI.Imaging.IImageGenerator = 8ff81d0b-80d5-5fbb-950c-299f892acf6a
+    METHODS Microsoft.Windows.AI.Imaging.IImageGenerator: GenerateImageFromTextPrompt, GenerateImageFromImageBuffer, GenerateImageFromImageBufferAndMask
+Microsoft.Windows.AI.Imaging.IImageGenerator2 = c8f9afdd-f09d-5964-b7fc-8fa49d4f8637
+    METHODS Microsoft.Windows.AI.Imaging.IImageGenerator2: GenerateImageFromTextPrompt, GenerateImageFromImageBuffer
+Microsoft.Windows.AI.Imaging.IImageGeneratorResult = b4167692-697d-58cf-9e51-76b6f9b4e384
+    METHODS Microsoft.Windows.AI.Imaging.IImageGeneratorResult: get_Image, get_Status, get_ExtendedError
+Microsoft.Windows.AI.Imaging.IImageGeneratorStatics = 38eb37d2-bb6b-5424-a010-58b1d975e6ba
+    METHODS Microsoft.Windows.AI.Imaging.IImageGeneratorStatics: GetReadyState, EnsureReadyAsync, CreateAsync
+Microsoft.Windows.AI.Imaging.IImageObjectExtractor = 2919fdc0-d772-5fd9-a8b7-ffb56010c99c
+    METHODS Microsoft.Windows.AI.Imaging.IImageObjectExtractor: GetSoftwareBitmapObjectMask, GetImageBufferObjectMask
+Microsoft.Windows.AI.Imaging.IImageObjectExtractorHint = 1bd8d67c-8a7a-5fe7-98a5-cbdfeb509452
+    METHODS Microsoft.Windows.AI.Imaging.IImageObjectExtractorHint: get_IncludeRects, get_IncludePoints, get_ExcludePoints
+Microsoft.Windows.AI.Imaging.IImageObjectExtractorHintFactory = 5028f206-145d-5a70-9a51-e17e60cfbad8
+    METHODS Microsoft.Windows.AI.Imaging.IImageObjectExtractorHintFactory: CreateInstance
+Microsoft.Windows.AI.Imaging.IImageObjectExtractorStatics = 38fa261e-2c33-54cb-9e10-98d50685743d
+    METHODS Microsoft.Windows.AI.Imaging.IImageObjectExtractorStatics: CreateWithSoftwareBitmapAsync, CreateWithImageBufferAsync, GetReadyState, EnsureReadyAsync
+Microsoft.Windows.AI.Imaging.IImageObjectRemover = cfa20faf-5ae1-5b8c-b0d8-e7c64db59d26
+    METHODS Microsoft.Windows.AI.Imaging.IImageObjectRemover: RemoveFromSoftwareBitmap, RemoveFromImageBuffer
+Microsoft.Windows.AI.Imaging.IImageObjectRemoverStatics = cbcbd7e1-5b81-503f-8fcb-66ae1d6e5b9c
+    METHODS Microsoft.Windows.AI.Imaging.IImageObjectRemoverStatics: GetReadyState, EnsureReadyAsync, CreateAsync
+Microsoft.Windows.AI.Imaging.IImageScaler = 06eec88e-91c5-5326-8128-2807faafa571
+    METHODS Microsoft.Windows.AI.Imaging.IImageScaler: ScaleSoftwareBitmap, ScaleImageBuffer, get_MaxSupportedScaleFactor
+Microsoft.Windows.AI.Imaging.IImageScalerStatics = 75380c81-9c7f-544b-9337-6e638cfb464a
+    METHODS Microsoft.Windows.AI.Imaging.IImageScalerStatics: GetReadyState, EnsureReadyAsync, CreateAsync
+Microsoft.Windows.AI.Imaging.IRecognizedLine = 612a6be6-f6bb-53c9-84ce-f0a5e565faa7
+    METHODS Microsoft.Windows.AI.Imaging.IRecognizedLine: get_Text, get_BoundingBox, get_Words, get_Style, get_LineStyleConfidence
+Microsoft.Windows.AI.Imaging.IRecognizedText = ae4766d3-2924-57a6-b3d3-b866f59b9972
+    METHODS Microsoft.Windows.AI.Imaging.IRecognizedText: get_Lines, get_TextAngle
+Microsoft.Windows.AI.Imaging.IRecognizedWord = 6b53daab-3410-5088-826a-0788a1ee3b52
+    METHODS Microsoft.Windows.AI.Imaging.IRecognizedWord: get_Text, get_BoundingBox, get_MatchConfidence
+Microsoft.Windows.AI.Imaging.ITextRecognizer = be7bf6c0-30f6-570d-bd92-3ffe5665d933
+    METHODS Microsoft.Windows.AI.Imaging.ITextRecognizer: RecognizeTextFromImageAsync, RecognizeTextFromImage
+Microsoft.Windows.AI.Imaging.ITextRecognizer2 = 90f766f1-2127-53a2-847a-a2a25dde62df
+    METHODS Microsoft.Windows.AI.Imaging.ITextRecognizer2: RecognizeTextFromImageAsync, RecognizeTextFromImage
+Microsoft.Windows.AI.Imaging.ITextRecognizerOptions = e2d33788-8ef0-513c-a3a9-5055251c8c4e
+    METHODS Microsoft.Windows.AI.Imaging.ITextRecognizerOptions: get_EnableWordLevelConfidence, put_EnableWordLevelConfidence, get_DetectorOutputGeometryMode, put_DetectorOutputGeometryMode
+Microsoft.Windows.AI.Imaging.ITextRecognizerStatics = 3788c2fd-e496-53ab-85a7-e54a135824e9
+    METHODS Microsoft.Windows.AI.Imaging.ITextRecognizerStatics: GetReadyState, EnsureReadyAsync, CreateAsync

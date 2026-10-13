@@ -1,0 +1,14 @@
+C:\Users\jianm\Code\DeepseekHarness\.dsh-tmp\winmdump\bin\Debug\net10.0\winmdump.exe
+C:\Users\jianm\Code\DeepseekHarness\.dsh-tmp\winmdump\bin\Debug\net10.0\winmdump.deps.json
+C:\Users\jianm\Code\DeepseekHarness\.dsh-tmp\winmdump\bin\Debug\net10.0\winmdump.runtimeconfig.json
+C:\Users\jianm\Code\DeepseekHarness\.dsh-tmp\winmdump\bin\Debug\net10.0\winmdump.dll
+C:\Users\jianm\Code\DeepseekHarness\.dsh-tmp\winmdump\bin\Debug\net10.0\winmdump.pdb
+C:\Users\jianm\Code\DeepseekHarness\.dsh-tmp\winmdump\obj\Debug\net10.0\winmdump.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jianm\Code\DeepseekHarness\.dsh-tmp\winmdump\obj\Debug\net10.0\winmdump.AssemblyInfoInputs.cache
+C:\Users\jianm\Code\DeepseekHarness\.dsh-tmp\winmdump\obj\Debug\net10.0\winmdump.AssemblyInfo.cs
+C:\Users\jianm\Code\DeepseekHarness\.dsh-tmp\winmdump\obj\Debug\net10.0\winmdump.csproj.CoreCompileInputs.cache
+C:\Users\jianm\Code\DeepseekHarness\.dsh-tmp\winmdump\obj\Debug\net10.0\winmdump.dll
+C:\Users\jianm\Code\DeepseekHarness\.dsh-tmp\winmdump\obj\Debug\net10.0\refint\winmdump.dll
+C:\Users\jianm\Code\DeepseekHarness\.dsh-tmp\winmdump\obj\Debug\net10.0\winmdump.pdb
+C:\Users\jianm\Code\DeepseekHarness\.dsh-tmp\winmdump\obj\Debug\net10.0\winmdump.genruntimeconfig.cache
+C:\Users\jianm\Code\DeepseekHarness\.dsh-tmp\winmdump\obj\Debug\net10.0\ref\winmdump.dll
