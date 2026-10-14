@@ -1,0 +1,6 @@
+﻿packaged identity probe: 2026-10-14T10:52:01.0940430+08:00
+RoInitialize      : 0x00000001
+WindowsCreateString: 0x00000000
+RoGetActivationFactory: 0x00000000  factory=0x207F91F4DF0
+QI(ITextRecognizerStatics): 0x00000000
+GetReadyState     : hr=0x80070005  state=-1   (0=Ready 1=NotReady 5=NotSupported)

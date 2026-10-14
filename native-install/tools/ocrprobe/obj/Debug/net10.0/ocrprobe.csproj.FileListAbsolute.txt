@@ -1,0 +1,15 @@
+C:\Users\jianm\Code\DeepseekHarness\native-install\tools\ocrprobe\bin\Debug\net10.0\ocrprobe.exe
+C:\Users\jianm\Code\DeepseekHarness\native-install\tools\ocrprobe\bin\Debug\net10.0\ocrprobe.deps.json
+C:\Users\jianm\Code\DeepseekHarness\native-install\tools\ocrprobe\bin\Debug\net10.0\ocrprobe.runtimeconfig.json
+C:\Users\jianm\Code\DeepseekHarness\native-install\tools\ocrprobe\bin\Debug\net10.0\ocrprobe.dll
+C:\Users\jianm\Code\DeepseekHarness\native-install\tools\ocrprobe\bin\Debug\net10.0\ocrprobe.pdb
+C:\Users\jianm\Code\DeepseekHarness\native-install\tools\ocrprobe\obj\Debug\net10.0\ocrprobe.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jianm\Code\DeepseekHarness\native-install\tools\ocrprobe\obj\Debug\net10.0\ocrprobe.AssemblyInfoInputs.cache
+C:\Users\jianm\Code\DeepseekHarness\native-install\tools\ocrprobe\obj\Debug\net10.0\ocrprobe.AssemblyInfo.cs
+C:\Users\jianm\Code\DeepseekHarness\native-install\tools\ocrprobe\obj\Debug\net10.0\ocrprobe.csproj.CoreCompileInputs.cache
+C:\Users\jianm\Code\DeepseekHarness\native-install\tools\ocrprobe\obj\Debug\net10.0\ocrprobe.sourcelink.json
+C:\Users\jianm\Code\DeepseekHarness\native-install\tools\ocrprobe\obj\Debug\net10.0\ocrprobe.dll
+C:\Users\jianm\Code\DeepseekHarness\native-install\tools\ocrprobe\obj\Debug\net10.0\refint\ocrprobe.dll
+C:\Users\jianm\Code\DeepseekHarness\native-install\tools\ocrprobe\obj\Debug\net10.0\ocrprobe.pdb
+C:\Users\jianm\Code\DeepseekHarness\native-install\tools\ocrprobe\obj\Debug\net10.0\ocrprobe.genruntimeconfig.cache
+C:\Users\jianm\Code\DeepseekHarness\native-install\tools\ocrprobe\obj\Debug\net10.0\ref\ocrprobe.dll
