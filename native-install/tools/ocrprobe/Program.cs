@@ -21,6 +21,8 @@ class OcrProbe
     [UnmanagedFunctionPointer(CallingConvention.StdCall)] delegate int GetStatusFn(IntPtr self, out int st);
     [UnmanagedFunctionPointer(CallingConvention.StdCall)] delegate int GetProgressFn(IntPtr self, out double p);
     [UnmanagedFunctionPointer(CallingConvention.StdCall)] delegate int GetErrorCodeFn(IntPtr self, out int e);
+    [UnmanagedFunctionPointer(CallingConvention.StdCall)] delegate int CreateFn(IntPtr self, out IntPtr op);
+    [UnmanagedFunctionPointer(CallingConvention.StdCall)] delegate int GetResultsFn(IntPtr self, out IntPtr result);
 
     static int Main()
     {
@@ -60,8 +62,7 @@ class OcrProbe
         int state = -1;
         hr = getReady(iface, out state);
         Console.WriteLine("GetReadyState     : hr=" + H(hr) + "  state=" + state + "   (0=Ready 1=NotReady 5=NotSupported)");
-        if (hr < 0) return 4;
-        if (state != 1) { Console.WriteLine("=> no download needed / not a NotReady case"); return 0; }
+        // continue regardless of GetReadyState: the service-side platform patch shows up in Ensure/Create
 
         Console.WriteLine();
         Console.WriteLine("calling EnsureReadyAsync (slot 7) ...");
@@ -88,6 +89,31 @@ class OcrProbe
         }
         Console.WriteLine();
         Console.WriteLine("(status: 0=Started 1=Completed 2=Canceled 3=Error)");
+
+        Console.WriteLine();
+        Console.WriteLine("calling CreateAsync (slot 8) -- this is what the platform patch affects ...");
+        var create = Marshal.GetDelegateForFunctionPointer<CreateFn>(Slot(iface, 8));
+        IntPtr cop;
+        int hrc = create(iface, out cop);
+        Console.WriteLine("CreateAsync       : hr=" + H(hrc) + "  op=0x" + cop.ToInt64().ToString("X"));
+        if (hrc >= 0 && cop != IntPtr.Zero)
+        {
+            var cStatus = Marshal.GetDelegateForFunctionPointer<GetStatusFn>(Slot(cop, 7));
+            var cErr = Marshal.GetDelegateForFunctionPointer<GetErrorCodeFn>(Slot(cop, 8));
+            var cResults = Marshal.GetDelegateForFunctionPointer<GetResultsFn>(Slot(cop, 13));
+            for (int i = 1; i <= 20; i++)
+            {
+                int st = -1, ec = 0;
+                int h1 = cStatus(cop, out st);
+                int h2 = cErr(cop, out ec);
+                Console.WriteLine(string.Format("  create t={0,2}s status={1} errcode={2}  (hr {3}/{4})", i * 2, st, H(ec), H(h1), H(h2)));
+                if (st != 0) { Console.WriteLine("  => create finished, status=" + st); break; }
+                Thread.Sleep(2000);
+            }
+            IntPtr res;
+            int hr3 = cResults(cop, out res);
+            Console.WriteLine("CreateAsync GetResults: hr=" + H(hr3) + "  object=0x" + res.ToInt64().ToString("X"));
+        }
         return 0;
     }
 }

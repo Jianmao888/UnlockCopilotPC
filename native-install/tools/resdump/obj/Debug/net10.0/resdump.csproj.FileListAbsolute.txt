@@ -1,0 +1,15 @@
+C:\Users\jianm\Code\DeepseekHarness\native-install\tools\resdump\bin\Debug\net10.0\resdump.exe
+C:\Users\jianm\Code\DeepseekHarness\native-install\tools\resdump\bin\Debug\net10.0\resdump.deps.json
+C:\Users\jianm\Code\DeepseekHarness\native-install\tools\resdump\bin\Debug\net10.0\resdump.runtimeconfig.json
+C:\Users\jianm\Code\DeepseekHarness\native-install\tools\resdump\bin\Debug\net10.0\resdump.dll
+C:\Users\jianm\Code\DeepseekHarness\native-install\tools\resdump\bin\Debug\net10.0\resdump.pdb
+C:\Users\jianm\Code\DeepseekHarness\native-install\tools\resdump\obj\Debug\net10.0\resdump.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jianm\Code\DeepseekHarness\native-install\tools\resdump\obj\Debug\net10.0\resdump.AssemblyInfoInputs.cache
+C:\Users\jianm\Code\DeepseekHarness\native-install\tools\resdump\obj\Debug\net10.0\resdump.AssemblyInfo.cs
+C:\Users\jianm\Code\DeepseekHarness\native-install\tools\resdump\obj\Debug\net10.0\resdump.csproj.CoreCompileInputs.cache
+C:\Users\jianm\Code\DeepseekHarness\native-install\tools\resdump\obj\Debug\net10.0\resdump.sourcelink.json
+C:\Users\jianm\Code\DeepseekHarness\native-install\tools\resdump\obj\Debug\net10.0\resdump.dll
+C:\Users\jianm\Code\DeepseekHarness\native-install\tools\resdump\obj\Debug\net10.0\refint\resdump.dll
+C:\Users\jianm\Code\DeepseekHarness\native-install\tools\resdump\obj\Debug\net10.0\resdump.pdb
+C:\Users\jianm\Code\DeepseekHarness\native-install\tools\resdump\obj\Debug\net10.0\resdump.genruntimeconfig.cache
+C:\Users\jianm\Code\DeepseekHarness\native-install\tools\resdump\obj\Debug\net10.0\ref\resdump.dll
