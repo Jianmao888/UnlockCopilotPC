@@ -1,0 +1,198 @@
+{
+  "hooked": false,
+  "operations": [
+    {
+      "operation": "RoInitialize",
+      "hresult": "0x00000000"
+    },
+    {
+      "operation": "WindowsCreateString",
+      "hresult": "0x00000000"
+    },
+    {
+      "operation": "RoGetActivationFactory",
+      "hresult": "0x00000000"
+    },
+    {
+      "operation": "object slot 6",
+      "hresult": "0x00000000"
+    },
+    {
+      "operation": "object slot 4",
+      "hresult": "0x00000000"
+    },
+    {
+      "operation": "object slot 6",
+      "hresult": "0x00000000"
+    },
+    {
+      "operation": "object slot 4",
+      "hresult": "0x00000000"
+    },
+    {
+      "operation": "component collection get_Size",
+      "hresult": "0x00000000"
+    },
+    {
+      "operation": "object slot 6",
+      "hresult": "0x00000000"
+    },
+    {
+      "operation": "object slot 4",
+      "hresult": "0x00000000"
+    },
+    {
+      "operation": "object slot 6",
+      "hresult": "0x00000000"
+    },
+    {
+      "operation": "object slot 7",
+      "hresult": "0x00000000"
+    },
+    {
+      "operation": "object slot 8",
+      "hresult": "0x00000000"
+    },
+    {
+      "operation": "object slot 9",
+      "hresult": "0x00000000"
+    },
+    {
+      "operation": "object slot 11",
+      "hresult": "0x00000000"
+    },
+    {
+      "operation": "object slot 6",
+      "hresult": "0x00000000"
+    },
+    {
+      "operation": "object slot 4",
+      "hresult": "0x00000000"
+    },
+    {
+      "operation": "object slot 6",
+      "hresult": "0x00000000"
+    },
+    {
+      "operation": "object slot 7",
+      "hresult": "0x00000000"
+    },
+    {
+      "operation": "object slot 8",
+      "hresult": "0x00000000"
+    },
+    {
+      "operation": "object slot 9",
+      "hresult": "0x00000000"
+    },
+    {
+      "operation": "object slot 11",
+      "hresult": "0x00000000"
+    },
+    {
+      "operation": "object slot 6",
+      "hresult": "0x00000000"
+    },
+    {
+      "operation": "object slot 4",
+      "hresult": "0x00000000"
+    },
+    {
+      "operation": "object slot 6",
+      "hresult": "0x00000000"
+    },
+    {
+      "operation": "object slot 7",
+      "hresult": "0x00000000"
+    },
+    {
+      "operation": "object slot 8",
+      "hresult": "0x00000000"
+    },
+    {
+      "operation": "object slot 9",
+      "hresult": "0x00000000"
+    },
+    {
+      "operation": "object slot 11",
+      "hresult": "0x00000000"
+    },
+    {
+      "operation": "object slot 6",
+      "hresult": "0x00000000"
+    },
+    {
+      "operation": "object slot 4",
+      "hresult": "0x00000000"
+    },
+    {
+      "operation": "object slot 6",
+      "hresult": "0x00000000"
+    },
+    {
+      "operation": "object slot 7",
+      "hresult": "0x00000000"
+    },
+    {
+      "operation": "object slot 8",
+      "hresult": "0x00000000"
+    },
+    {
+      "operation": "object slot 9",
+      "hresult": "0x00000000"
+    },
+    {
+      "operation": "object slot 11",
+      "hresult": "0x00000000"
+    }
+  ],
+  "managerClass": "Windows.AI.Management.Internal.AIComponentManager",
+  "collectionClass": "Windows.Foundation.Collections.IVector`1<Windows.AI.Management.Internal.AIComponent>",
+  "count": 4,
+  "items": [
+    {
+      "index": 0,
+      "runtimeClass": "Windows.AI.Management.Internal.AIComponent",
+      "stringsByVerifiedSlot": {
+        "6": "Windows.Workload.ContentExtraction.LNL.amd64",
+        "7": "WindowsWorkload.TextRecognition.Lnl.1_1.2608.951.0_x64__8wekyb3d8bbwe",
+        "8": "WindowsWorkload.TextRecognition.Lnl.1",
+        "9": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+        "11": "ms-resource:Windows_Workload_ContentExtraction"
+      }
+    },
+    {
+      "index": 1,
+      "runtimeClass": "Windows.AI.Management.Internal.AIComponent",
+      "stringsByVerifiedSlot": {
+        "6": "Windows.Workload.ImageSearch.365.amd64",
+        "7": "WindowsWorkload.ImageSearch.365.3_1.2608.951.0_x64__8wekyb3d8bbwe",
+        "8": "WindowsWorkload.ImageSearch.365.3",
+        "9": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+        "11": "ms-resource:Windows_Workload_ImageSearch"
+      }
+    },
+    {
+      "index": 2,
+      "runtimeClass": "Windows.AI.Management.Internal.AIComponent",
+      "stringsByVerifiedSlot": {
+        "6": "Windows.Workload.Analysis.365.amd64",
+        "7": "WindowsWorkload.SemanticText.365.1_1.2608.951.0_x64__8wekyb3d8bbwe",
+        "8": "WindowsWorkload.SemanticText.365.1",
+        "9": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+        "11": "ms-resource:Windows_Workload_Analysis"
+      }
+    },
+    {
+      "index": 3,
+      "runtimeClass": "Windows.AI.Management.Internal.AIComponent",
+      "stringsByVerifiedSlot": {
+        "6": "Windows.Workload.ContentExtraction.365.amd64",
+        "7": "WindowsWorkload.TextRecognition.365.1_1.2608.951.0_x64__8wekyb3d8bbwe",
+        "8": "WindowsWorkload.TextRecognition.365.1",
+        "9": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+        "11": "ms-resource:Windows_Workload_ContentExtraction"
+      }
+    }
+  ]
+}

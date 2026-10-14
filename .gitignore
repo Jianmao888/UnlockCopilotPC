@@ -48,3 +48,5 @@ elevation-test.txt
 procs.txt
 stale.txt
 sudo-alive.txt
+
+native-install/source-*/
