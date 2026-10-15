@@ -1,0 +1,90 @@
+[
+  {
+    "product": "Windows.Workload.Analysis.365.amd64",
+    "rum": "Windows.Workload.Analysis.365.amd64.rum.json.cab",
+    "status": "ready",
+    "exact": 12,
+    "mismatch": 0,
+    "missing": 0
+  },
+  {
+    "product": "Windows.Workload.Analysis.LNL.amd64",
+    "rum": "Windows.Workload.Analysis.LNL.amd64.rum.json.cab",
+    "status": "ready",
+    "exact": 13,
+    "mismatch": 0,
+    "missing": 0
+  },
+  {
+    "product": "Windows.Workload.Analysis.STX.amd64",
+    "rum": "Windows.Workload.Analysis.STX.amd64.rum.json.cab",
+    "status": "ready",
+    "exact": 13,
+    "mismatch": 0,
+    "missing": 0
+  },
+  {
+    "product": "Windows.Workload.ContentExtraction.365.amd64",
+    "rum": "Windows.Workload.ContentExtraction.365.amd64.rum.json.cab",
+    "status": "ready",
+    "exact": 7,
+    "mismatch": 0,
+    "missing": 0
+  },
+  {
+    "product": "Windows.Workload.ContentExtraction.LNL.amd64",
+    "rum": "Windows.Workload.ContentExtraction.LNL.amd64.rum.json.cab",
+    "status": "ready",
+    "exact": 9,
+    "mismatch": 0,
+    "missing": 0
+  },
+  {
+    "product": "Windows.Workload.ContentExtraction.STX.amd64",
+    "rum": "Windows.Workload.ContentExtraction.STX.amd64.rum.json.cab",
+    "status": "ready",
+    "exact": 9,
+    "mismatch": 0,
+    "missing": 0
+  },
+  {
+    "product": "Windows.Workload.ImageSearch.365.amd64",
+    "rum": "Windows.Workload.ImageSearch.365.amd64.rum.json.cab",
+    "status": "ready",
+    "exact": 13,
+    "mismatch": 0,
+    "missing": 0
+  },
+  {
+    "product": "Windows.Workload.ImageSearch.LNL.amd64",
+    "rum": "Windows.Workload.ImageSearch.LNL.amd64.rum.json.cab",
+    "status": "ready",
+    "exact": 14,
+    "mismatch": 0,
+    "missing": 0
+  },
+  {
+    "product": "Windows.Workload.ImageSearch.STX.amd64",
+    "rum": "Windows.Workload.ImageSearch.STX.amd64.rum.json.cab",
+    "status": "ready",
+    "exact": 14,
+    "mismatch": 0,
+    "missing": 0
+  },
+  {
+    "product": "Windows.Workload.SettingsModel.LNL.amd64",
+    "rum": "Windows.Workload.SettingsModel.LNL.amd64.rum.json.cab",
+    "status": "ready",
+    "exact": 9,
+    "mismatch": 0,
+    "missing": 0
+  },
+  {
+    "product": "Windows.Workload.SettingsModel.STX.amd64",
+    "rum": "Windows.Workload.SettingsModel.STX.amd64.rum.json.cab",
+    "status": "ready",
+    "exact": 9,
+    "mismatch": 0,
+    "missing": 0
+  }
+]
