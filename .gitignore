@@ -50,3 +50,25 @@ stale.txt
 sudo-alive.txt
 
 native-install/source-*/
+# --- large/binary artifacts (reproduce per docs/01 and docs/03) ---
+wse/mep/
+wse/npu/
+wse/pm/
+wse/cap.pml
+wse/cap.csv
+wse/procmon-notfound.txt
+wse/*.exe
+ai-products/**/load/
+ai-products/**/*.msix
+ai-products/**/metadata/*.dll
+ai-products/**/metadata/*.json
+native-install/source-*/
+native-install/**/*.msix
+native-install/**/*.dll
+native-install/**/*.exe
+native-install/probe-out.txt
+native-install/**/*.events.txt
+native-install/**/*.jsonl
+.dsh-tmp/
+dumps/
+wse/*.log

@@ -1,0 +1,102 @@
+[
+  {
+    "Stage": "mode",
+    "Value": "explicit-single-product-install"
+  },
+  {
+    "Stage": "RoInitialize",
+    "Value": "0x00000001"
+  },
+  {
+    "Stage": "loaded",
+    "Value": "C:\\Users\\jianm\\Code\\DeepseekHarness\\native-install\\clean-lnlamd64-LNL\\metadata\\ualite.dll"
+  },
+  {
+    "Stage": "factory",
+    "Value": "C:\\Users\\jianm\\Code\\DeepseekHarness\\native-install\\clean-lnlamd64-LNL\\metadata\\ualite.dll+0xc4e60"
+  },
+  {
+    "Stage": "create.begin",
+    "Value": "C:\\Users\\jianm\\Code\\DeepseekHarness\\native-install\\clean-lnlamd64-LNL"
+  },
+  {
+    "Stage": "create.end",
+    "Value": "0x00000000; session=19c92632e68"
+  },
+  {
+    "Stage": "session.slot.0",
+    "Value": "C:\\Users\\jianm\\Code\\DeepseekHarness\\native-install\\clean-lnlamd64-LNL\\metadata\\ualite.dll+0x25770"
+  },
+  {
+    "Stage": "session.slot.1",
+    "Value": "C:\\Users\\jianm\\Code\\DeepseekHarness\\native-install\\clean-lnlamd64-LNL\\metadata\\ualite.dll+0x26420"
+  },
+  {
+    "Stage": "session.slot.2",
+    "Value": "C:\\Users\\jianm\\Code\\DeepseekHarness\\native-install\\clean-lnlamd64-LNL\\metadata\\ualite.dll+0x27230"
+  },
+  {
+    "Stage": "session.slot.3",
+    "Value": "C:\\Users\\jianm\\Code\\DeepseekHarness\\native-install\\clean-lnlamd64-LNL\\metadata\\ualite.dll+0x2d200"
+  },
+  {
+    "Stage": "session.slot.4",
+    "Value": "C:\\Users\\jianm\\Code\\DeepseekHarness\\native-install\\clean-lnlamd64-LNL\\metadata\\ualite.dll+0x2ce10"
+  },
+  {
+    "Stage": "session.slot.5",
+    "Value": "C:\\Users\\jianm\\Code\\DeepseekHarness\\native-install\\clean-lnlamd64-LNL\\metadata\\ualite.dll+0x2df80"
+  },
+  {
+    "Stage": "getDownloadRequest.begin",
+    "Value": "original session slot4 / +0x20"
+  },
+  {
+    "Stage": "getDownloadRequest.end",
+    "Value": "0x00000000"
+  },
+  {
+    "Stage": "getFileRequests.begin",
+    "Value": "request slot5 / +0x28"
+  },
+  {
+    "Stage": "getFileRequests.end",
+    "Value": "0x00000000"
+  },
+  {
+    "Stage": "fileRequestCount",
+    "Value": "0x00000000; count=9"
+  },
+  {
+    "Stage": "guard.stop",
+    "Value": "Missing files or unsuccessful file count; Install was not called"
+  },
+  {
+    "Stage": "release.begin",
+    "Value": "file requests"
+  },
+  {
+    "Stage": "release.end",
+    "Value": "file requests"
+  },
+  {
+    "Stage": "release.begin",
+    "Value": "download request"
+  },
+  {
+    "Stage": "release.end",
+    "Value": "download request"
+  },
+  {
+    "Stage": "release.begin",
+    "Value": "session"
+  },
+  {
+    "Stage": "release.end",
+    "Value": "session"
+  },
+  {
+    "Stage": "process.done",
+    "Value": "cleanup completed"
+  }
+]

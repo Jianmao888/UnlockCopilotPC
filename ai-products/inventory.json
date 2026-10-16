@@ -1,0 +1,754 @@
+{
+  "Windows.Workload.Analysis.365.amd64": {
+    "product": "Windows.Workload.Analysis.365",
+    "arch": "amd64",
+    "rum": "C:\\Users\\jianm\\OneDrive\\文档\\ChatGPT\\2026-10-12\\qing\\outputs\\Windows-AI-UUP-product-metadata\\KB5066835\\Windows.Workload.Analysis.365.amd64.rum.json",
+    "exact": 12,
+    "version_mismatch": 0,
+    "missing": 0,
+    "rows": [
+      {
+        "package": "WindowsWorkload.Data.Analysis.365.1",
+        "want": "1.2509.1022.0",
+        "status": "exact",
+        "source": "C:\\Users\\jianm\\Downloads\\Windows-AI-包\\01-旧代3.7-KB5066835\\4-工作负载定义包\\WindowsWorkload.Data.Analysis.365.1_1.2509.1022.0_x64__a4f674ab.msix"
+      },
+      {
+        "package": "WindowsWorkload.Manager.1",
+        "want": "1.2506.707.0",
+        "status": "exact",
+        "source": "C:\\Users\\jianm\\Downloads\\Windows-AI-包\\01-旧代3.7-KB5066835\\1-核心编排\\WindowsWorkload.Manager.1_1.2506.707.0_x64__51645a2a.msix"
+      },
+      {
+        "package": "WindowsWorkload.PSOnnxRuntime.365.3.7",
+        "want": "1.2509.1022.0",
+        "status": "exact",
+        "source": "C:\\Users\\jianm\\Downloads\\Windows-AI-包\\01-旧代3.7-KB5066835\\2-推理运行时\\WindowsWorkload.PSOnnxRuntime.365.3.7_1.2509.1022.0_x64__2c14f2b4.msix"
+      },
+      {
+        "package": "WindowsWorkload.PSTokenizer.365.2.7",
+        "want": "1.2509.1022.0",
+        "status": "exact",
+        "source": "C:\\Users\\jianm\\Downloads\\Windows-AI-包\\01-旧代3.7-KB5066835\\5-会话包\\WindowsWorkload.PSTokenizer.365.2.7_1.2509.1022.0_x64__a3ac1fea.msix"
+      },
+      {
+        "package": "WindowsWorkload.PSTokenizerShared.365.3.7",
+        "want": "1.2509.1022.0",
+        "status": "exact",
+        "source": "C:\\Users\\jianm\\Downloads\\Windows-AI-包\\01-旧代3.7-KB5066835\\5-会话包\\WindowsWorkload.PSTokenizerShared.365.3.7_1.2509.1022.0_x64__998f3e45.msix"
+      },
+      {
+        "package": "WindowsWorkload.PSTokenizerShared.Data.3.7",
+        "want": "1.2509.1022.0",
+        "status": "exact",
+        "source": "C:\\Users\\jianm\\Code\\DeepseekHarness\\native-install\\source-analysislnl\\WindowsWorkload.PSTokenizerShared.Data.3.7_1.2509.1022.0_x64__d9ec8c5a.msix"
+      },
+      {
+        "package": "WindowsWorkload.QueryBlockList.1",
+        "want": "1.2509.1022.0",
+        "status": "exact",
+        "source": "C:\\Users\\jianm\\Downloads\\Windows-AI-包\\01-旧代3.7-KB5066835\\1-核心编排\\WindowsWorkload.QueryBlockList.1_1.2509.1022.0_x64__e28da4dd.msix"
+      },
+      {
+        "package": "WindowsWorkload.QueryProcessor.365.1",
+        "want": "1.2509.1022.0",
+        "status": "exact",
+        "source": "C:\\Users\\jianm\\Downloads\\Windows-AI-包\\01-旧代3.7-KB5066835\\5-会话包\\WindowsWorkload.QueryProcessor.365.1_1.2509.1022.0_x64__e0ea85e9.msix"
+      },
+      {
+        "package": "WindowsWorkload.QueryProcessor.Data.1",
+        "want": "1.7.817.0",
+        "status": "exact",
+        "source": "C:\\Users\\jianm\\Code\\DeepseekHarness\\native-install\\source-analysislnl\\WindowsWorkload.QueryProcessor.Data.1_1.7.817.0_x64__3b280eb3.msix"
+      },
+      {
+        "package": "WindowsWorkload.SemanticText.365.1",
+        "want": "1.2509.1022.0",
+        "status": "exact",
+        "source": "C:\\Users\\jianm\\Downloads\\Windows-AI-包\\01-旧代3.7-KB5066835\\5-会话包\\WindowsWorkload.SemanticText.365.1_1.2509.1022.0_x64__7333d900.msix"
+      },
+      {
+        "package": "WindowsWorkload.SemanticText.Data.1",
+        "want": "1.7.817.0",
+        "status": "exact",
+        "source": "C:\\Users\\jianm\\Code\\DeepseekHarness\\native-install\\source-analysislnl\\WindowsWorkload.SemanticText.Data.1_1.7.817.0_x64__7f26acc0.msix"
+      },
+      {
+        "package": "WindowsWorkload.SessionManager.1",
+        "want": "1.2509.1022.0",
+        "status": "exact",
+        "source": "C:\\Users\\jianm\\Downloads\\Windows-AI-包\\01-旧代3.7-KB5066835\\1-核心编排\\WindowsWorkload.SessionManager.1_1.2509.1022.0_x64__c3ea969e.msix"
+      }
+    ]
+  },
+  "Windows.Workload.Analysis.LNL.amd64": {
+    "product": "Windows.Workload.Analysis.LNL",
+    "arch": "amd64",
+    "rum": "C:\\Users\\jianm\\OneDrive\\文档\\ChatGPT\\2026-10-12\\qing\\outputs\\Windows-AI-UUP-product-metadata\\KB5066835\\Windows.Workload.Analysis.LNL.amd64.rum.json",
+    "exact": 12,
+    "version_mismatch": 0,
+    "missing": 0,
+    "rows": [
+      {
+        "package": "WindowsWorkload.Data.Analysis.Lnl.1",
+        "want": "1.2509.1022.0",
+        "status": "exact",
+        "source": "C:\\Users\\jianm\\Downloads\\Windows-AI-包\\01-旧代3.7-KB5066835\\4-工作负载定义包\\WindowsWorkload.Data.Analysis.Lnl.1_1.2509.1022.0_x64__c15eb352.msix"
+      },
+      {
+        "package": "WindowsWorkload.Manager.1",
+        "want": "1.2506.707.0",
+        "status": "exact",
+        "source": "C:\\Users\\jianm\\Downloads\\Windows-AI-包\\01-旧代3.7-KB5066835\\1-核心编排\\WindowsWorkload.Manager.1_1.2506.707.0_x64__51645a2a.msix"
+      },
+      {
+        "package": "WindowsWorkload.PSOnnxRuntime.Lnl.3.7",
+        "want": "1.2509.1022.0",
+        "status": "exact",
+        "source": "C:\\Users\\jianm\\Code\\DeepseekHarness\\native-install\\source-analysislnl\\WindowsWorkload.PSOnnxRuntime.Lnl.3.7_1.2509.1022.0_x64__5a4c95f6.msix"
+      },
+      {
+        "package": "WindowsWorkload.PSTokenizer.Lnl.2.7",
+        "want": "1.2509.1022.0",
+        "status": "exact",
+        "source": "C:\\Users\\jianm\\Downloads\\Windows-AI-包\\01-旧代3.7-KB5066835\\5-会话包\\WindowsWorkload.PSTokenizer.Lnl.2.7_1.2509.1022.0_x64__6645a2ea.msix"
+      },
+      {
+        "package": "WindowsWorkload.PSTokenizerShared.Data.3.7",
+        "want": "1.2509.1022.0",
+        "status": "exact",
+        "source": "C:\\Users\\jianm\\Code\\DeepseekHarness\\native-install\\source-analysislnl\\WindowsWorkload.PSTokenizerShared.Data.3.7_1.2509.1022.0_x64__d9ec8c5a.msix"
+      },
+      {
+        "package": "WindowsWorkload.PSTokenizerShared.Lnl.3.7",
+        "want": "1.2509.1022.0",
+        "status": "exact",
+        "source": "C:\\Users\\jianm\\Code\\DeepseekHarness\\native-install\\source-analysislnl\\WindowsWorkload.PSTokenizerShared.Lnl.3.7_1.2509.1022.0_x64__9fd35909.msix"
+      },
+      {
+        "package": "WindowsWorkload.QueryBlockList.1",
+        "want": "1.2509.1022.0",
+        "status": "exact",
+        "source": "C:\\Users\\jianm\\Downloads\\Windows-AI-包\\01-旧代3.7-KB5066835\\1-核心编排\\WindowsWorkload.QueryBlockList.1_1.2509.1022.0_x64__e28da4dd.msix"
+      },
+      {
+        "package": "WindowsWorkload.QueryProcessor.Data.1",
+        "want": "1.7.817.0",
+        "status": "exact",
+        "source": "C:\\Users\\jianm\\Code\\DeepseekHarness\\native-install\\source-analysislnl\\WindowsWorkload.QueryProcessor.Data.1_1.7.817.0_x64__3b280eb3.msix"
+      },
+      {
+        "package": "WindowsWorkload.QueryProcessor.Lnl.1",
+        "want": "1.2509.1022.0",
+        "status": "exact",
+        "source": "C:\\Users\\jianm\\Downloads\\Windows-AI-包\\01-旧代3.7-KB5066835\\5-会话包\\WindowsWorkload.QueryProcessor.Lnl.1_1.2509.1022.0_x64__91c85e29.msix"
+      },
+      {
+        "package": "WindowsWorkload.SemanticText.Data.1",
+        "want": "1.7.817.0",
+        "status": "exact",
+        "source": "C:\\Users\\jianm\\Code\\DeepseekHarness\\native-install\\source-analysislnl\\WindowsWorkload.SemanticText.Data.1_1.7.817.0_x64__7f26acc0.msix"
+      },
+      {
+        "package": "WindowsWorkload.SemanticText.Lnl.1",
+        "want": "1.2509.1022.0",
+        "status": "exact",
+        "source": "C:\\Users\\jianm\\Downloads\\Windows-AI-包\\01-旧代3.7-KB5066835\\5-会话包\\WindowsWorkload.SemanticText.Lnl.1_1.2509.1022.0_x64__bc8dfc28.msix"
+      },
+      {
+        "package": "WindowsWorkload.SessionManager.1",
+        "want": "1.2509.1022.0",
+        "status": "exact",
+        "source": "C:\\Users\\jianm\\Downloads\\Windows-AI-包\\01-旧代3.7-KB5066835\\1-核心编排\\WindowsWorkload.SessionManager.1_1.2509.1022.0_x64__c3ea969e.msix"
+      }
+    ]
+  },
+  "Windows.Workload.Analysis.STX.amd64": {
+    "product": "Windows.Workload.Analysis.STX",
+    "arch": "amd64",
+    "rum": "C:\\Users\\jianm\\OneDrive\\文档\\ChatGPT\\2026-10-12\\qing\\outputs\\Windows-AI-UUP-product-metadata\\KB5066835\\Windows.Workload.Analysis.STX.amd64.rum.json",
+    "exact": 6,
+    "version_mismatch": 4,
+    "missing": 2,
+    "rows": [
+      {
+        "package": "WindowsWorkload.Data.Analysis.Stx.1",
+        "want": "1.2509.1022.0",
+        "status": "VERSION-MISMATCH (have 1.2608.951.0)",
+        "source": "C:\\Users\\jianm\\Code\\DeepseekHarness\\ai-packages\\WindowsWorkload.Data.Analysis.Stx.1_1.2608.951.0_x64.msix"
+      },
+      {
+        "package": "WindowsWorkload.Manager.1",
+        "want": "1.2506.707.0",
+        "status": "exact",
+        "source": "C:\\Users\\jianm\\Downloads\\Windows-AI-包\\01-旧代3.7-KB5066835\\1-核心编排\\WindowsWorkload.Manager.1_1.2506.707.0_x64__51645a2a.msix"
+      },
+      {
+        "package": "WindowsWorkload.PSOnnxRuntime.Stx.3.7",
+        "want": "1.2509.1022.0",
+        "status": "MISSING (no local msix)",
+        "source": ""
+      },
+      {
+        "package": "WindowsWorkload.PSTokenizer.Stx.2.7",
+        "want": "1.2509.1022.0",
+        "status": "VERSION-MISMATCH (have 1.2608.951.0)",
+        "source": "C:\\Users\\jianm\\Code\\DeepseekHarness\\ai-packages\\WindowsWorkload.PSTokenizer.Stx.2.7_1.2608.951.0_x64.msix"
+      },
+      {
+        "package": "WindowsWorkload.PSTokenizerShared.Data.3.7",
+        "want": "1.2509.1022.0",
+        "status": "exact",
+        "source": "C:\\Users\\jianm\\Code\\DeepseekHarness\\native-install\\source-analysislnl\\WindowsWorkload.PSTokenizerShared.Data.3.7_1.2509.1022.0_x64__d9ec8c5a.msix"
+      },
+      {
+        "package": "WindowsWorkload.PSTokenizerShared.Stx.3.7",
+        "want": "1.2509.1022.0",
+        "status": "MISSING (no local msix)",
+        "source": ""
+      },
+      {
+        "package": "WindowsWorkload.QueryBlockList.1",
+        "want": "1.2509.1022.0",
+        "status": "exact",
+        "source": "C:\\Users\\jianm\\Downloads\\Windows-AI-包\\01-旧代3.7-KB5066835\\1-核心编排\\WindowsWorkload.QueryBlockList.1_1.2509.1022.0_x64__e28da4dd.msix"
+      },
+      {
+        "package": "WindowsWorkload.QueryProcessor.Data.1",
+        "want": "1.7.817.0",
+        "status": "exact",
+        "source": "C:\\Users\\jianm\\Code\\DeepseekHarness\\native-install\\source-analysislnl\\WindowsWorkload.QueryProcessor.Data.1_1.7.817.0_x64__3b280eb3.msix"
+      },
+      {
+        "package": "WindowsWorkload.QueryProcessor.Stx.1",
+        "want": "1.2509.1022.0",
+        "status": "VERSION-MISMATCH (have 1.2608.951.0)",
+        "source": "C:\\Users\\jianm\\Code\\DeepseekHarness\\ai-packages\\WindowsWorkload.QueryProcessor.Stx.1_1.2608.951.0_x64.msix"
+      },
+      {
+        "package": "WindowsWorkload.SemanticText.Data.1",
+        "want": "1.7.817.0",
+        "status": "exact",
+        "source": "C:\\Users\\jianm\\Code\\DeepseekHarness\\native-install\\source-analysislnl\\WindowsWorkload.SemanticText.Data.1_1.7.817.0_x64__7f26acc0.msix"
+      },
+      {
+        "package": "WindowsWorkload.SemanticText.Stx.1",
+        "want": "1.2509.1022.0",
+        "status": "VERSION-MISMATCH (have 1.2608.951.0)",
+        "source": "C:\\Users\\jianm\\Code\\DeepseekHarness\\ai-packages\\WindowsWorkload.SemanticText.Stx.1_1.2608.951.0_x64.msix"
+      },
+      {
+        "package": "WindowsWorkload.SessionManager.1",
+        "want": "1.2509.1022.0",
+        "status": "exact",
+        "source": "C:\\Users\\jianm\\Downloads\\Windows-AI-包\\01-旧代3.7-KB5066835\\1-核心编排\\WindowsWorkload.SessionManager.1_1.2509.1022.0_x64__c3ea969e.msix"
+      }
+    ]
+  },
+  "Windows.Workload.ContentExtraction.365.amd64": {
+    "product": "Windows.Workload.ContentExtraction.365",
+    "arch": "amd64",
+    "rum": "C:\\Users\\jianm\\OneDrive\\文档\\ChatGPT\\2026-10-12\\qing\\outputs\\Windows-AI-UUP-product-metadata\\KB5066835\\Windows.Workload.ContentExtraction.365.amd64.rum.json",
+    "exact": 7,
+    "version_mismatch": 0,
+    "missing": 0,
+    "rows": [
+      {
+        "package": "WindowsWorkload.Data.ContentExtraction.365.1",
+        "want": "1.2509.1022.0",
+        "status": "exact",
+        "source": "C:\\Users\\jianm\\Downloads\\Windows-AI-包\\01-旧代3.7-KB5066835\\4-工作负载定义包\\WindowsWorkload.Data.ContentExtraction.365.1_1.2509.1022.0_x64__b4fb10e5.msix"
+      },
+      {
+        "package": "WindowsWorkload.Manager.1",
+        "want": "1.2506.707.0",
+        "status": "exact",
+        "source": "C:\\Users\\jianm\\Downloads\\Windows-AI-包\\01-旧代3.7-KB5066835\\1-核心编排\\WindowsWorkload.Manager.1_1.2506.707.0_x64__51645a2a.msix"
+      },
+      {
+        "package": "WindowsWorkload.PSOnnxRuntime.365.3.7",
+        "want": "1.2509.1022.0",
+        "status": "exact",
+        "source": "C:\\Users\\jianm\\Downloads\\Windows-AI-包\\01-旧代3.7-KB5066835\\2-推理运行时\\WindowsWorkload.PSOnnxRuntime.365.3.7_1.2509.1022.0_x64__2c14f2b4.msix"
+      },
+      {
+        "package": "WindowsWorkload.ScrRegDetection.365.1",
+        "want": "1.2509.1022.0",
+        "status": "exact",
+        "source": "C:\\Users\\jianm\\Downloads\\Windows-AI-包\\01-旧代3.7-KB5066835\\5-会话包\\WindowsWorkload.ScrRegDetection.365.1_1.2509.1022.0_x64__d0252b71.msix"
+      },
+      {
+        "package": "WindowsWorkload.ScrRegDetection.Data.1",
+        "want": "1.2508.879.0",
+        "status": "exact",
+        "source": "C:\\Users\\jianm\\Downloads\\Windows-AI-包\\01-旧代3.7-KB5066835\\6-模型数据包\\WindowsWorkload.ScrRegDetection.Data.1_1.2508.879.0_x64__a21d731f.msix"
+      },
+      {
+        "package": "WindowsWorkload.SessionManager.1",
+        "want": "1.2509.1022.0",
+        "status": "exact",
+        "source": "C:\\Users\\jianm\\Downloads\\Windows-AI-包\\01-旧代3.7-KB5066835\\1-核心编排\\WindowsWorkload.SessionManager.1_1.2509.1022.0_x64__c3ea969e.msix"
+      },
+      {
+        "package": "WindowsWorkload.TextRecognition.365.1",
+        "want": "1.2508.888.0",
+        "status": "exact",
+        "source": "C:\\Users\\jianm\\Downloads\\Windows-AI-包\\01-旧代3.7-KB5066835\\5-会话包\\WindowsWorkload.TextRecognition.365.1_1.2508.888.0_x64__87ce00be.msix"
+      }
+    ]
+  },
+  "Windows.Workload.ContentExtraction.LNL.amd64": {
+    "product": "Windows.Workload.ContentExtraction.LNL",
+    "arch": "amd64",
+    "rum": "C:\\Users\\jianm\\OneDrive\\文档\\ChatGPT\\2026-10-12\\qing\\outputs\\Windows-AI-UUP-product-metadata\\KB5066835\\Windows.Workload.ContentExtraction.LNL.amd64.rum.json",
+    "exact": 6,
+    "version_mismatch": 1,
+    "missing": 0,
+    "rows": [
+      {
+        "package": "WindowsWorkload.Data.ContentExtraction.Lnl.1",
+        "want": "1.2509.1022.0",
+        "status": "exact",
+        "source": "C:\\Users\\jianm\\Downloads\\Windows-AI-包\\01-旧代3.7-KB5066835\\4-工作负载定义包\\WindowsWorkload.Data.ContentExtraction.Lnl.1_1.2509.1022.0_x64__a7d5832f.msix"
+      },
+      {
+        "package": "WindowsWorkload.Manager.1",
+        "want": "1.2506.707.0",
+        "status": "exact",
+        "source": "C:\\Users\\jianm\\Downloads\\Windows-AI-包\\01-旧代3.7-KB5066835\\1-核心编排\\WindowsWorkload.Manager.1_1.2506.707.0_x64__51645a2a.msix"
+      },
+      {
+        "package": "WindowsWorkload.PSOnnxRuntime.Lnl.3.7",
+        "want": "1.2509.1022.0",
+        "status": "exact",
+        "source": "C:\\Users\\jianm\\Code\\DeepseekHarness\\native-install\\source-analysislnl\\WindowsWorkload.PSOnnxRuntime.Lnl.3.7_1.2509.1022.0_x64__5a4c95f6.msix"
+      },
+      {
+        "package": "WindowsWorkload.ScrRegDetection.Data.1",
+        "want": "1.2508.879.0",
+        "status": "exact",
+        "source": "C:\\Users\\jianm\\Downloads\\Windows-AI-包\\01-旧代3.7-KB5066835\\6-模型数据包\\WindowsWorkload.ScrRegDetection.Data.1_1.2508.879.0_x64__a21d731f.msix"
+      },
+      {
+        "package": "WindowsWorkload.ScrRegDetection.Lnl.1",
+        "want": "1.2509.1022.0",
+        "status": "exact",
+        "source": "C:\\Users\\jianm\\Downloads\\Windows-AI-包\\01-旧代3.7-KB5066835\\5-会话包\\WindowsWorkload.ScrRegDetection.Lnl.1_1.2509.1022.0_x64__99c8c976.msix"
+      },
+      {
+        "package": "WindowsWorkload.SessionManager.1",
+        "want": "1.2509.1022.0",
+        "status": "exact",
+        "source": "C:\\Users\\jianm\\Downloads\\Windows-AI-包\\01-旧代3.7-KB5066835\\1-核心编排\\WindowsWorkload.SessionManager.1_1.2509.1022.0_x64__c3ea969e.msix"
+      },
+      {
+        "package": "WindowsWorkload.TextRecognition.Lnl.1",
+        "want": "1.2508.888.0",
+        "status": "VERSION-MISMATCH (have 1.2608.951.0)",
+        "source": "C:\\Users\\jianm\\Code\\DeepseekHarness\\ai-packages\\WindowsWorkload.TextRecognition.Lnl.1_1.2608.951.0_x64.msix"
+      }
+    ]
+  },
+  "Windows.Workload.ContentExtraction.STX.amd64": {
+    "product": "Windows.Workload.ContentExtraction.STX",
+    "arch": "amd64",
+    "rum": "C:\\Users\\jianm\\OneDrive\\文档\\ChatGPT\\2026-10-12\\qing\\outputs\\Windows-AI-UUP-product-metadata\\KB5066835\\Windows.Workload.ContentExtraction.STX.amd64.rum.json",
+    "exact": 3,
+    "version_mismatch": 3,
+    "missing": 1,
+    "rows": [
+      {
+        "package": "WindowsWorkload.Data.ContentExtraction.Stx.1",
+        "want": "1.2509.1022.0",
+        "status": "VERSION-MISMATCH (have 1.2608.951.0)",
+        "source": "C:\\Users\\jianm\\Code\\DeepseekHarness\\ai-packages\\WindowsWorkload.Data.ContentExtraction.Stx.1_1.2608.951.0_x64.msix"
+      },
+      {
+        "package": "WindowsWorkload.Manager.1",
+        "want": "1.2506.707.0",
+        "status": "exact",
+        "source": "C:\\Users\\jianm\\Downloads\\Windows-AI-包\\01-旧代3.7-KB5066835\\1-核心编排\\WindowsWorkload.Manager.1_1.2506.707.0_x64__51645a2a.msix"
+      },
+      {
+        "package": "WindowsWorkload.PSOnnxRuntime.Stx.3.7",
+        "want": "1.2509.1022.0",
+        "status": "MISSING (no local msix)",
+        "source": ""
+      },
+      {
+        "package": "WindowsWorkload.ScrRegDetection.Data.1",
+        "want": "1.2508.879.0",
+        "status": "exact",
+        "source": "C:\\Users\\jianm\\Downloads\\Windows-AI-包\\01-旧代3.7-KB5066835\\6-模型数据包\\WindowsWorkload.ScrRegDetection.Data.1_1.2508.879.0_x64__a21d731f.msix"
+      },
+      {
+        "package": "WindowsWorkload.ScrRegDetection.Stx.1",
+        "want": "1.2509.1022.0",
+        "status": "VERSION-MISMATCH (have 1.2608.951.0)",
+        "source": "C:\\Users\\jianm\\Code\\DeepseekHarness\\ai-packages\\WindowsWorkload.ScrRegDetection.Stx.1_1.2608.951.0_x64.msix"
+      },
+      {
+        "package": "WindowsWorkload.SessionManager.1",
+        "want": "1.2509.1022.0",
+        "status": "exact",
+        "source": "C:\\Users\\jianm\\Downloads\\Windows-AI-包\\01-旧代3.7-KB5066835\\1-核心编排\\WindowsWorkload.SessionManager.1_1.2509.1022.0_x64__c3ea969e.msix"
+      },
+      {
+        "package": "WindowsWorkload.TextRecognition.Stx.1",
+        "want": "1.2508.888.0",
+        "status": "VERSION-MISMATCH (have 1.2608.951.0)",
+        "source": "C:\\Users\\jianm\\Code\\DeepseekHarness\\ai-packages\\WindowsWorkload.TextRecognition.Stx.1_1.2608.951.0_x64.msix"
+      }
+    ]
+  },
+  "Windows.Workload.ImageSearch.365.amd64": {
+    "product": "Windows.Workload.ImageSearch.365",
+    "arch": "amd64",
+    "rum": "C:\\Users\\jianm\\OneDrive\\文档\\ChatGPT\\2026-10-12\\qing\\outputs\\Windows-AI-UUP-product-metadata\\KB5066835\\Windows.Workload.ImageSearch.365.amd64.rum.json",
+    "exact": 5,
+    "version_mismatch": 7,
+    "missing": 0,
+    "rows": [
+      {
+        "package": "WindowsWorkload.Data.ImageSearch.365.1",
+        "want": "1.2509.1022.0",
+        "status": "VERSION-MISMATCH (have 1.2608.951.0)",
+        "source": "C:\\Users\\jianm\\Code\\DeepseekHarness\\ai-packages\\WindowsWorkload.Data.ImageSearch.365.1_1.2608.951.0_x64.msix"
+      },
+      {
+        "package": "WindowsWorkload.ImageContentModeration.1",
+        "want": "1.2509.1022.0",
+        "status": "VERSION-MISMATCH (have 1.2608.951.0)",
+        "source": "C:\\Users\\jianm\\Code\\DeepseekHarness\\ai-packages\\WindowsWorkload.ImageContentModeration.1_1.2608.951.0_x64.msix"
+      },
+      {
+        "package": "WindowsWorkload.ImageContentModeration.Data.1",
+        "want": "1.2508.888.0",
+        "status": "VERSION-MISMATCH (have 1.2605.851.0)",
+        "source": "C:\\Users\\jianm\\Code\\DeepseekHarness\\ai-packages\\WindowsWorkload.ImageContentModeration.Data.1_1.2605.851.0_x64.msix"
+      },
+      {
+        "package": "WindowsWorkload.ImageSearch.365.3",
+        "want": "1.2509.1022.0",
+        "status": "VERSION-MISMATCH (have 1.2608.951.0)",
+        "source": "C:\\Users\\jianm\\Code\\DeepseekHarness\\ai-packages\\WindowsWorkload.ImageSearch.365.3_1.2608.951.0_x64.msix"
+      },
+      {
+        "package": "WindowsWorkload.ImageSearch.Data.3",
+        "want": "1.7.817.0",
+        "status": "VERSION-MISMATCH (have 1.2511.1196.0)",
+        "source": "C:\\Users\\jianm\\Code\\DeepseekHarness\\ai-packages\\WindowsWorkload.ImageSearch.Data.3_1.2511.1196.0_x64.msix"
+      },
+      {
+        "package": "WindowsWorkload.ImageTextSearch.365.3",
+        "want": "1.2509.1022.0",
+        "status": "VERSION-MISMATCH (have 1.2608.951.0)",
+        "source": "C:\\Users\\jianm\\Code\\DeepseekHarness\\ai-packages\\WindowsWorkload.ImageTextSearch.365.3_1.2608.951.0_x64.msix"
+      },
+      {
+        "package": "WindowsWorkload.ImageTextSearch.Data.3",
+        "want": "1.7.817.0",
+        "status": "VERSION-MISMATCH (have 1.2511.1196.0)",
+        "source": "C:\\Users\\jianm\\Code\\DeepseekHarness\\ai-packages\\WindowsWorkload.ImageTextSearch.Data.3_1.2511.1196.0_x64.msix"
+      },
+      {
+        "package": "WindowsWorkload.Manager.1",
+        "want": "1.2506.707.0",
+        "status": "exact",
+        "source": "C:\\Users\\jianm\\Downloads\\Windows-AI-包\\01-旧代3.7-KB5066835\\1-核心编排\\WindowsWorkload.Manager.1_1.2506.707.0_x64__51645a2a.msix"
+      },
+      {
+        "package": "WindowsWorkload.PSOnnxRuntime.365.3.7",
+        "want": "1.2509.1022.0",
+        "status": "exact",
+        "source": "C:\\Users\\jianm\\Downloads\\Windows-AI-包\\01-旧代3.7-KB5066835\\2-推理运行时\\WindowsWorkload.PSOnnxRuntime.365.3.7_1.2509.1022.0_x64__2c14f2b4.msix"
+      },
+      {
+        "package": "WindowsWorkload.PSTokenizerShared.365.3.7",
+        "want": "1.2509.1022.0",
+        "status": "exact",
+        "source": "C:\\Users\\jianm\\Downloads\\Windows-AI-包\\01-旧代3.7-KB5066835\\5-会话包\\WindowsWorkload.PSTokenizerShared.365.3.7_1.2509.1022.0_x64__998f3e45.msix"
+      },
+      {
+        "package": "WindowsWorkload.PSTokenizerShared.Data.3.7",
+        "want": "1.2509.1022.0",
+        "status": "exact",
+        "source": "C:\\Users\\jianm\\Code\\DeepseekHarness\\native-install\\source-analysislnl\\WindowsWorkload.PSTokenizerShared.Data.3.7_1.2509.1022.0_x64__d9ec8c5a.msix"
+      },
+      {
+        "package": "WindowsWorkload.SessionManager.1",
+        "want": "1.2509.1022.0",
+        "status": "exact",
+        "source": "C:\\Users\\jianm\\Downloads\\Windows-AI-包\\01-旧代3.7-KB5066835\\1-核心编排\\WindowsWorkload.SessionManager.1_1.2509.1022.0_x64__c3ea969e.msix"
+      }
+    ]
+  },
+  "Windows.Workload.ImageSearch.LNL.amd64": {
+    "product": "Windows.Workload.ImageSearch.LNL",
+    "arch": "amd64",
+    "rum": "C:\\Users\\jianm\\OneDrive\\文档\\ChatGPT\\2026-10-12\\qing\\outputs\\Windows-AI-UUP-product-metadata\\KB5066835\\Windows.Workload.ImageSearch.LNL.amd64.rum.json",
+    "exact": 5,
+    "version_mismatch": 7,
+    "missing": 2,
+    "rows": [
+      {
+        "package": "WindowsWorkload.Data.ImageSearch.Lnl.1",
+        "want": "1.2509.1022.0",
+        "status": "VERSION-MISMATCH (have 1.2608.951.0)",
+        "source": "C:\\Users\\jianm\\Code\\DeepseekHarness\\ai-packages\\WindowsWorkload.Data.ImageSearch.Lnl.1_1.2608.951.0_x64.msix"
+      },
+      {
+        "package": "WindowsWorkload.ImageContentModeration.1",
+        "want": "1.2509.1022.0",
+        "status": "VERSION-MISMATCH (have 1.2608.951.0)",
+        "source": "C:\\Users\\jianm\\Code\\DeepseekHarness\\ai-packages\\WindowsWorkload.ImageContentModeration.1_1.2608.951.0_x64.msix"
+      },
+      {
+        "package": "WindowsWorkload.ImageContentModeration.Data.1",
+        "want": "1.2508.888.0",
+        "status": "VERSION-MISMATCH (have 1.2605.851.0)",
+        "source": "C:\\Users\\jianm\\Code\\DeepseekHarness\\ai-packages\\WindowsWorkload.ImageContentModeration.Data.1_1.2605.851.0_x64.msix"
+      },
+      {
+        "package": "WindowsWorkload.ImageSearch.Data.3",
+        "want": "1.7.817.0",
+        "status": "VERSION-MISMATCH (have 1.2511.1196.0)",
+        "source": "C:\\Users\\jianm\\Code\\DeepseekHarness\\ai-packages\\WindowsWorkload.ImageSearch.Data.3_1.2511.1196.0_x64.msix"
+      },
+      {
+        "package": "WindowsWorkload.ImageSearch.Lnl.2",
+        "want": "1.2509.1022.0",
+        "status": "MISSING (no local msix)",
+        "source": ""
+      },
+      {
+        "package": "WindowsWorkload.ImageSearch.Lnl.3",
+        "want": "1.2509.1022.0",
+        "status": "VERSION-MISMATCH (have 1.2608.951.0)",
+        "source": "C:\\Users\\jianm\\Code\\DeepseekHarness\\ai-packages\\WindowsWorkload.ImageSearch.Lnl.3_1.2608.951.0_x64.msix"
+      },
+      {
+        "package": "WindowsWorkload.ImageTextSearch.Data.3",
+        "want": "1.7.817.0",
+        "status": "VERSION-MISMATCH (have 1.2511.1196.0)",
+        "source": "C:\\Users\\jianm\\Code\\DeepseekHarness\\ai-packages\\WindowsWorkload.ImageTextSearch.Data.3_1.2511.1196.0_x64.msix"
+      },
+      {
+        "package": "WindowsWorkload.ImageTextSearch.Lnl.2",
+        "want": "1.2509.1022.0",
+        "status": "MISSING (no local msix)",
+        "source": ""
+      },
+      {
+        "package": "WindowsWorkload.ImageTextSearch.Lnl.3",
+        "want": "1.2509.1022.0",
+        "status": "VERSION-MISMATCH (have 1.2608.951.0)",
+        "source": "C:\\Users\\jianm\\Code\\DeepseekHarness\\ai-packages\\WindowsWorkload.ImageTextSearch.Lnl.3_1.2608.951.0_x64.msix"
+      },
+      {
+        "package": "WindowsWorkload.Manager.1",
+        "want": "1.2506.707.0",
+        "status": "exact",
+        "source": "C:\\Users\\jianm\\Downloads\\Windows-AI-包\\01-旧代3.7-KB5066835\\1-核心编排\\WindowsWorkload.Manager.1_1.2506.707.0_x64__51645a2a.msix"
+      },
+      {
+        "package": "WindowsWorkload.PSOnnxRuntime.Lnl.3.7",
+        "want": "1.2509.1022.0",
+        "status": "exact",
+        "source": "C:\\Users\\jianm\\Code\\DeepseekHarness\\native-install\\source-analysislnl\\WindowsWorkload.PSOnnxRuntime.Lnl.3.7_1.2509.1022.0_x64__5a4c95f6.msix"
+      },
+      {
+        "package": "WindowsWorkload.PSTokenizerShared.Data.3.7",
+        "want": "1.2509.1022.0",
+        "status": "exact",
+        "source": "C:\\Users\\jianm\\Code\\DeepseekHarness\\native-install\\source-analysislnl\\WindowsWorkload.PSTokenizerShared.Data.3.7_1.2509.1022.0_x64__d9ec8c5a.msix"
+      },
+      {
+        "package": "WindowsWorkload.PSTokenizerShared.Lnl.3.7",
+        "want": "1.2509.1022.0",
+        "status": "exact",
+        "source": "C:\\Users\\jianm\\Code\\DeepseekHarness\\native-install\\source-analysislnl\\WindowsWorkload.PSTokenizerShared.Lnl.3.7_1.2509.1022.0_x64__9fd35909.msix"
+      },
+      {
+        "package": "WindowsWorkload.SessionManager.1",
+        "want": "1.2509.1022.0",
+        "status": "exact",
+        "source": "C:\\Users\\jianm\\Downloads\\Windows-AI-包\\01-旧代3.7-KB5066835\\1-核心编排\\WindowsWorkload.SessionManager.1_1.2509.1022.0_x64__c3ea969e.msix"
+      }
+    ]
+  },
+  "Windows.Workload.ImageSearch.STX.amd64": {
+    "product": "Windows.Workload.ImageSearch.STX",
+    "arch": "amd64",
+    "rum": "C:\\Users\\jianm\\OneDrive\\文档\\ChatGPT\\2026-10-12\\qing\\outputs\\Windows-AI-UUP-product-metadata\\KB5066835\\Windows.Workload.ImageSearch.STX.amd64.rum.json",
+    "exact": 3,
+    "version_mismatch": 7,
+    "missing": 4,
+    "rows": [
+      {
+        "package": "WindowsWorkload.Data.ImageSearch.Stx.1",
+        "want": "1.2509.1022.0",
+        "status": "VERSION-MISMATCH (have 1.2608.951.0)",
+        "source": "C:\\Users\\jianm\\Code\\DeepseekHarness\\ai-packages\\WindowsWorkload.Data.ImageSearch.Stx.1_1.2608.951.0_x64.msix"
+      },
+      {
+        "package": "WindowsWorkload.ImageContentModeration.1",
+        "want": "1.2509.1022.0",
+        "status": "VERSION-MISMATCH (have 1.2608.951.0)",
+        "source": "C:\\Users\\jianm\\Code\\DeepseekHarness\\ai-packages\\WindowsWorkload.ImageContentModeration.1_1.2608.951.0_x64.msix"
+      },
+      {
+        "package": "WindowsWorkload.ImageContentModeration.Data.1",
+        "want": "1.2508.888.0",
+        "status": "VERSION-MISMATCH (have 1.2605.851.0)",
+        "source": "C:\\Users\\jianm\\Code\\DeepseekHarness\\ai-packages\\WindowsWorkload.ImageContentModeration.Data.1_1.2605.851.0_x64.msix"
+      },
+      {
+        "package": "WindowsWorkload.ImageSearch.Data.3",
+        "want": "1.7.817.0",
+        "status": "VERSION-MISMATCH (have 1.2511.1196.0)",
+        "source": "C:\\Users\\jianm\\Code\\DeepseekHarness\\ai-packages\\WindowsWorkload.ImageSearch.Data.3_1.2511.1196.0_x64.msix"
+      },
+      {
+        "package": "WindowsWorkload.ImageSearch.Stx.2",
+        "want": "1.2509.1022.0",
+        "status": "MISSING (no local msix)",
+        "source": ""
+      },
+      {
+        "package": "WindowsWorkload.ImageSearch.Stx.3",
+        "want": "1.2509.1022.0",
+        "status": "VERSION-MISMATCH (have 1.2608.951.0)",
+        "source": "C:\\Users\\jianm\\Code\\DeepseekHarness\\ai-packages\\WindowsWorkload.ImageSearch.Stx.3_1.2608.951.0_x64.msix"
+      },
+      {
+        "package": "WindowsWorkload.ImageTextSearch.Data.3",
+        "want": "1.7.817.0",
+        "status": "VERSION-MISMATCH (have 1.2511.1196.0)",
+        "source": "C:\\Users\\jianm\\Code\\DeepseekHarness\\ai-packages\\WindowsWorkload.ImageTextSearch.Data.3_1.2511.1196.0_x64.msix"
+      },
+      {
+        "package": "WindowsWorkload.ImageTextSearch.Stx.2",
+        "want": "1.2509.1022.0",
+        "status": "MISSING (no local msix)",
+        "source": ""
+      },
+      {
+        "package": "WindowsWorkload.ImageTextSearch.Stx.3",
+        "want": "1.2509.1022.0",
+        "status": "VERSION-MISMATCH (have 1.2608.951.0)",
+        "source": "C:\\Users\\jianm\\Code\\DeepseekHarness\\ai-packages\\WindowsWorkload.ImageTextSearch.Stx.3_1.2608.951.0_x64.msix"
+      },
+      {
+        "package": "WindowsWorkload.Manager.1",
+        "want": "1.2506.707.0",
+        "status": "exact",
+        "source": "C:\\Users\\jianm\\Downloads\\Windows-AI-包\\01-旧代3.7-KB5066835\\1-核心编排\\WindowsWorkload.Manager.1_1.2506.707.0_x64__51645a2a.msix"
+      },
+      {
+        "package": "WindowsWorkload.PSOnnxRuntime.Stx.3.7",
+        "want": "1.2509.1022.0",
+        "status": "MISSING (no local msix)",
+        "source": ""
+      },
+      {
+        "package": "WindowsWorkload.PSTokenizerShared.Data.3.7",
+        "want": "1.2509.1022.0",
+        "status": "exact",
+        "source": "C:\\Users\\jianm\\Code\\DeepseekHarness\\native-install\\source-analysislnl\\WindowsWorkload.PSTokenizerShared.Data.3.7_1.2509.1022.0_x64__d9ec8c5a.msix"
+      },
+      {
+        "package": "WindowsWorkload.PSTokenizerShared.Stx.3.7",
+        "want": "1.2509.1022.0",
+        "status": "MISSING (no local msix)",
+        "source": ""
+      },
+      {
+        "package": "WindowsWorkload.SessionManager.1",
+        "want": "1.2509.1022.0",
+        "status": "exact",
+        "source": "C:\\Users\\jianm\\Downloads\\Windows-AI-包\\01-旧代3.7-KB5066835\\1-核心编排\\WindowsWorkload.SessionManager.1_1.2509.1022.0_x64__c3ea969e.msix"
+      }
+    ]
+  },
+  "Windows.Workload.SettingsModel.LNL.amd64": {
+    "product": "Windows.Workload.SettingsModel.LNL",
+    "arch": "amd64",
+    "rum": "C:\\Users\\jianm\\OneDrive\\文档\\ChatGPT\\2026-10-12\\qing\\outputs\\Windows-AI-UUP-product-metadata\\KB5066835\\Windows.Workload.SettingsModel.LNL.amd64.rum.json",
+    "exact": 2,
+    "version_mismatch": 3,
+    "missing": 0,
+    "rows": [
+      {
+        "package": "WindowsWorkload.Data.SettingsModel.Lnl.1",
+        "want": "1.2509.1022.0",
+        "status": "VERSION-MISMATCH (have 1.2608.951.0)",
+        "source": "C:\\Users\\jianm\\Code\\DeepseekHarness\\ai-packages\\WindowsWorkload.Data.SettingsModel.Lnl.1_1.2608.951.0_x64.msix"
+      },
+      {
+        "package": "WindowsWorkload.Manager.1",
+        "want": "1.2506.707.0",
+        "status": "exact",
+        "source": "C:\\Users\\jianm\\Downloads\\Windows-AI-包\\01-旧代3.7-KB5066835\\1-核心编排\\WindowsWorkload.Manager.1_1.2506.707.0_x64__51645a2a.msix"
+      },
+      {
+        "package": "WindowsWorkload.SessionManager.1",
+        "want": "1.2509.1022.0",
+        "status": "exact",
+        "source": "C:\\Users\\jianm\\Downloads\\Windows-AI-包\\01-旧代3.7-KB5066835\\1-核心编排\\WindowsWorkload.SessionManager.1_1.2509.1022.0_x64__c3ea969e.msix"
+      },
+      {
+        "package": "WindowsWorkload.SettingsModel.Data.1",
+        "want": "1.2509.1022.0",
+        "status": "VERSION-MISMATCH (have 1.2605.628.0)",
+        "source": "C:\\Users\\jianm\\Code\\DeepseekHarness\\ai-packages\\WindowsWorkload.SettingsModel.Data.1_1.2605.628.0_x64.msix"
+      },
+      {
+        "package": "WindowsWorkload.SettingsModel.Lnl.1",
+        "want": "1.2509.1022.0",
+        "status": "VERSION-MISMATCH (have 1.2608.951.0)",
+        "source": "C:\\Users\\jianm\\Code\\DeepseekHarness\\ai-packages\\WindowsWorkload.SettingsModel.Lnl.1_1.2608.951.0_x64.msix"
+      }
+    ]
+  },
+  "Windows.Workload.SettingsModel.STX.amd64": {
+    "product": "Windows.Workload.SettingsModel.STX",
+    "arch": "amd64",
+    "rum": "C:\\Users\\jianm\\OneDrive\\文档\\ChatGPT\\2026-10-12\\qing\\outputs\\Windows-AI-UUP-product-metadata\\KB5066835\\Windows.Workload.SettingsModel.STX.amd64.rum.json",
+    "exact": 2,
+    "version_mismatch": 3,
+    "missing": 0,
+    "rows": [
+      {
+        "package": "WindowsWorkload.Data.SettingsModel.Stx.1",
+        "want": "1.2509.1022.0",
+        "status": "VERSION-MISMATCH (have 1.2608.951.0)",
+        "source": "C:\\Users\\jianm\\Code\\DeepseekHarness\\ai-packages\\WindowsWorkload.Data.SettingsModel.Stx.1_1.2608.951.0_x64.msix"
+      },
+      {
+        "package": "WindowsWorkload.Manager.1",
+        "want": "1.2506.707.0",
+        "status": "exact",
+        "source": "C:\\Users\\jianm\\Downloads\\Windows-AI-包\\01-旧代3.7-KB5066835\\1-核心编排\\WindowsWorkload.Manager.1_1.2506.707.0_x64__51645a2a.msix"
+      },
+      {
+        "package": "WindowsWorkload.SessionManager.1",
+        "want": "1.2509.1022.0",
+        "status": "exact",
+        "source": "C:\\Users\\jianm\\Downloads\\Windows-AI-包\\01-旧代3.7-KB5066835\\1-核心编排\\WindowsWorkload.SessionManager.1_1.2509.1022.0_x64__c3ea969e.msix"
+      },
+      {
+        "package": "WindowsWorkload.SettingsModel.Data.1",
+        "want": "1.2509.1022.0",
+        "status": "VERSION-MISMATCH (have 1.2605.628.0)",
+        "source": "C:\\Users\\jianm\\Code\\DeepseekHarness\\ai-packages\\WindowsWorkload.SettingsModel.Data.1_1.2605.628.0_x64.msix"
+      },
+      {
+        "package": "WindowsWorkload.SettingsModel.Stx.1",
+        "want": "1.2509.1022.0",
+        "status": "VERSION-MISMATCH (have 1.2608.951.0)",
+        "source": "C:\\Users\\jianm\\Code\\DeepseekHarness\\ai-packages\\WindowsWorkload.SettingsModel.Stx.1_1.2608.951.0_x64.msix"
+      }
+    ]
+  }
+}

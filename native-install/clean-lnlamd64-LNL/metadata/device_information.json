@@ -1,0 +1,2927 @@
+{
+  "packages": [
+    {
+      "id": {
+        "name": "Microsoft.NET.Native.Runtime.2.2_0.0.0.0_x64__8wekyb3d8bbwe",
+        "version": "2.2.28604.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "Microsoft.NET.Native.Runtime.2.2_2.2.28604.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "Microsoft.NET.Native.Framework.2.2_0.0.0.0_x64__8wekyb3d8bbwe",
+        "version": "2.2.29512.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "Microsoft.NET.Native.Framework.2.2_2.2.29512.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "Microsoft.UI.Xaml.2.8_0.0.0.0_x64__8wekyb3d8bbwe",
+        "version": "8.2511.26001.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "Microsoft.UI.Xaml.2.8_8.2511.26001.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "Microsoft.VCLibs.140.00_0.0.0.0_x64__8wekyb3d8bbwe",
+        "version": "14.0.33519.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "Microsoft.VCLibs.140.00_14.0.33519.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "Microsoft.VCLibs.140.00.UWPDesktop_0.0.0.0_x64__8wekyb3d8bbwe",
+        "version": "14.0.33728.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "Microsoft.VCLibs.140.00.UWPDesktop_14.0.33728.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "Microsoft.ApplicationCompatibilityEnhancements_8wekyb3d8bbwe",
+        "version": "1.2511.9.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "Microsoft.ApplicationCompatibilityEnhancements_1.2511.9.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "Microsoft.BingSearch_8wekyb3d8bbwe",
+        "version": "1.1.43.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "Microsoft.BingSearch_1.1.43.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "Microsoft.WindowsAppRuntime.1.7_0.0.0.0_x64__8wekyb3d8bbwe",
+        "version": "7000.522.1444.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "Microsoft.WindowsAppRuntime.1.7_7000.522.1444.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "Microsoft.XboxSpeechToTextOverlay_8wekyb3d8bbwe",
+        "version": "1.123.11001.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "Microsoft.XboxSpeechToTextOverlay_1.123.11001.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "MicrosoftCorporationII.QuickAssist_8wekyb3d8bbwe",
+        "version": "2.0.43.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "MicrosoftCorporationII.QuickAssist_2.0.43.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "SenaryTechnologyLimited.SenarySmartAudio_dqz7eftfn33jw",
+        "version": "2.9.0.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "SenaryTechnologyLimited.SenarySmartAudio_2.9.0.0_x64__dqz7eftfn33jw"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "ElevocTechnologyCo.Ltd.ElevocSmartMicrophoneSettin_ttaqwwhyt5s6t",
+        "version": "1.1001.60.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "ElevocTechnologyCo.Ltd.ElevocSmartMicrophoneSettin_1.1001.60.0_x64__ttaqwwhyt5s6t"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "Microsoft.NET.Native.Framework.1.7_0.0.0.0_x64__8wekyb3d8bbwe",
+        "version": "1.7.27413.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "Microsoft.NET.Native.Framework.1.7_1.7.27413.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "Microsoft.NET.Native.Runtime.1.7_0.0.0.0_x64__8wekyb3d8bbwe",
+        "version": "1.7.27422.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "Microsoft.NET.Native.Runtime.1.7_1.7.27422.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "Microsoft.WindowsAppRuntime.2_0.0.0.0_x64__8wekyb3d8bbwe",
+        "version": "2.3.1.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "Microsoft.WindowsAppRuntime.2_2.3.1.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "Microsoft.NET.Native.Runtime.1.7_0.0.0.0_x86__8wekyb3d8bbwe",
+        "version": "1.7.27422.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "Microsoft.NET.Native.Runtime.1.7_1.7.27422.0_x86__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "Microsoft.NET.Native.Runtime.2.2_0.0.0.0_x86__8wekyb3d8bbwe",
+        "version": "2.2.28604.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "Microsoft.NET.Native.Runtime.2.2_2.2.28604.0_x86__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "Microsoft.NET.Native.Framework.1.7_0.0.0.0_x86__8wekyb3d8bbwe",
+        "version": "1.7.27413.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "Microsoft.NET.Native.Framework.1.7_1.7.27413.0_x86__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "Microsoft.NET.Native.Framework.2.2_0.0.0.0_x86__8wekyb3d8bbwe",
+        "version": "2.2.29512.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "Microsoft.NET.Native.Framework.2.2_2.2.29512.0_x86__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "Microsoft.VCLibs.140.00_0.0.0.0_x86__8wekyb3d8bbwe",
+        "version": "14.0.33519.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "Microsoft.VCLibs.140.00_14.0.33519.0_x86__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "AppUp.IntelGraphicsExperience_8j3eq9eme6ctt",
+        "version": "1.100.5688.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "AppUp.IntelGraphicsExperience_1.100.5688.0_x64__8j3eq9eme6ctt"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "Microsoft.VCLibs.140.00.UWPDesktop_0.0.0.0_x86__8wekyb3d8bbwe",
+        "version": "14.0.33728.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "Microsoft.VCLibs.140.00.UWPDesktop_14.0.33728.0_x86__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "Microsoft.UI.Xaml.2.8_0.0.0.0_x86__8wekyb3d8bbwe",
+        "version": "8.2501.31001.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "Microsoft.UI.Xaml.2.8_8.2501.31001.0_x86__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "Microsoft.WidgetsPlatformRuntime_8wekyb3d8bbwe",
+        "version": "1.6.19.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "Microsoft.WidgetsPlatformRuntime_1.6.19.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "Microsoft.Xbox.TCUI_8wekyb3d8bbwe",
+        "version": "1.24.10001.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "Microsoft.Xbox.TCUI_1.24.10001.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "Microsoft.XboxIdentityProvider_8wekyb3d8bbwe",
+        "version": "12.130.16001.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "Microsoft.XboxIdentityProvider_12.130.16001.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "Microsoft.BingWeather_8wekyb3d8bbwe",
+        "version": "4.54.63045.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "Microsoft.BingWeather_4.54.63045.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "Microsoft.VP9VideoExtensions_8wekyb3d8bbwe",
+        "version": "1.2.20.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "Microsoft.VP9VideoExtensions_1.2.20.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "Microsoft.WindowsAppRuntime.1.7_0.0.0.0_x64__8wekyb3d8bbwe",
+        "version": "7000.785.2325.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "Microsoft.WindowsAppRuntime.1.7_7000.785.2325.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "Microsoft.WindowsAppRuntime.1.7_0.0.0.0_x86__8wekyb3d8bbwe",
+        "version": "7000.785.2325.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "Microsoft.WindowsAppRuntime.1.7_7000.785.2325.0_x86__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "Microsoft.WebpImageExtension_8wekyb3d8bbwe",
+        "version": "1.2.31.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "Microsoft.WebpImageExtension_1.2.31.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "Microsoft.BingNews_8wekyb3d8bbwe",
+        "version": "4.56.21872.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "Microsoft.BingNews_4.56.21872.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "Microsoft.VCLibs.110.00.UWPDesktop_0.0.0.0_x64__8wekyb3d8bbwe",
+        "version": "11.0.61135.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "Microsoft.VCLibs.110.00.UWPDesktop_11.0.61135.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "Microsoft.VCLibs.110.00.UWPDesktop_0.0.0.0_x86__8wekyb3d8bbwe",
+        "version": "11.0.61135.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "Microsoft.VCLibs.110.00.UWPDesktop_11.0.61135.0_x86__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "Microsoft.DirectXRuntime_0.0.0.0_x86__8wekyb3d8bbwe",
+        "version": "9.29.1974.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "Microsoft.DirectXRuntime_9.29.1974.0_x86__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "Microsoft.DirectXRuntime_0.0.0.0_x64__8wekyb3d8bbwe",
+        "version": "9.29.1974.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "Microsoft.DirectXRuntime_9.29.1974.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "Microsoft.VCLibs.120.00.UWPDesktop_0.0.0.0_x64__8wekyb3d8bbwe",
+        "version": "12.0.40653.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "Microsoft.VCLibs.120.00.UWPDesktop_12.0.40653.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "Microsoft.VCLibs.120.00.UWPDesktop_0.0.0.0_x86__8wekyb3d8bbwe",
+        "version": "12.0.40653.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "Microsoft.VCLibs.120.00.UWPDesktop_12.0.40653.0_x86__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "Microsoft.Windows.DevHome_8wekyb3d8bbwe",
+        "version": "0.2101.858.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "Microsoft.Windows.DevHome_0.2101.858.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "Microsoft.WindowsAppRuntime.1.5_0.0.0.0_x64__8wekyb3d8bbwe",
+        "version": "5001.373.1736.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "Microsoft.WindowsAppRuntime.1.5_5001.373.1736.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "Microsoft.WindowsAppRuntime.1.5_0.0.0.0_x86__8wekyb3d8bbwe",
+        "version": "5001.373.1736.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "Microsoft.WindowsAppRuntime.1.5_5001.373.1736.0_x86__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "Microsoft.SecHealthUI_8wekyb3d8bbwe",
+        "version": "1000.29628.1000.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "Microsoft.SecHealthUI_1000.29628.1000.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "Microsoft.MicrosoftStickyNotes_8wekyb3d8bbwe",
+        "version": "6.1.4.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "Microsoft.MicrosoftStickyNotes_6.1.4.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "Microsoft.Office.OneNoteVirtualPrinter_8wekyb3d8bbwe",
+        "version": "1.0.0.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "Microsoft.Office.OneNoteVirtualPrinter_1.0.0.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "Microsoft.Services.Store.Engagement_0.0.0.0_x64__8wekyb3d8bbwe",
+        "version": "10.0.23012.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "Microsoft.Services.Store.Engagement_10.0.23012.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "Microsoft.Services.Store.Engagement_0.0.0.0_x86__8wekyb3d8bbwe",
+        "version": "10.0.23012.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "Microsoft.Services.Store.Engagement_10.0.23012.0_x86__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "DolbyLaboratories.DolbyVisionAccess_rz1tebttyb220",
+        "version": "2.20503.802.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "DolbyLaboratories.DolbyVisionAccess_2.20503.802.0_x64__rz1tebttyb220"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "WeixinShare_fv0hcek9q9tbw",
+        "version": "1.0.0.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "WeixinShare_1.0.0.0_neutral__fv0hcek9q9tbw"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "Microsoft.6365217CE6EB4_8wekyb3d8bbwe",
+        "version": "102.2504.16004.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "Microsoft.6365217CE6EB4_102.2504.16004.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "Microsoft.LanguageExperiencePackzh-CN_8wekyb3d8bbwe",
+        "version": "26100.163.263.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "Microsoft.LanguageExperiencePackzh-CN_26100.163.263.0_neutral__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "Microsoft.WindowsAppRuntime.2_0.0.0.0_x64__8wekyb3d8bbwe",
+        "version": "2.4.0.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "Microsoft.WindowsAppRuntime.2_2.4.0.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "Microsoft.MPEG2VideoExtension_8wekyb3d8bbwe",
+        "version": "1.2.32.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "Microsoft.MPEG2VideoExtension_1.2.32.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "Microsoft.XboxGamingOverlay_8wekyb3d8bbwe",
+        "version": "7.326.8061.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "Microsoft.XboxGamingOverlay_7.326.8061.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "Microsoft.Edge.GameAssist_8wekyb3d8bbwe",
+        "version": "1.0.4019.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "Microsoft.Edge.GameAssist_1.0.4019.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "MicrosoftWindows.Client.WebExperience_cw5n1h2txyewy",
+        "version": "526.21100.40.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "MicrosoftWindows.Client.WebExperience_526.21100.40.0_x64__cw5n1h2txyewy"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "Microsoft.Paint_8wekyb3d8bbwe",
+        "version": "11.2605.81.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "Microsoft.Paint_11.2605.81.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "MicrosoftCorporationII.WindowsSubsystemForLinux_8wekyb3d8bbwe",
+        "version": "2.7.12.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.12.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "Microsoft.WindowsSoundRecorder_8wekyb3d8bbwe",
+        "version": "11.2607.1.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "Microsoft.WindowsSoundRecorder_11.2607.1.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "Microsoft.WindowsNotepad_8wekyb3d8bbwe",
+        "version": "11.2607.14.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "Microsoft.WindowsNotepad_11.2607.14.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "Microsoft.WindowsAlarms_8wekyb3d8bbwe",
+        "version": "11.2607.6.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "Microsoft.WindowsAlarms_11.2607.6.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "Microsoft.ZuneMusic_8wekyb3d8bbwe",
+        "version": "11.2607.16.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "Microsoft.ZuneMusic_11.2607.16.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "Microsoft.WindowsCamera_8wekyb3d8bbwe",
+        "version": "2026.2607.1.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "Microsoft.WindowsCamera_2026.2607.1.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "Microsoft.WindowsCalculator_8wekyb3d8bbwe",
+        "version": "11.2607.0.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "Microsoft.WindowsCalculator_11.2607.0.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "Microsoft.WinML.ONNX.WebGPU.EP.2_0.0.0.0_x64__8wekyb3d8bbwe",
+        "version": "0.3.0.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "Microsoft.WinML.ONNX.WebGPU.EP.2_0.3.0.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "Microsoft.FoundryLocal.CUDA.EP_8wekyb3d8bbwe",
+        "version": "1.0.0.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "Microsoft.FoundryLocal.CUDA.EP_1.0.0.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "Microsoft.Windows.AI.Speech.Preview.CPU_8wekyb3d8bbwe",
+        "version": "1.2607.112.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "Microsoft.Windows.AI.Speech.Preview.CPU_1.2607.112.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "Microsoft.MicrosoftEdge.Stable_8wekyb3d8bbwe",
+        "version": "152.0.4191.53",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "Microsoft.MicrosoftEdge.Stable_152.0.4191.53_neutral__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "MicrosoftWindows.Speech.zh-CN.1_cw5n1h2txyewy",
+        "version": "1.0.23.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "MicrosoftWindows.Speech.zh-CN.1_1.0.23.0_x64__cw5n1h2txyewy"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "Microsoft.WebMediaExtensions_8wekyb3d8bbwe",
+        "version": "2.1.51.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "Microsoft.WebMediaExtensions_2.1.51.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "Microsoft.CommandPalette_8wekyb3d8bbwe",
+        "version": "0.12.12365.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "Microsoft.CommandPalette_0.12.12365.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "Microsoft.PowerToys.SparseApp_8wekyb3d8bbwe",
+        "version": "0.101.2362.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "Microsoft.PowerToys.SparseApp_0.101.2362.0_neutral__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "Microsoft.PowerToys.FileLocksmithContextMenu_8wekyb3d8bbwe",
+        "version": "0.101.2362.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "Microsoft.PowerToys.FileLocksmithContextMenu_0.101.2362.0_neutral__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "Microsoft.GetHelp_8wekyb3d8bbwe",
+        "version": "10.2409.42492.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "Microsoft.GetHelp_10.2409.42492.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "DolbyLaboratories.DolbyAccess_rz1tebttyb220",
+        "version": "3.27.12250.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "DolbyLaboratories.DolbyAccess_3.27.12250.0_x64__rz1tebttyb220"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "QQExtension_fv0hcek9q9tbw",
+        "version": "1.0.0.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "QQExtension_1.0.0.0_neutral__fv0hcek9q9tbw"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "Microsoft.WindowsAppRuntime.2_0.0.0.0_x64__8wekyb3d8bbwe",
+        "version": "2.5.1.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "Microsoft.WindowsAppRuntime.2_2.5.1.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "Microsoft.WindowsAppRuntime.2_0.0.0.0_x86__8wekyb3d8bbwe",
+        "version": "2.5.1.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "Microsoft.WindowsAppRuntime.2_2.5.1.0_x86__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "MicrosoftCorporationII.WinAppRuntime.Main.2_8wekyb3d8bbwe",
+        "version": "2.5.1.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "MicrosoftCorporationII.WinAppRuntime.Main.2_2.5.1.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "Microsoft.DesktopAppInstaller_8wekyb3d8bbwe",
+        "version": "1.29.379.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "Microsoft.DesktopAppInstaller_1.29.379.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "Microsoft.GamingApp_8wekyb3d8bbwe",
+        "version": "2609.1001.16.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "Microsoft.GamingApp_2609.1001.16.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "Microsoft.PowerAutomateDesktop_8wekyb3d8bbwe",
+        "version": "11.2609.183.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "Microsoft.PowerAutomateDesktop_11.2609.183.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "40174MouriNaruto.NanaZip_gnj4mf6z9tkrc",
+        "version": "7.0.1843.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "40174MouriNaruto.NanaZip_7.0.1843.0_x64__gnj4mf6z9tkrc"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "Sakawish.SaltPlayerforWindows_q65q631pyh094",
+        "version": "1.18.5.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "Sakawish.SaltPlayerforWindows_1.18.5.0_x64__q65q631pyh094"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "Microsoft.AVCEncoderVideoExtension_8wekyb3d8bbwe",
+        "version": "1.1.47.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "Microsoft.AVCEncoderVideoExtension_1.1.47.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "Microsoft.StorePurchaseApp_8wekyb3d8bbwe",
+        "version": "22608.1401.1.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "Microsoft.StorePurchaseApp_22608.1401.1.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "Microsoft.WinML.Intel.OpenVINO.EP.2_8wekyb3d8bbwe",
+        "version": "1.8.95.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "Microsoft.WinML.Intel.OpenVINO.EP.2_1.8.95.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "Microsoft.AV1VideoExtension_8wekyb3d8bbwe",
+        "version": "2.0.35.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "Microsoft.AV1VideoExtension_2.0.35.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "Microsoft.WinML.NVIDIA.TRT-RTX.EP.2_8wekyb3d8bbwe",
+        "version": "2.30.49.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "Microsoft.WinML.NVIDIA.TRT-RTX.EP.2_2.30.49.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "Microsoft.Todos_8wekyb3d8bbwe",
+        "version": "0.178.8571.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "Microsoft.Todos_0.178.8571.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "Microsoft.MicrosoftSolitaireCollection_8wekyb3d8bbwe",
+        "version": "4.27.9181.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "Microsoft.MicrosoftSolitaireCollection_4.27.9181.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "903DB504.SDK_a99ra4d2cbcxa",
+        "version": "1.1001.76.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "903DB504.SDK_1.1001.76.0_x64__a99ra4d2cbcxa"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "MicrosoftCorporationII.WinAppRuntime.Singleton_8wekyb3d8bbwe",
+        "version": "8002.5.1.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "MicrosoftCorporationII.WinAppRuntime.Singleton_8002.5.1.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "Microsoft.WindowsAppRuntime.1.8_0.0.0.0_x64__8wekyb3d8bbwe",
+        "version": "8000.994.2142.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "Microsoft.WindowsAppRuntime.1.8_8000.994.2142.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "Microsoft.WindowsAppRuntime.1.8_0.0.0.0_x86__8wekyb3d8bbwe",
+        "version": "8000.994.2142.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "Microsoft.WindowsAppRuntime.1.8_8000.994.2142.0_x86__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "Microsoft.WindowsFeedbackHub_8wekyb3d8bbwe",
+        "version": "2.2608.303.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "Microsoft.WindowsFeedbackHub_2.2608.303.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "DTSInc.DTSAudioProcessing_t5j2fzbtdg37r",
+        "version": "1.11.3.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "DTSInc.DTSAudioProcessing_1.11.3.0_x64__t5j2fzbtdg37r"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "MicrosoftCorporationII.WinAppRuntime.Main.1.8_8wekyb3d8bbwe",
+        "version": "8000.994.2142.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "MicrosoftCorporationII.WinAppRuntime.Main.1.8_8000.994.2142.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "Microsoft.StartExperiencesApp_8wekyb3d8bbwe",
+        "version": "1.398.2.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "Microsoft.StartExperiencesApp_1.398.2.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "aimgr_8wekyb3d8bbwe",
+        "version": "0.20.62.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "aimgr_0.20.62.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "Microsoft.GamingServices_8wekyb3d8bbwe",
+        "version": "38.117.27001.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "Microsoft.GamingServices_38.117.27001.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "Microsoft.OutlookForWindows_8wekyb3d8bbwe",
+        "version": "1.2026.922.300",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "Microsoft.OutlookForWindows_1.2026.922.300_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "Microsoft.WindowsTerminal_8wekyb3d8bbwe",
+        "version": "1.24.12741.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "Microsoft.WindowsTerminal_1.24.12741.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "Microsoft.PowerToys.ImageResizerContextMenu_8wekyb3d8bbwe",
+        "version": "0.101.2362.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "Microsoft.PowerToys.ImageResizerContextMenu_0.101.2362.0_neutral__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "Microsoft.PowerToys.PowerRenameContextMenu_8wekyb3d8bbwe",
+        "version": "0.101.2362.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "Microsoft.PowerToys.PowerRenameContextMenu_0.101.2362.0_neutral__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "D454B137.Jianmao.FeedCustomizer_318rg2tda55vm",
+        "version": "1.2.1.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "D454B137.Jianmao.FeedCustomizer_1.2.1.0_x64__318rg2tda55vm"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "MicrosoftWindows.CrossDevice_cw5n1h2txyewy",
+        "version": "1.26082.74.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "MicrosoftWindows.CrossDevice_1.26082.74.0_x64__cw5n1h2txyewy"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "Clipchamp.Clipchamp_yxz26nhyzhsrt",
+        "version": "4.7.10020.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "Clipchamp.Clipchamp_4.7.10020.0_x64__yxz26nhyzhsrt"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "Microsoft.Windows.Photos_8wekyb3d8bbwe",
+        "version": "2026.11090.22001.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "Microsoft.Windows.Photos_2026.11090.22001.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "Microsoft.ScreenSketch_8wekyb3d8bbwe",
+        "version": "11.2608.41.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "Microsoft.ScreenSketch_11.2608.41.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "DTSInc.DTSSoundUnbound_t5j2fzbtdg37r",
+        "version": "2026.3.31.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "DTSInc.DTSSoundUnbound_2026.3.31.0_x64__t5j2fzbtdg37r"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "Microsoft.WindowsStore_8wekyb3d8bbwe",
+        "version": "22608.1401.6.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "Microsoft.WindowsStore_22608.1401.6.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "Microsoft.VisualStudioCode_8wekyb3d8bbwe",
+        "version": "1.0.141.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "Microsoft.VisualStudioCode_1.0.141.0_neutral__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "Microsoft.OfficePushNotificationUtility_8wekyb3d8bbwe",
+        "version": "16.0.20430.20146",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "Microsoft.OfficePushNotificationUtility_16.0.20430.20146_neutral__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "Microsoft.Office.ActionsServer_8wekyb3d8bbwe",
+        "version": "16.0.20430.20146",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "Microsoft.Office.ActionsServer_16.0.20430.20146_neutral__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "Microsoft.RawImageExtension_8wekyb3d8bbwe",
+        "version": "2.5.42.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "Microsoft.RawImageExtension_2.5.42.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "Microsoft.HEVCVideoExtension_8wekyb3d8bbwe",
+        "version": "2.5.48.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "Microsoft.HEVCVideoExtension_2.5.48.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "Microsoft.HEIFImageExtension_8wekyb3d8bbwe",
+        "version": "1.2.62.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "Microsoft.HEIFImageExtension_1.2.62.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "Microsoft.YourPhone_8wekyb3d8bbwe",
+        "version": "1.26082.121.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "Microsoft.YourPhone_1.26082.121.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "TelegramMessengerLLP.TelegramDesktop_t4vj0pshhgkwm",
+        "version": "7.3.1.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "TelegramMessengerLLP.TelegramDesktop_7.3.1.0_x64__t4vj0pshhgkwm"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "Microsoft.MicrosoftOfficeHub_8wekyb3d8bbwe",
+        "version": "155.0.4283.45",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "Microsoft.MicrosoftOfficeHub_155.0.4283.45_neutral__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "Microsoft.AIDevGallery_8wekyb3d8bbwe",
+        "version": "0.6.2.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "Microsoft.AIDevGallery_0.6.2.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "Microsoft.Winget.Source_8wekyb3d8bbwe",
+        "version": "2026.1012.1147.55",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "Microsoft.Winget.Source_2026.1012.1147.55_neutral__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "PythonSoftwareFoundation.PythonManager_3847v3x7pw1km",
+        "version": "26.4.240.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "PythonSoftwareFoundation.PythonManager_26.4.240.0_x64__3847v3x7pw1km"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "Microsoft.Ink.Handwriting.zh-Hans.1.0_0.0.0.0_x64__8wekyb3d8bbwe",
+        "version": "0.1377.316.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "Microsoft.Ink.Handwriting.zh-Hans.1.0_0.1377.316.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "Microsoft.Ink.Handwriting.zh-Hans.1.0_0.0.0.0_x86__8wekyb3d8bbwe",
+        "version": "0.1377.316.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "Microsoft.Ink.Handwriting.zh-Hans.1.0_0.1377.316.0_x86__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "WindowsWorkload.PSOnnxRuntime.Lnl.3.7_0.0.0.0_x64__8wekyb3d8bbwe",
+        "version": "1.2509.1022.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "WindowsWorkload.PSOnnxRuntime.Lnl.3.7_1.2509.1022.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": [
+        "Windows.Workload.Analysis.LNL.amd64"
+      ]
+    },
+    {
+      "id": {
+        "name": "WindowsWorkload.ScrRegDetection.Data.1_0.0.0.0_x64__8wekyb3d8bbwe",
+        "version": "1.2508.879.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "WindowsWorkload.ScrRegDetection.Data.1_1.2508.879.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "WindowsWorkload.TextRecognition.Lnl.1_0.0.0.0_x64__8wekyb3d8bbwe",
+        "version": "1.2608.951.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "MsixPinned": [
+          "1"
+        ],
+        "PackageFullName": [
+          "WindowsWorkload.TextRecognition.Lnl.1_1.2608.951.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": [
+        "Windows.Workload.ContentExtraction.LNL.amd64"
+      ]
+    },
+    {
+      "id": {
+        "name": "WindowsWorkload.Data.Analysis.365.1_0.0.0.0_x64__8wekyb3d8bbwe",
+        "version": "1.2608.951.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "MsixPinned": [
+          "1"
+        ],
+        "PackageFullName": [
+          "WindowsWorkload.Data.Analysis.365.1_1.2608.951.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": [
+        "Windows.Workload.Analysis.365.amd64"
+      ]
+    },
+    {
+      "id": {
+        "name": "WindowsWorkload.Data.ContentExtraction.365.1_0.0.0.0_x64__8wekyb3d8bbwe",
+        "version": "1.2608.951.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "MsixPinned": [
+          "1"
+        ],
+        "PackageFullName": [
+          "WindowsWorkload.Data.ContentExtraction.365.1_1.2608.951.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": [
+        "Windows.Workload.ContentExtraction.365.amd64"
+      ]
+    },
+    {
+      "id": {
+        "name": "WindowsWorkload.Data.ContentExtraction.365.1_0.0.0.0_x64__8wekyb3d8bbwe",
+        "version": "1.2608.951.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "MsixPinned": [
+          "1"
+        ],
+        "PackageFullName": [
+          "WindowsWorkload.Data.ContentExtraction.365.1_1.2608.951.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": [
+        "Windows.Workload.ContentExtraction.amd64"
+      ]
+    },
+    {
+      "id": {
+        "name": "WindowsWorkload.Data.ImageSearch.365.1_0.0.0.0_x64__8wekyb3d8bbwe",
+        "version": "1.2608.951.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "WindowsWorkload.Data.ImageSearch.365.1_1.2608.951.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "WindowsWorkload.Manager.1_8wekyb3d8bbwe",
+        "version": "1.2511.1196.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "MsixPinned": [
+          "1"
+        ],
+        "PackageFullName": [
+          "WindowsWorkload.Manager.1_1.2511.1196.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": [
+        "Windows.Workload.Analysis.365.amd64"
+      ]
+    },
+    {
+      "id": {
+        "name": "WindowsWorkload.Manager.1_8wekyb3d8bbwe",
+        "version": "1.2511.1196.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "MsixPinned": [
+          "1"
+        ],
+        "PackageFullName": [
+          "WindowsWorkload.Manager.1_1.2511.1196.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": [
+        "Windows.Workload.ContentExtraction.365.amd64"
+      ]
+    },
+    {
+      "id": {
+        "name": "WindowsWorkload.Manager.1_8wekyb3d8bbwe",
+        "version": "1.2511.1196.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "MsixPinned": [
+          "1"
+        ],
+        "PackageFullName": [
+          "WindowsWorkload.Manager.1_1.2511.1196.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": [
+        "Windows.Workload.ContentExtraction.LNL.amd64"
+      ]
+    },
+    {
+      "id": {
+        "name": "WindowsWorkload.Manager.1_8wekyb3d8bbwe",
+        "version": "1.2511.1196.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "WindowsWorkload.Manager.1_1.2511.1196.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": [
+        "Windows.Workload.Analysis.LNL.amd64"
+      ]
+    },
+    {
+      "id": {
+        "name": "WindowsWorkload.PSOnnxRuntime.365.3.7_0.0.0.0_x64__8wekyb3d8bbwe",
+        "version": "1.2509.1022.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "WindowsWorkload.PSOnnxRuntime.365.3.7_1.2509.1022.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "WindowsWorkload.PSTokenizer.365.2.7_0.0.0.0_x64__8wekyb3d8bbwe",
+        "version": "1.2608.951.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "MsixPinned": [
+          "1"
+        ],
+        "PackageFullName": [
+          "WindowsWorkload.PSTokenizer.365.2.7_1.2608.951.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": [
+        "Windows.Workload.Analysis.365.amd64"
+      ]
+    },
+    {
+      "id": {
+        "name": "WindowsWorkload.PSTokenizerShared.365.3.7_0.0.0.0_x64__8wekyb3d8bbwe",
+        "version": "1.2509.1022.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "WindowsWorkload.PSTokenizerShared.365.3.7_1.2509.1022.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "WindowsWorkload.SessionManager.1_0.0.0.0_x64__8wekyb3d8bbwe",
+        "version": "1.2608.951.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "MsixPinned": [
+          "1"
+        ],
+        "PackageFullName": [
+          "WindowsWorkload.SessionManager.1_1.2608.951.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": [
+        "Windows.Workload.Analysis.365.amd64"
+      ]
+    },
+    {
+      "id": {
+        "name": "WindowsWorkload.SessionManager.1_0.0.0.0_x64__8wekyb3d8bbwe",
+        "version": "1.2608.951.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "MsixPinned": [
+          "1"
+        ],
+        "PackageFullName": [
+          "WindowsWorkload.SessionManager.1_1.2608.951.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": [
+        "Windows.Workload.ContentExtraction.365.amd64"
+      ]
+    },
+    {
+      "id": {
+        "name": "WindowsWorkload.SessionManager.1_0.0.0.0_x64__8wekyb3d8bbwe",
+        "version": "1.2608.951.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "MsixPinned": [
+          "1"
+        ],
+        "PackageFullName": [
+          "WindowsWorkload.SessionManager.1_1.2608.951.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": [
+        "Windows.Workload.ContentExtraction.amd64"
+      ]
+    },
+    {
+      "id": {
+        "name": "WindowsWorkload.SessionManager.1_0.0.0.0_x64__8wekyb3d8bbwe",
+        "version": "1.2608.951.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "MsixPinned": [
+          "1"
+        ],
+        "PackageFullName": [
+          "WindowsWorkload.SessionManager.1_1.2608.951.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": [
+        "Windows.Workload.ContentExtraction.LNL.amd64"
+      ]
+    },
+    {
+      "id": {
+        "name": "WindowsWorkload.SessionManager.1_0.0.0.0_x64__8wekyb3d8bbwe",
+        "version": "1.2608.951.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "WindowsWorkload.SessionManager.1_1.2608.951.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": [
+        "Windows.Workload.Analysis.LNL.amd64"
+      ]
+    },
+    {
+      "id": {
+        "name": "WindowsWorkload.ImageSearch.365.3_0.0.0.0_x64__8wekyb3d8bbwe",
+        "version": "1.2608.951.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "MsixPinned": [
+          "1"
+        ],
+        "PackageFullName": [
+          "WindowsWorkload.ImageSearch.365.3_1.2608.951.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": [
+        "Windows.Workload.ImageSearch.365.amd64"
+      ]
+    },
+    {
+      "id": {
+        "name": "WindowsWorkload.ImageTextSearch.365.3_0.0.0.0_x64__8wekyb3d8bbwe",
+        "version": "1.2608.951.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "WindowsWorkload.ImageTextSearch.365.3_1.2608.951.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "WindowsWorkload.QueryProcessor.365.1_0.0.0.0_x64__8wekyb3d8bbwe",
+        "version": "1.2608.951.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "MsixPinned": [
+          "1"
+        ],
+        "PackageFullName": [
+          "WindowsWorkload.QueryProcessor.365.1_1.2608.951.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": [
+        "Windows.Workload.Analysis.365.amd64"
+      ]
+    },
+    {
+      "id": {
+        "name": "WindowsWorkload.ScrRegDetection.365.1_0.0.0.0_x64__8wekyb3d8bbwe",
+        "version": "1.2608.951.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "MsixPinned": [
+          "1"
+        ],
+        "PackageFullName": [
+          "WindowsWorkload.ScrRegDetection.365.1_1.2608.951.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": [
+        "Windows.Workload.ContentExtraction.365.amd64"
+      ]
+    },
+    {
+      "id": {
+        "name": "WindowsWorkload.ScrRegDetection.365.1_0.0.0.0_x64__8wekyb3d8bbwe",
+        "version": "1.2608.951.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "MsixPinned": [
+          "1"
+        ],
+        "PackageFullName": [
+          "WindowsWorkload.ScrRegDetection.365.1_1.2608.951.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": [
+        "Windows.Workload.ContentExtraction.amd64"
+      ]
+    },
+    {
+      "id": {
+        "name": "WindowsWorkload.SemanticText.365.1_0.0.0.0_x64__8wekyb3d8bbwe",
+        "version": "1.2608.951.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "MsixPinned": [
+          "1"
+        ],
+        "PackageFullName": [
+          "WindowsWorkload.SemanticText.365.1_1.2608.951.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": [
+        "Windows.Workload.Analysis.365.amd64"
+      ]
+    },
+    {
+      "id": {
+        "name": "WindowsWorkload.TextRecognition.365.1_0.0.0.0_x64__8wekyb3d8bbwe",
+        "version": "1.2608.951.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "MsixPinned": [
+          "1"
+        ],
+        "PackageFullName": [
+          "WindowsWorkload.TextRecognition.365.1_1.2608.951.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": [
+        "Windows.Workload.ContentExtraction.365.amd64"
+      ]
+    },
+    {
+      "id": {
+        "name": "WindowsWorkload.TextRecognition.365.1_0.0.0.0_x64__8wekyb3d8bbwe",
+        "version": "1.2608.951.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "MsixPinned": [
+          "1"
+        ],
+        "PackageFullName": [
+          "WindowsWorkload.TextRecognition.365.1_1.2608.951.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": [
+        "Windows.Workload.ContentExtraction.amd64"
+      ]
+    },
+    {
+      "id": {
+        "name": "WindowsWorkload.QueryBlockList.1_0.0.0.0_x64__8wekyb3d8bbwe",
+        "version": "1.2608.951.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "MsixPinned": [
+          "1"
+        ],
+        "PackageFullName": [
+          "WindowsWorkload.QueryBlockList.1_1.2608.951.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": [
+        "Windows.Workload.Analysis.365.amd64"
+      ]
+    },
+    {
+      "id": {
+        "name": "WindowsWorkload.QueryBlockList.1_0.0.0.0_x64__8wekyb3d8bbwe",
+        "version": "1.2608.951.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "WindowsWorkload.QueryBlockList.1_1.2608.951.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": [
+        "Windows.Workload.Analysis.LNL.amd64"
+      ]
+    },
+    {
+      "id": {
+        "name": "WindowsWorkload.QueryProcessor.Data.1_0.0.0.0_x64__8wekyb3d8bbwe",
+        "version": "1.2605.851.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "MsixPinned": [
+          "1"
+        ],
+        "PackageFullName": [
+          "WindowsWorkload.QueryProcessor.Data.1_1.2605.851.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": [
+        "Windows.Workload.Analysis.365.amd64"
+      ]
+    },
+    {
+      "id": {
+        "name": "WindowsWorkload.QueryProcessor.Data.1_0.0.0.0_x64__8wekyb3d8bbwe",
+        "version": "1.2605.851.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "WindowsWorkload.QueryProcessor.Data.1_1.2605.851.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": [
+        "Windows.Workload.Analysis.LNL.amd64"
+      ]
+    },
+    {
+      "id": {
+        "name": "WindowsWorkload.SemanticText.Data.1_0.0.0.0_x64__8wekyb3d8bbwe",
+        "version": "1.2511.1196.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "MsixPinned": [
+          "1"
+        ],
+        "PackageFullName": [
+          "WindowsWorkload.SemanticText.Data.1_1.2511.1196.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": [
+        "Windows.Workload.Analysis.365.amd64"
+      ]
+    },
+    {
+      "id": {
+        "name": "WindowsWorkload.SemanticText.Data.1_0.0.0.0_x64__8wekyb3d8bbwe",
+        "version": "1.2511.1196.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "WindowsWorkload.SemanticText.Data.1_1.2511.1196.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": [
+        "Windows.Workload.Analysis.LNL.amd64"
+      ]
+    },
+    {
+      "id": {
+        "name": "Microsoft.Ink.Handwriting.Main.zh-Hans.1.0_8wekyb3d8bbwe",
+        "version": "0.1377.316.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "Microsoft.Ink.Handwriting.Main.zh-Hans.1.0_0.1377.316.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "Microsoft.WinUI3ControlsGallery_8wekyb3d8bbwe",
+        "version": "3.0.4.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "Microsoft.WinUI3ControlsGallery_3.0.4.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "WindowsWorkload.ScrRegDetection.Data.1_0.0.0.0_x64__8wekyb3d8bbwe",
+        "version": "1.2608.951.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "MsixPinned": [
+          "1"
+        ],
+        "PackageFullName": [
+          "WindowsWorkload.ScrRegDetection.Data.1_1.2608.951.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": [
+        "Windows.Workload.ContentExtraction.365.amd64"
+      ]
+    },
+    {
+      "id": {
+        "name": "WindowsWorkload.ScrRegDetection.Data.1_0.0.0.0_x64__8wekyb3d8bbwe",
+        "version": "1.2608.951.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "MsixPinned": [
+          "1"
+        ],
+        "PackageFullName": [
+          "WindowsWorkload.ScrRegDetection.Data.1_1.2608.951.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": [
+        "Windows.Workload.ContentExtraction.LNL.amd64"
+      ]
+    },
+    {
+      "id": {
+        "name": "WindowsWorkload.WinMLShared.5.2_0.0.0.0_x64__8wekyb3d8bbwe",
+        "version": "1.2608.951.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "MsixPinned": [
+          "1"
+        ],
+        "PackageFullName": [
+          "WindowsWorkload.WinMLShared.5.2_1.2608.951.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": [
+        "Windows.Workload.Analysis.365.amd64"
+      ]
+    },
+    {
+      "id": {
+        "name": "WindowsWorkload.WinMLShared.5.2_0.0.0.0_x64__8wekyb3d8bbwe",
+        "version": "1.2608.951.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "MsixPinned": [
+          "1"
+        ],
+        "PackageFullName": [
+          "WindowsWorkload.WinMLShared.5.2_1.2608.951.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": [
+        "Windows.Workload.ContentExtraction.365.amd64"
+      ]
+    },
+    {
+      "id": {
+        "name": "WindowsWorkload.WinMLShared.5.2_0.0.0.0_x64__8wekyb3d8bbwe",
+        "version": "1.2608.951.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "MsixPinned": [
+          "1"
+        ],
+        "PackageFullName": [
+          "WindowsWorkload.WinMLShared.5.2_1.2608.951.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": [
+        "Windows.Workload.ContentExtraction.LNL.amd64"
+      ]
+    },
+    {
+      "id": {
+        "name": "WindowsWorkload.PSTokenizerShared.365.5.2_0.0.0.0_x64__8wekyb3d8bbwe",
+        "version": "1.2607.837.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "MsixPinned": [
+          "1"
+        ],
+        "PackageFullName": [
+          "WindowsWorkload.PSTokenizerShared.365.5.2_1.2607.837.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": [
+        "Windows.Workload.Analysis.365.amd64"
+      ]
+    },
+    {
+      "id": {
+        "name": "WindowsWorkload.PSTokenizerShared.Data.5.2_0.0.0.0_x64__8wekyb3d8bbwe",
+        "version": "1.2607.837.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "MsixPinned": [
+          "1"
+        ],
+        "PackageFullName": [
+          "WindowsWorkload.PSTokenizerShared.Data.5.2_1.2607.837.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": [
+        "Windows.Workload.Analysis.365.amd64"
+      ]
+    },
+    {
+      "id": {
+        "name": "Research.WindowsAIProbe_j043rr9n3jb56",
+        "version": "1.0.0.6",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "Research.WindowsAIProbe_1.0.0.6_x64__j043rr9n3jb56"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "Microsoft.OneDriveSync_8wekyb3d8bbwe",
+        "version": "26183.920.5.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "Microsoft.OneDriveSync_26183.920.5.0_neutral__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "OpenAI.Codex_2p2nqsd0c76g0",
+        "version": "26.1007.9446.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "OpenAI.Codex_26.1007.9446.0_x64__2p2nqsd0c76g0"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "WindowsWorkload.TextRecognition.Data.OPT.1_0.0.0.0_x64__8wekyb3d8bbwe",
+        "version": "1.2606.719.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "MsixPinned": [
+          "1"
+        ],
+        "PackageFullName": [
+          "WindowsWorkload.TextRecognition.Data.OPT.1_1.2606.719.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": [
+        "Windows.Workload.ContentExtraction.LNL.amd64"
+      ]
+    },
+    {
+      "id": {
+        "name": "WindowsWorkload.Data.ContentExtraction.Lnl.1_0.0.0.0_x64__8wekyb3d8bbwe",
+        "version": "1.2608.951.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "MsixPinned": [
+          "1"
+        ],
+        "PackageFullName": [
+          "WindowsWorkload.Data.ContentExtraction.Lnl.1_1.2608.951.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": [
+        "Windows.Workload.ContentExtraction.LNL.amd64"
+      ]
+    },
+    {
+      "id": {
+        "name": "WindowsWorkload.EP.Intel.OpenVINO.Framework.1.8_0.0.0.0_x64__8wekyb3d8bbwe",
+        "version": "1.8.81.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "MsixPinned": [
+          "1"
+        ],
+        "PackageFullName": [
+          "WindowsWorkload.EP.Intel.OpenVINO.Framework.1.8_1.8.81.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": [
+        "Windows.Workload.ContentExtraction.LNL.amd64"
+      ]
+    },
+    {
+      "id": {
+        "name": "WindowsWorkload.ScrRegDetection.Lnl.1_0.0.0.0_x64__8wekyb3d8bbwe",
+        "version": "1.2608.951.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "MsixPinned": [
+          "1"
+        ],
+        "PackageFullName": [
+          "WindowsWorkload.ScrRegDetection.Lnl.1_1.2608.951.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": [
+        "Windows.Workload.ContentExtraction.LNL.amd64"
+      ]
+    },
+    {
+      "id": {
+        "name": "Microsoft.PowerShell_8wekyb3d8bbwe",
+        "version": "7.6.7.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "Microsoft.PowerShell_7.6.7.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "DolbyLaboratories.DolbyAccessOEM_rz1tebttyb220",
+        "version": "3.27.13060.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "DolbyLaboratories.DolbyAccessOEM_3.27.13060.0_x64__rz1tebttyb220"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "WindowsWorkload.EP.AMD.VitisAI.Framework.1.8_0.0.0.0_x64__8wekyb3d8bbwe",
+        "version": "1.8.63.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "WindowsWorkload.EP.AMD.VitisAI.Framework.1.8_1.8.63.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "WindowsWorkload.PSTokenizerShared.Lnl.5.2_0.0.0.0_x64__8wekyb3d8bbwe",
+        "version": "1.2608.951.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "WindowsWorkload.PSTokenizerShared.Lnl.5.2_1.2608.951.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": []
+    },
+    {
+      "id": {
+        "name": "WindowsWorkload.Data.Analysis.Lnl.1_0.0.0.0_x64__8wekyb3d8bbwe",
+        "version": "1.2509.1022.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "WindowsWorkload.Data.Analysis.Lnl.1_1.2509.1022.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": [
+        "Windows.Workload.Analysis.LNL.amd64"
+      ]
+    },
+    {
+      "id": {
+        "name": "WindowsWorkload.PSTokenizer.Lnl.2.7_0.0.0.0_x64__8wekyb3d8bbwe",
+        "version": "1.2509.1022.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "WindowsWorkload.PSTokenizer.Lnl.2.7_1.2509.1022.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": [
+        "Windows.Workload.Analysis.LNL.amd64"
+      ]
+    },
+    {
+      "id": {
+        "name": "WindowsWorkload.QueryProcessor.Lnl.1_0.0.0.0_x64__8wekyb3d8bbwe",
+        "version": "1.2509.1022.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "WindowsWorkload.QueryProcessor.Lnl.1_1.2509.1022.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": [
+        "Windows.Workload.Analysis.LNL.amd64"
+      ]
+    },
+    {
+      "id": {
+        "name": "WindowsWorkload.SemanticText.Lnl.1_0.0.0.0_x64__8wekyb3d8bbwe",
+        "version": "1.2509.1022.0",
+        "packageType": "MSIX"
+      },
+      "properties": {
+        "PackageFullName": [
+          "WindowsWorkload.SemanticText.Lnl.1_1.2509.1022.0_x64__8wekyb3d8bbwe"
+        ]
+      },
+      "ancestors": [],
+      "descendants": [],
+      "products": [
+        "Windows.Workload.Analysis.LNL.amd64"
+      ]
+    }
+  ],
+  "globalProperties": {
+    "Device\\Detect\\Hardware\\CPU": [
+      "B9DF4D96-CC2F-4110-A617-2CDFB34F3D47"
+    ],
+    "Device\\Detect\\Hardware\\GPU": [
+      "D211DD9D-3185-42BC-BEAE-F80EA97E3922"
+    ]
+  }
+}

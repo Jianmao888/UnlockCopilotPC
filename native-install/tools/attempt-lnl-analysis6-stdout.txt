@@ -1,0 +1,30 @@
+
+[32;1mStage                   [0m[32;1m Value[0m
+[32;1m-----                   [0m [32;1m-----[0m
+mode                     explicit-single-product-install
+RoInitialize             0x00000001
+loaded                   C:\Users\jianm\Code\DeepseekHarness\native-install\source-analysislnl-clean\metadata\ualite.d¡­
+factory                  C:\Users\jianm\Code\DeepseekHarness\native-install\source-analysislnl-clean\metadata\ualite.d¡­
+create.begin             C:\Users\jianm\Code\DeepseekHarness\native-install\source-analysislnl-clean
+create.end               0x00000000; session=1bd7bdfd698
+session.slot.0           C:\Users\jianm\Code\DeepseekHarness\native-install\source-analysislnl-clean\metadata\ualite.d¡­
+session.slot.1           C:\Users\jianm\Code\DeepseekHarness\native-install\source-analysislnl-clean\metadata\ualite.d¡­
+session.slot.2           C:\Users\jianm\Code\DeepseekHarness\native-install\source-analysislnl-clean\metadata\ualite.d¡­
+session.slot.3           C:\Users\jianm\Code\DeepseekHarness\native-install\source-analysislnl-clean\metadata\ualite.d¡­
+session.slot.4           C:\Users\jianm\Code\DeepseekHarness\native-install\source-analysislnl-clean\metadata\ualite.d¡­
+session.slot.5           C:\Users\jianm\Code\DeepseekHarness\native-install\source-analysislnl-clean\metadata\ualite.d¡­
+getDownloadRequest.begin original session slot4 / +0x20
+getDownloadRequest.end   0x00000000
+getFileRequests.begin    request slot5 / +0x28
+getFileRequests.end      0x00000000
+fileRequestCount         0x00000000; count=0
+install.begin            original session slot5 / +0x28; authorized single product
+install.end              0x00000000; rebootRequired=0; result=0
+release.begin            file requests
+release.end              file requests
+release.begin            download request
+release.end              download request
+release.begin            session
+release.end              session
+process.done             cleanup completed
+

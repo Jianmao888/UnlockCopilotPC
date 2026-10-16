@@ -1,0 +1,8 @@
+{
+  "attemptCount": 0,
+  "iterationsWithCorruptFiles": 0,
+  "rangeRequests": {},
+  "validRanges": {},
+  "iterationsWithRangeRequests": 0,
+  "accumulatedCorruptSizes": {}
+}

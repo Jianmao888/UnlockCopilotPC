@@ -1,0 +1,501 @@
+{
+  "change_list": {
+    "MSIX": {
+      "package_changes": [
+        {
+          "flags": "",
+          "old": null,
+          "new": {
+            "id": {
+              "name": "WindowsWorkload.Data.ImageSearch.Lnl.1_0.0.0.0_x64__8wekyb3d8bbwe",
+              "version": "1.2509.1022.0",
+              "packageType": "MSIX"
+            },
+            "properties": {
+              "PackageFullName": [
+                "WindowsWorkload.Data.ImageSearch.Lnl.1_1.2509.1022.0_x64__8wekyb3d8bbwe"
+              ]
+            },
+            "ancestors": [],
+            "descendants": [],
+            "products": [
+              "Windows.Workload.ImageSearch.LNL.amd64"
+            ]
+          },
+          "payload": [
+            {
+              "name": "500aef3f-e14c-4095-8256-cb0ac3f371f1_1.2509.1022.0_x64.msix",
+              "payloadType": "MSIX",
+              "hash": "vb4tQxCtgGf2TstR4El+Ja1N3F20rKumOx9WOUJzRAg=",
+              "version": "1.2509.1022.0",
+              "size": "49025",
+              "properties": null,
+              "rangeIndexFiles": [
+                {
+                  "name": "500aef3f-e14c-4095-8256-cb0ac3f371f1_1.2509.1022.0_x64.msix.rif.cab",
+                  "hash": "bDhbJ6chUkChtCwRbb9gwjvJhY0V4CC+5AOvPAZjb1k=",
+                  "size": 11067
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "flags": "",
+          "old": null,
+          "new": {
+            "id": {
+              "name": "WindowsWorkload.ImageContentModeration.1_0.0.0.0_x64__8wekyb3d8bbwe",
+              "version": "1.2509.1022.0",
+              "packageType": "MSIX"
+            },
+            "properties": {
+              "PackageFullName": [
+                "WindowsWorkload.ImageContentModeration.1_1.2509.1022.0_x64__8wekyb3d8bbwe"
+              ]
+            },
+            "ancestors": [],
+            "descendants": [],
+            "products": [
+              "Windows.Workload.ImageSearch.LNL.amd64"
+            ]
+          },
+          "payload": [
+            {
+              "name": "7b0d9694-6b7d-9587-48b3-59b76c09c7b4_1.2509.1022.0_x64.msix",
+              "payloadType": "MSIX",
+              "hash": "KXdMK4/Jnbq8oS/qNohkCZWe7yfk5U51Z73Ko1zlq6I=",
+              "version": "1.2509.1022.0",
+              "size": "6180450",
+              "properties": null,
+              "rangeIndexFiles": [
+                {
+                  "name": "7b0d9694-6b7d-9587-48b3-59b76c09c7b4_1.2509.1022.0_x64.msix.rif.cab",
+                  "hash": "jCiWlYastxnku8L051xCE9fM8DSDvS2Yf5GUVRZgwus=",
+                  "size": 12264
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "flags": "",
+          "old": null,
+          "new": {
+            "id": {
+              "name": "WindowsWorkload.ImageContentModeration.Data.1_0.0.0.0_x64__8wekyb3d8bbwe",
+              "version": "1.2508.888.0",
+              "packageType": "MSIX"
+            },
+            "properties": {
+              "PackageFullName": [
+                "WindowsWorkload.ImageContentModeration.Data.1_1.2508.888.0_x64__8wekyb3d8bbwe"
+              ]
+            },
+            "ancestors": [],
+            "descendants": [],
+            "products": [
+              "Windows.Workload.ImageSearch.LNL.amd64"
+            ]
+          },
+          "payload": [
+            {
+              "name": "ff43562a-1c67-b38a-6aad-93f7cd5881b2_1.2508.888.0_x64.msix",
+              "payloadType": "MSIX",
+              "hash": "1EOsWHqxeA9bxo27X7Tr/B+7K2gEZzihLGYDiCvEbxo=",
+              "version": "1.2508.888.0",
+              "size": "43386883",
+              "properties": null,
+              "rangeIndexFiles": [
+                {
+                  "name": "ff43562a-1c67-b38a-6aad-93f7cd5881b2_1.2508.888.0_x64.msix.rif.cab",
+                  "hash": "D78fvwB1I4tPQMSZkXzWbic7fg33Nwhw9ceKj3hfRZA=",
+                  "size": 10978
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "flags": "",
+          "old": null,
+          "new": {
+            "id": {
+              "name": "WindowsWorkload.ImageSearch.Data.3_0.0.0.0_x64__8wekyb3d8bbwe",
+              "version": "1.7.817.0",
+              "packageType": "MSIX"
+            },
+            "properties": {
+              "PackageFullName": [
+                "WindowsWorkload.ImageSearch.Data.3_1.7.817.0_x64__8wekyb3d8bbwe"
+              ]
+            },
+            "ancestors": [],
+            "descendants": [],
+            "products": [
+              "Windows.Workload.ImageSearch.LNL.amd64"
+            ]
+          },
+          "payload": [
+            {
+              "name": "8bc0a1ab-339d-f7ac-373e-8d4007d1a53c_1.7.817.0_x64.msix",
+              "payloadType": "MSIX",
+              "hash": "Eonl+jlFjcFdoctkalLaLbKJFcJ5XQLzvPxOmRpdphc=",
+              "version": "1.7.817.0",
+              "size": "80695216",
+              "properties": null,
+              "rangeIndexFiles": [
+                {
+                  "name": "8bc0a1ab-339d-f7ac-373e-8d4007d1a53c_1.7.817.0_x64.msix.rif.cab",
+                  "hash": "T21a1jMVEKwjwOv/Kl6fAoi+jlH1GJjmLd4FWlQAHGY=",
+                  "size": 10870
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "flags": "",
+          "old": null,
+          "new": {
+            "id": {
+              "name": "WindowsWorkload.ImageSearch.Lnl.2_0.0.0.0_x64__8wekyb3d8bbwe",
+              "version": "1.2509.1022.0",
+              "packageType": "MSIX"
+            },
+            "properties": {
+              "PackageFullName": [
+                "WindowsWorkload.ImageSearch.Lnl.2_1.2509.1022.0_x64__8wekyb3d8bbwe"
+              ]
+            },
+            "ancestors": [],
+            "descendants": [],
+            "products": [
+              "Windows.Workload.ImageSearch.LNL.amd64"
+            ]
+          },
+          "payload": [
+            {
+              "name": "30de3114-d1a7-aab6-a65f-ef5a746dbead_1.2509.1022.0_x64.msix",
+              "payloadType": "MSIX",
+              "hash": "7meEwE3l5mjmS/Gi78SysHVgHxS3UgiDvdM4qgSstlI=",
+              "version": "1.2509.1022.0",
+              "size": "17141",
+              "properties": null,
+              "rangeIndexFiles": [
+                {
+                  "name": "30de3114-d1a7-aab6-a65f-ef5a746dbead_1.2509.1022.0_x64.msix.rif.cab",
+                  "hash": "JM9seXAjJxwuUzMpuTtTOMCIjNfw0q0lUbgxslku6z8=",
+                  "size": 11004
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "flags": "",
+          "old": null,
+          "new": {
+            "id": {
+              "name": "WindowsWorkload.ImageSearch.Lnl.3_0.0.0.0_x64__8wekyb3d8bbwe",
+              "version": "1.2509.1022.0",
+              "packageType": "MSIX"
+            },
+            "properties": {
+              "PackageFullName": [
+                "WindowsWorkload.ImageSearch.Lnl.3_1.2509.1022.0_x64__8wekyb3d8bbwe"
+              ]
+            },
+            "ancestors": [],
+            "descendants": [],
+            "products": [
+              "Windows.Workload.ImageSearch.LNL.amd64"
+            ]
+          },
+          "payload": [
+            {
+              "name": "81054e32-601c-a517-c313-c9dea0eb6d6d_1.2509.1022.0_x64.msix",
+              "payloadType": "MSIX",
+              "hash": "DJFtjDtLplj4fWrav6FufVHw8iivF7+W/3gnFyEwMXY=",
+              "version": "1.2509.1022.0",
+              "size": "1152852",
+              "properties": null,
+              "rangeIndexFiles": [
+                {
+                  "name": "81054e32-601c-a517-c313-c9dea0eb6d6d_1.2509.1022.0_x64.msix.rif.cab",
+                  "hash": "5yEbfgi9832f7iDN7G3sUphwsdy3xN06uYHLQU20xzE=",
+                  "size": 12426
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "flags": "",
+          "old": null,
+          "new": {
+            "id": {
+              "name": "WindowsWorkload.ImageTextSearch.Data.3_0.0.0.0_x64__8wekyb3d8bbwe",
+              "version": "1.7.817.0",
+              "packageType": "MSIX"
+            },
+            "properties": {
+              "PackageFullName": [
+                "WindowsWorkload.ImageTextSearch.Data.3_1.7.817.0_x64__8wekyb3d8bbwe"
+              ]
+            },
+            "ancestors": [],
+            "descendants": [],
+            "products": [
+              "Windows.Workload.ImageSearch.LNL.amd64"
+            ]
+          },
+          "payload": [
+            {
+              "name": "ff21267a-ccf0-b2e1-57e5-3acd786f0b8d_1.7.817.0_x64.msix",
+              "payloadType": "MSIX",
+              "hash": "uQVp1rf5rMOOqZ/aj5mGXn7nslvnmOYTWE8fvwYPez8=",
+              "version": "1.7.817.0",
+              "size": "81201551",
+              "properties": null,
+              "rangeIndexFiles": [
+                {
+                  "name": "ff21267a-ccf0-b2e1-57e5-3acd786f0b8d_1.7.817.0_x64.msix.rif.cab",
+                  "hash": "v0YP0rKPEvc3QyLPOe2uq8lsXsGoVeuBxjQJ85E+UAA=",
+                  "size": 10883
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "flags": "",
+          "old": null,
+          "new": {
+            "id": {
+              "name": "WindowsWorkload.ImageTextSearch.Lnl.2_0.0.0.0_x64__8wekyb3d8bbwe",
+              "version": "1.2509.1022.0",
+              "packageType": "MSIX"
+            },
+            "properties": {
+              "PackageFullName": [
+                "WindowsWorkload.ImageTextSearch.Lnl.2_1.2509.1022.0_x64__8wekyb3d8bbwe"
+              ]
+            },
+            "ancestors": [],
+            "descendants": [],
+            "products": [
+              "Windows.Workload.ImageSearch.LNL.amd64"
+            ]
+          },
+          "payload": [
+            {
+              "name": "4927b7e4-795f-1dda-92d7-143a9ca854c1_1.2509.1022.0_x64.msix",
+              "payloadType": "MSIX",
+              "hash": "LtZpEC58pHbWnMwQWLaOl+eb+zurIwkVHb5deRk2AFs=",
+              "version": "1.2509.1022.0",
+              "size": "17162",
+              "properties": null,
+              "rangeIndexFiles": [
+                {
+                  "name": "4927b7e4-795f-1dda-92d7-143a9ca854c1_1.2509.1022.0_x64.msix.rif.cab",
+                  "hash": "5kuq/w06pPGPzj67MSg1m2pi67LNHBaRZRx4Zu4fJ14=",
+                  "size": 11050
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "flags": "",
+          "old": null,
+          "new": {
+            "id": {
+              "name": "WindowsWorkload.ImageTextSearch.Lnl.3_0.0.0.0_x64__8wekyb3d8bbwe",
+              "version": "1.2509.1022.0",
+              "packageType": "MSIX"
+            },
+            "properties": {
+              "PackageFullName": [
+                "WindowsWorkload.ImageTextSearch.Lnl.3_1.2509.1022.0_x64__8wekyb3d8bbwe"
+              ]
+            },
+            "ancestors": [],
+            "descendants": [],
+            "products": [
+              "Windows.Workload.ImageSearch.LNL.amd64"
+            ]
+          },
+          "payload": [
+            {
+              "name": "4a8123a9-5fd0-fc08-15a0-3889604df3d5_1.2509.1022.0_x64.msix",
+              "payloadType": "MSIX",
+              "hash": "PPpcYxqx+nwEeDlB6IWXgwvhpXvLbefQOcKlKVTHUBc=",
+              "version": "1.2509.1022.0",
+              "size": "994348",
+              "properties": null,
+              "rangeIndexFiles": [
+                {
+                  "name": "4a8123a9-5fd0-fc08-15a0-3889604df3d5_1.2509.1022.0_x64.msix.rif.cab",
+                  "hash": "k1/olQ4gMITvmt6T0sK08H2XP+7Ed/5OU5S6ofrTWqM=",
+                  "size": 12070
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "flags": "",
+          "old": null,
+          "new": {
+            "id": {
+              "name": "WindowsWorkload.Manager.1_8wekyb3d8bbwe",
+              "version": "1.2511.1196.0",
+              "packageType": "MSIX"
+            },
+            "properties": {
+              "PackageFullName": [
+                "WindowsWorkload.Manager.1_1.2511.1196.0_x64__8wekyb3d8bbwe"
+              ]
+            },
+            "ancestors": [],
+            "descendants": [],
+            "products": [
+              "Windows.Workload.ImageSearch.LNL.amd64"
+            ]
+          },
+          "payload": []
+        },
+        {
+          "flags": "",
+          "old": null,
+          "new": {
+            "id": {
+              "name": "WindowsWorkload.PSOnnxRuntime.Lnl.3.7_0.0.0.0_x64__8wekyb3d8bbwe",
+              "version": "1.2509.1022.0",
+              "packageType": "MSIX"
+            },
+            "properties": {
+              "PackageFullName": [
+                "WindowsWorkload.PSOnnxRuntime.Lnl.3.7_1.2509.1022.0_x64__8wekyb3d8bbwe"
+              ]
+            },
+            "ancestors": [],
+            "descendants": [],
+            "products": [
+              "Windows.Workload.ImageSearch.LNL.amd64"
+            ]
+          },
+          "payload": []
+        },
+        {
+          "flags": "",
+          "old": null,
+          "new": {
+            "id": {
+              "name": "WindowsWorkload.PSTokenizerShared.Data.3.7_0.0.0.0_x64__8wekyb3d8bbwe",
+              "version": "1.2509.1022.0",
+              "packageType": "MSIX"
+            },
+            "properties": {
+              "PackageFullName": [
+                "WindowsWorkload.PSTokenizerShared.Data.3.7_1.2509.1022.0_x64__8wekyb3d8bbwe"
+              ]
+            },
+            "ancestors": [],
+            "descendants": [],
+            "products": [
+              "Windows.Workload.ImageSearch.LNL.amd64"
+            ]
+          },
+          "payload": [
+            {
+              "name": "d9ec8c5a-39f0-144f-b1e2-88e8ee21aca3_1.2509.1022.0_x64.msix",
+              "payloadType": "MSIX",
+              "hash": "AtQNXF8l9MLOI3d6LXFnR+6xQXxJDR/rsQ4OSseNDzg=",
+              "version": "1.2509.1022.0",
+              "size": "638437302",
+              "properties": null,
+              "rangeIndexFiles": [
+                {
+                  "name": "d9ec8c5a-39f0-144f-b1e2-88e8ee21aca3_1.2509.1022.0_x64.msix.rif.cab",
+                  "hash": "TVKisJJEgfZsru6BIv9WHhy7Ba/cTUqG9R3PB2KYOLs=",
+                  "size": 11508
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "flags": "",
+          "old": null,
+          "new": {
+            "id": {
+              "name": "WindowsWorkload.PSTokenizerShared.Lnl.3.7_0.0.0.0_x64__8wekyb3d8bbwe",
+              "version": "1.2509.1022.0",
+              "packageType": "MSIX"
+            },
+            "properties": {
+              "PackageFullName": [
+                "WindowsWorkload.PSTokenizerShared.Lnl.3.7_1.2509.1022.0_x64__8wekyb3d8bbwe"
+              ]
+            },
+            "ancestors": [],
+            "descendants": [],
+            "products": [
+              "Windows.Workload.ImageSearch.LNL.amd64"
+            ]
+          },
+          "payload": [
+            {
+              "name": "9fd35909-0e0b-702d-3552-7ae5e4d7ab39_1.2509.1022.0_x64.msix",
+              "payloadType": "MSIX",
+              "hash": "QinJy5/ivaQnhBlz83wc+C7Bi7XSZ4sL86uw5XXe78Y=",
+              "version": "1.2509.1022.0",
+              "size": "12499618",
+              "properties": null,
+              "rangeIndexFiles": [
+                {
+                  "name": "9fd35909-0e0b-702d-3552-7ae5e4d7ab39_1.2509.1022.0_x64.msix.rif.cab",
+                  "hash": "WjXpEJxzOGIABazi+F5AP54LkJvzMVz6Z7tLmGqLi2E=",
+                  "size": 11580
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "flags": "",
+          "old": null,
+          "new": {
+            "id": {
+              "name": "WindowsWorkload.SessionManager.1_0.0.0.0_x64__8wekyb3d8bbwe",
+              "version": "1.2608.951.0",
+              "packageType": "MSIX"
+            },
+            "properties": {
+              "PackageFullName": [
+                "WindowsWorkload.SessionManager.1_1.2608.951.0_x64__8wekyb3d8bbwe"
+              ]
+            },
+            "ancestors": [],
+            "descendants": [],
+            "products": [
+              "Windows.Workload.ImageSearch.LNL.amd64"
+            ]
+          },
+          "payload": []
+        }
+      ],
+      "products": [
+        {
+          "name": "Windows.Workload.ImageSearch.LNL.amd64",
+          "version": "1.2509.1022.0",
+          "attributes": {
+            "UpdateUXHistoryClassification": "AIFabricModel"
+          }
+        }
+      ]
+    }
+  }
+}

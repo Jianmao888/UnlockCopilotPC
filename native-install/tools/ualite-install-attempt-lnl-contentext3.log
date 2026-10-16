@@ -1,0 +1,1111 @@
+2026-10-15T03:25:24.912157Z  INFO ThreadId(01) UaLite version="0.3.53" build="OsGet-Official-CI-CD_2025-10D_20260717.1" path=C:\Users\jianm\Code\DeepseekHarness\ai-products\Windows.Workload.ContentExtraction.LNL.amd64\metadata\ualite.dll
+2026-10-15T03:25:24.913654Z  INFO ThreadId(01) fn{fn="CreateDeploymentSessionEx-Outer"}: new
+2026-10-15T03:25:24.914638Z  INFO ThreadId(01) log{log="5/cSuVfI"}: new
+2026-10-15T03:25:24.914665Z  INFO ThreadId(01) log{log="5/cSuVfI"}: UaLite version="0.3.53" build="OsGet-Official-CI-CD_2025-10D_20260717.1" path=C:\Users\jianm\Code\DeepseekHarness\ai-products\Windows.Workload.ContentExtraction.LNL.amd64\metadata\ualite.dll
+2026-10-15T03:25:24.914992Z  INFO ThreadId(01) log{log="5/cSuVfI"}:fn{fn="CreateDeploymentSessionEx"}: new
+2026-10-15T03:25:24.915960Z  WARN ThreadId(01) log{log="5/cSuVfI"}:fn{fn="CreateDeploymentSessionEx"}: Failed to create IDeploymentInformationFactory Object: 没有注册类 (0x80040154)
+2026-10-15T03:25:24.916205Z  INFO ThreadId(01) log{log="5/cSuVfI"}:fn{fn="CreateDeploymentSessionEx"}: Enter perform_create_deployment_session sandbox_dir=C:\Users\jianm\Code\DeepseekHarness\ai-products\Windows.Workload.ContentExtraction.LNL.amd64 offline_windir= device_info_path= callback_factory=00000000-0000-0000-0000-000000000000 optional_session_info=AggregatedOptionalSessionInfo { session_data: Some("{\"ModuleID\":\"LocalServicingOnline\"}"), update_id: None, flight_id: None, flight_metadata: None, correlation_vector: None, related_cv: None, merged_sandbox_path: None, country_code: None, download_flags: 0, download_interactive: false, download_bypass_regulation: false, download_serialize: false, download_on_battery: false, download_fail_on_transient: false, download_use_update_priority: false, download_ignore_network_cost_for_size: false, download_priority: 0, download_network_cost_policy: 0 } session_id="5/cSuVfI"
+2026-10-15T03:25:24.917181Z  INFO ThreadId(01) log{log="5/cSuVfI"}:fn{fn="CreateDeploymentSessionEx"}: Searching for plugin config files dir_path=None
+2026-10-15T03:25:24.917515Z  INFO ThreadId(01) log{log="5/cSuVfI"}:fn{fn="CreateDeploymentSessionEx"}: Searching for plugin config files search_dir=C:\Users\jianm\Code\DeepseekHarness\ai-products\Windows.Workload.ContentExtraction.LNL.amd64\metadata
+2026-10-15T03:25:24.918915Z  INFO ThreadId(01) log{log="5/cSuVfI"}:fn{fn="CreateDeploymentSessionEx"}: Plugin files found count=2
+2026-10-15T03:25:24.919311Z  INFO ThreadId(01) log{log="5/cSuVfI"}:fn{fn="CreateDeploymentSessionEx"}: Loading plugins using found config files config_paths=["C:\\Users\\jianm\\Code\\DeepseekHarness\\ai-products\\Windows.Workload.ContentExtraction.LNL.amd64\\metadata\\hardware.installer.json", "C:\\Users\\jianm\\Code\\DeepseekHarness\\ai-products\\Windows.Workload.ContentExtraction.LNL.amd64\\metadata\\msix.installer.json"]
+2026-10-15T03:25:24.919512Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="CreateDeploymentSessionEx"}: Getting associated dll from config file config_file=C:\Users\jianm\Code\DeepseekHarness\ai-products\Windows.Workload.ContentExtraction.LNL.amd64\metadata\hardware.installer.json
+2026-10-15T03:25:24.923793Z  INFO ThreadId(01) log{log="5/cSuVfI"}:fn{fn="CreateDeploymentSessionEx"}: Loading plugin module path=C:\Users\jianm\Code\DeepseekHarness\ai-products\Windows.Workload.ContentExtraction.LNL.amd64\metadata\Microsoft.UALite.Plugin.HardwareEnumerator.dll version="0.0.0.0"
+2026-10-15T03:25:24.926841Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="CreateDeploymentSessionEx"}: Getting associated dll from config file config_file=C:\Users\jianm\Code\DeepseekHarness\ai-products\Windows.Workload.ContentExtraction.LNL.amd64\metadata\msix.installer.json
+2026-10-15T03:25:24.929080Z  INFO ThreadId(01) log{log="5/cSuVfI"}:fn{fn="CreateDeploymentSessionEx"}: Loading plugin module path=C:\Users\jianm\Code\DeepseekHarness\ai-products\Windows.Workload.ContentExtraction.LNL.amd64\metadata\Microsoft.UALite.Plugin.MsixDeployment.dll version="200.2026.605.2318"
+2026-10-15T03:25:24.931880Z  INFO ThreadId(01) log{log="5/cSuVfI"}:fn{fn="CreateDeploymentSessionEx"}: Merging installer configurations from all plugin config files
+2026-10-15T03:25:25.011867Z  INFO ThreadId(01) log{log="5/cSuVfI"}:fn{fn="CreateDeploymentSessionEx"}: Merging installer configuration configuration_path=C:\Users\jianm\Code\DeepseekHarness\ai-products\Windows.Workload.ContentExtraction.LNL.amd64\metadata\hardware.installer.json plugin_count=1 package_type_count=0 payload_type_count=0
+2026-10-15T03:25:25.012553Z  INFO ThreadId(01) log{log="5/cSuVfI"}:fn{fn="CreateDeploymentSessionEx"}: Merging installer configuration configuration_path=C:\Users\jianm\Code\DeepseekHarness\ai-products\Windows.Workload.ContentExtraction.LNL.amd64\metadata\msix.installer.json plugin_count=1 package_type_count=1 payload_type_count=1
+2026-10-15T03:25:25.012572Z  INFO ThreadId(01) log{log="5/cSuVfI"}:fn{fn="CreateDeploymentSessionEx"}: Installer configuration merge complete total_plugins=2 total_package_types=1 total_payload_types=1
+2026-10-15T03:25:25.012582Z  INFO ThreadId(01) log{log="5/cSuVfI"}:fn{fn="CreateDeploymentSessionEx"}: Returning DeploymentSession
+2026-10-15T03:25:25.012595Z  INFO ThreadId(01) log{log="5/cSuVfI"}:fn{fn="CreateDeploymentSessionEx"}: close time.busy=97.6ms time.idle=10.6µs
+2026-10-15T03:25:25.013023Z  INFO ThreadId(01) fn{fn="CreateDeploymentSessionEx-Outer"}: exit_ok
+2026-10-15T03:25:25.013031Z  INFO ThreadId(01) fn{fn="CreateDeploymentSessionEx-Outer"}: close time.busy=99.3ms time.idle=35.4µs
+2026-10-15T03:25:25.022595Z  INFO ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.GenerateDownloadRequest"}: new
+2026-10-15T03:25:25.022693Z ERROR ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.GenerateDownloadRequest"}: Failed to create IDeploymentInformationFactory object: 没有注册类 (0x80040154)
+2026-10-15T03:25:25.022721Z  WARN ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.GenerateDownloadRequest"}: CoCreateInstance for IDeploymentInformationFactory failed result=没有注册类 (0x80040154)
+2026-10-15T03:25:25.022735Z  INFO ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.GenerateDownloadRequest"}: Setting the abort handle
+2026-10-15T03:25:25.022739Z  INFO ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.GenerateDownloadRequest"}: Running and blocking on abortable operation
+2026-10-15T03:25:25.026104Z  INFO ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.GenerateDownloadRequest"}: Restored Download State download_attempt_count=1 corrupt_file_retry=0
+2026-10-15T03:25:25.026129Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.GenerateDownloadRequest"}: Creating directory path=C:\Users\jianm\Code\DeepseekHarness\ai-products\Windows.Workload.ContentExtraction.LNL.amd64\Metadata\.state
+2026-10-15T03:25:25.037839Z  INFO ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.GenerateDownloadRequest"}: Comparing Required Payload Items with Existing Files in Sandbox Directory
+2026-10-15T03:25:25.037872Z  INFO ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.GenerateDownloadRequest"}: Canonical File Request Summary present_files=[] missing_files=[] corrupt_files=[]
+2026-10-15T03:25:25.040585Z  INFO ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.GenerateDownloadRequest"}: Abortable operation has stopped
+2026-10-15T03:25:25.040618Z  INFO ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.GenerateDownloadRequest"}: Clearing the abort handle
+2026-10-15T03:25:25.040624Z  INFO ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.GenerateDownloadRequest"}: GenerateDownloadRequest Completed
+2026-10-15T03:25:25.040642Z  INFO ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.GenerateDownloadRequest"}: exit_ok
+2026-10-15T03:25:25.040647Z  INFO ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.GenerateDownloadRequest"}: close time.busy=18.0ms time.idle=24.2µs
+2026-10-15T03:25:25.040659Z  INFO ThreadId(01) log{log="5/cSuVfI"}: Reporting Download Telemetry product_names_and_versions=[] plugin_ids_and_versions=[] required_count=0 optional_count=0 total_size=0 total_downloaded_size=0 range_request_attempts=0 error_code=0
+2026-10-15T03:25:25.040739Z  INFO ThreadId(01) log{log="5/cSuVfI"}: Sending GenerateDownloadRequest event
+2026-10-15T03:25:25.045664Z  INFO ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: new
+2026-10-15T03:25:25.045744Z ERROR ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: Failed to create IDeploymentInformationFactory object: 没有注册类 (0x80040154)
+2026-10-15T03:25:25.045764Z  WARN ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: CoCreateInstance for IDeploymentInformationFactory failed result=没有注册类 (0x80040154)
+2026-10-15T03:25:25.045778Z  INFO ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: Setting the abort handle
+2026-10-15T03:25:25.045782Z  INFO ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: Running and blocking on abortable operation
+2026-10-15T03:25:25.050083Z  INFO ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: Getting enumerator instance acid="HardwareEnumerator.DeviceEnumerator" path=Microsoft.UALite.Plugin.HardwareEnumerator.dll
+2026-10-15T03:25:25.050531Z  INFO ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: Creating activation factory for module acid="HardwareEnumerator.DeviceEnumerator" path=Microsoft.UALite.Plugin.HardwareEnumerator.dll
+2026-10-15T03:25:25.050581Z  INFO ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: Initializing Plugin Enumerator plugin_id="HardwareEnumerator"
+2026-10-15T03:25:25.062483Z  INFO ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: Retrieving Global Properties plugin_id="HardwareEnumerator"
+2026-10-15T03:25:25.065328Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: Loaded plugin state plugin_id="HardwareEnumerator" state_path=C:\Users\jianm\Code\DeepseekHarness\ai-products\Windows.Workload.ContentExtraction.LNL.amd64\.plugins\HardwareEnumerator\.plugin-state state_size=1932
+2026-10-15T03:25:25.067365Z  INFO ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: Global Properties Retrieved plugin_id="HardwareEnumerator" global_properties={"Device\\Detect\\Hardware\\CPU": ["B9DF4D96-CC2F-4110-A617-2CDFB34F3D47"], "Device\\Detect\\Hardware\\GPU": ["D211DD9D-3185-42BC-BEAE-F80EA97E3922"]}
+2026-10-15T03:25:25.067496Z  INFO ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: Packages Retrieved plugin_id="HardwareEnumerator" package_count=0 packages=[]
+2026-10-15T03:25:25.067701Z  INFO ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: Collected inventory from plugin plugin_id="HardwareEnumerator" property_count=2 package_count=0
+2026-10-15T03:25:25.067719Z  INFO ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: Getting enumerator instance acid="Microsoft.UALite.MsixDeployment.DeviceEnumerator" path=Microsoft.UALite.Plugin.MsixDeployment.dll
+2026-10-15T03:25:25.067725Z  INFO ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: Creating activation factory for module acid="Microsoft.UALite.MsixDeployment.DeviceEnumerator" path=Microsoft.UALite.Plugin.MsixDeployment.dll
+2026-10-15T03:25:25.068812Z  INFO ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: Initializing Plugin Enumerator plugin_id="MSIX"
+2026-10-15T03:25:25.077746Z  INFO ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: Retrieving Global Properties plugin_id="MSIX"
+2026-10-15T03:25:25.078630Z  INFO ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: Global Properties Retrieved plugin_id="MSIX" global_properties={}
+2026-10-15T03:25:25.206325Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.206408Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.211089Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.211170Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.215586Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.215653Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.221221Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.221299Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.226104Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.226156Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.230450Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.230478Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.236456Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.236502Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.241269Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.241314Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.245557Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.245586Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.249928Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.249954Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.254928Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.254977Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.259314Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.259354Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.263616Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.263654Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.267932Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.267970Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.273381Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.273491Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.277693Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.277776Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.281882Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.281912Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.286649Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.286713Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.291247Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.291296Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.295690Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.295733Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.299991Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.300020Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.309506Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.309560Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.313957Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.313995Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.318873Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.318933Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.324074Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.324134Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.328333Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.328356Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.332222Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.332244Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.337314Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.337385Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.341913Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.341974Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.346006Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.346039Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.350002Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.350025Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.355570Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.355626Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.360184Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.360242Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.364383Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.364415Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.368895Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.368950Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.373704Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.373759Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.378083Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.378121Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.382318Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.382356Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.388060Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.388103Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.392610Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.392660Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.396823Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.396880Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.402057Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.402122Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.407014Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.407058Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.412102Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.412144Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.420173Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.420251Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.425487Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.425539Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.429804Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.429846Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.438180Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.438221Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.442540Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.442584Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.446702Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.446755Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.451723Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.451780Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.456243Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.456288Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.460590Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.460631Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.465203Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.465254Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.471177Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.471241Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.476958Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.477023Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.482896Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.482938Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.489150Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.489190Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.494056Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.494105Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.498836Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.498881Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.504723Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.504805Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.510245Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.510298Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.515652Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.515704Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.520958Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.521037Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.525673Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.525728Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.530676Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.530727Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.535780Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.535901Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.540547Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.540596Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.545132Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.545184Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.549711Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.549761Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.555470Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.555516Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.559974Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.560029Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.564434Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.564483Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.569806Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.569876Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.575305Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.575356Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.579873Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.579930Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.584634Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.584731Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.590318Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.590365Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.594867Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.594922Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.599516Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.599569Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.604544Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.604595Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.608938Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.608986Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.613284Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.613328Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.617984Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.618054Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.623585Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.623637Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.628314Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.628351Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.632568Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.632608Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.637949Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.637997Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.642411Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.642444Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.646478Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.646502Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.650820Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.650858Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.655669Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.655732Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.661048Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.661114Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.665734Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.665790Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.671468Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.671507Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.704664Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.704704Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.709569Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.709616Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.713809Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.713846Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.718071Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.718128Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.723446Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.723494Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.727878Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.727929Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.732046Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.732091Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.737448Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.737513Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.742122Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.742180Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.745963Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.746012Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.750089Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.750161Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.756015Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.756065Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.760779Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.760828Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.765537Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.765564Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.771544Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.771581Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.776033Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.776084Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.780421Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.780476Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.784376Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.784446Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.790311Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.790359Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.794724Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.794766Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.798916Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.798945Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.804087Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.804142Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.810012Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.810073Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.814526Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.814580Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.820705Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.820768Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.826082Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.826126Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.830281Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.830332Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.835933Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.835989Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.841327Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.841382Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.845635Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.845685Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.850612Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.863349Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.871214Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.871265Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.875828Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.880349Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.891163Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.895857Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.905506Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.909343Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.915283Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.930397Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.930469Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.935620Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.942748Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.943394Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.943698Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.943980Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.944200Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.946776Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.955520Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.955624Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.961856Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.965698Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.970621Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.970685Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.975360Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.979889Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.980421Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.980712Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.980975Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.981236Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.981464Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.981693Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.986993Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.990714Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:25.999582Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:25.999639Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:26.005220Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:26.008935Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:26.013579Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:26.017142Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:26.017593Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:26.022604Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:26.026246Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:26.030876Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:26.035524Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:26.036412Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:26.042029Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:26.046011Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:26.046479Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:26.051025Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:26.056637Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:26.057148Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:26.061539Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:26.065139Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:26.065900Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:26.072109Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:26.072152Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:26.076507Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:26.076548Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:26.080555Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:26.084208Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:26.084610Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:26.089232Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:26.093198Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:26.093638Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:26.093916Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:26.094178Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:26.094376Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:26.094572Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:26.098810Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:26.102434Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:26.107269Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:26.111865Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:26.112552Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:26.112805Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:26.113023Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:26.117434Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:26.117457Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:26.122020Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:26.122067Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:26.126165Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:26.126205Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:26.130183Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:26.133499Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:26.138770Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:26.142267Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:26.146959Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:26.151002Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:26.152083Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:26.152415Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:26.152641Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:26.157146Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:26.161117Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:26.165933Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:26.165979Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:26.171237Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:26.171285Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:26.175805Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:26.175863Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:26.180123Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:26.183839Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:26.184295Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:26.184580Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:26.189742Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:26.189800Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:26.194407Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:26.194467Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:26.198876Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:26.198924Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:26.204218Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:26.204276Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:26.209020Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:26.209077Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:26.213314Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:26.213407Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:26.217679Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:26.222596Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:26.227229Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:26.227278Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:26.231594Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:26.236071Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:26.240919Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:26.240982Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:26.245309Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:26.248823Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:26.254244Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:26.258388Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:26.262890Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:26.266396Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:26.272043Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:26.275617Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:26.279964Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:26.279997Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:26.284291Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:26.288800Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:26.294264Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:26.298061Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:26.303963Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:26.304036Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:26.308608Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:26.308724Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:26.312818Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:26.316423Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:26.322558Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:26.326439Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:26.331356Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:26.331403Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:26.336630Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:26.336691Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:26.341760Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:26.341811Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:26.346386Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:26.346444Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:26.350444Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:26.355053Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:26.360083Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:26.363716Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:26.369371Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:26.369450Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:26.374313Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:26.374368Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:26.378925Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:26.382558Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:26.382953Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:26.387883Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:26.392283Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:26.396974Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:26.400398Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:26.409193Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.PackageId"
+2026-10-15T03:25:26.416028Z DEBUG ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: ActivateInstance acid="UpdateAgent.Installer.Package"
+2026-10-15T03:25:26.421309Z  INFO ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: Packages Retrieved plugin_id="MSIX" package_count=227 packages=[Package {MSIX:Microsoft.NET.Native.Runtime.2.2_0.0.0.0_x64__8wekyb3d8bbwe:2.2.28604.0 {"PackageFullName": ["Microsoft.NET.Native.Runtime.2.2_2.2.28604.0_x64__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:Microsoft.NET.Native.Framework.2.2_0.0.0.0_x64__8wekyb3d8bbwe:2.2.29512.0 {"PackageFullName": ["Microsoft.NET.Native.Framework.2.2_2.2.29512.0_x64__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:Microsoft.UI.Xaml.2.8_0.0.0.0_x64__8wekyb3d8bbwe:8.2511.26001.0 {"PackageFullName": ["Microsoft.UI.Xaml.2.8_8.2511.26001.0_x64__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:Microsoft.VCLibs.140.00_0.0.0.0_x64__8wekyb3d8bbwe:14.0.33519.0 {"PackageFullName": ["Microsoft.VCLibs.140.00_14.0.33519.0_x64__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:Microsoft.VCLibs.140.00.UWPDesktop_0.0.0.0_x64__8wekyb3d8bbwe:14.0.33728.0 {"PackageFullName": ["Microsoft.VCLibs.140.00.UWPDesktop_14.0.33728.0_x64__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:Microsoft.ApplicationCompatibilityEnhancements_8wekyb3d8bbwe:1.2511.9.0 {"PackageFullName": ["Microsoft.ApplicationCompatibilityEnhancements_1.2511.9.0_x64__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:Microsoft.BingSearch_8wekyb3d8bbwe:1.1.43.0 {"PackageFullName": ["Microsoft.BingSearch_1.1.43.0_x64__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:Microsoft.WindowsAppRuntime.1.7_0.0.0.0_x64__8wekyb3d8bbwe:7000.522.1444.0 {"PackageFullName": ["Microsoft.WindowsAppRuntime.1.7_7000.522.1444.0_x64__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:Microsoft.XboxSpeechToTextOverlay_8wekyb3d8bbwe:1.123.11001.0 {"PackageFullName": ["Microsoft.XboxSpeechToTextOverlay_1.123.11001.0_x64__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:MicrosoftCorporationII.QuickAssist_8wekyb3d8bbwe:2.0.43.0 {"PackageFullName": ["MicrosoftCorporationII.QuickAssist_2.0.43.0_x64__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:SenaryTechnologyLimited.SenarySmartAudio_dqz7eftfn33jw:2.9.0.0 {"PackageFullName": ["SenaryTechnologyLimited.SenarySmartAudio_2.9.0.0_x64__dqz7eftfn33jw"]}, products: {}}, Package {MSIX:ElevocTechnologyCo.Ltd.ElevocSmartMicrophoneSettin_ttaqwwhyt5s6t:1.1001.60.0 {"PackageFullName": ["ElevocTechnologyCo.Ltd.ElevocSmartMicrophoneSettin_1.1001.60.0_x64__ttaqwwhyt5s6t"]}, products: {}}, Package {MSIX:Microsoft.NET.Native.Framework.1.7_0.0.0.0_x64__8wekyb3d8bbwe:1.7.27413.0 {"PackageFullName": ["Microsoft.NET.Native.Framework.1.7_1.7.27413.0_x64__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:Microsoft.NET.Native.Runtime.1.7_0.0.0.0_x64__8wekyb3d8bbwe:1.7.27422.0 {"PackageFullName": ["Microsoft.NET.Native.Runtime.1.7_1.7.27422.0_x64__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:Microsoft.WindowsAppRuntime.2_0.0.0.0_x64__8wekyb3d8bbwe:2.3.1.0 {"PackageFullName": ["Microsoft.WindowsAppRuntime.2_2.3.1.0_x64__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:Microsoft.NET.Native.Runtime.1.7_0.0.0.0_x86__8wekyb3d8bbwe:1.7.27422.0 {"PackageFullName": ["Microsoft.NET.Native.Runtime.1.7_1.7.27422.0_x86__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:Microsoft.NET.Native.Runtime.2.2_0.0.0.0_x86__8wekyb3d8bbwe:2.2.28604.0 {"PackageFullName": ["Microsoft.NET.Native.Runtime.2.2_2.2.28604.0_x86__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:Microsoft.NET.Native.Framework.1.7_0.0.0.0_x86__8wekyb3d8bbwe:1.7.27413.0 {"PackageFullName": ["Microsoft.NET.Native.Framework.1.7_1.7.27413.0_x86__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:Microsoft.NET.Native.Framework.2.2_0.0.0.0_x86__8wekyb3d8bbwe:2.2.29512.0 {"PackageFullName": ["Microsoft.NET.Native.Framework.2.2_2.2.29512.0_x86__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:Microsoft.VCLibs.140.00_0.0.0.0_x86__8wekyb3d8bbwe:14.0.33519.0 {"PackageFullName": ["Microsoft.VCLibs.140.00_14.0.33519.0_x86__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:AppUp.IntelGraphicsExperience_8j3eq9eme6ctt:1.100.5688.0 {"PackageFullName": ["AppUp.IntelGraphicsExperience_1.100.5688.0_x64__8j3eq9eme6ctt"]}, products: {}}, Package {MSIX:Microsoft.VCLibs.140.00.UWPDesktop_0.0.0.0_x86__8wekyb3d8bbwe:14.0.33728.0 {"PackageFullName": ["Microsoft.VCLibs.140.00.UWPDesktop_14.0.33728.0_x86__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:Microsoft.UI.Xaml.2.8_0.0.0.0_x86__8wekyb3d8bbwe:8.2501.31001.0 {"PackageFullName": ["Microsoft.UI.Xaml.2.8_8.2501.31001.0_x86__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:Microsoft.WidgetsPlatformRuntime_8wekyb3d8bbwe:1.6.19.0 {"PackageFullName": ["Microsoft.WidgetsPlatformRuntime_1.6.19.0_x64__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:Microsoft.Xbox.TCUI_8wekyb3d8bbwe:1.24.10001.0 {"PackageFullName": ["Microsoft.Xbox.TCUI_1.24.10001.0_x64__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:Microsoft.XboxIdentityProvider_8wekyb3d8bbwe:12.130.16001.0 {"PackageFullName": ["Microsoft.XboxIdentityProvider_12.130.16001.0_x64__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:Microsoft.BingWeather_8wekyb3d8bbwe:4.54.63045.0 {"PackageFullName": ["Microsoft.BingWeather_4.54.63045.0_x64__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:Microsoft.VP9VideoExtensions_8wekyb3d8bbwe:1.2.20.0 {"PackageFullName": ["Microsoft.VP9VideoExtensions_1.2.20.0_x64__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:Microsoft.WindowsAppRuntime.1.7_0.0.0.0_x64__8wekyb3d8bbwe:7000.785.2325.0 {"PackageFullName": ["Microsoft.WindowsAppRuntime.1.7_7000.785.2325.0_x64__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:Microsoft.WindowsAppRuntime.1.7_0.0.0.0_x86__8wekyb3d8bbwe:7000.785.2325.0 {"PackageFullName": ["Microsoft.WindowsAppRuntime.1.7_7000.785.2325.0_x86__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:Microsoft.WebpImageExtension_8wekyb3d8bbwe:1.2.31.0 {"PackageFullName": ["Microsoft.WebpImageExtension_1.2.31.0_x64__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:Microsoft.BingNews_8wekyb3d8bbwe:4.56.21872.0 {"PackageFullName": ["Microsoft.BingNews_4.56.21872.0_x64__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:Microsoft.VCLibs.110.00.UWPDesktop_0.0.0.0_x64__8wekyb3d8bbwe:11.0.61135.0 {"PackageFullName": ["Microsoft.VCLibs.110.00.UWPDesktop_11.0.61135.0_x64__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:Microsoft.VCLibs.110.00.UWPDesktop_0.0.0.0_x86__8wekyb3d8bbwe:11.0.61135.0 {"PackageFullName": ["Microsoft.VCLibs.110.00.UWPDesktop_11.0.61135.0_x86__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:Microsoft.DirectXRuntime_0.0.0.0_x86__8wekyb3d8bbwe:9.29.1974.0 {"PackageFullName": ["Microsoft.DirectXRuntime_9.29.1974.0_x86__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:Microsoft.DirectXRuntime_0.0.0.0_x64__8wekyb3d8bbwe:9.29.1974.0 {"PackageFullName": ["Microsoft.DirectXRuntime_9.29.1974.0_x64__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:Microsoft.VCLibs.120.00.UWPDesktop_0.0.0.0_x64__8wekyb3d8bbwe:12.0.40653.0 {"PackageFullName": ["Microsoft.VCLibs.120.00.UWPDesktop_12.0.40653.0_x64__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:Microsoft.VCLibs.120.00.UWPDesktop_0.0.0.0_x86__8wekyb3d8bbwe:12.0.40653.0 {"PackageFullName": ["Microsoft.VCLibs.120.00.UWPDesktop_12.0.40653.0_x86__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:Microsoft.Windows.DevHome_8wekyb3d8bbwe:0.2101.858.0 {"PackageFullName": ["Microsoft.Windows.DevHome_0.2101.858.0_x64__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:Microsoft.WindowsAppRuntime.1.5_0.0.0.0_x64__8wekyb3d8bbwe:5001.373.1736.0 {"PackageFullName": ["Microsoft.WindowsAppRuntime.1.5_5001.373.1736.0_x64__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:Microsoft.WindowsAppRuntime.1.5_0.0.0.0_x86__8wekyb3d8bbwe:5001.373.1736.0 {"PackageFullName": ["Microsoft.WindowsAppRuntime.1.5_5001.373.1736.0_x86__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:Microsoft.SecHealthUI_8wekyb3d8bbwe:1000.29628.1000.0 {"PackageFullName": ["Microsoft.SecHealthUI_1000.29628.1000.0_x64__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:Microsoft.MicrosoftStickyNotes_8wekyb3d8bbwe:6.1.4.0 {"PackageFullName": ["Microsoft.MicrosoftStickyNotes_6.1.4.0_x64__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:Microsoft.Office.OneNoteVirtualPrinter_8wekyb3d8bbwe:1.0.0.0 {"PackageFullName": ["Microsoft.Office.OneNoteVirtualPrinter_1.0.0.0_x64__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:Microsoft.Services.Store.Engagement_0.0.0.0_x64__8wekyb3d8bbwe:10.0.23012.0 {"PackageFullName": ["Microsoft.Services.Store.Engagement_10.0.23012.0_x64__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:Microsoft.Services.Store.Engagement_0.0.0.0_x86__8wekyb3d8bbwe:10.0.23012.0 {"PackageFullName": ["Microsoft.Services.Store.Engagement_10.0.23012.0_x86__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:DolbyLaboratories.DolbyVisionAccess_rz1tebttyb220:2.20503.802.0 {"PackageFullName": ["DolbyLaboratories.DolbyVisionAccess_2.20503.802.0_x64__rz1tebttyb220"]}, products: {}}, Package {MSIX:WeixinShare_fv0hcek9q9tbw:1.0.0.0 {"PackageFullName": ["WeixinShare_1.0.0.0_neutral__fv0hcek9q9tbw"]}, products: {}}, Package {MSIX:Microsoft.6365217CE6EB4_8wekyb3d8bbwe:102.2504.16004.0 {"PackageFullName": ["Microsoft.6365217CE6EB4_102.2504.16004.0_x64__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:Microsoft.LanguageExperiencePackzh-CN_8wekyb3d8bbwe:26100.163.263.0 {"PackageFullName": ["Microsoft.LanguageExperiencePackzh-CN_26100.163.263.0_neutral__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:Microsoft.WindowsAppRuntime.2_0.0.0.0_x64__8wekyb3d8bbwe:2.4.0.0 {"PackageFullName": ["Microsoft.WindowsAppRuntime.2_2.4.0.0_x64__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:Microsoft.MPEG2VideoExtension_8wekyb3d8bbwe:1.2.32.0 {"PackageFullName": ["Microsoft.MPEG2VideoExtension_1.2.32.0_x64__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:Microsoft.XboxGamingOverlay_8wekyb3d8bbwe:7.326.8061.0 {"PackageFullName": ["Microsoft.XboxGamingOverlay_7.326.8061.0_x64__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:Microsoft.Edge.GameAssist_8wekyb3d8bbwe:1.0.4019.0 {"PackageFullName": ["Microsoft.Edge.GameAssist_1.0.4019.0_x64__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:MicrosoftWindows.Client.WebExperience_cw5n1h2txyewy:526.21100.40.0 {"PackageFullName": ["MicrosoftWindows.Client.WebExperience_526.21100.40.0_x64__cw5n1h2txyewy"]}, products: {}}, Package {MSIX:Microsoft.Paint_8wekyb3d8bbwe:11.2605.81.0 {"PackageFullName": ["Microsoft.Paint_11.2605.81.0_x64__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:MicrosoftCorporationII.WindowsSubsystemForLinux_8wekyb3d8bbwe:2.7.12.0 {"PackageFullName": ["MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.12.0_x64__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:Microsoft.WindowsSoundRecorder_8wekyb3d8bbwe:11.2607.1.0 {"PackageFullName": ["Microsoft.WindowsSoundRecorder_11.2607.1.0_x64__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:Microsoft.WindowsNotepad_8wekyb3d8bbwe:11.2607.14.0 {"PackageFullName": ["Microsoft.WindowsNotepad_11.2607.14.0_x64__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:Microsoft.WindowsAlarms_8wekyb3d8bbwe:11.2607.6.0 {"PackageFullName": ["Microsoft.WindowsAlarms_11.2607.6.0_x64__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:Microsoft.ZuneMusic_8wekyb3d8bbwe:11.2607.16.0 {"PackageFullName": ["Microsoft.ZuneMusic_11.2607.16.0_x64__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:Microsoft.WindowsCamera_8wekyb3d8bbwe:2026.2607.1.0 {"PackageFullName": ["Microsoft.WindowsCamera_2026.2607.1.0_x64__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:Microsoft.WindowsCalculator_8wekyb3d8bbwe:11.2607.0.0 {"PackageFullName": ["Microsoft.WindowsCalculator_11.2607.0.0_x64__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:Microsoft.WinML.ONNX.WebGPU.EP.2_0.0.0.0_x64__8wekyb3d8bbwe:0.3.0.0 {"PackageFullName": ["Microsoft.WinML.ONNX.WebGPU.EP.2_0.3.0.0_x64__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:Microsoft.FoundryLocal.CUDA.EP_8wekyb3d8bbwe:1.0.0.0 {"PackageFullName": ["Microsoft.FoundryLocal.CUDA.EP_1.0.0.0_x64__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:Microsoft.Windows.AI.Speech.Preview.CPU_8wekyb3d8bbwe:1.2607.112.0 {"PackageFullName": ["Microsoft.Windows.AI.Speech.Preview.CPU_1.2607.112.0_x64__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:Microsoft.MicrosoftEdge.Stable_8wekyb3d8bbwe:152.0.4191.53 {"PackageFullName": ["Microsoft.MicrosoftEdge.Stable_152.0.4191.53_neutral__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:MicrosoftWindows.Speech.zh-CN.1_cw5n1h2txyewy:1.0.23.0 {"PackageFullName": ["MicrosoftWindows.Speech.zh-CN.1_1.0.23.0_x64__cw5n1h2txyewy"]}, products: {}}, Package {MSIX:Microsoft.WebMediaExtensions_8wekyb3d8bbwe:2.1.51.0 {"PackageFullName": ["Microsoft.WebMediaExtensions_2.1.51.0_x64__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:Microsoft.CommandPalette_8wekyb3d8bbwe:0.12.12365.0 {"PackageFullName": ["Microsoft.CommandPalette_0.12.12365.0_x64__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:Microsoft.PowerToys.SparseApp_8wekyb3d8bbwe:0.101.2362.0 {"PackageFullName": ["Microsoft.PowerToys.SparseApp_0.101.2362.0_neutral__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:Microsoft.PowerToys.FileLocksmithContextMenu_8wekyb3d8bbwe:0.101.2362.0 {"PackageFullName": ["Microsoft.PowerToys.FileLocksmithContextMenu_0.101.2362.0_neutral__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:Microsoft.GetHelp_8wekyb3d8bbwe:10.2409.42492.0 {"PackageFullName": ["Microsoft.GetHelp_10.2409.42492.0_x64__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:DolbyLaboratories.DolbyAccess_rz1tebttyb220:3.27.12250.0 {"PackageFullName": ["DolbyLaboratories.DolbyAccess_3.27.12250.0_x64__rz1tebttyb220"]}, products: {}}, Package {MSIX:QQExtension_fv0hcek9q9tbw:1.0.0.0 {"PackageFullName": ["QQExtension_1.0.0.0_neutral__fv0hcek9q9tbw"]}, products: {}}, Package {MSIX:Microsoft.WindowsAppRuntime.2_0.0.0.0_x64__8wekyb3d8bbwe:2.5.1.0 {"PackageFullName": ["Microsoft.WindowsAppRuntime.2_2.5.1.0_x64__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:Microsoft.WindowsAppRuntime.2_0.0.0.0_x86__8wekyb3d8bbwe:2.5.1.0 {"PackageFullName": ["Microsoft.WindowsAppRuntime.2_2.5.1.0_x86__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:MicrosoftCorporationII.WinAppRuntime.Main.2_8wekyb3d8bbwe:2.5.1.0 {"PackageFullName": ["MicrosoftCorporationII.WinAppRuntime.Main.2_2.5.1.0_x64__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:Microsoft.DesktopAppInstaller_8wekyb3d8bbwe:1.29.379.0 {"PackageFullName": ["Microsoft.DesktopAppInstaller_1.29.379.0_x64__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:Microsoft.GamingApp_8wekyb3d8bbwe:2609.1001.16.0 {"PackageFullName": ["Microsoft.GamingApp_2609.1001.16.0_x64__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:Microsoft.PowerAutomateDesktop_8wekyb3d8bbwe:11.2609.183.0 {"PackageFullName": ["Microsoft.PowerAutomateDesktop_11.2609.183.0_x64__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:40174MouriNaruto.NanaZip_gnj4mf6z9tkrc:7.0.1843.0 {"PackageFullName": ["40174MouriNaruto.NanaZip_7.0.1843.0_x64__gnj4mf6z9tkrc"]}, products: {}}, Package {MSIX:Sakawish.SaltPlayerforWindows_q65q631pyh094:1.18.5.0 {"PackageFullName": ["Sakawish.SaltPlayerforWindows_1.18.5.0_x64__q65q631pyh094"]}, products: {}}, Package {MSIX:Microsoft.AVCEncoderVideoExtension_8wekyb3d8bbwe:1.1.47.0 {"PackageFullName": ["Microsoft.AVCEncoderVideoExtension_1.1.47.0_x64__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:Microsoft.StorePurchaseApp_8wekyb3d8bbwe:22608.1401.1.0 {"PackageFullName": ["Microsoft.StorePurchaseApp_22608.1401.1.0_x64__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:Microsoft.WinML.Intel.OpenVINO.EP.2_8wekyb3d8bbwe:1.8.95.0 {"PackageFullName": ["Microsoft.WinML.Intel.OpenVINO.EP.2_1.8.95.0_x64__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:Microsoft.AV1VideoExtension_8wekyb3d8bbwe:2.0.35.0 {"PackageFullName": ["Microsoft.AV1VideoExtension_2.0.35.0_x64__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:Microsoft.WinML.NVIDIA.TRT-RTX.EP.2_8wekyb3d8bbwe:2.30.49.0 {"PackageFullName": ["Microsoft.WinML.NVIDIA.TRT-RTX.EP.2_2.30.49.0_x64__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:Microsoft.Todos_8wekyb3d8bbwe:0.178.8571.0 {"PackageFullName": ["Microsoft.Todos_0.178.8571.0_x64__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:Microsoft.MicrosoftSolitaireCollection_8wekyb3d8bbwe:4.27.9181.0 {"PackageFullName": ["Microsoft.MicrosoftSolitaireCollection_4.27.9181.0_x64__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:903DB504.SDK_a99ra4d2cbcxa:1.1001.76.0 {"PackageFullName": ["903DB504.SDK_1.1001.76.0_x64__a99ra4d2cbcxa"]}, products: {}}, Package {MSIX:MicrosoftCorporationII.WinAppRuntime.Singleton_8wekyb3d8bbwe:8002.5.1.0 {"PackageFullName": ["MicrosoftCorporationII.WinAppRuntime.Singleton_8002.5.1.0_x64__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:Microsoft.WindowsAppRuntime.1.8_0.0.0.0_x64__8wekyb3d8bbwe:8000.994.2142.0 {"PackageFullName": ["Microsoft.WindowsAppRuntime.1.8_8000.994.2142.0_x64__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:Microsoft.WindowsAppRuntime.1.8_0.0.0.0_x86__8wekyb3d8bbwe:8000.994.2142.0 {"PackageFullName": ["Microsoft.WindowsAppRuntime.1.8_8000.994.2142.0_x86__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:Microsoft.WindowsFeedbackHub_8wekyb3d8bbwe:2.2608.303.0 {"PackageFullName": ["Microsoft.WindowsFeedbackHub_2.2608.303.0_x64__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:DTSInc.DTSAudioProcessing_t5j2fzbtdg37r:1.11.3.0 {"PackageFullName": ["DTSInc.DTSAudioProcessing_1.11.3.0_x64__t5j2fzbtdg37r"]}, products: {}}, Package {MSIX:MicrosoftCorporationII.WinAppRuntime.Main.1.8_8wekyb3d8bbwe:8000.994.2142.0 {"PackageFullName": ["MicrosoftCorporationII.WinAppRuntime.Main.1.8_8000.994.2142.0_x64__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:Microsoft.StartExperiencesApp_8wekyb3d8bbwe:1.398.2.0 {"PackageFullName": ["Microsoft.StartExperiencesApp_1.398.2.0_x64__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:aimgr_8wekyb3d8bbwe:0.20.62.0 {"PackageFullName": ["aimgr_0.20.62.0_x64__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:Microsoft.GamingServices_8wekyb3d8bbwe:38.117.27001.0 {"PackageFullName": ["Microsoft.GamingServices_38.117.27001.0_x64__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:Microsoft.OutlookForWindows_8wekyb3d8bbwe:1.2026.922.300 {"PackageFullName": ["Microsoft.OutlookForWindows_1.2026.922.300_x64__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:Microsoft.WindowsTerminal_8wekyb3d8bbwe:1.24.12741.0 {"PackageFullName": ["Microsoft.WindowsTerminal_1.24.12741.0_x64__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:Microsoft.PowerToys.ImageResizerContextMenu_8wekyb3d8bbwe:0.101.2362.0 {"PackageFullName": ["Microsoft.PowerToys.ImageResizerContextMenu_0.101.2362.0_neutral__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:Microsoft.PowerToys.PowerRenameContextMenu_8wekyb3d8bbwe:0.101.2362.0 {"PackageFullName": ["Microsoft.PowerToys.PowerRenameContextMenu_0.101.2362.0_neutral__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:D454B137.Jianmao.FeedCustomizer_318rg2tda55vm:1.2.1.0 {"PackageFullName": ["D454B137.Jianmao.FeedCustomizer_1.2.1.0_x64__318rg2tda55vm"]}, products: {}}, Package {MSIX:MicrosoftWindows.CrossDevice_cw5n1h2txyewy:1.26082.74.0 {"PackageFullName": ["MicrosoftWindows.CrossDevice_1.26082.74.0_x64__cw5n1h2txyewy"]}, products: {}}, Package {MSIX:Clipchamp.Clipchamp_yxz26nhyzhsrt:4.7.10020.0 {"PackageFullName": ["Clipchamp.Clipchamp_4.7.10020.0_x64__yxz26nhyzhsrt"]}, products: {}}, Package {MSIX:Microsoft.Windows.Photos_8wekyb3d8bbwe:2026.11090.22001.0 {"PackageFullName": ["Microsoft.Windows.Photos_2026.11090.22001.0_x64__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:Microsoft.ScreenSketch_8wekyb3d8bbwe:11.2608.41.0 {"PackageFullName": ["Microsoft.ScreenSketch_11.2608.41.0_x64__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:DTSInc.DTSSoundUnbound_t5j2fzbtdg37r:2026.3.31.0 {"PackageFullName": ["DTSInc.DTSSoundUnbound_2026.3.31.0_x64__t5j2fzbtdg37r"]}, products: {}}, Package {MSIX:Microsoft.WindowsStore_8wekyb3d8bbwe:22608.1401.6.0 {"PackageFullName": ["Microsoft.WindowsStore_22608.1401.6.0_x64__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:Microsoft.VisualStudioCode_8wekyb3d8bbwe:1.0.141.0 {"PackageFullName": ["Microsoft.VisualStudioCode_1.0.141.0_neutral__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:Microsoft.OfficePushNotificationUtility_8wekyb3d8bbwe:16.0.20430.20146 {"PackageFullName": ["Microsoft.OfficePushNotificationUtility_16.0.20430.20146_neutral__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:Microsoft.Office.ActionsServer_8wekyb3d8bbwe:16.0.20430.20146 {"PackageFullName": ["Microsoft.Office.ActionsServer_16.0.20430.20146_neutral__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:Microsoft.RawImageExtension_8wekyb3d8bbwe:2.5.42.0 {"PackageFullName": ["Microsoft.RawImageExtension_2.5.42.0_x64__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:Microsoft.HEVCVideoExtension_8wekyb3d8bbwe:2.5.48.0 {"PackageFullName": ["Microsoft.HEVCVideoExtension_2.5.48.0_x64__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:Microsoft.HEIFImageExtension_8wekyb3d8bbwe:1.2.62.0 {"PackageFullName": ["Microsoft.HEIFImageExtension_1.2.62.0_x64__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:Microsoft.YourPhone_8wekyb3d8bbwe:1.26082.121.0 {"PackageFullName": ["Microsoft.YourPhone_1.26082.121.0_x64__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:TelegramMessengerLLP.TelegramDesktop_t4vj0pshhgkwm:7.3.1.0 {"PackageFullName": ["TelegramMessengerLLP.TelegramDesktop_7.3.1.0_x64__t4vj0pshhgkwm"]}, products: {}}, Package {MSIX:Microsoft.MicrosoftOfficeHub_8wekyb3d8bbwe:155.0.4283.45 {"PackageFullName": ["Microsoft.MicrosoftOfficeHub_155.0.4283.45_neutral__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:Microsoft.AIDevGallery_8wekyb3d8bbwe:0.6.2.0 {"PackageFullName": ["Microsoft.AIDevGallery_0.6.2.0_x64__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:Microsoft.Winget.Source_8wekyb3d8bbwe:2026.1012.1147.55 {"PackageFullName": ["Microsoft.Winget.Source_2026.1012.1147.55_neutral__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:PythonSoftwareFoundation.PythonManager_3847v3x7pw1km:26.4.240.0 {"PackageFullName": ["PythonSoftwareFoundation.PythonManager_26.4.240.0_x64__3847v3x7pw1km"]}, products: {}}, Package {MSIX:Microsoft.Ink.Handwriting.zh-Hans.1.0_0.0.0.0_x64__8wekyb3d8bbwe:0.1377.316.0 {"PackageFullName": ["Microsoft.Ink.Handwriting.zh-Hans.1.0_0.1377.316.0_x64__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:Microsoft.Ink.Handwriting.zh-Hans.1.0_0.0.0.0_x86__8wekyb3d8bbwe:0.1377.316.0 {"PackageFullName": ["Microsoft.Ink.Handwriting.zh-Hans.1.0_0.1377.316.0_x86__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:WindowsWorkload.PSOnnxRuntime.Lnl.3.7_0.0.0.0_x64__8wekyb3d8bbwe:1.2509.1022.0 {"PackageFullName": ["WindowsWorkload.PSOnnxRuntime.Lnl.3.7_1.2509.1022.0_x64__8wekyb3d8bbwe"]}, products: {"Windows.Workload.Analysis.LNL.amd64"}}, Package {MSIX:WindowsWorkload.ScrRegDetection.Data.1_0.0.0.0_x64__8wekyb3d8bbwe:1.2508.879.0 {"PackageFullName": ["WindowsWorkload.ScrRegDetection.Data.1_1.2508.879.0_x64__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:WindowsWorkload.TextRecognition.Lnl.1_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0 {"MsixPinned": ["1"], "PackageFullName": ["WindowsWorkload.TextRecognition.Lnl.1_1.2608.951.0_x64__8wekyb3d8bbwe"]}, products: {"Windows.Workload.ContentExtraction.LNL.amd64"}}, Package {MSIX:WindowsWorkload.Data.Analysis.365.1_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0 {"MsixPinned": ["1"], "PackageFullName": ["WindowsWorkload.Data.Analysis.365.1_1.2608.951.0_x64__8wekyb3d8bbwe"]}, products: {"Windows.Workload.Analysis.365.amd64"}}, Package {MSIX:WindowsWorkload.Data.ContentExtraction.365.1_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0 {"MsixPinned": ["1"], "PackageFullName": ["WindowsWorkload.Data.ContentExtraction.365.1_1.2608.951.0_x64__8wekyb3d8bbwe"]}, products: {"Windows.Workload.ContentExtraction.365.amd64"}}, Package {MSIX:WindowsWorkload.Data.ContentExtraction.365.1_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0 {"MsixPinned": ["1"], "PackageFullName": ["WindowsWorkload.Data.ContentExtraction.365.1_1.2608.951.0_x64__8wekyb3d8bbwe"]}, products: {"Windows.Workload.ContentExtraction.amd64"}}, Package {MSIX:WindowsWorkload.Data.ImageSearch.365.1_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0 {"PackageFullName": ["WindowsWorkload.Data.ImageSearch.365.1_1.2608.951.0_x64__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:WindowsWorkload.Manager.1_8wekyb3d8bbwe:1.2511.1196.0 {"MsixPinned": ["1"], "PackageFullName": ["WindowsWorkload.Manager.1_1.2511.1196.0_x64__8wekyb3d8bbwe"]}, products: {"Windows.Workload.Analysis.365.amd64"}}, Package {MSIX:WindowsWorkload.Manager.1_8wekyb3d8bbwe:1.2511.1196.0 {"MsixPinned": ["1"], "PackageFullName": ["WindowsWorkload.Manager.1_1.2511.1196.0_x64__8wekyb3d8bbwe"]}, products: {"Windows.Workload.ContentExtraction.365.amd64"}}, Package {MSIX:WindowsWorkload.Manager.1_8wekyb3d8bbwe:1.2511.1196.0 {"MsixPinned": ["1"], "PackageFullName": ["WindowsWorkload.Manager.1_1.2511.1196.0_x64__8wekyb3d8bbwe"]}, products: {"Windows.Workload.ContentExtraction.LNL.amd64"}}, Package {MSIX:WindowsWorkload.Manager.1_8wekyb3d8bbwe:1.2511.1196.0 {"PackageFullName": ["WindowsWorkload.Manager.1_1.2511.1196.0_x64__8wekyb3d8bbwe"]}, products: {"Windows.Workload.Analysis.LNL.amd64"}}, Package {MSIX:WindowsWorkload.Manager.1_8wekyb3d8bbwe:1.2511.1196.0 {"PackageFullName": ["WindowsWorkload.Manager.1_1.2511.1196.0_x64__8wekyb3d8bbwe"]}, products: {"Windows.Workload.SettingsModel.LNL.amd64"}}, Package {MSIX:WindowsWorkload.Manager.1_8wekyb3d8bbwe:1.2511.1196.0 {"PackageFullName": ["WindowsWorkload.Manager.1_1.2511.1196.0_x64__8wekyb3d8bbwe"]}, products: {"Windows.Workload.ImageSearch.LNL.amd64"}}, Package {MSIX:WindowsWorkload.PSOnnxRuntime.365.3.7_0.0.0.0_x64__8wekyb3d8bbwe:1.2509.1022.0 {"PackageFullName": ["WindowsWorkload.PSOnnxRuntime.365.3.7_1.2509.1022.0_x64__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:WindowsWorkload.PSTokenizer.365.2.7_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0 {"MsixPinned": ["1"], "PackageFullName": ["WindowsWorkload.PSTokenizer.365.2.7_1.2608.951.0_x64__8wekyb3d8bbwe"]}, products: {"Windows.Workload.Analysis.365.amd64"}}, Package {MSIX:WindowsWorkload.PSTokenizerShared.365.3.7_0.0.0.0_x64__8wekyb3d8bbwe:1.2509.1022.0 {"PackageFullName": ["WindowsWorkload.PSTokenizerShared.365.3.7_1.2509.1022.0_x64__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:WindowsWorkload.SessionManager.1_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0 {"MsixPinned": ["1"], "PackageFullName": ["WindowsWorkload.SessionManager.1_1.2608.951.0_x64__8wekyb3d8bbwe"]}, products: {"Windows.Workload.Analysis.365.amd64"}}, Package {MSIX:WindowsWorkload.SessionManager.1_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0 {"MsixPinned": ["1"], "PackageFullName": ["WindowsWorkload.SessionManager.1_1.2608.951.0_x64__8wekyb3d8bbwe"]}, products: {"Windows.Workload.ContentExtraction.365.amd64"}}, Package {MSIX:WindowsWorkload.SessionManager.1_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0 {"MsixPinned": ["1"], "PackageFullName": ["WindowsWorkload.SessionManager.1_1.2608.951.0_x64__8wekyb3d8bbwe"]}, products: {"Windows.Workload.ContentExtraction.amd64"}}, Package {MSIX:WindowsWorkload.SessionManager.1_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0 {"MsixPinned": ["1"], "PackageFullName": ["WindowsWorkload.SessionManager.1_1.2608.951.0_x64__8wekyb3d8bbwe"]}, products: {"Windows.Workload.ContentExtraction.LNL.amd64"}}, Package {MSIX:WindowsWorkload.SessionManager.1_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0 {"PackageFullName": ["WindowsWorkload.SessionManager.1_1.2608.951.0_x64__8wekyb3d8bbwe"]}, products: {"Windows.Workload.Analysis.LNL.amd64"}}, Package {MSIX:WindowsWorkload.SessionManager.1_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0 {"PackageFullName": ["WindowsWorkload.SessionManager.1_1.2608.951.0_x64__8wekyb3d8bbwe"]}, products: {"Windows.Workload.SettingsModel.LNL.amd64"}}, Package {MSIX:WindowsWorkload.SessionManager.1_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0 {"PackageFullName": ["WindowsWorkload.SessionManager.1_1.2608.951.0_x64__8wekyb3d8bbwe"]}, products: {"Windows.Workload.ImageSearch.LNL.amd64"}}, Package {MSIX:WindowsWorkload.ImageSearch.365.3_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0 {"MsixPinned": ["1"], "PackageFullName": ["WindowsWorkload.ImageSearch.365.3_1.2608.951.0_x64__8wekyb3d8bbwe"]}, products: {"Windows.Workload.ImageSearch.365.amd64"}}, Package {MSIX:WindowsWorkload.ImageTextSearch.365.3_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0 {"PackageFullName": ["WindowsWorkload.ImageTextSearch.365.3_1.2608.951.0_x64__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:WindowsWorkload.QueryProcessor.365.1_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0 {"MsixPinned": ["1"], "PackageFullName": ["WindowsWorkload.QueryProcessor.365.1_1.2608.951.0_x64__8wekyb3d8bbwe"]}, products: {"Windows.Workload.Analysis.365.amd64"}}, Package {MSIX:WindowsWorkload.ScrRegDetection.365.1_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0 {"MsixPinned": ["1"], "PackageFullName": ["WindowsWorkload.ScrRegDetection.365.1_1.2608.951.0_x64__8wekyb3d8bbwe"]}, products: {"Windows.Workload.ContentExtraction.365.amd64"}}, Package {MSIX:WindowsWorkload.ScrRegDetection.365.1_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0 {"MsixPinned": ["1"], "PackageFullName": ["WindowsWorkload.ScrRegDetection.365.1_1.2608.951.0_x64__8wekyb3d8bbwe"]}, products: {"Windows.Workload.ContentExtraction.amd64"}}, Package {MSIX:WindowsWorkload.SemanticText.365.1_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0 {"MsixPinned": ["1"], "PackageFullName": ["WindowsWorkload.SemanticText.365.1_1.2608.951.0_x64__8wekyb3d8bbwe"]}, products: {"Windows.Workload.Analysis.365.amd64"}}, Package {MSIX:WindowsWorkload.TextRecognition.365.1_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0 {"MsixPinned": ["1"], "PackageFullName": ["WindowsWorkload.TextRecognition.365.1_1.2608.951.0_x64__8wekyb3d8bbwe"]}, products: {"Windows.Workload.ContentExtraction.365.amd64"}}, Package {MSIX:WindowsWorkload.TextRecognition.365.1_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0 {"MsixPinned": ["1"], "PackageFullName": ["WindowsWorkload.TextRecognition.365.1_1.2608.951.0_x64__8wekyb3d8bbwe"]}, products: {"Windows.Workload.ContentExtraction.amd64"}}, Package {MSIX:WindowsWorkload.QueryBlockList.1_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0 {"MsixPinned": ["1"], "PackageFullName": ["WindowsWorkload.QueryBlockList.1_1.2608.951.0_x64__8wekyb3d8bbwe"]}, products: {"Windows.Workload.Analysis.365.amd64"}}, Package {MSIX:WindowsWorkload.QueryBlockList.1_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0 {"PackageFullName": ["WindowsWorkload.QueryBlockList.1_1.2608.951.0_x64__8wekyb3d8bbwe"]}, products: {"Windows.Workload.Analysis.LNL.amd64"}}, Package {MSIX:WindowsWorkload.QueryProcessor.Data.1_0.0.0.0_x64__8wekyb3d8bbwe:1.2605.851.0 {"MsixPinned": ["1"], "PackageFullName": ["WindowsWorkload.QueryProcessor.Data.1_1.2605.851.0_x64__8wekyb3d8bbwe"]}, products: {"Windows.Workload.Analysis.365.amd64"}}, Package {MSIX:WindowsWorkload.QueryProcessor.Data.1_0.0.0.0_x64__8wekyb3d8bbwe:1.2605.851.0 {"PackageFullName": ["WindowsWorkload.QueryProcessor.Data.1_1.2605.851.0_x64__8wekyb3d8bbwe"]}, products: {"Windows.Workload.Analysis.LNL.amd64"}}, Package {MSIX:WindowsWorkload.SemanticText.Data.1_0.0.0.0_x64__8wekyb3d8bbwe:1.2511.1196.0 {"MsixPinned": ["1"], "PackageFullName": ["WindowsWorkload.SemanticText.Data.1_1.2511.1196.0_x64__8wekyb3d8bbwe"]}, products: {"Windows.Workload.Analysis.365.amd64"}}, Package {MSIX:WindowsWorkload.SemanticText.Data.1_0.0.0.0_x64__8wekyb3d8bbwe:1.2511.1196.0 {"PackageFullName": ["WindowsWorkload.SemanticText.Data.1_1.2511.1196.0_x64__8wekyb3d8bbwe"]}, products: {"Windows.Workload.Analysis.LNL.amd64"}}, Package {MSIX:Microsoft.Ink.Handwriting.Main.zh-Hans.1.0_8wekyb3d8bbwe:0.1377.316.0 {"PackageFullName": ["Microsoft.Ink.Handwriting.Main.zh-Hans.1.0_0.1377.316.0_x64__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:Microsoft.WinUI3ControlsGallery_8wekyb3d8bbwe:3.0.4.0 {"PackageFullName": ["Microsoft.WinUI3ControlsGallery_3.0.4.0_x64__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:WindowsWorkload.ScrRegDetection.Data.1_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0 {"MsixPinned": ["1"], "PackageFullName": ["WindowsWorkload.ScrRegDetection.Data.1_1.2608.951.0_x64__8wekyb3d8bbwe"]}, products: {"Windows.Workload.ContentExtraction.365.amd64"}}, Package {MSIX:WindowsWorkload.ScrRegDetection.Data.1_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0 {"MsixPinned": ["1"], "PackageFullName": ["WindowsWorkload.ScrRegDetection.Data.1_1.2608.951.0_x64__8wekyb3d8bbwe"]}, products: {"Windows.Workload.ContentExtraction.LNL.amd64"}}, Package {MSIX:WindowsWorkload.WinMLShared.5.2_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0 {"MsixPinned": ["1"], "PackageFullName": ["WindowsWorkload.WinMLShared.5.2_1.2608.951.0_x64__8wekyb3d8bbwe"]}, products: {"Windows.Workload.Analysis.365.amd64"}}, Package {MSIX:WindowsWorkload.WinMLShared.5.2_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0 {"MsixPinned": ["1"], "PackageFullName": ["WindowsWorkload.WinMLShared.5.2_1.2608.951.0_x64__8wekyb3d8bbwe"]}, products: {"Windows.Workload.ContentExtraction.365.amd64"}}, Package {MSIX:WindowsWorkload.WinMLShared.5.2_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0 {"MsixPinned": ["1"], "PackageFullName": ["WindowsWorkload.WinMLShared.5.2_1.2608.951.0_x64__8wekyb3d8bbwe"]}, products: {"Windows.Workload.ContentExtraction.LNL.amd64"}}, Package {MSIX:WindowsWorkload.WinMLShared.5.2_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0 {"PackageFullName": ["WindowsWorkload.WinMLShared.5.2_1.2608.951.0_x64__8wekyb3d8bbwe"]}, products: {"Windows.Workload.Analysis.LNL.amd64"}}, Package {MSIX:WindowsWorkload.WinMLShared.5.2_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0 {"PackageFullName": ["WindowsWorkload.WinMLShared.5.2_1.2608.951.0_x64__8wekyb3d8bbwe"]}, products: {"Windows.Workload.SettingsModel.LNL.amd64"}}, Package {MSIX:WindowsWorkload.WinMLShared.5.2_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0 {"PackageFullName": ["WindowsWorkload.WinMLShared.5.2_1.2608.951.0_x64__8wekyb3d8bbwe"]}, products: {"Windows.Workload.ImageSearch.LNL.amd64"}}, Package {MSIX:WindowsWorkload.PSTokenizerShared.365.5.2_0.0.0.0_x64__8wekyb3d8bbwe:1.2607.837.0 {"MsixPinned": ["1"], "PackageFullName": ["WindowsWorkload.PSTokenizerShared.365.5.2_1.2607.837.0_x64__8wekyb3d8bbwe"]}, products: {"Windows.Workload.Analysis.365.amd64"}}, Package {MSIX:WindowsWorkload.PSTokenizerShared.Data.5.2_0.0.0.0_x64__8wekyb3d8bbwe:1.2607.837.0 {"MsixPinned": ["1"], "PackageFullName": ["WindowsWorkload.PSTokenizerShared.Data.5.2_1.2607.837.0_x64__8wekyb3d8bbwe"]}, products: {"Windows.Workload.Analysis.365.amd64"}}, Package {MSIX:WindowsWorkload.PSTokenizerShared.Data.5.2_0.0.0.0_x64__8wekyb3d8bbwe:1.2607.837.0 {"PackageFullName": ["WindowsWorkload.PSTokenizerShared.Data.5.2_1.2607.837.0_x64__8wekyb3d8bbwe"]}, products: {"Windows.Workload.Analysis.LNL.amd64"}}, Package {MSIX:WindowsWorkload.PSTokenizerShared.Data.5.2_0.0.0.0_x64__8wekyb3d8bbwe:1.2607.837.0 {"PackageFullName": ["WindowsWorkload.PSTokenizerShared.Data.5.2_1.2607.837.0_x64__8wekyb3d8bbwe"]}, products: {"Windows.Workload.SettingsModel.LNL.amd64"}}, Package {MSIX:WindowsWorkload.PSTokenizerShared.Data.5.2_0.0.0.0_x64__8wekyb3d8bbwe:1.2607.837.0 {"PackageFullName": ["WindowsWorkload.PSTokenizerShared.Data.5.2_1.2607.837.0_x64__8wekyb3d8bbwe"]}, products: {"Windows.Workload.ImageSearch.LNL.amd64"}}, Package {MSIX:Research.WindowsAIProbe_j043rr9n3jb56:1.0.0.6 {"PackageFullName": ["Research.WindowsAIProbe_1.0.0.6_x64__j043rr9n3jb56"]}, products: {}}, Package {MSIX:Microsoft.OneDriveSync_8wekyb3d8bbwe:26183.920.5.0 {"PackageFullName": ["Microsoft.OneDriveSync_26183.920.5.0_neutral__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:OpenAI.Codex_2p2nqsd0c76g0:26.1007.9446.0 {"PackageFullName": ["OpenAI.Codex_26.1007.9446.0_x64__2p2nqsd0c76g0"]}, products: {}}, Package {MSIX:WindowsWorkload.TextRecognition.Data.OPT.1_0.0.0.0_x64__8wekyb3d8bbwe:1.2606.719.0 {"MsixPinned": ["1"], "PackageFullName": ["WindowsWorkload.TextRecognition.Data.OPT.1_1.2606.719.0_x64__8wekyb3d8bbwe"]}, products: {"Windows.Workload.ContentExtraction.LNL.amd64"}}, Package {MSIX:WindowsWorkload.Data.ContentExtraction.Lnl.1_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0 {"MsixPinned": ["1"], "PackageFullName": ["WindowsWorkload.Data.ContentExtraction.Lnl.1_1.2608.951.0_x64__8wekyb3d8bbwe"]}, products: {"Windows.Workload.ContentExtraction.LNL.amd64"}}, Package {MSIX:WindowsWorkload.EP.Intel.OpenVINO.Framework.1.8_0.0.0.0_x64__8wekyb3d8bbwe:1.8.81.0 {"MsixPinned": ["1"], "PackageFullName": ["WindowsWorkload.EP.Intel.OpenVINO.Framework.1.8_1.8.81.0_x64__8wekyb3d8bbwe"]}, products: {"Windows.Workload.ContentExtraction.LNL.amd64"}}, Package {MSIX:WindowsWorkload.EP.Intel.OpenVINO.Framework.1.8_0.0.0.0_x64__8wekyb3d8bbwe:1.8.81.0 {"PackageFullName": ["WindowsWorkload.EP.Intel.OpenVINO.Framework.1.8_1.8.81.0_x64__8wekyb3d8bbwe"]}, products: {"Windows.Workload.Analysis.LNL.amd64"}}, Package {MSIX:WindowsWorkload.EP.Intel.OpenVINO.Framework.1.8_0.0.0.0_x64__8wekyb3d8bbwe:1.8.81.0 {"PackageFullName": ["WindowsWorkload.EP.Intel.OpenVINO.Framework.1.8_1.8.81.0_x64__8wekyb3d8bbwe"]}, products: {"Windows.Workload.SettingsModel.LNL.amd64"}}, Package {MSIX:WindowsWorkload.EP.Intel.OpenVINO.Framework.1.8_0.0.0.0_x64__8wekyb3d8bbwe:1.8.81.0 {"PackageFullName": ["WindowsWorkload.EP.Intel.OpenVINO.Framework.1.8_1.8.81.0_x64__8wekyb3d8bbwe"]}, products: {"Windows.Workload.ImageSearch.LNL.amd64"}}, Package {MSIX:WindowsWorkload.ScrRegDetection.Lnl.1_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0 {"MsixPinned": ["1"], "PackageFullName": ["WindowsWorkload.ScrRegDetection.Lnl.1_1.2608.951.0_x64__8wekyb3d8bbwe"]}, products: {"Windows.Workload.ContentExtraction.LNL.amd64"}}, Package {MSIX:Microsoft.PowerShell_8wekyb3d8bbwe:7.6.7.0 {"PackageFullName": ["Microsoft.PowerShell_7.6.7.0_x64__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:DolbyLaboratories.DolbyAccessOEM_rz1tebttyb220:3.27.13060.0 {"PackageFullName": ["DolbyLaboratories.DolbyAccessOEM_3.27.13060.0_x64__rz1tebttyb220"]}, products: {}}, Package {MSIX:WindowsWorkload.EP.AMD.VitisAI.Framework.1.8_0.0.0.0_x64__8wekyb3d8bbwe:1.8.63.0 {"PackageFullName": ["WindowsWorkload.EP.AMD.VitisAI.Framework.1.8_1.8.63.0_x64__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:WindowsWorkload.PSTokenizerShared.Lnl.5.2_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0 {"PackageFullName": ["WindowsWorkload.PSTokenizerShared.Lnl.5.2_1.2608.951.0_x64__8wekyb3d8bbwe"]}, products: {"Windows.Workload.Analysis.LNL.amd64"}}, Package {MSIX:WindowsWorkload.PSTokenizerShared.Lnl.5.2_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0 {"PackageFullName": ["WindowsWorkload.PSTokenizerShared.Lnl.5.2_1.2608.951.0_x64__8wekyb3d8bbwe"]}, products: {"Windows.Workload.SettingsModel.LNL.amd64"}}, Package {MSIX:WindowsWorkload.PSTokenizerShared.Lnl.5.2_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0 {"PackageFullName": ["WindowsWorkload.PSTokenizerShared.Lnl.5.2_1.2608.951.0_x64__8wekyb3d8bbwe"]}, products: {"Windows.Workload.ImageSearch.LNL.amd64"}}, Package {MSIX:WindowsWorkload.Data.Analysis.Lnl.1_0.0.0.0_x64__8wekyb3d8bbwe:1.2509.1022.0 {"PackageFullName": ["WindowsWorkload.Data.Analysis.Lnl.1_1.2509.1022.0_x64__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:WindowsWorkload.PSTokenizer.Lnl.2.7_0.0.0.0_x64__8wekyb3d8bbwe:1.2509.1022.0 {"PackageFullName": ["WindowsWorkload.PSTokenizer.Lnl.2.7_1.2509.1022.0_x64__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:WindowsWorkload.QueryProcessor.Lnl.1_0.0.0.0_x64__8wekyb3d8bbwe:1.2509.1022.0 {"PackageFullName": ["WindowsWorkload.QueryProcessor.Lnl.1_1.2509.1022.0_x64__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:WindowsWorkload.SemanticText.Lnl.1_0.0.0.0_x64__8wekyb3d8bbwe:1.2509.1022.0 {"PackageFullName": ["WindowsWorkload.SemanticText.Lnl.1_1.2509.1022.0_x64__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:WindowsWorkload.Data.Analysis.Stx.1_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0 {"PackageFullName": ["WindowsWorkload.Data.Analysis.Stx.1_1.2608.951.0_x64__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:WindowsWorkload.Data.ContentExtraction.Stx.1_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0 {"PackageFullName": ["WindowsWorkload.Data.ContentExtraction.Stx.1_1.2608.951.0_x64__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:WindowsWorkload.Data.ImageSearch.Lnl.1_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0 {"PackageFullName": ["WindowsWorkload.Data.ImageSearch.Lnl.1_1.2608.951.0_x64__8wekyb3d8bbwe"]}, products: {"Windows.Workload.ImageSearch.LNL.amd64"}}, Package {MSIX:WindowsWorkload.Data.ImageSearch.Stx.1_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0 {"PackageFullName": ["WindowsWorkload.Data.ImageSearch.Stx.1_1.2608.951.0_x64__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:WindowsWorkload.Data.SettingsModel.Lnl.1_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0 {"PackageFullName": ["WindowsWorkload.Data.SettingsModel.Lnl.1_1.2608.951.0_x64__8wekyb3d8bbwe"]}, products: {"Windows.Workload.SettingsModel.LNL.amd64"}}, Package {MSIX:WindowsWorkload.Data.SettingsModel.Stx.1_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0 {"PackageFullName": ["WindowsWorkload.Data.SettingsModel.Stx.1_1.2608.951.0_x64__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:WindowsWorkload.ImageContentModeration.1_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0 {"PackageFullName": ["WindowsWorkload.ImageContentModeration.1_1.2608.951.0_x64__8wekyb3d8bbwe"]}, products: {"Windows.Workload.ImageSearch.LNL.amd64"}}, Package {MSIX:WindowsWorkload.ImageContentModeration.Data.1_0.0.0.0_x64__8wekyb3d8bbwe:1.2605.851.0 {"PackageFullName": ["WindowsWorkload.ImageContentModeration.Data.1_1.2605.851.0_x64__8wekyb3d8bbwe"]}, products: {"Windows.Workload.ImageSearch.LNL.amd64"}}, Package {MSIX:WindowsWorkload.ImageSearch.Data.3_0.0.0.0_x64__8wekyb3d8bbwe:1.2511.1196.0 {"PackageFullName": ["WindowsWorkload.ImageSearch.Data.3_1.2511.1196.0_x64__8wekyb3d8bbwe"]}, products: {"Windows.Workload.ImageSearch.LNL.amd64"}}, Package {MSIX:WindowsWorkload.ImageSearch.Lnl.3_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0 {"PackageFullName": ["WindowsWorkload.ImageSearch.Lnl.3_1.2608.951.0_x64__8wekyb3d8bbwe"]}, products: {"Windows.Workload.ImageSearch.LNL.amd64"}}, Package {MSIX:WindowsWorkload.ImageSearch.Stx.3_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0 {"PackageFullName": ["WindowsWorkload.ImageSearch.Stx.3_1.2608.951.0_x64__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:WindowsWorkload.ImageTextSearch.Data.3_0.0.0.0_x64__8wekyb3d8bbwe:1.2511.1196.0 {"PackageFullName": ["WindowsWorkload.ImageTextSearch.Data.3_1.2511.1196.0_x64__8wekyb3d8bbwe"]}, products: {"Windows.Workload.ImageSearch.LNL.amd64"}}, Package {MSIX:WindowsWorkload.ImageTextSearch.Lnl.3_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0 {"PackageFullName": ["WindowsWorkload.ImageTextSearch.Lnl.3_1.2608.951.0_x64__8wekyb3d8bbwe"]}, products: {"Windows.Workload.ImageSearch.LNL.amd64"}}, Package {MSIX:WindowsWorkload.ImageTextSearch.Stx.3_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0 {"PackageFullName": ["WindowsWorkload.ImageTextSearch.Stx.3_1.2608.951.0_x64__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:WindowsWorkload.PSTokenizer.Stx.2.7_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0 {"PackageFullName": ["WindowsWorkload.PSTokenizer.Stx.2.7_1.2608.951.0_x64__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:WindowsWorkload.PSTokenizerShared.Data.3.7_0.0.0.0_x64__8wekyb3d8bbwe:1.2509.1022.0 {"PackageFullName": ["WindowsWorkload.PSTokenizerShared.Data.3.7_1.2509.1022.0_x64__8wekyb3d8bbwe"]}, products: {"Windows.Workload.Analysis.LNL.amd64"}}, Package {MSIX:WindowsWorkload.PSTokenizerShared.Lnl.3.7_0.0.0.0_x64__8wekyb3d8bbwe:1.2509.1022.0 {"PackageFullName": ["WindowsWorkload.PSTokenizerShared.Lnl.3.7_1.2509.1022.0_x64__8wekyb3d8bbwe"]}, products: {"Windows.Workload.Analysis.LNL.amd64"}}, Package {MSIX:WindowsWorkload.PSTokenizerShared.Stx.5.2_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0 {"PackageFullName": ["WindowsWorkload.PSTokenizerShared.Stx.5.2_1.2608.951.0_x64__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:WindowsWorkload.QueryProcessor.Stx.1_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0 {"PackageFullName": ["WindowsWorkload.QueryProcessor.Stx.1_1.2608.951.0_x64__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:WindowsWorkload.ScrRegDetection.Stx.1_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0 {"PackageFullName": ["WindowsWorkload.ScrRegDetection.Stx.1_1.2608.951.0_x64__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:WindowsWorkload.SemanticText.Stx.1_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0 {"PackageFullName": ["WindowsWorkload.SemanticText.Stx.1_1.2608.951.0_x64__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:WindowsWorkload.SettingsModel.Data.1_0.0.0.0_x64__8wekyb3d8bbwe:1.2605.628.0 {"PackageFullName": ["WindowsWorkload.SettingsModel.Data.1_1.2605.628.0_x64__8wekyb3d8bbwe"]}, products: {"Windows.Workload.SettingsModel.LNL.amd64"}}, Package {MSIX:WindowsWorkload.SettingsModel.Lnl.1_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0 {"PackageFullName": ["WindowsWorkload.SettingsModel.Lnl.1_1.2608.951.0_x64__8wekyb3d8bbwe"]}, products: {"Windows.Workload.SettingsModel.LNL.amd64"}}, Package {MSIX:WindowsWorkload.SettingsModel.Stx.1_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0 {"PackageFullName": ["WindowsWorkload.SettingsModel.Stx.1_1.2608.951.0_x64__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:WindowsWorkload.TextRecognition.Stx.1_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0 {"PackageFullName": ["WindowsWorkload.TextRecognition.Stx.1_1.2608.951.0_x64__8wekyb3d8bbwe"]}, products: {}}, Package {MSIX:WindowsWorkload.PSTokenizer.Lnl.2.7_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0 {"PackageFullName": ["WindowsWorkload.PSTokenizer.Lnl.2.7_1.2608.951.0_x64__8wekyb3d8bbwe"]}, products: {"Windows.Workload.Analysis.LNL.amd64"}}, Package {MSIX:WindowsWorkload.PSTokenizer.Lnl.2.7_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0 {"PackageFullName": ["WindowsWorkload.PSTokenizer.Lnl.2.7_1.2608.951.0_x64__8wekyb3d8bbwe"]}, products: {"Windows.Workload.ImageSearch.LNL.amd64"}}, Package {MSIX:WindowsWorkload.Data.Analysis.Lnl.1_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0 {"PackageFullName": ["WindowsWorkload.Data.Analysis.Lnl.1_1.2608.951.0_x64__8wekyb3d8bbwe"]}, products: {"Windows.Workload.Analysis.LNL.amd64"}}, Package {MSIX:WindowsWorkload.QueryProcessor.Lnl.1_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0 {"PackageFullName": ["WindowsWorkload.QueryProcessor.Lnl.1_1.2608.951.0_x64__8wekyb3d8bbwe"]}, products: {"Windows.Workload.Analysis.LNL.amd64"}}, Package {MSIX:WindowsWorkload.SemanticText.Lnl.1_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0 {"PackageFullName": ["WindowsWorkload.SemanticText.Lnl.1_1.2608.951.0_x64__8wekyb3d8bbwe"]}, products: {"Windows.Workload.Analysis.LNL.amd64"}}]
+2026-10-15T03:25:26.421755Z  INFO ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: Collected inventory from plugin plugin_id="MSIX" property_count=0 package_count=227
+2026-10-15T03:25:26.421778Z  INFO ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: Merged device information from all plugins package_count=227 global_property_count=2
+2026-10-15T03:25:26.421783Z  INFO ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: Generating Merged Package Change Report
+2026-10-15T03:25:26.421796Z  INFO ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: Created Package Property Policy package_property_policy=PackagePropertyPolicyBase { property_name: "PackageFullName", restorable_from_device: false, inherited_from_product: false, mutable: false, required: true, verify: false, allowed_property_values: {}, aliases_for_values: {}, ignored_values: {} }
+2026-10-15T03:25:26.421826Z  INFO ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: Created Package Property Policy package_property_policy=PackagePropertyPolicyBase { property_name: "MsixProvisioned", restorable_from_device: true, inherited_from_product: true, mutable: false, required: false, verify: true, allowed_property_values: {"Absent", "NotProvisioned", "1", "Provisioned", "0"}, aliases_for_values: {"NotProvisioned": "0", "Provisioned": "1"}, ignored_values: {"Absent"} }
+2026-10-15T03:25:26.421838Z  INFO ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: Created Package Property Policy package_property_policy=PackagePropertyPolicyBase { property_name: "MsixPinned", restorable_from_device: true, inherited_from_product: true, mutable: false, required: false, verify: true, allowed_property_values: {"1", "0", "Absent", "Pinned", "NotPinned"}, aliases_for_values: {"NotPinned": "0", "Pinned": "1"}, ignored_values: {"Absent"} }
+2026-10-15T03:25:26.421845Z  INFO ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: Package Property Policies: PackagePropertyPolicySet {
+    property_policies: {
+        "MsixProvisioned": PackagePropertyPolicyBase {
+            property_name: "MsixProvisioned",
+            restorable_from_device: true,
+            inherited_from_product: true,
+            mutable: false,
+            required: false,
+            verify: true,
+            allowed_property_values: {
+                "Absent",
+                "NotProvisioned",
+                "1",
+                "Provisioned",
+                "0",
+            },
+            aliases_for_values: {
+                "NotProvisioned": "0",
+                "Provisioned": "1",
+            },
+            ignored_values: {
+                "Absent",
+            },
+        },
+        "MsixPinned": PackagePropertyPolicyBase {
+            property_name: "MsixPinned",
+            restorable_from_device: true,
+            inherited_from_product: true,
+            mutable: false,
+            required: false,
+            verify: true,
+            allowed_property_values: {
+                "1",
+                "0",
+                "Absent",
+                "Pinned",
+                "NotPinned",
+            },
+            aliases_for_values: {
+                "NotPinned": "0",
+                "Pinned": "1",
+            },
+            ignored_values: {
+                "Absent",
+            },
+        },
+        "PackageFullName": PackagePropertyPolicyBase {
+            property_name: "PackageFullName",
+            restorable_from_device: false,
+            inherited_from_product: false,
+            mutable: false,
+            required: true,
+            verify: false,
+            allowed_property_values: {},
+            aliases_for_values: {},
+            ignored_values: {},
+        },
+    },
+} package_type="MSIX"
+2026-10-15T03:25:26.533077Z  INFO ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: Expanding RUMs from directory. source_directory=C:\Users\jianm\Code\DeepseekHarness\ai-products\Windows.Workload.ContentExtraction.LNL.amd64\Metadata\.aggregated_metadata_expand-5B804C25FDF7887A.WHCND4 target_directory=C:\Users\jianm\Code\DeepseekHarness\ai-products\Windows.Workload.ContentExtraction.LNL.amd64\Metadata\.expanded_rums-8FD12A070141F0D4.rZoSjt
+2026-10-15T03:25:26.561791Z  INFO ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: Expanding RUM cabinets found in directory. rum_cabs=[] source_directory=C:\Users\jianm\Code\DeepseekHarness\ai-products\Windows.Workload.ContentExtraction.LNL.amd64\Metadata\.aggregated_metadata_expand-5B804C25FDF7887A.WHCND4
+2026-10-15T03:25:26.561831Z  INFO ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: Expanding RUMs from directory. source_directory=C:\Users\jianm\Code\DeepseekHarness\ai-products\Windows.Workload.ContentExtraction.LNL.amd64\Metadata target_directory=C:\Users\jianm\Code\DeepseekHarness\ai-products\Windows.Workload.ContentExtraction.LNL.amd64\Metadata\.expanded_rums-8FD12A070141F0D4.rZoSjt
+2026-10-15T03:25:26.585580Z  INFO ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: Expanding RUM cabinets found in directory. rum_cabs=[RepositoryManifestCabinet { path: "C:\\Users\\jianm\\Code\\DeepseekHarness\\ai-products\\Windows.Workload.ContentExtraction.LNL.amd64\\Metadata\\Windows.Workload.ContentExtraction.LNL.amd64.rum.json.cab" }] source_directory=C:\Users\jianm\Code\DeepseekHarness\ai-products\Windows.Workload.ContentExtraction.LNL.amd64\Metadata
+2026-10-15T03:25:27.265648Z  INFO ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: Expanding cab path=C:\Users\jianm\Code\DeepseekHarness\ai-products\Windows.Workload.ContentExtraction.LNL.amd64\Metadata\Windows.Workload.ContentExtraction.LNL.amd64.rum.json.cab target=C:\Users\jianm\Code\DeepseekHarness\ai-products\Windows.Workload.ContentExtraction.LNL.amd64\Metadata\.expanded_rums-8FD12A070141F0D4.rZoSjt
+2026-10-15T03:25:27.310960Z  INFO ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: Enumerating installed UUP products
+2026-10-15T03:25:27.399404Z  INFO ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: Loading RUM manifest=Windows.Workload.ContentExtraction.LNL.amd64.rum.json
+2026-10-15T03:25:27.403636Z  INFO ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: Creating Package Offer from Update Product product_name="Windows.Workload.ContentExtraction.LNL"
+2026-10-15T03:25:27.404022Z  INFO ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: Offered Update Entities: [
+    UpdateEntity {
+        id: MSIX:WindowsWorkload.Data.ContentExtraction.Lnl.1_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0,
+        applicability_rules: None,
+        properties: {
+            "PackageFullName": [
+                "WindowsWorkload.Data.ContentExtraction.Lnl.1_1.2608.951.0_x64__8wekyb3d8bbwe",
+            ],
+        },
+        payload: EntityPayloadCategories {
+            canonical: [
+                {MSIX:WindowsWorkload.Data.ContentExtraction.Lnl.1_1.2608.951.0_x64.msix:1.2608.951.0, sha256: s6b6a1KzCR3Bptk93qmr+P+z88RE71c8Ycgg2jEm83Q=, size: 51003},
+            ],
+            ranges: Some(
+                [
+                    {canonical_name:WindowsWorkload.Data.ContentExtraction.Lnl.1_1.2608.951.0_x64.msix, sha256: s6b6a1KzCR3Bptk93qmr+P+z88RE71c8Ycgg2jEm83Q=, range_index_files: 1},
+                ],
+            ),
+        },
+    },
+    UpdateEntity {
+        id: MSIX:WindowsWorkload.Manager.1_8wekyb3d8bbwe:1.2511.1196.0,
+        applicability_rules: None,
+        properties: {
+            "PackageFullName": [
+                "WindowsWorkload.Manager.1_1.2511.1196.0_x64__8wekyb3d8bbwe",
+            ],
+        },
+        payload: EntityPayloadCategories {
+            canonical: [
+                {MSIX:WindowsWorkload.Manager.1_1.2511.1196.0_x64.msix:1.2511.1196.0, sha256: y8iBKehkC65h6abh5s9JtenHEc6BRbuIl3pStA6/Ecs=, size: 425261},
+            ],
+            ranges: Some(
+                [
+                    {canonical_name:WindowsWorkload.Manager.1_1.2511.1196.0_x64.msix, sha256: y8iBKehkC65h6abh5s9JtenHEc6BRbuIl3pStA6/Ecs=, range_index_files: 1},
+                ],
+            ),
+        },
+    },
+    UpdateEntity {
+        id: MSIX:WindowsWorkload.ScrRegDetection.Data.1_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0,
+        applicability_rules: None,
+        properties: {
+            "PackageFullName": [
+                "WindowsWorkload.ScrRegDetection.Data.1_1.2608.951.0_x64__8wekyb3d8bbwe",
+            ],
+        },
+        payload: EntityPayloadCategories {
+            canonical: [
+                {MSIX:WindowsWorkload.ScrRegDetection.Data.1_1.2608.951.0_x64.msix:1.2608.951.0, sha256: PVgrpPTjicmnnee3eMYFklBHcy6nFiqgLDFPt+stuX0=, size: 16939639},
+            ],
+            ranges: Some(
+                [
+                    {canonical_name:WindowsWorkload.ScrRegDetection.Data.1_1.2608.951.0_x64.msix, sha256: PVgrpPTjicmnnee3eMYFklBHcy6nFiqgLDFPt+stuX0=, range_index_files: 1},
+                ],
+            ),
+        },
+    },
+    UpdateEntity {
+        id: MSIX:WindowsWorkload.ScrRegDetection.Lnl.1_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0,
+        applicability_rules: None,
+        properties: {
+            "PackageFullName": [
+                "WindowsWorkload.ScrRegDetection.Lnl.1_1.2608.951.0_x64__8wekyb3d8bbwe",
+            ],
+        },
+        payload: EntityPayloadCategories {
+            canonical: [
+                {MSIX:WindowsWorkload.ScrRegDetection.Lnl.1_1.2608.951.0_x64.msix:1.2608.951.0, sha256: mrDDhDDLR10RWekpbJcpHNTiPmlnc1kNXGNaZzmvTSk=, size: 922192},
+            ],
+            ranges: Some(
+                [
+                    {canonical_name:WindowsWorkload.ScrRegDetection.Lnl.1_1.2608.951.0_x64.msix, sha256: mrDDhDDLR10RWekpbJcpHNTiPmlnc1kNXGNaZzmvTSk=, range_index_files: 1},
+                ],
+            ),
+        },
+    },
+    UpdateEntity {
+        id: MSIX:WindowsWorkload.SessionManager.1_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0,
+        applicability_rules: None,
+        properties: {
+            "PackageFullName": [
+                "WindowsWorkload.SessionManager.1_1.2608.951.0_x64__8wekyb3d8bbwe",
+            ],
+        },
+        payload: EntityPayloadCategories {
+            canonical: [
+                {MSIX:WindowsWorkload.SessionManager.1_1.2608.951.0_x64.msix:1.2608.951.0, sha256: F1jwooAf9yYOzW5PP787SfvhsxAABVbBVgVE9BbZrCQ=, size: 336851},
+            ],
+            ranges: Some(
+                [
+                    {canonical_name:WindowsWorkload.SessionManager.1_1.2608.951.0_x64.msix, sha256: F1jwooAf9yYOzW5PP787SfvhsxAABVbBVgVE9BbZrCQ=, range_index_files: 1},
+                ],
+            ),
+        },
+    },
+    UpdateEntity {
+        id: MSIX:WindowsWorkload.TextRecognition.Data.OPT.1_0.0.0.0_x64__8wekyb3d8bbwe:1.2606.719.0,
+        applicability_rules: None,
+        properties: {
+            "PackageFullName": [
+                "WindowsWorkload.TextRecognition.Data.OPT.1_1.2606.719.0_x64__8wekyb3d8bbwe",
+            ],
+        },
+        payload: EntityPayloadCategories {
+            canonical: [
+                {MSIX:WindowsWorkload.TextRecognition.Data.OPT.1_1.2606.719.0_x64.msix:1.2606.719.0, sha256: FRaunVp3HNQTGKdyVJlSs32XK0roXh5zOYAIzOKzUwQ=, size: 153897503},
+            ],
+            ranges: Some(
+                [
+                    {canonical_name:WindowsWorkload.TextRecognition.Data.OPT.1_1.2606.719.0_x64.msix, sha256: FRaunVp3HNQTGKdyVJlSs32XK0roXh5zOYAIzOKzUwQ=, range_index_files: 1},
+                ],
+            ),
+        },
+    },
+    UpdateEntity {
+        id: MSIX:WindowsWorkload.TextRecognition.Lnl.1_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0,
+        applicability_rules: None,
+        properties: {
+            "PackageFullName": [
+                "WindowsWorkload.TextRecognition.Lnl.1_1.2608.951.0_x64__8wekyb3d8bbwe",
+            ],
+        },
+        payload: EntityPayloadCategories {
+            canonical: [
+                {MSIX:WindowsWorkload.TextRecognition.Lnl.1_1.2608.951.0_x64.msix:1.2608.951.0, sha256: Ay6IQrjXJvxK3brU6eIIHs2KBhV21iqfFMQR+KsvRv4=, size: 17154335},
+            ],
+            ranges: Some(
+                [
+                    {canonical_name:WindowsWorkload.TextRecognition.Lnl.1_1.2608.951.0_x64.msix, sha256: Ay6IQrjXJvxK3brU6eIIHs2KBhV21iqfFMQR+KsvRv4=, range_index_files: 1},
+                ],
+            ),
+        },
+    },
+    UpdateEntity {
+        id: MSIX:WindowsWorkload.WinMLShared.5.2_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0,
+        applicability_rules: None,
+        properties: {
+            "PackageFullName": [
+                "WindowsWorkload.WinMLShared.5.2_1.2608.951.0_x64__8wekyb3d8bbwe",
+            ],
+        },
+        payload: EntityPayloadCategories {
+            canonical: [
+                {MSIX:WindowsWorkload.WinMLShared.5.2_1.2608.951.0_x64.msix:1.2608.951.0, sha256: I/Wkde22EeWGrC9cGzQQf8Rx0CiNApNF4NIFDrw8Oo4=, size: 17872329},
+            ],
+            ranges: Some(
+                [
+                    {canonical_name:WindowsWorkload.WinMLShared.5.2_1.2608.951.0_x64.msix, sha256: I/Wkde22EeWGrC9cGzQQf8Rx0CiNApNF4NIFDrw8Oo4=, range_index_files: 1},
+                ],
+            ),
+        },
+    },
+    UpdateEntity {
+        id: MSIX:WindowsWorkload.EP.Intel.OpenVINO.Framework.1.8_0.0.0.0_x64__8wekyb3d8bbwe:1.8.81.0,
+        applicability_rules: None,
+        properties: {
+            "PackageFullName": [
+                "WindowsWorkload.EP.Intel.OpenVINO.Framework.1.8_1.8.81.0_x64__8wekyb3d8bbwe",
+            ],
+        },
+        payload: EntityPayloadCategories {
+            canonical: [
+                {MSIX:WindowsWorkload.EP.Intel.OpenVINO.Framework.1.8_1.8.81.0_x64.msix:1.8.81.0, sha256: 3lo/kp93i0Xux3cwAr1gcLBA6yBt+FcvVrJLs0dyl6A=, size: 57780487},
+            ],
+            ranges: Some(
+                [
+                    {canonical_name:WindowsWorkload.EP.Intel.OpenVINO.Framework.1.8_1.8.81.0_x64.msix, sha256: 3lo/kp93i0Xux3cwAr1gcLBA6yBt+FcvVrJLs0dyl6A=, range_index_files: 1},
+                ],
+            ),
+        },
+    },
+]
+2026-10-15T03:25:27.404589Z  INFO ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: Offered Entity Actions: {
+    "InstallEntities": [
+        MSIX:WindowsWorkload.Data.ContentExtraction.Lnl.1_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0,
+        MSIX:WindowsWorkload.Manager.1_8wekyb3d8bbwe:1.2511.1196.0,
+        MSIX:WindowsWorkload.ScrRegDetection.Data.1_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0,
+        MSIX:WindowsWorkload.ScrRegDetection.Lnl.1_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0,
+        MSIX:WindowsWorkload.SessionManager.1_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0,
+        MSIX:WindowsWorkload.TextRecognition.Data.OPT.1_0.0.0.0_x64__8wekyb3d8bbwe:1.2606.719.0,
+        MSIX:WindowsWorkload.TextRecognition.Lnl.1_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0,
+        MSIX:WindowsWorkload.WinMLShared.5.2_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0,
+        MSIX:WindowsWorkload.EP.Intel.OpenVINO.Framework.1.8_0.0.0.0_x64__8wekyb3d8bbwe:1.8.81.0,
+    ],
+} action="InstallEntities"
+2026-10-15T03:25:27.404741Z  INFO ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: Package Offer: PackageOffer {
+    versioned_packages: {
+        MSIX:WindowsWorkload.Data.ContentExtraction.Lnl.1_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0: OfferPackage {
+            id: MSIX:WindowsWorkload.Data.ContentExtraction.Lnl.1_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0,
+            canonical_payload: [
+                "WindowsWorkload.Data.ContentExtraction.Lnl.1_1.2608.951.0_x64.msix",
+            ],
+            properties: {
+                "PackageFullName": [
+                    "WindowsWorkload.Data.ContentExtraction.Lnl.1_1.2608.951.0_x64__8wekyb3d8bbwe",
+                ],
+            },
+            global_properties: {},
+            dependencies: None,
+            products: {
+                "Windows.Workload.ContentExtraction.LNL.amd64",
+            },
+        },
+        MSIX:WindowsWorkload.EP.Intel.OpenVINO.Framework.1.8_0.0.0.0_x64__8wekyb3d8bbwe:1.8.81.0: OfferPackage {
+            id: MSIX:WindowsWorkload.EP.Intel.OpenVINO.Framework.1.8_0.0.0.0_x64__8wekyb3d8bbwe:1.8.81.0,
+            canonical_payload: [
+                "WindowsWorkload.EP.Intel.OpenVINO.Framework.1.8_1.8.81.0_x64.msix",
+            ],
+            properties: {
+                "PackageFullName": [
+                    "WindowsWorkload.EP.Intel.OpenVINO.Framework.1.8_1.8.81.0_x64__8wekyb3d8bbwe",
+                ],
+            },
+            global_properties: {},
+            dependencies: None,
+            products: {
+                "Windows.Workload.ContentExtraction.LNL.amd64",
+            },
+        },
+        MSIX:WindowsWorkload.Manager.1_8wekyb3d8bbwe:1.2511.1196.0: OfferPackage {
+            id: MSIX:WindowsWorkload.Manager.1_8wekyb3d8bbwe:1.2511.1196.0,
+            canonical_payload: [
+                "WindowsWorkload.Manager.1_1.2511.1196.0_x64.msix",
+            ],
+            properties: {
+                "PackageFullName": [
+                    "WindowsWorkload.Manager.1_1.2511.1196.0_x64__8wekyb3d8bbwe",
+                ],
+            },
+            global_properties: {},
+            dependencies: None,
+            products: {
+                "Windows.Workload.ContentExtraction.LNL.amd64",
+            },
+        },
+        MSIX:WindowsWorkload.ScrRegDetection.Data.1_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0: OfferPackage {
+            id: MSIX:WindowsWorkload.ScrRegDetection.Data.1_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0,
+            canonical_payload: [
+                "WindowsWorkload.ScrRegDetection.Data.1_1.2608.951.0_x64.msix",
+            ],
+            properties: {
+                "PackageFullName": [
+                    "WindowsWorkload.ScrRegDetection.Data.1_1.2608.951.0_x64__8wekyb3d8bbwe",
+                ],
+            },
+            global_properties: {},
+            dependencies: None,
+            products: {
+                "Windows.Workload.ContentExtraction.LNL.amd64",
+            },
+        },
+        MSIX:WindowsWorkload.ScrRegDetection.Lnl.1_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0: OfferPackage {
+            id: MSIX:WindowsWorkload.ScrRegDetection.Lnl.1_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0,
+            canonical_payload: [
+                "WindowsWorkload.ScrRegDetection.Lnl.1_1.2608.951.0_x64.msix",
+            ],
+            properties: {
+                "PackageFullName": [
+                    "WindowsWorkload.ScrRegDetection.Lnl.1_1.2608.951.0_x64__8wekyb3d8bbwe",
+                ],
+            },
+            global_properties: {},
+            dependencies: None,
+            products: {
+                "Windows.Workload.ContentExtraction.LNL.amd64",
+            },
+        },
+        MSIX:WindowsWorkload.SessionManager.1_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0: OfferPackage {
+            id: MSIX:WindowsWorkload.SessionManager.1_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0,
+            canonical_payload: [
+                "WindowsWorkload.SessionManager.1_1.2608.951.0_x64.msix",
+            ],
+            properties: {
+                "PackageFullName": [
+                    "WindowsWorkload.SessionManager.1_1.2608.951.0_x64__8wekyb3d8bbwe",
+                ],
+            },
+            global_properties: {},
+            dependencies: None,
+            products: {
+                "Windows.Workload.ContentExtraction.LNL.amd64",
+            },
+        },
+        MSIX:WindowsWorkload.TextRecognition.Data.OPT.1_0.0.0.0_x64__8wekyb3d8bbwe:1.2606.719.0: OfferPackage {
+            id: MSIX:WindowsWorkload.TextRecognition.Data.OPT.1_0.0.0.0_x64__8wekyb3d8bbwe:1.2606.719.0,
+            canonical_payload: [
+                "WindowsWorkload.TextRecognition.Data.OPT.1_1.2606.719.0_x64.msix",
+            ],
+            properties: {
+                "PackageFullName": [
+                    "WindowsWorkload.TextRecognition.Data.OPT.1_1.2606.719.0_x64__8wekyb3d8bbwe",
+                ],
+            },
+            global_properties: {},
+            dependencies: None,
+            products: {
+                "Windows.Workload.ContentExtraction.LNL.amd64",
+            },
+        },
+        MSIX:WindowsWorkload.TextRecognition.Lnl.1_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0: OfferPackage {
+            id: MSIX:WindowsWorkload.TextRecognition.Lnl.1_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0,
+            canonical_payload: [
+                "WindowsWorkload.TextRecognition.Lnl.1_1.2608.951.0_x64.msix",
+            ],
+            properties: {
+                "PackageFullName": [
+                    "WindowsWorkload.TextRecognition.Lnl.1_1.2608.951.0_x64__8wekyb3d8bbwe",
+                ],
+            },
+            global_properties: {},
+            dependencies: None,
+            products: {
+                "Windows.Workload.ContentExtraction.LNL.amd64",
+            },
+        },
+        MSIX:WindowsWorkload.WinMLShared.5.2_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0: OfferPackage {
+            id: MSIX:WindowsWorkload.WinMLShared.5.2_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0,
+            canonical_payload: [
+                "WindowsWorkload.WinMLShared.5.2_1.2608.951.0_x64.msix",
+            ],
+            properties: {
+                "PackageFullName": [
+                    "WindowsWorkload.WinMLShared.5.2_1.2608.951.0_x64__8wekyb3d8bbwe",
+                ],
+            },
+            global_properties: {},
+            dependencies: None,
+            products: {
+                "Windows.Workload.ContentExtraction.LNL.amd64",
+            },
+        },
+    },
+    payloads: {
+        "WindowsWorkload.Data.ContentExtraction.Lnl.1_1.2608.951.0_x64.msix": {MSIX:WindowsWorkload.Data.ContentExtraction.Lnl.1_1.2608.951.0_x64.msix:1.2608.951.0, sha256: s6b6a1KzCR3Bptk93qmr+P+z88RE71c8Ycgg2jEm83Q=, size: 51003, props: Null, rifs: Some([{name:WindowsWorkload.Data.ContentExtraction.Lnl.1_1.2608.951.0_x64.msix.rif.cab, sha256: 7HyuzRUp2v1kpO7MlfzyKJEP2jK996xki29BUPLnwdo=, size: 10811}])},
+        "WindowsWorkload.EP.Intel.OpenVINO.Framework.1.8_1.8.81.0_x64.msix": {MSIX:WindowsWorkload.EP.Intel.OpenVINO.Framework.1.8_1.8.81.0_x64.msix:1.8.81.0, sha256: 3lo/kp93i0Xux3cwAr1gcLBA6yBt+FcvVrJLs0dyl6A=, size: 57780487, props: Null, rifs: Some([{name:WindowsWorkload.EP.Intel.OpenVINO.Framework.1.8_1.8.81.0_x64.msix.rif.cab, sha256: PvRL+THshaJ3TEV2eGfq19bxn88GlLXPw++VvHyJlLk=, size: 12748}])},
+        "WindowsWorkload.Manager.1_1.2511.1196.0_x64.msix": {MSIX:WindowsWorkload.Manager.1_1.2511.1196.0_x64.msix:1.2511.1196.0, sha256: y8iBKehkC65h6abh5s9JtenHEc6BRbuIl3pStA6/Ecs=, size: 425261, props: Null, rifs: Some([{name:WindowsWorkload.Manager.1_1.2511.1196.0_x64.msix.rif.cab, sha256: arNHxiFZuysS16oFtA2EK/ompeEnnuORbX7pQj009uc=, size: 11474}])},
+        "WindowsWorkload.ScrRegDetection.Data.1_1.2608.951.0_x64.msix": {MSIX:WindowsWorkload.ScrRegDetection.Data.1_1.2608.951.0_x64.msix:1.2608.951.0, sha256: PVgrpPTjicmnnee3eMYFklBHcy6nFiqgLDFPt+stuX0=, size: 16939639, props: Null, rifs: Some([{name:WindowsWorkload.ScrRegDetection.Data.1_1.2608.951.0_x64.msix.rif.cab, sha256: j8JJMI7pLkn3f4YvIKIad/IxSmyCM4bX+fB0fi/2yEE=, size: 10801}])},
+        "WindowsWorkload.ScrRegDetection.Lnl.1_1.2608.951.0_x64.msix": {MSIX:WindowsWorkload.ScrRegDetection.Lnl.1_1.2608.951.0_x64.msix:1.2608.951.0, sha256: mrDDhDDLR10RWekpbJcpHNTiPmlnc1kNXGNaZzmvTSk=, size: 922192, props: Null, rifs: Some([{name:WindowsWorkload.ScrRegDetection.Lnl.1_1.2608.951.0_x64.msix.rif.cab, sha256: CMdMQ/v2basJNfWTsmtEplKoNEXO0Zp47t96hSOh7Yc=, size: 11997}])},
+        "WindowsWorkload.SessionManager.1_1.2608.951.0_x64.msix": {MSIX:WindowsWorkload.SessionManager.1_1.2608.951.0_x64.msix:1.2608.951.0, sha256: F1jwooAf9yYOzW5PP787SfvhsxAABVbBVgVE9BbZrCQ=, size: 336851, props: Null, rifs: Some([{name:WindowsWorkload.SessionManager.1_1.2608.951.0_x64.msix.rif.cab, sha256: 2bmCJdan8KGOQTlnVEkYVf3qdJJnylyMGOvwHdMvTXM=, size: 11343}])},
+        "WindowsWorkload.TextRecognition.Data.OPT.1_1.2606.719.0_x64.msix": {MSIX:WindowsWorkload.TextRecognition.Data.OPT.1_1.2606.719.0_x64.msix:1.2606.719.0, sha256: FRaunVp3HNQTGKdyVJlSs32XK0roXh5zOYAIzOKzUwQ=, size: 153897503, props: Null, rifs: Some([{name:WindowsWorkload.TextRecognition.Data.OPT.1_1.2606.719.0_x64.msix.rif.cab, sha256: J5iMxS+RCwWEWaMoPbpyC3Xue546pXTiXnoKs9K4DzE=, size: 11258}])},
+        "WindowsWorkload.TextRecognition.Lnl.1_1.2608.951.0_x64.msix": {MSIX:WindowsWorkload.TextRecognition.Lnl.1_1.2608.951.0_x64.msix:1.2608.951.0, sha256: Ay6IQrjXJvxK3brU6eIIHs2KBhV21iqfFMQR+KsvRv4=, size: 17154335, props: Null, rifs: Some([{name:WindowsWorkload.TextRecognition.Lnl.1_1.2608.951.0_x64.msix.rif.cab, sha256: H3CynRzFKuyLlRtmqFbW3PPLtskclVhkizGIXqEHFbM=, size: 12308}])},
+        "WindowsWorkload.WinMLShared.5.2_1.2608.951.0_x64.msix": {MSIX:WindowsWorkload.WinMLShared.5.2_1.2608.951.0_x64.msix:1.2608.951.0, sha256: I/Wkde22EeWGrC9cGzQQf8Rx0CiNApNF4NIFDrw8Oo4=, size: 17872329, props: Null, rifs: Some([{name:WindowsWorkload.WinMLShared.5.2_1.2608.951.0_x64.msix.rif.cab, sha256: xhTq8y3gYtZqTkCawExsFTyDVgC51S4E2OemcGfSmeg=, size: 11185}])},
+    },
+    products: {
+        "Windows.Workload.ContentExtraction.LNL.amd64": {Windows.Workload.ContentExtraction.LNL.amd64:amd64:1.2608.951.0, {"IsRemovable": "False", "UpdateUXHistoryClassification": "AIFabricModel"}},
+    },
+    package_actions: {
+        MSIX:WindowsWorkload.Data.ContentExtraction.Lnl.1_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0: {
+            "Windows.Workload.ContentExtraction.LNL.amd64": PackageAction {
+                action_type: Install,
+                payload_action_properties: Null,
+            },
+        },
+        MSIX:WindowsWorkload.EP.Intel.OpenVINO.Framework.1.8_0.0.0.0_x64__8wekyb3d8bbwe:1.8.81.0: {
+            "Windows.Workload.ContentExtraction.LNL.amd64": PackageAction {
+                action_type: Install,
+                payload_action_properties: Null,
+            },
+        },
+        MSIX:WindowsWorkload.Manager.1_8wekyb3d8bbwe:1.2511.1196.0: {
+            "Windows.Workload.ContentExtraction.LNL.amd64": PackageAction {
+                action_type: Install,
+                payload_action_properties: Null,
+            },
+        },
+        MSIX:WindowsWorkload.ScrRegDetection.Data.1_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0: {
+            "Windows.Workload.ContentExtraction.LNL.amd64": PackageAction {
+                action_type: Install,
+                payload_action_properties: Null,
+            },
+        },
+        MSIX:WindowsWorkload.ScrRegDetection.Lnl.1_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0: {
+            "Windows.Workload.ContentExtraction.LNL.amd64": PackageAction {
+                action_type: Install,
+                payload_action_properties: Null,
+            },
+        },
+        MSIX:WindowsWorkload.SessionManager.1_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0: {
+            "Windows.Workload.ContentExtraction.LNL.amd64": PackageAction {
+                action_type: Install,
+                payload_action_properties: Null,
+            },
+        },
+        MSIX:WindowsWorkload.TextRecognition.Data.OPT.1_0.0.0.0_x64__8wekyb3d8bbwe:1.2606.719.0: {
+            "Windows.Workload.ContentExtraction.LNL.amd64": PackageAction {
+                action_type: Install,
+                payload_action_properties: Null,
+            },
+        },
+        MSIX:WindowsWorkload.TextRecognition.Lnl.1_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0: {
+            "Windows.Workload.ContentExtraction.LNL.amd64": PackageAction {
+                action_type: Install,
+                payload_action_properties: Null,
+            },
+        },
+        MSIX:WindowsWorkload.WinMLShared.5.2_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0: {
+            "Windows.Workload.ContentExtraction.LNL.amd64": PackageAction {
+                action_type: Install,
+                payload_action_properties: Null,
+            },
+        },
+    },
+    product_packages: {
+        MSIX:WindowsWorkload.Data.ContentExtraction.Lnl.1_0.0.0.0_x64__8wekyb3d8bbwe:*: {
+            "Windows.Workload.ContentExtraction.LNL.amd64": {
+                MSIX:WindowsWorkload.Data.ContentExtraction.Lnl.1_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0,
+            },
+        },
+        MSIX:WindowsWorkload.EP.Intel.OpenVINO.Framework.1.8_0.0.0.0_x64__8wekyb3d8bbwe:*: {
+            "Windows.Workload.ContentExtraction.LNL.amd64": {
+                MSIX:WindowsWorkload.EP.Intel.OpenVINO.Framework.1.8_0.0.0.0_x64__8wekyb3d8bbwe:1.8.81.0,
+            },
+        },
+        MSIX:WindowsWorkload.Manager.1_8wekyb3d8bbwe:*: {
+            "Windows.Workload.ContentExtraction.LNL.amd64": {
+                MSIX:WindowsWorkload.Manager.1_8wekyb3d8bbwe:1.2511.1196.0,
+            },
+        },
+        MSIX:WindowsWorkload.ScrRegDetection.Data.1_0.0.0.0_x64__8wekyb3d8bbwe:*: {
+            "Windows.Workload.ContentExtraction.LNL.amd64": {
+                MSIX:WindowsWorkload.ScrRegDetection.Data.1_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0,
+            },
+        },
+        MSIX:WindowsWorkload.ScrRegDetection.Lnl.1_0.0.0.0_x64__8wekyb3d8bbwe:*: {
+            "Windows.Workload.ContentExtraction.LNL.amd64": {
+                MSIX:WindowsWorkload.ScrRegDetection.Lnl.1_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0,
+            },
+        },
+        MSIX:WindowsWorkload.SessionManager.1_0.0.0.0_x64__8wekyb3d8bbwe:*: {
+            "Windows.Workload.ContentExtraction.LNL.amd64": {
+                MSIX:WindowsWorkload.SessionManager.1_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0,
+            },
+        },
+        MSIX:WindowsWorkload.TextRecognition.Data.OPT.1_0.0.0.0_x64__8wekyb3d8bbwe:*: {
+            "Windows.Workload.ContentExtraction.LNL.amd64": {
+                MSIX:WindowsWorkload.TextRecognition.Data.OPT.1_0.0.0.0_x64__8wekyb3d8bbwe:1.2606.719.0,
+            },
+        },
+        MSIX:WindowsWorkload.TextRecognition.Lnl.1_0.0.0.0_x64__8wekyb3d8bbwe:*: {
+            "Windows.Workload.ContentExtraction.LNL.amd64": {
+                MSIX:WindowsWorkload.TextRecognition.Lnl.1_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0,
+            },
+        },
+        MSIX:WindowsWorkload.WinMLShared.5.2_0.0.0.0_x64__8wekyb3d8bbwe:*: {
+            "Windows.Workload.ContentExtraction.LNL.amd64": {
+                MSIX:WindowsWorkload.WinMLShared.5.2_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0,
+            },
+        },
+    },
+    entity_applicability_rules: {},
+    condition_definitions: {
+        "Windows.Workload.ContentExtraction.LNL.amd64": {
+            "INTEL_LNL_GLOBAL_PROPERTIES": Object {
+                "global_property_contains": Array [
+                    String("Device\\Detect\\Hardware\\NPU"),
+                    String("A6EEA85C-3D59-4FF8-A673-F88D85107D0C"),
+                ],
+            },
+            "INTEL_LNL_SOFTWARE": Object {
+                "===": Array [
+                    Object {
+                        "registry_string_value": Array [
+                            String("HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows NT\\CurrentVersion\\UnattendSettings\\WaaS\\Device\\Detect\\Hardware\\NPU"),
+                            String("A6EEA85C-3D59-4FF8-A673-F88D85107D0C"),
+                            String("0"),
+                        ],
+                    },
+                    String("1"),
+                ],
+            },
+            "INTEL_LNL_SYSTEM": Object {
+                "===": Array [
+                    Object {
+                        "registry_string_value": Array [
+                            String("HKEY_LOCAL_MACHINE\\SYSTEM\\WaaS\\Device\\Detect\\Hardware\\NPU"),
+                            String("A6EEA85C-3D59-4FF8-A673-F88D85107D0C"),
+                            String("0"),
+                        ],
+                    },
+                    String("1"),
+                ],
+            },
+            "INTEL_PTL_GLOBAL_PROPERTIES": Object {
+                "global_property_contains": Array [
+                    String("Device\\Detect\\Hardware\\NPU"),
+                    String("B2D7B485-2A57-48EA-9032-07D6BD4B3F87"),
+                ],
+            },
+            "INTEL_PTL_SOFTWARE": Object {
+                "===": Array [
+                    Object {
+                        "registry_string_value": Array [
+                            String("HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows NT\\CurrentVersion\\UnattendSettings\\WaaS\\Device\\Detect\\Hardware\\NPU"),
+                            String("B2D7B485-2A57-48EA-9032-07D6BD4B3F87"),
+                            String("0"),
+                        ],
+                    },
+                    String("1"),
+                ],
+            },
+            "INTEL_PTL_SYSTEM": Object {
+                "===": Array [
+                    Object {
+                        "registry_string_value": Array [
+                            String("HKEY_LOCAL_MACHINE\\SYSTEM\\WaaS\\Device\\Detect\\Hardware\\NPU"),
+                            String("B2D7B485-2A57-48EA-9032-07D6BD4B3F87"),
+                            String("0"),
+                        ],
+                    },
+                    String("1"),
+                ],
+            },
+        },
+    },
+}
+2026-10-15T03:25:27.408901Z  INFO ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: Global Property Contains Evaluated property_key="Device\\Detect\\Hardware\\NPU" value="A6EEA85C-3D59-4FF8-A673-F88D85107D0C" result=false
+2026-10-15T03:25:27.409262Z  INFO ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: Precomputed Condition Definition Result condition_name="INTEL_LNL_GLOBAL_PROPERTIES" condition_result=#f condition_expression={"global_property_contains":["Device\\Detect\\Hardware\\NPU","A6EEA85C-3D59-4FF8-A673-F88D85107D0C"]}
+2026-10-15T03:25:27.412878Z  INFO ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: Registry Value Not Found, Resolved to Default registry_path="HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows NT\\CurrentVersion\\UnattendSettings\\WaaS\\Device\\Detect\\Hardware\\NPU" value_name="A6EEA85C-3D59-4FF8-A673-F88D85107D0C" result="0"
+2026-10-15T03:25:27.412903Z  INFO ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: Precomputed Condition Definition Result condition_name="INTEL_LNL_SOFTWARE" condition_result=#f condition_expression={"===":[{"registry_string_value":["HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows NT\\CurrentVersion\\UnattendSettings\\WaaS\\Device\\Detect\\Hardware\\NPU","A6EEA85C-3D59-4FF8-A673-F88D85107D0C","0"]},"1"]}
+2026-10-15T03:25:27.414052Z  INFO ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: Registry Value Not Found, Resolved to Default registry_path="HKEY_LOCAL_MACHINE\\SYSTEM\\WaaS\\Device\\Detect\\Hardware\\NPU" value_name="A6EEA85C-3D59-4FF8-A673-F88D85107D0C" result="0"
+2026-10-15T03:25:27.414063Z  INFO ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: Precomputed Condition Definition Result condition_name="INTEL_LNL_SYSTEM" condition_result=#f condition_expression={"===":[{"registry_string_value":["HKEY_LOCAL_MACHINE\\SYSTEM\\WaaS\\Device\\Detect\\Hardware\\NPU","A6EEA85C-3D59-4FF8-A673-F88D85107D0C","0"]},"1"]}
+2026-10-15T03:25:27.414083Z  INFO ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: Global Property Contains Evaluated property_key="Device\\Detect\\Hardware\\NPU" value="B2D7B485-2A57-48EA-9032-07D6BD4B3F87" result=false
+2026-10-15T03:25:27.414089Z  INFO ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: Precomputed Condition Definition Result condition_name="INTEL_PTL_GLOBAL_PROPERTIES" condition_result=#f condition_expression={"global_property_contains":["Device\\Detect\\Hardware\\NPU","B2D7B485-2A57-48EA-9032-07D6BD4B3F87"]}
+2026-10-15T03:25:27.416069Z  INFO ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: Registry Value Not Found, Resolved to Default registry_path="HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows NT\\CurrentVersion\\UnattendSettings\\WaaS\\Device\\Detect\\Hardware\\NPU" value_name="B2D7B485-2A57-48EA-9032-07D6BD4B3F87" result="0"
+2026-10-15T03:25:27.416101Z  INFO ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: Precomputed Condition Definition Result condition_name="INTEL_PTL_SOFTWARE" condition_result=#f condition_expression={"===":[{"registry_string_value":["HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows NT\\CurrentVersion\\UnattendSettings\\WaaS\\Device\\Detect\\Hardware\\NPU","B2D7B485-2A57-48EA-9032-07D6BD4B3F87","0"]},"1"]}
+2026-10-15T03:25:27.418587Z  INFO ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: Registry Value Not Found, Resolved to Default registry_path="HKEY_LOCAL_MACHINE\\SYSTEM\\WaaS\\Device\\Detect\\Hardware\\NPU" value_name="B2D7B485-2A57-48EA-9032-07D6BD4B3F87" result="0"
+2026-10-15T03:25:27.418680Z  INFO ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: Precomputed Condition Definition Result condition_name="INTEL_PTL_SYSTEM" condition_result=#f condition_expression={"===":[{"registry_string_value":["HKEY_LOCAL_MACHINE\\SYSTEM\\WaaS\\Device\\Detect\\Hardware\\NPU","B2D7B485-2A57-48EA-9032-07D6BD4B3F87","0"]},"1"]}
+2026-10-15T03:25:27.419059Z  INFO ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: Found Device Package to Compare offer_package_id=MSIX:WindowsWorkload.Data.ContentExtraction.Lnl.1_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0 offer_product="Windows.Workload.ContentExtraction.LNL.amd64" device_package=Some(Package {MSIX:WindowsWorkload.Data.ContentExtraction.Lnl.1_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0 {"PackageFullName": ["WindowsWorkload.Data.ContentExtraction.Lnl.1_1.2608.951.0_x64__8wekyb3d8bbwe"]}, products: {}}) is_superceeded=true
+2026-10-15T03:25:27.419118Z  INFO ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: Skipping Package Change package_change=PackageChange { flags: PackageChangeFlags(0x0), old: Some(Package {MSIX:WindowsWorkload.Data.ContentExtraction.Lnl.1_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0 {"MsixPinned": ["1"], "PackageFullName": ["WindowsWorkload.Data.ContentExtraction.Lnl.1_1.2608.951.0_x64__8wekyb3d8bbwe"]}, products: {"Windows.Workload.ContentExtraction.LNL.amd64"}}), new: Some(Package {MSIX:WindowsWorkload.Data.ContentExtraction.Lnl.1_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0 {"MsixPinned": ["1"], "PackageFullName": ["WindowsWorkload.Data.ContentExtraction.Lnl.1_1.2608.951.0_x64__8wekyb3d8bbwe"]}, products: {"Windows.Workload.ContentExtraction.LNL.amd64"}}), payload: [] }
+2026-10-15T03:25:27.419144Z  INFO ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: Found Device Package to Compare offer_package_id=MSIX:WindowsWorkload.EP.Intel.OpenVINO.Framework.1.8_0.0.0.0_x64__8wekyb3d8bbwe:1.8.81.0 offer_product="Windows.Workload.ContentExtraction.LNL.amd64" device_package=Some(Package {MSIX:WindowsWorkload.EP.Intel.OpenVINO.Framework.1.8_0.0.0.0_x64__8wekyb3d8bbwe:1.8.81.0 {"PackageFullName": ["WindowsWorkload.EP.Intel.OpenVINO.Framework.1.8_1.8.81.0_x64__8wekyb3d8bbwe"]}, products: {}}) is_superceeded=true
+2026-10-15T03:25:27.419162Z  INFO ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: Skipping Package Change package_change=PackageChange { flags: PackageChangeFlags(0x0), old: Some(Package {MSIX:WindowsWorkload.EP.Intel.OpenVINO.Framework.1.8_0.0.0.0_x64__8wekyb3d8bbwe:1.8.81.0 {"MsixPinned": ["1"], "PackageFullName": ["WindowsWorkload.EP.Intel.OpenVINO.Framework.1.8_1.8.81.0_x64__8wekyb3d8bbwe"]}, products: {"Windows.Workload.ContentExtraction.LNL.amd64"}}), new: Some(Package {MSIX:WindowsWorkload.EP.Intel.OpenVINO.Framework.1.8_0.0.0.0_x64__8wekyb3d8bbwe:1.8.81.0 {"MsixPinned": ["1"], "PackageFullName": ["WindowsWorkload.EP.Intel.OpenVINO.Framework.1.8_1.8.81.0_x64__8wekyb3d8bbwe"]}, products: {"Windows.Workload.ContentExtraction.LNL.amd64"}}), payload: [] }
+2026-10-15T03:25:27.419196Z  INFO ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: Found Device Package to Compare offer_package_id=MSIX:WindowsWorkload.Manager.1_8wekyb3d8bbwe:1.2511.1196.0 offer_product="Windows.Workload.ContentExtraction.LNL.amd64" device_package=Some(Package {MSIX:WindowsWorkload.Manager.1_8wekyb3d8bbwe:1.2511.1196.0 {"PackageFullName": ["WindowsWorkload.Manager.1_1.2511.1196.0_x64__8wekyb3d8bbwe"]}, products: {}}) is_superceeded=true
+2026-10-15T03:25:27.419220Z  INFO ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: Skipping Package Change package_change=PackageChange { flags: PackageChangeFlags(0x0), old: Some(Package {MSIX:WindowsWorkload.Manager.1_8wekyb3d8bbwe:1.2511.1196.0 {"MsixPinned": ["1"], "PackageFullName": ["WindowsWorkload.Manager.1_1.2511.1196.0_x64__8wekyb3d8bbwe"]}, products: {"Windows.Workload.ContentExtraction.LNL.amd64"}}), new: Some(Package {MSIX:WindowsWorkload.Manager.1_8wekyb3d8bbwe:1.2511.1196.0 {"MsixPinned": ["1"], "PackageFullName": ["WindowsWorkload.Manager.1_1.2511.1196.0_x64__8wekyb3d8bbwe"]}, products: {"Windows.Workload.ContentExtraction.LNL.amd64"}}), payload: [] }
+2026-10-15T03:25:27.419236Z  INFO ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: Found Device Package to Compare offer_package_id=MSIX:WindowsWorkload.ScrRegDetection.Data.1_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0 offer_product="Windows.Workload.ContentExtraction.LNL.amd64" device_package=Some(Package {MSIX:WindowsWorkload.ScrRegDetection.Data.1_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0 {"PackageFullName": ["WindowsWorkload.ScrRegDetection.Data.1_1.2608.951.0_x64__8wekyb3d8bbwe"]}, products: {}}) is_superceeded=true
+2026-10-15T03:25:27.419252Z  INFO ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: Skipping Package Change package_change=PackageChange { flags: PackageChangeFlags(0x0), old: Some(Package {MSIX:WindowsWorkload.ScrRegDetection.Data.1_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0 {"MsixPinned": ["1"], "PackageFullName": ["WindowsWorkload.ScrRegDetection.Data.1_1.2608.951.0_x64__8wekyb3d8bbwe"]}, products: {"Windows.Workload.ContentExtraction.LNL.amd64"}}), new: Some(Package {MSIX:WindowsWorkload.ScrRegDetection.Data.1_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0 {"MsixPinned": ["1"], "PackageFullName": ["WindowsWorkload.ScrRegDetection.Data.1_1.2608.951.0_x64__8wekyb3d8bbwe"]}, products: {"Windows.Workload.ContentExtraction.LNL.amd64"}}), payload: [] }
+2026-10-15T03:25:27.419267Z  INFO ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: Found Device Package to Compare offer_package_id=MSIX:WindowsWorkload.ScrRegDetection.Lnl.1_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0 offer_product="Windows.Workload.ContentExtraction.LNL.amd64" device_package=Some(Package {MSIX:WindowsWorkload.ScrRegDetection.Lnl.1_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0 {"PackageFullName": ["WindowsWorkload.ScrRegDetection.Lnl.1_1.2608.951.0_x64__8wekyb3d8bbwe"]}, products: {}}) is_superceeded=true
+2026-10-15T03:25:27.419282Z  INFO ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: Skipping Package Change package_change=PackageChange { flags: PackageChangeFlags(0x0), old: Some(Package {MSIX:WindowsWorkload.ScrRegDetection.Lnl.1_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0 {"MsixPinned": ["1"], "PackageFullName": ["WindowsWorkload.ScrRegDetection.Lnl.1_1.2608.951.0_x64__8wekyb3d8bbwe"]}, products: {"Windows.Workload.ContentExtraction.LNL.amd64"}}), new: Some(Package {MSIX:WindowsWorkload.ScrRegDetection.Lnl.1_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0 {"MsixPinned": ["1"], "PackageFullName": ["WindowsWorkload.ScrRegDetection.Lnl.1_1.2608.951.0_x64__8wekyb3d8bbwe"]}, products: {"Windows.Workload.ContentExtraction.LNL.amd64"}}), payload: [] }
+2026-10-15T03:25:27.419303Z  INFO ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: Found Device Package to Compare offer_package_id=MSIX:WindowsWorkload.SessionManager.1_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0 offer_product="Windows.Workload.ContentExtraction.LNL.amd64" device_package=Some(Package {MSIX:WindowsWorkload.SessionManager.1_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0 {"PackageFullName": ["WindowsWorkload.SessionManager.1_1.2608.951.0_x64__8wekyb3d8bbwe"]}, products: {}}) is_superceeded=true
+2026-10-15T03:25:27.419320Z  INFO ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: Skipping Package Change package_change=PackageChange { flags: PackageChangeFlags(0x0), old: Some(Package {MSIX:WindowsWorkload.SessionManager.1_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0 {"MsixPinned": ["1"], "PackageFullName": ["WindowsWorkload.SessionManager.1_1.2608.951.0_x64__8wekyb3d8bbwe"]}, products: {"Windows.Workload.ContentExtraction.LNL.amd64"}}), new: Some(Package {MSIX:WindowsWorkload.SessionManager.1_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0 {"MsixPinned": ["1"], "PackageFullName": ["WindowsWorkload.SessionManager.1_1.2608.951.0_x64__8wekyb3d8bbwe"]}, products: {"Windows.Workload.ContentExtraction.LNL.amd64"}}), payload: [] }
+2026-10-15T03:25:27.419336Z  INFO ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: Found Device Package to Compare offer_package_id=MSIX:WindowsWorkload.TextRecognition.Data.OPT.1_0.0.0.0_x64__8wekyb3d8bbwe:1.2606.719.0 offer_product="Windows.Workload.ContentExtraction.LNL.amd64" device_package=Some(Package {MSIX:WindowsWorkload.TextRecognition.Data.OPT.1_0.0.0.0_x64__8wekyb3d8bbwe:1.2606.719.0 {"PackageFullName": ["WindowsWorkload.TextRecognition.Data.OPT.1_1.2606.719.0_x64__8wekyb3d8bbwe"]}, products: {}}) is_superceeded=true
+2026-10-15T03:25:27.419351Z  INFO ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: Skipping Package Change package_change=PackageChange { flags: PackageChangeFlags(0x0), old: Some(Package {MSIX:WindowsWorkload.TextRecognition.Data.OPT.1_0.0.0.0_x64__8wekyb3d8bbwe:1.2606.719.0 {"MsixPinned": ["1"], "PackageFullName": ["WindowsWorkload.TextRecognition.Data.OPT.1_1.2606.719.0_x64__8wekyb3d8bbwe"]}, products: {"Windows.Workload.ContentExtraction.LNL.amd64"}}), new: Some(Package {MSIX:WindowsWorkload.TextRecognition.Data.OPT.1_0.0.0.0_x64__8wekyb3d8bbwe:1.2606.719.0 {"MsixPinned": ["1"], "PackageFullName": ["WindowsWorkload.TextRecognition.Data.OPT.1_1.2606.719.0_x64__8wekyb3d8bbwe"]}, products: {"Windows.Workload.ContentExtraction.LNL.amd64"}}), payload: [] }
+2026-10-15T03:25:27.419365Z  INFO ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: Found Device Package to Compare offer_package_id=MSIX:WindowsWorkload.TextRecognition.Lnl.1_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0 offer_product="Windows.Workload.ContentExtraction.LNL.amd64" device_package=Some(Package {MSIX:WindowsWorkload.TextRecognition.Lnl.1_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0 {"PackageFullName": ["WindowsWorkload.TextRecognition.Lnl.1_1.2608.951.0_x64__8wekyb3d8bbwe"]}, products: {}}) is_superceeded=true
+2026-10-15T03:25:27.419379Z  INFO ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: Skipping Package Change package_change=PackageChange { flags: PackageChangeFlags(0x0), old: Some(Package {MSIX:WindowsWorkload.TextRecognition.Lnl.1_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0 {"MsixPinned": ["1"], "PackageFullName": ["WindowsWorkload.TextRecognition.Lnl.1_1.2608.951.0_x64__8wekyb3d8bbwe"]}, products: {"Windows.Workload.ContentExtraction.LNL.amd64"}}), new: Some(Package {MSIX:WindowsWorkload.TextRecognition.Lnl.1_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0 {"MsixPinned": ["1"], "PackageFullName": ["WindowsWorkload.TextRecognition.Lnl.1_1.2608.951.0_x64__8wekyb3d8bbwe"]}, products: {"Windows.Workload.ContentExtraction.LNL.amd64"}}), payload: [] }
+2026-10-15T03:25:27.419399Z  INFO ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: Found Device Package to Compare offer_package_id=MSIX:WindowsWorkload.WinMLShared.5.2_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0 offer_product="Windows.Workload.ContentExtraction.LNL.amd64" device_package=Some(Package {MSIX:WindowsWorkload.WinMLShared.5.2_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0 {"PackageFullName": ["WindowsWorkload.WinMLShared.5.2_1.2608.951.0_x64__8wekyb3d8bbwe"]}, products: {}}) is_superceeded=true
+2026-10-15T03:25:27.419416Z  INFO ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: Skipping Package Change package_change=PackageChange { flags: PackageChangeFlags(0x0), old: Some(Package {MSIX:WindowsWorkload.WinMLShared.5.2_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0 {"MsixPinned": ["1"], "PackageFullName": ["WindowsWorkload.WinMLShared.5.2_1.2608.951.0_x64__8wekyb3d8bbwe"]}, products: {"Windows.Workload.ContentExtraction.LNL.amd64"}}), new: Some(Package {MSIX:WindowsWorkload.WinMLShared.5.2_0.0.0.0_x64__8wekyb3d8bbwe:1.2608.951.0 {"MsixPinned": ["1"], "PackageFullName": ["WindowsWorkload.WinMLShared.5.2_1.2608.951.0_x64__8wekyb3d8bbwe"]}, products: {"Windows.Workload.ContentExtraction.LNL.amd64"}}), payload: [] }
+2026-10-15T03:25:27.430946Z  INFO ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: Merged Package Change Report Generated package_change_count=0 products=[{Windows.Workload.ContentExtraction.LNL.amd64:1.2608.951.0, {"IsRemovable": "False", "UpdateUXHistoryClassification": "AIFabricModel"}}]
+2026-10-15T03:25:27.430994Z  INFO ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: No package changes for plugin, skipping report plugin_id="HardwareEnumerator"
+2026-10-15T03:25:27.431005Z  INFO ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: No package changes for plugin, skipping report plugin_id="MSIX"
+2026-10-15T03:25:27.431164Z  INFO ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: No Package Changes detected, registering Products and skipping Install.
+2026-10-15T03:25:27.432558Z  INFO ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: Abortable operation has stopped
+2026-10-15T03:25:27.432587Z  INFO ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: Clearing the abort handle
+2026-10-15T03:25:27.432597Z  INFO ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: Native Implementation did not Request Reboot
+2026-10-15T03:25:27.432605Z  INFO ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: exit_ok
+2026-10-15T03:25:27.432614Z  INFO ThreadId(01) log{log="5/cSuVfI"}:fn{fn="DeploymentSession.Install"}: close time.busy=2.39s time.idle=21.3µs
+2026-10-15T03:25:27.432634Z  INFO ThreadId(01) log{log="5/cSuVfI"}: Reporting Install Telemetry product_names_and_versions=[] plugin_ids_and_versions=[] install_disposition=RefCell { value: Some(NoRebootRequired) } cancel_disposition=RefCell { value: None } expansion_disk_delta=RefCell { value: None } error_code=0
+2026-10-15T03:25:27.432657Z  INFO ThreadId(01) log{log="5/cSuVfI"}: Sending Install event
+2026-10-15T03:25:27.441396Z  INFO ThreadId(01) log{log="5/cSuVfI"}: close time.busy=2.50s time.idle=23.2ms

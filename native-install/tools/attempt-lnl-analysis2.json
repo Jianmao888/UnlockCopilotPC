@@ -1,0 +1,130 @@
+[
+  {
+    "Stage": "mode",
+    "Value": "explicit-single-product-install"
+  },
+  {
+    "Stage": "RoInitialize",
+    "Value": "0x00000001"
+  },
+  {
+    "Stage": "loaded",
+    "Value": "C:\\Users\\jianm\\Code\\DeepseekHarness\\native-install\\source-analysislnl\\metadata\\ualite.dll"
+  },
+  {
+    "Stage": "factory",
+    "Value": "C:\\Users\\jianm\\Code\\DeepseekHarness\\native-install\\source-analysislnl\\metadata\\ualite.dll+0xc4e60"
+  },
+  {
+    "Stage": "create.begin",
+    "Value": "C:\\Users\\jianm\\Code\\DeepseekHarness\\native-install\\source-analysislnl"
+  },
+  {
+    "Stage": "create.end",
+    "Value": "0x00000000; session=1f2195caf38"
+  },
+  {
+    "Stage": "session.slot.0",
+    "Value": "C:\\Users\\jianm\\Code\\DeepseekHarness\\native-install\\source-analysislnl\\metadata\\ualite.dll+0x25770"
+  },
+  {
+    "Stage": "session.slot.1",
+    "Value": "C:\\Users\\jianm\\Code\\DeepseekHarness\\native-install\\source-analysislnl\\metadata\\ualite.dll+0x26420"
+  },
+  {
+    "Stage": "session.slot.2",
+    "Value": "C:\\Users\\jianm\\Code\\DeepseekHarness\\native-install\\source-analysislnl\\metadata\\ualite.dll+0x27230"
+  },
+  {
+    "Stage": "session.slot.3",
+    "Value": "C:\\Users\\jianm\\Code\\DeepseekHarness\\native-install\\source-analysislnl\\metadata\\ualite.dll+0x2d200"
+  },
+  {
+    "Stage": "session.slot.4",
+    "Value": "C:\\Users\\jianm\\Code\\DeepseekHarness\\native-install\\source-analysislnl\\metadata\\ualite.dll+0x2ce10"
+  },
+  {
+    "Stage": "session.slot.5",
+    "Value": "C:\\Users\\jianm\\Code\\DeepseekHarness\\native-install\\source-analysislnl\\metadata\\ualite.dll+0x2df80"
+  },
+  {
+    "Stage": "getDownloadRequest.begin",
+    "Value": "original session slot4 / +0x20"
+  },
+  {
+    "Stage": "getDownloadRequest.end",
+    "Value": "0x00000000"
+  },
+  {
+    "Stage": "getFileRequests.begin",
+    "Value": "request slot5 / +0x28"
+  },
+  {
+    "Stage": "getFileRequests.end",
+    "Value": "0x00000000"
+  },
+  {
+    "Stage": "fileRequestCount",
+    "Value": "0x00000000; count=0"
+  },
+  {
+    "Stage": "install.begin",
+    "Value": "original session slot5 / +0x28; authorized single product"
+  },
+  {
+    "Stage": "install.end",
+    "Value": "0x8024200D; rebootRequired=0; result=0"
+  },
+  {
+    "Stage": "restrictedErrorInfo",
+    "Value": "0x00000000"
+  },
+  {
+    "Stage": "restrictedErrorDetails",
+    "Value": "0x00000000; error=0x8024200D"
+  },
+  {
+    "Stage": "error.description",
+    "Value": "无法找到与此错误代码关联的文本。\r\n"
+  },
+  {
+    "Stage": "error.restrictedDescription",
+    "Value": "Requesting another download from the Orchestrator"
+  },
+  {
+    "Stage": "release.begin",
+    "Value": "restricted error info"
+  },
+  {
+    "Stage": "release.end",
+    "Value": "restricted error info"
+  },
+  {
+    "Stage": "release.begin",
+    "Value": "file requests"
+  },
+  {
+    "Stage": "release.end",
+    "Value": "file requests"
+  },
+  {
+    "Stage": "release.begin",
+    "Value": "download request"
+  },
+  {
+    "Stage": "release.end",
+    "Value": "download request"
+  },
+  {
+    "Stage": "release.begin",
+    "Value": "session"
+  },
+  {
+    "Stage": "release.end",
+    "Value": "session"
+  },
+  {
+    "Stage": "process.done",
+    "Value": "cleanup completed"
+  }
+]

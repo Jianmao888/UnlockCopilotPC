@@ -1,0 +1,280 @@
+{
+  "change_list": {
+    "MSIX": {
+      "package_changes": [
+        {
+          "flags": "",
+          "old": null,
+          "new": {
+            "id": {
+              "name": "WindowsWorkload.Data.SettingsModel.Lnl.1_0.0.0.0_x64__8wekyb3d8bbwe",
+              "version": "1.2608.951.0",
+              "packageType": "MSIX"
+            },
+            "properties": {
+              "PackageFullName": [
+                "WindowsWorkload.Data.SettingsModel.Lnl.1_1.2608.951.0_x64__8wekyb3d8bbwe"
+              ]
+            },
+            "ancestors": [],
+            "descendants": [],
+            "products": [
+              "Windows.Workload.SettingsModel.LNL.amd64"
+            ]
+          },
+          "payload": [
+            {
+              "name": "WindowsWorkload.Data.SettingsModel.Lnl.1_1.2608.951.0_x64.msix",
+              "payloadType": "MSIX",
+              "hash": "hpZSAlldOORxMnt/53xvjlplNLFRAOSpL8KAVQgimeA=",
+              "version": "1.2608.951.0",
+              "size": "51019",
+              "properties": null,
+              "rangeIndexFiles": [
+                {
+                  "name": "WindowsWorkload.Data.SettingsModel.Lnl.1_1.2608.951.0_x64.msix.rif.cab",
+                  "hash": "PLHsG8tGTe0jVtV8EvoqigUwxvFBCnagFtgAj42QWDA=",
+                  "size": 10809
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "flags": "",
+          "old": null,
+          "new": {
+            "id": {
+              "name": "WindowsWorkload.EP.Intel.OpenVINO.Framework.1.8_0.0.0.0_x64__8wekyb3d8bbwe",
+              "version": "1.8.81.0",
+              "packageType": "MSIX"
+            },
+            "properties": {
+              "PackageFullName": [
+                "WindowsWorkload.EP.Intel.OpenVINO.Framework.1.8_1.8.81.0_x64__8wekyb3d8bbwe"
+              ]
+            },
+            "ancestors": [],
+            "descendants": [],
+            "products": [
+              "Windows.Workload.SettingsModel.LNL.amd64"
+            ]
+          },
+          "payload": []
+        },
+        {
+          "flags": "",
+          "old": null,
+          "new": {
+            "id": {
+              "name": "WindowsWorkload.Manager.1_8wekyb3d8bbwe",
+              "version": "1.2511.1196.0",
+              "packageType": "MSIX"
+            },
+            "properties": {
+              "PackageFullName": [
+                "WindowsWorkload.Manager.1_1.2511.1196.0_x64__8wekyb3d8bbwe"
+              ]
+            },
+            "ancestors": [],
+            "descendants": [],
+            "products": [
+              "Windows.Workload.SettingsModel.LNL.amd64"
+            ]
+          },
+          "payload": []
+        },
+        {
+          "flags": "",
+          "old": null,
+          "new": {
+            "id": {
+              "name": "WindowsWorkload.PSTokenizerShared.Data.5.2_0.0.0.0_x64__8wekyb3d8bbwe",
+              "version": "1.2607.837.0",
+              "packageType": "MSIX"
+            },
+            "properties": {
+              "PackageFullName": [
+                "WindowsWorkload.PSTokenizerShared.Data.5.2_1.2607.837.0_x64__8wekyb3d8bbwe"
+              ]
+            },
+            "ancestors": [],
+            "descendants": [],
+            "products": [
+              "Windows.Workload.SettingsModel.LNL.amd64"
+            ]
+          },
+          "payload": []
+        },
+        {
+          "flags": "",
+          "old": null,
+          "new": {
+            "id": {
+              "name": "WindowsWorkload.PSTokenizerShared.Lnl.5.2_0.0.0.0_x64__8wekyb3d8bbwe",
+              "version": "1.2608.951.0",
+              "packageType": "MSIX"
+            },
+            "properties": {
+              "PackageFullName": [
+                "WindowsWorkload.PSTokenizerShared.Lnl.5.2_1.2608.951.0_x64__8wekyb3d8bbwe"
+              ]
+            },
+            "ancestors": [],
+            "descendants": [],
+            "products": [
+              "Windows.Workload.SettingsModel.LNL.amd64"
+            ]
+          },
+          "payload": [
+            {
+              "name": "WindowsWorkload.PSTokenizerShared.Lnl.5.2_1.2608.951.0_x64.msix",
+              "payloadType": "MSIX",
+              "hash": "rUtpDmjgNVkri/IfLOAHX1lfd8HmwpFReZYfS1PRUkI=",
+              "version": "1.2608.951.0",
+              "size": "26410629",
+              "properties": null,
+              "rangeIndexFiles": [
+                {
+                  "name": "WindowsWorkload.PSTokenizerShared.Lnl.5.2_1.2608.951.0_x64.msix.rif.cab",
+                  "hash": "52snsEdaPs2n8/OfPDHeGSNwgs4DzUEkajCfue64Ta0=",
+                  "size": 11335
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "flags": "",
+          "old": null,
+          "new": {
+            "id": {
+              "name": "WindowsWorkload.SessionManager.1_0.0.0.0_x64__8wekyb3d8bbwe",
+              "version": "1.2608.951.0",
+              "packageType": "MSIX"
+            },
+            "properties": {
+              "PackageFullName": [
+                "WindowsWorkload.SessionManager.1_1.2608.951.0_x64__8wekyb3d8bbwe"
+              ]
+            },
+            "ancestors": [],
+            "descendants": [],
+            "products": [
+              "Windows.Workload.SettingsModel.LNL.amd64"
+            ]
+          },
+          "payload": []
+        },
+        {
+          "flags": "",
+          "old": null,
+          "new": {
+            "id": {
+              "name": "WindowsWorkload.SettingsModel.Data.1_0.0.0.0_x64__8wekyb3d8bbwe",
+              "version": "1.2605.628.0",
+              "packageType": "MSIX"
+            },
+            "properties": {
+              "PackageFullName": [
+                "WindowsWorkload.SettingsModel.Data.1_1.2605.628.0_x64__8wekyb3d8bbwe"
+              ]
+            },
+            "ancestors": [],
+            "descendants": [],
+            "products": [
+              "Windows.Workload.SettingsModel.LNL.amd64"
+            ]
+          },
+          "payload": [
+            {
+              "name": "WindowsWorkload.SettingsModel.Data.1_1.2605.628.0_x64.msix",
+              "payloadType": "MSIX",
+              "hash": "M1Jb6Wj4x2Zwu28Dd+uld/gCvLlHjpkvoyJK4+iV/F8=",
+              "version": "1.2605.628.0",
+              "size": "448482808",
+              "properties": null,
+              "rangeIndexFiles": [
+                {
+                  "name": "WindowsWorkload.SettingsModel.Data.1_1.2605.628.0_x64.msix.rif.cab",
+                  "hash": "qB/V2yEBsmTB7tO+wyRUcSIke+FM0bntJN9mH1IIFag=",
+                  "size": 10945
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "flags": "",
+          "old": null,
+          "new": {
+            "id": {
+              "name": "WindowsWorkload.SettingsModel.Lnl.1_0.0.0.0_x64__8wekyb3d8bbwe",
+              "version": "1.2608.951.0",
+              "packageType": "MSIX"
+            },
+            "properties": {
+              "PackageFullName": [
+                "WindowsWorkload.SettingsModel.Lnl.1_1.2608.951.0_x64__8wekyb3d8bbwe"
+              ]
+            },
+            "ancestors": [],
+            "descendants": [],
+            "products": [
+              "Windows.Workload.SettingsModel.LNL.amd64"
+            ]
+          },
+          "payload": [
+            {
+              "name": "WindowsWorkload.SettingsModel.Lnl.1_1.2608.951.0_x64.msix",
+              "payloadType": "MSIX",
+              "hash": "dpf00d4/svPbCJ9NlueKD0kt/vI7S0Eu16UTrE7V2p0=",
+              "version": "1.2608.951.0",
+              "size": "3302695",
+              "properties": null,
+              "rangeIndexFiles": [
+                {
+                  "name": "WindowsWorkload.SettingsModel.Lnl.1_1.2608.951.0_x64.msix.rif.cab",
+                  "hash": "ITW2ojPzHpNmFSaBamatskvCpKsgpTTys+b040tD3z8=",
+                  "size": 12672
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "flags": "",
+          "old": null,
+          "new": {
+            "id": {
+              "name": "WindowsWorkload.WinMLShared.5.2_0.0.0.0_x64__8wekyb3d8bbwe",
+              "version": "1.2608.951.0",
+              "packageType": "MSIX"
+            },
+            "properties": {
+              "PackageFullName": [
+                "WindowsWorkload.WinMLShared.5.2_1.2608.951.0_x64__8wekyb3d8bbwe"
+              ]
+            },
+            "ancestors": [],
+            "descendants": [],
+            "products": [
+              "Windows.Workload.SettingsModel.LNL.amd64"
+            ]
+          },
+          "payload": []
+        }
+      ],
+      "products": [
+        {
+          "name": "Windows.Workload.SettingsModel.LNL.amd64",
+          "version": "1.2608.951.0",
+          "attributes": {
+            "IsRemovable": "False",
+            "UpdateUXHistoryClassification": "AIFabricModel"
+          }
+        }
+      ]
+    }
+  }
+}

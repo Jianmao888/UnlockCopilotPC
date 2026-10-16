@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ocrprobe")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5bb3669c83b24df5135dad320cba7da4de0ee26f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b99ab363ff2381d5d5fd201d7be3f63841625d44")]
 [assembly: System.Reflection.AssemblyProductAttribute("ocrprobe")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ocrprobe")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
