@@ -1,0 +1,417 @@
+{
+  "package_changes": [
+    {
+      "flags": "",
+      "old": null,
+      "new": {
+        "id": {
+          "name": "WindowsWorkload.Data.Analysis.365.1_0.0.0.0_x64__8wekyb3d8bbwe",
+          "version": "1.2608.951.0",
+          "packageType": "MSIX"
+        },
+        "properties": {
+          "MsixPinned": [
+            "1"
+          ],
+          "PackageFullName": [
+            "WindowsWorkload.Data.Analysis.365.1_1.2608.951.0_x64__8wekyb3d8bbwe"
+          ]
+        },
+        "ancestors": [],
+        "descendants": [],
+        "products": [
+          "Windows.Workload.Analysis.365.amd64"
+        ]
+      },
+      "payload": [
+        {
+          "name": "WindowsWorkload.Data.Analysis.365.1_1.2608.951.0_x64.msix",
+          "payloadType": "MSIX",
+          "hash": "iCURaCJq4HAGaLZW6JPDEx+w0X/0RXR/A1RTIqBdpvg=",
+          "version": "1.2608.951.0",
+          "size": "51037",
+          "properties": null,
+          "rangeIndexFiles": [
+            {
+              "name": "WindowsWorkload.Data.Analysis.365.1_1.2608.951.0_x64.msix.rif.cab",
+              "hash": "+pSrgmBAzxQwE9uJwkb0YK7zOgi7YUDrpkOVtqU+6SY=",
+              "size": 10803
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "flags": "",
+      "old": null,
+      "new": {
+        "id": {
+          "name": "WindowsWorkload.Manager.1_8wekyb3d8bbwe",
+          "version": "1.2511.1196.0",
+          "packageType": "MSIX"
+        },
+        "properties": {
+          "MsixPinned": [
+            "1"
+          ],
+          "PackageFullName": [
+            "WindowsWorkload.Manager.1_1.2511.1196.0_x64__8wekyb3d8bbwe"
+          ]
+        },
+        "ancestors": [],
+        "descendants": [],
+        "products": [
+          "Windows.Workload.Analysis.365.amd64"
+        ]
+      },
+      "payload": []
+    },
+    {
+      "flags": "",
+      "old": null,
+      "new": {
+        "id": {
+          "name": "WindowsWorkload.PSTokenizer.365.2.7_0.0.0.0_x64__8wekyb3d8bbwe",
+          "version": "1.2608.951.0",
+          "packageType": "MSIX"
+        },
+        "properties": {
+          "MsixPinned": [
+            "1"
+          ],
+          "PackageFullName": [
+            "WindowsWorkload.PSTokenizer.365.2.7_1.2608.951.0_x64__8wekyb3d8bbwe"
+          ]
+        },
+        "ancestors": [],
+        "descendants": [],
+        "products": [
+          "Windows.Workload.Analysis.365.amd64"
+        ]
+      },
+      "payload": [
+        {
+          "name": "WindowsWorkload.PSTokenizer.365.2.7_1.2608.951.0_x64.msix",
+          "payloadType": "MSIX",
+          "hash": "Mf44OYAIUo4V6z/4pptjjoWIBeH4UW67mpbJf55NXsM=",
+          "version": "1.2608.951.0",
+          "size": "352430",
+          "properties": null,
+          "rangeIndexFiles": [
+            {
+              "name": "WindowsWorkload.PSTokenizer.365.2.7_1.2608.951.0_x64.msix.rif.cab",
+              "hash": "ytTrO6WKH5BB+cXjOGkhx1yy8h9thnatfOQHxft1+Ko=",
+              "size": 11186
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "flags": "",
+      "old": null,
+      "new": {
+        "id": {
+          "name": "WindowsWorkload.PSTokenizerShared.365.5.2_0.0.0.0_x64__8wekyb3d8bbwe",
+          "version": "1.2607.837.0",
+          "packageType": "MSIX"
+        },
+        "properties": {
+          "MsixPinned": [
+            "1"
+          ],
+          "PackageFullName": [
+            "WindowsWorkload.PSTokenizerShared.365.5.2_1.2607.837.0_x64__8wekyb3d8bbwe"
+          ]
+        },
+        "ancestors": [],
+        "descendants": [],
+        "products": [
+          "Windows.Workload.Analysis.365.amd64"
+        ]
+      },
+      "payload": [
+        {
+          "name": "WindowsWorkload.PSTokenizerShared.365.5.2_1.2607.837.0_x64.msix",
+          "payloadType": "MSIX",
+          "hash": "eLq5iql53Yy+Kzo4wd+/L/AMX/TPSwa5UCCIHiZ1XRc=",
+          "version": "1.2607.837.0",
+          "size": "52796025",
+          "properties": null,
+          "rangeIndexFiles": [
+            {
+              "name": "WindowsWorkload.PSTokenizerShared.365.5.2_1.2607.837.0_x64.msix.rif.cab",
+              "hash": "NOX1rrJgI2pSCjUfBcf8SkvH1RzW8APbOLCVIsooVeE=",
+              "size": 11877
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "flags": "",
+      "old": null,
+      "new": {
+        "id": {
+          "name": "WindowsWorkload.PSTokenizerShared.Data.5.2_0.0.0.0_x64__8wekyb3d8bbwe",
+          "version": "1.2607.837.0",
+          "packageType": "MSIX"
+        },
+        "properties": {
+          "MsixPinned": [
+            "1"
+          ],
+          "PackageFullName": [
+            "WindowsWorkload.PSTokenizerShared.Data.5.2_1.2607.837.0_x64__8wekyb3d8bbwe"
+          ]
+        },
+        "ancestors": [],
+        "descendants": [],
+        "products": [
+          "Windows.Workload.Analysis.365.amd64"
+        ]
+      },
+      "payload": [
+        {
+          "name": "WindowsWorkload.PSTokenizerShared.Data.5.2_1.2607.837.0_x64.msix",
+          "payloadType": "MSIX",
+          "hash": "e97f2bm9Lkvc2nNEeunNHqquupqVInMwO/001b1f4Q4=",
+          "version": "1.2607.837.0",
+          "size": "638215050",
+          "properties": null,
+          "rangeIndexFiles": [
+            {
+              "name": "WindowsWorkload.PSTokenizerShared.Data.5.2_1.2607.837.0_x64.msix.rif.cab",
+              "hash": "KHYjsHjW+BVJ68HOCVl0CzVgOU4jSPNra+IC6eSGwjQ=",
+              "size": 11238
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "flags": "",
+      "old": null,
+      "new": {
+        "id": {
+          "name": "WindowsWorkload.QueryBlockList.1_0.0.0.0_x64__8wekyb3d8bbwe",
+          "version": "1.2608.951.0",
+          "packageType": "MSIX"
+        },
+        "properties": {
+          "MsixPinned": [
+            "1"
+          ],
+          "PackageFullName": [
+            "WindowsWorkload.QueryBlockList.1_1.2608.951.0_x64__8wekyb3d8bbwe"
+          ]
+        },
+        "ancestors": [],
+        "descendants": [],
+        "products": [
+          "Windows.Workload.Analysis.365.amd64"
+        ]
+      },
+      "payload": [
+        {
+          "name": "WindowsWorkload.QueryBlockList.1_1.2608.951.0_x64.msix",
+          "payloadType": "MSIX",
+          "hash": "QxLr3LHnucBXgW+k6bLZkFdWtwo8PXqcBmAm6E4npsA=",
+          "version": "1.2608.951.0",
+          "size": "2318337",
+          "properties": null,
+          "rangeIndexFiles": [
+            {
+              "name": "WindowsWorkload.QueryBlockList.1_1.2608.951.0_x64.msix.rif.cab",
+              "hash": "CTRifcMow4BvVOKjVduME/fmRL/fJOCoGDD426/qdQ4=",
+              "size": 12492
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "flags": "",
+      "old": null,
+      "new": {
+        "id": {
+          "name": "WindowsWorkload.QueryProcessor.365.1_0.0.0.0_x64__8wekyb3d8bbwe",
+          "version": "1.2608.951.0",
+          "packageType": "MSIX"
+        },
+        "properties": {
+          "MsixPinned": [
+            "1"
+          ],
+          "PackageFullName": [
+            "WindowsWorkload.QueryProcessor.365.1_1.2608.951.0_x64__8wekyb3d8bbwe"
+          ]
+        },
+        "ancestors": [],
+        "descendants": [],
+        "products": [
+          "Windows.Workload.Analysis.365.amd64"
+        ]
+      },
+      "payload": [
+        {
+          "name": "WindowsWorkload.QueryProcessor.365.1_1.2608.951.0_x64.msix",
+          "payloadType": "MSIX",
+          "hash": "o2ZKVu4BY/x7B7v1/QcCS5nbSdPGbO/5BS/vByYZu+A=",
+          "version": "1.2608.951.0",
+          "size": "857551",
+          "properties": null,
+          "rangeIndexFiles": [
+            {
+              "name": "WindowsWorkload.QueryProcessor.365.1_1.2608.951.0_x64.msix.rif.cab",
+              "hash": "yb7naAM737egBUOWNjy50yjxbhiCjZ2N0+H/9dvWHfM=",
+              "size": 11456
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "flags": "",
+      "old": null,
+      "new": {
+        "id": {
+          "name": "WindowsWorkload.QueryProcessor.Data.1_0.0.0.0_x64__8wekyb3d8bbwe",
+          "version": "1.2605.851.0",
+          "packageType": "MSIX"
+        },
+        "properties": {
+          "MsixPinned": [
+            "1"
+          ],
+          "PackageFullName": [
+            "WindowsWorkload.QueryProcessor.Data.1_1.2605.851.0_x64__8wekyb3d8bbwe"
+          ]
+        },
+        "ancestors": [],
+        "descendants": [],
+        "products": [
+          "Windows.Workload.Analysis.365.amd64"
+        ]
+      },
+      "payload": [
+        {
+          "name": "WindowsWorkload.QueryProcessor.Data.1_1.2605.851.0_x64.msix",
+          "payloadType": "MSIX",
+          "hash": "JGrfmOASgmEfxn5OEPhKoJjOMac+DWBz+PtqyVW96uw=",
+          "version": "1.2605.851.0",
+          "size": "89633115",
+          "properties": null,
+          "rangeIndexFiles": [
+            {
+              "name": "WindowsWorkload.QueryProcessor.Data.1_1.2605.851.0_x64.msix.rif.cab",
+              "hash": "Wt4nIeNuM5vHkhINlTrMsWcV3f36+emjK1T3JYiaq7Y=",
+              "size": 10707
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "flags": "",
+      "old": null,
+      "new": {
+        "id": {
+          "name": "WindowsWorkload.SemanticText.Data.1_0.0.0.0_x64__8wekyb3d8bbwe",
+          "version": "1.2511.1196.0",
+          "packageType": "MSIX"
+        },
+        "properties": {
+          "MsixPinned": [
+            "1"
+          ],
+          "PackageFullName": [
+            "WindowsWorkload.SemanticText.Data.1_1.2511.1196.0_x64__8wekyb3d8bbwe"
+          ]
+        },
+        "ancestors": [],
+        "descendants": [],
+        "products": [
+          "Windows.Workload.Analysis.365.amd64"
+        ]
+      },
+      "payload": [
+        {
+          "name": "WindowsWorkload.SemanticText.Data.1_1.2511.1196.0_x64.msix",
+          "payloadType": "MSIX",
+          "hash": "42BzA4qUwSFk9tMImaBc3hpFeh+fw07mpBWxBcKBEuA=",
+          "version": "1.2511.1196.0",
+          "size": "29243590",
+          "properties": null,
+          "rangeIndexFiles": [
+            {
+              "name": "WindowsWorkload.SemanticText.Data.1_1.2511.1196.0_x64.msix.rif.cab",
+              "hash": "HQTcG1hvpKlXEp5TfxKspfOmazZhZIglx4zOyP/vOqY=",
+              "size": 10756
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "flags": "",
+      "old": null,
+      "new": {
+        "id": {
+          "name": "WindowsWorkload.SessionManager.1_0.0.0.0_x64__8wekyb3d8bbwe",
+          "version": "1.2608.951.0",
+          "packageType": "MSIX"
+        },
+        "properties": {
+          "MsixPinned": [
+            "1"
+          ],
+          "PackageFullName": [
+            "WindowsWorkload.SessionManager.1_1.2608.951.0_x64__8wekyb3d8bbwe"
+          ]
+        },
+        "ancestors": [],
+        "descendants": [],
+        "products": [
+          "Windows.Workload.Analysis.365.amd64"
+        ]
+      },
+      "payload": []
+    },
+    {
+      "flags": "",
+      "old": null,
+      "new": {
+        "id": {
+          "name": "WindowsWorkload.WinMLShared.5.2_0.0.0.0_x64__8wekyb3d8bbwe",
+          "version": "1.2608.951.0",
+          "packageType": "MSIX"
+        },
+        "properties": {
+          "MsixPinned": [
+            "1"
+          ],
+          "PackageFullName": [
+            "WindowsWorkload.WinMLShared.5.2_1.2608.951.0_x64__8wekyb3d8bbwe"
+          ]
+        },
+        "ancestors": [],
+        "descendants": [],
+        "products": [
+          "Windows.Workload.Analysis.365.amd64"
+        ]
+      },
+      "payload": []
+    }
+  ],
+  "products": [
+    {
+      "name": "Windows.Workload.Analysis.365.amd64",
+      "version": "1.2608.951.0",
+      "attributes": {
+        "IsRemovable": "False",
+        "UpdateUXHistoryClassification": "AIFabricModel"
+      }
+    }
+  ]
+}

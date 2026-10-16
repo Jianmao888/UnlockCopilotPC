@@ -1,0 +1,41 @@
+{
+  "schema": 1,
+  "driverDirectory": "",
+  "cameraDirectory": "",
+  "runtimeDirectory": "",
+  "driverFiles": [],
+  "models": [
+    {
+      "name": "face101",
+      "file": "face101-cpu-context.onnx",
+      "path": "",
+      "originalSize": 762671,
+      "originalHead": "080b3a95c42e0aabc22e0a07696d6167653a301237636f6d70726573735f7631",
+      "originalTail": "742e7072655f70726f6365737312116f6e6e7872756e74696d652e7175616e74"
+    },
+    {
+      "name": "matting109",
+      "file": "matting109-cpu-context.onnx",
+      "path": "",
+      "originalSize": 1905580,
+      "originalHead": "080b3a92a5740ab4a2740a0d6e6f726d65645f7267626d3a30121d506f737450",
+      "originalTail": "742e7072655f70726f6365737312116f6e6e7872756e74696d652e7175616e74"
+    },
+    {
+      "name": "pose113",
+      "file": "pose113-cpu-context.onnx",
+      "path": "",
+      "originalSize": 12686153,
+      "originalHead": "080b3aaea486060aa8a286060a0c696d61676542617463683a30121944657465",
+      "originalTail": "742e7072655f70726f6365737312116f6e6e7872756e74696d652e7175616e74"
+    },
+    {
+      "name": "light132",
+      "file": "light132-cpu-context.onnx",
+      "path": "",
+      "originalSize": 676521,
+      "originalHead": "080b3abca3290a82a2290a09696e7075745f333a30120c74662e6d6174682e74",
+      "originalTail": "1f0a0a6f6e6e782e696e66657212116f6e6e7872756e74696d652e7175616e74"
+    }
+  ]
+}

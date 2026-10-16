@@ -1,0 +1,41 @@
+{
+  "new": [
+    {
+      "Name": "Windows11.0-KB5043080-x64.msu",
+      "Size": "533761740",
+      "Sha256": "819632610a101af11c72907fb13ff05b5fb4222c0e263ee9a03bcc1d1d5f26a4"
+    },
+    {
+      "Name": "Windows11.0-KB5121794-x64.msu",
+      "Size": "175093",
+      "Sha256": "b1edf0bb9e37998a8fd185a3fd4777d862291ac2b52f5bfbf729410946a56f56"
+    },
+    {
+      "Name": "Windows11.0-KB5124010-x64.msu",
+      "Size": "4689703377",
+      "Sha256": "2bb0e126ccede1fb770be74b2d8783ac2f941b4efc7a388fa4a21f7ef699426a"
+    },
+    {
+      "Name": "Windows11.0-KB5125758-x64.msu",
+      "Size": "182475495",
+      "Sha256": "c9bdd21ab494c7a3c57ad49b41b26e8da866866d2fb45163d3181fe1abe9240e"
+    }
+  ],
+  "old": [
+    {
+      "Name": "Windows11.0-KB5043080-x64.msu",
+      "Size": "533761740",
+      "Sha256": "819632610a101af11c72907fb13ff05b5fb4222c0e263ee9a03bcc1d1d5f26a4"
+    },
+    {
+      "Name": "Windows11.0-KB5066835-x64.msu",
+      "Size": "3591245399",
+      "Sha256": "b36daa52a8c995aa84fc6cfbf2caad958c3220b90e9f7cd9b1b2f0b3f8740159"
+    },
+    {
+      "Name": "Windows11.0-KB5067039-x64.msu",
+      "Size": "22243149",
+      "Sha256": "0c16ef853aa34f46af30c40e655c747f4b2dbed72a29e7b8bd8e689c29a36e41"
+    }
+  ]
+}

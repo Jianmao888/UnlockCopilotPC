@@ -1,0 +1,578 @@
+[
+  {
+    "id": 500,
+    "idHex": "0x1f4",
+    "vk": 65,
+    "modifiers": 8
+  },
+  {
+    "id": 501,
+    "idHex": "0x1f5",
+    "vk": 74,
+    "modifiers": 8
+  },
+  {
+    "id": 502,
+    "idHex": "0x1f6",
+    "vk": 82,
+    "modifiers": 8
+  },
+  {
+    "id": 503,
+    "idHex": "0x1f7",
+    "vk": 77,
+    "modifiers": 8
+  },
+  {
+    "id": 504,
+    "idHex": "0x1f8",
+    "vk": 77,
+    "modifiers": 12
+  },
+  {
+    "id": 505,
+    "idHex": "0x1f9",
+    "vk": 112,
+    "modifiers": 8
+  },
+  {
+    "id": 506,
+    "idHex": "0x1fa",
+    "vk": 69,
+    "modifiers": 8
+  },
+  {
+    "id": 507,
+    "idHex": "0x1fb",
+    "vk": 83,
+    "modifiers": 8
+  },
+  {
+    "id": 508,
+    "idHex": "0x1fc",
+    "vk": 67,
+    "modifiers": 8
+  },
+  {
+    "id": 509,
+    "idHex": "0x1fd",
+    "vk": 70,
+    "modifiers": 10
+  },
+  {
+    "id": 510,
+    "idHex": "0x1fe",
+    "vk": 84,
+    "modifiers": 8
+  },
+  {
+    "id": 511,
+    "idHex": "0x1ff",
+    "vk": 84,
+    "modifiers": 12
+  },
+  {
+    "id": 512,
+    "idHex": "0x200",
+    "vk": 19,
+    "modifiers": 8
+  },
+  {
+    "id": 513,
+    "idHex": "0x201",
+    "vk": 68,
+    "modifiers": 8
+  },
+  {
+    "id": 514,
+    "idHex": "0x202",
+    "vk": 66,
+    "modifiers": 8
+  },
+  {
+    "id": 515,
+    "idHex": "0x203",
+    "vk": 36,
+    "modifiers": 8
+  },
+  {
+    "id": 516,
+    "idHex": "0x204",
+    "vk": 188,
+    "modifiers": 8
+  },
+  {
+    "id": 517,
+    "idHex": "0x205",
+    "vk": 49,
+    "modifiers": 8
+  },
+  {
+    "id": 518,
+    "idHex": "0x206",
+    "vk": 50,
+    "modifiers": 8
+  },
+  {
+    "id": 519,
+    "idHex": "0x207",
+    "vk": 51,
+    "modifiers": 8
+  },
+  {
+    "id": 520,
+    "idHex": "0x208",
+    "vk": 52,
+    "modifiers": 8
+  },
+  {
+    "id": 521,
+    "idHex": "0x209",
+    "vk": 53,
+    "modifiers": 8
+  },
+  {
+    "id": 522,
+    "idHex": "0x20a",
+    "vk": 54,
+    "modifiers": 8
+  },
+  {
+    "id": 523,
+    "idHex": "0x20b",
+    "vk": 55,
+    "modifiers": 8
+  },
+  {
+    "id": 524,
+    "idHex": "0x20c",
+    "vk": 56,
+    "modifiers": 8
+  },
+  {
+    "id": 525,
+    "idHex": "0x20d",
+    "vk": 57,
+    "modifiers": 8
+  },
+  {
+    "id": 526,
+    "idHex": "0x20e",
+    "vk": 48,
+    "modifiers": 8
+  },
+  {
+    "id": 527,
+    "idHex": "0x20f",
+    "vk": 49,
+    "modifiers": 10
+  },
+  {
+    "id": 528,
+    "idHex": "0x210",
+    "vk": 50,
+    "modifiers": 10
+  },
+  {
+    "id": 529,
+    "idHex": "0x211",
+    "vk": 51,
+    "modifiers": 10
+  },
+  {
+    "id": 530,
+    "idHex": "0x212",
+    "vk": 52,
+    "modifiers": 10
+  },
+  {
+    "id": 531,
+    "idHex": "0x213",
+    "vk": 53,
+    "modifiers": 10
+  },
+  {
+    "id": 532,
+    "idHex": "0x214",
+    "vk": 54,
+    "modifiers": 10
+  },
+  {
+    "id": 533,
+    "idHex": "0x215",
+    "vk": 55,
+    "modifiers": 10
+  },
+  {
+    "id": 534,
+    "idHex": "0x216",
+    "vk": 56,
+    "modifiers": 10
+  },
+  {
+    "id": 535,
+    "idHex": "0x217",
+    "vk": 57,
+    "modifiers": 10
+  },
+  {
+    "id": 536,
+    "idHex": "0x218",
+    "vk": 48,
+    "modifiers": 10
+  },
+  {
+    "id": 537,
+    "idHex": "0x219",
+    "vk": 49,
+    "modifiers": 12
+  },
+  {
+    "id": 538,
+    "idHex": "0x21a",
+    "vk": 50,
+    "modifiers": 12
+  },
+  {
+    "id": 539,
+    "idHex": "0x21b",
+    "vk": 51,
+    "modifiers": 12
+  },
+  {
+    "id": 540,
+    "idHex": "0x21c",
+    "vk": 52,
+    "modifiers": 12
+  },
+  {
+    "id": 541,
+    "idHex": "0x21d",
+    "vk": 53,
+    "modifiers": 12
+  },
+  {
+    "id": 542,
+    "idHex": "0x21e",
+    "vk": 54,
+    "modifiers": 12
+  },
+  {
+    "id": 543,
+    "idHex": "0x21f",
+    "vk": 55,
+    "modifiers": 12
+  },
+  {
+    "id": 544,
+    "idHex": "0x220",
+    "vk": 56,
+    "modifiers": 12
+  },
+  {
+    "id": 545,
+    "idHex": "0x221",
+    "vk": 57,
+    "modifiers": 12
+  },
+  {
+    "id": 546,
+    "idHex": "0x222",
+    "vk": 48,
+    "modifiers": 12
+  },
+  {
+    "id": 547,
+    "idHex": "0x223",
+    "vk": 49,
+    "modifiers": 9
+  },
+  {
+    "id": 548,
+    "idHex": "0x224",
+    "vk": 50,
+    "modifiers": 9
+  },
+  {
+    "id": 549,
+    "idHex": "0x225",
+    "vk": 51,
+    "modifiers": 9
+  },
+  {
+    "id": 550,
+    "idHex": "0x226",
+    "vk": 52,
+    "modifiers": 9
+  },
+  {
+    "id": 551,
+    "idHex": "0x227",
+    "vk": 53,
+    "modifiers": 9
+  },
+  {
+    "id": 552,
+    "idHex": "0x228",
+    "vk": 54,
+    "modifiers": 9
+  },
+  {
+    "id": 553,
+    "idHex": "0x229",
+    "vk": 55,
+    "modifiers": 9
+  },
+  {
+    "id": 554,
+    "idHex": "0x22a",
+    "vk": 56,
+    "modifiers": 9
+  },
+  {
+    "id": 555,
+    "idHex": "0x22b",
+    "vk": 57,
+    "modifiers": 9
+  },
+  {
+    "id": 556,
+    "idHex": "0x22c",
+    "vk": 48,
+    "modifiers": 9
+  },
+  {
+    "id": 557,
+    "idHex": "0x22d",
+    "vk": 49,
+    "modifiers": 14
+  },
+  {
+    "id": 558,
+    "idHex": "0x22e",
+    "vk": 50,
+    "modifiers": 14
+  },
+  {
+    "id": 559,
+    "idHex": "0x22f",
+    "vk": 51,
+    "modifiers": 14
+  },
+  {
+    "id": 560,
+    "idHex": "0x230",
+    "vk": 52,
+    "modifiers": 14
+  },
+  {
+    "id": 561,
+    "idHex": "0x231",
+    "vk": 53,
+    "modifiers": 14
+  },
+  {
+    "id": 562,
+    "idHex": "0x232",
+    "vk": 54,
+    "modifiers": 14
+  },
+  {
+    "id": 563,
+    "idHex": "0x233",
+    "vk": 55,
+    "modifiers": 14
+  },
+  {
+    "id": 564,
+    "idHex": "0x234",
+    "vk": 56,
+    "modifiers": 14
+  },
+  {
+    "id": 565,
+    "idHex": "0x235",
+    "vk": 57,
+    "modifiers": 14
+  },
+  {
+    "id": 566,
+    "idHex": "0x236",
+    "vk": 48,
+    "modifiers": 14
+  },
+  {
+    "id": 567,
+    "idHex": "0x237",
+    "vk": 132,
+    "modifiers": 12
+  },
+  {
+    "id": 568,
+    "idHex": "0x238",
+    "vk": 133,
+    "modifiers": 14
+  },
+  {
+    "id": 569,
+    "idHex": "0x239",
+    "vk": 135,
+    "modifiers": 14
+  },
+  {
+    "id": 570,
+    "idHex": "0x23a",
+    "vk": 81,
+    "modifiers": 8
+  },
+  {
+    "id": 571,
+    "idHex": "0x23b",
+    "vk": 132,
+    "modifiers": 13
+  },
+  {
+    "id": 572,
+    "idHex": "0x23c",
+    "vk": 67,
+    "modifiers": 12
+  },
+  {
+    "id": 573,
+    "idHex": "0x23d",
+    "vk": 83,
+    "modifiers": 12
+  },
+  {
+    "id": 574,
+    "idHex": "0x23e",
+    "vk": 89,
+    "modifiers": 9
+  },
+  {
+    "id": 575,
+    "idHex": "0x23f",
+    "vk": 186,
+    "modifiers": 8
+  },
+  {
+    "id": 576,
+    "idHex": "0x240",
+    "vk": 190,
+    "modifiers": 8
+  },
+  {
+    "id": 577,
+    "idHex": "0x241",
+    "vk": 72,
+    "modifiers": 8
+  },
+  {
+    "id": 578,
+    "idHex": "0x242",
+    "vk": 86,
+    "modifiers": 8
+  },
+  {
+    "id": 579,
+    "idHex": "0x243",
+    "vk": 32,
+    "modifiers": 15
+  },
+  {
+    "id": 580,
+    "idHex": "0x244",
+    "vk": 0,
+    "modifiers": 15
+  },
+  {
+    "id": 581,
+    "idHex": "0x245",
+    "vk": 68,
+    "modifiers": 15
+  },
+  {
+    "id": 582,
+    "idHex": "0x246",
+    "vk": 76,
+    "modifiers": 15
+  },
+  {
+    "id": 583,
+    "idHex": "0x247",
+    "vk": 78,
+    "modifiers": 15
+  },
+  {
+    "id": 584,
+    "idHex": "0x248",
+    "vk": 79,
+    "modifiers": 15
+  },
+  {
+    "id": 585,
+    "idHex": "0x249",
+    "vk": 80,
+    "modifiers": 15
+  },
+  {
+    "id": 586,
+    "idHex": "0x24a",
+    "vk": 84,
+    "modifiers": 15
+  },
+  {
+    "id": 587,
+    "idHex": "0x24b",
+    "vk": 87,
+    "modifiers": 15
+  },
+  {
+    "id": 588,
+    "idHex": "0x24c",
+    "vk": 88,
+    "modifiers": 15
+  },
+  {
+    "id": 589,
+    "idHex": "0x24d",
+    "vk": 89,
+    "modifiers": 15
+  },
+  {
+    "id": 590,
+    "idHex": "0x24e",
+    "vk": 88,
+    "modifiers": 8
+  },
+  {
+    "id": 591,
+    "idHex": "0x24f",
+    "vk": 78,
+    "modifiers": 8
+  },
+  {
+    "id": 592,
+    "idHex": "0x250",
+    "vk": 76,
+    "modifiers": 10
+  },
+  {
+    "id": 593,
+    "idHex": "0x251",
+    "vk": 84,
+    "modifiers": 14
+  },
+  {
+    "id": 594,
+    "idHex": "0x252",
+    "vk": 86,
+    "modifiers": 10
+  },
+  {
+    "id": 595,
+    "idHex": "0x253",
+    "vk": 82,
+    "modifiers": 12
+  }
+]

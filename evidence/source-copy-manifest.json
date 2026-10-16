@@ -1,0 +1,407 @@
+[
+  {
+    "path": "work/phase2-hook/capability-hook.js",
+    "source": "C:\\Users\\jianm\\OneDrive\\文档\\ChatGPT\\2026-10-12\\qing\\work\\phase2-hook\\capability-hook.js",
+    "sha256": "7fa25119c79ae41d77dda0674270892e823497bdbf03af39def0d4ae998d502e"
+  },
+  {
+    "path": "work/phase19-clicktodo/package-debugging.ps1",
+    "source": "C:\\Users\\jianm\\OneDrive\\文档\\ChatGPT\\2026-10-12\\qing\\work\\phase19-clicktodo\\package-debugging.ps1",
+    "sha256": "bc408d70d3d5f4a42ba4f3115068f3e2698d51ee30c2c1973149885d22f5ed99"
+  },
+  {
+    "path": "work/phase19-clicktodo/clicktodo-support-result-hook.js",
+    "source": "C:\\Users\\jianm\\OneDrive\\文档\\ChatGPT\\2026-10-12\\qing\\work\\phase19-clicktodo\\clicktodo-support-result-hook.js",
+    "sha256": "f5048da23ff2657d2da407cf37a456648e9132983d77137205534a9bc09a4ebe"
+  },
+  {
+    "path": "work/phase21-host-ifeo/Arm-HostStartupProbe.ps1",
+    "source": "C:\\Users\\jianm\\OneDrive\\文档\\ChatGPT\\2026-10-12\\qing\\work\\phase21-host-ifeo\\Arm-HostStartupProbe.ps1",
+    "sha256": "2163c0f558b087a7223f1dfff607ec533eaf982a8a214b559a3b501c53afc96c"
+  },
+  {
+    "path": "work/phase21-host-ifeo/HostStartupDebugger.cs",
+    "source": "C:\\Users\\jianm\\OneDrive\\文档\\ChatGPT\\2026-10-12\\qing\\work\\phase21-host-ifeo\\HostStartupDebugger.cs",
+    "sha256": "9fb47aaf2043db959430ac16bfcbba36169041b9cca6e940d11829855ff39bf5"
+  },
+  {
+    "path": "work/phase21-host-ifeo/attach-real-hosts.py",
+    "source": "C:\\Users\\jianm\\OneDrive\\文档\\ChatGPT\\2026-10-12\\qing\\work\\phase21-host-ifeo\\attach-real-hosts.py",
+    "sha256": "d067278aa2cb99e2537a2f41d14fbf45f6a6c94f12aae5e888be3d1a1c3965fc"
+  },
+  {
+    "path": "work/phase21-host-ifeo/host-cpu-hook.js",
+    "source": "C:\\Users\\jianm\\OneDrive\\文档\\ChatGPT\\2026-10-12\\qing\\work\\phase21-host-ifeo\\host-cpu-hook.js",
+    "sha256": "b4afb7fc66d2627afec96b961e6144d9fdf192b1c8ebbc8c673eace73cfc6f9a"
+  },
+  {
+    "path": "work/phase21-host-ifeo/activate-client.py",
+    "source": "C:\\Users\\jianm\\OneDrive\\文档\\ChatGPT\\2026-10-12\\qing\\work\\phase21-host-ifeo\\activate-client.py",
+    "sha256": "9b9687b9de8917477cba2f87bcab6c00036d92a4c49e4dc6be7bb8ddd31a7959"
+  },
+  {
+    "path": "work/phase23-client-crash/optional-source-only.js",
+    "source": "C:\\Users\\jianm\\OneDrive\\文档\\ChatGPT\\2026-10-12\\qing\\work\\phase23-client-crash\\optional-source-only.js",
+    "sha256": "80958b908cbf2c87157411bb2ae5ee8c5fa9310446899c8b28ad9495c0bad4fb"
+  },
+  {
+    "path": "work/phase24-manual-test/Start-ManualHookSession.ps1",
+    "source": "C:\\Users\\jianm\\OneDrive\\文档\\ChatGPT\\2026-10-12\\qing\\work\\phase24-manual-test\\Start-ManualHookSession.ps1",
+    "sha256": "0fe2fa8784125d3ead14b82c935f2dc086b44eef3172c6fb80faa9c03d850e21"
+  },
+  {
+    "path": "work/phase24-manual-test/Open-ClickToDo.ps1",
+    "source": "C:\\Users\\jianm\\OneDrive\\文档\\ChatGPT\\2026-10-12\\qing\\work\\phase24-manual-test\\Open-ClickToDo.ps1",
+    "sha256": "0baa756625303995493b658f9c623ed3a8482390fbb826a003e0b870db738a2f"
+  },
+  {
+    "path": "work/phase24-manual-test/Stop-ManualHookSession.ps1",
+    "source": "C:\\Users\\jianm\\OneDrive\\文档\\ChatGPT\\2026-10-12\\qing\\work\\phase24-manual-test\\Stop-ManualHookSession.ps1",
+    "sha256": "b7df36e7cca8f94c25c2f20ae0a23feaca153fb23199a9cb730229d050fa01d9"
+  },
+  {
+    "path": "work/phase24-manual-test/manual-client-debugger.py",
+    "source": "C:\\Users\\jianm\\OneDrive\\文档\\ChatGPT\\2026-10-12\\qing\\work\\phase24-manual-test\\manual-client-debugger.py",
+    "sha256": "14c5f137b1f3499b7e7fe06d5e8d089fe91a88b8debca1ad7e2bef505c5726ce"
+  },
+  {
+    "path": "work/phase25-packaged-launcher/Launcher.cs",
+    "source": "C:\\Users\\jianm\\OneDrive\\文档\\ChatGPT\\2026-10-12\\qing\\work\\phase25-packaged-launcher\\Launcher.cs",
+    "sha256": "d932a89ef1e3bc8bd9055501d114d642f53af14b3ead674b934d3cf522448c47"
+  },
+  {
+    "path": "work/phase25-packaged-launcher/build.py",
+    "source": "C:\\Users\\jianm\\OneDrive\\文档\\ChatGPT\\2026-10-12\\qing\\work\\phase25-packaged-launcher\\build.py",
+    "sha256": "daae9a3f1120f54dc714511c89814ba9b357c882828627dffde9b83080e03d8c"
+  },
+  {
+    "path": "work/phase25-packaged-launcher/Dispatch.ps1",
+    "source": "C:\\Users\\jianm\\OneDrive\\文档\\ChatGPT\\2026-10-12\\qing\\work\\phase25-packaged-launcher\\Dispatch.ps1",
+    "sha256": "407a73f868f67c43a4683187e72d1cd8742fa194800ea8a236f9860e72d68bda"
+  },
+  {
+    "path": "work/phase26-shell-entry/native-hotkey-session.py",
+    "source": "C:\\Users\\jianm\\OneDrive\\文档\\ChatGPT\\2026-10-12\\qing\\work\\phase26-shell-entry\\native-hotkey-session.py",
+    "sha256": "dd9eb2ef21e68118455fa7446244f9acf1d0ca219535c1df77abf5b15a49b846"
+  },
+  {
+    "path": "work/phase26-shell-entry/native-hotkey-registration.js",
+    "source": "C:\\Users\\jianm\\OneDrive\\文档\\ChatGPT\\2026-10-12\\qing\\work\\phase26-shell-entry\\native-hotkey-registration.js",
+    "sha256": "17c1709e5f3d0637082edf1cbb39a74377f24a2ecd0af2598ad9f2a20bb90bc3"
+  },
+  {
+    "path": "evidence/2026-10-16/native-win-q-test.log",
+    "source": "C:\\Users\\jianm\\OneDrive\\文档\\ChatGPT\\2026-10-12\\qing\\work\\phase26-shell-entry\\native-win-q-test.jsonl",
+    "sha256": "0ac45bda5cf6249f6db6be511ded1cb368373fceff51801d21281ac7820aac04"
+  },
+  {
+    "path": "evidence/2026-10-16/native-hotkey-table.json",
+    "source": "C:\\Users\\jianm\\OneDrive\\文档\\ChatGPT\\2026-10-12\\qing\\work\\phase26-shell-entry\\native-hotkey-table.json",
+    "sha256": "129af652d150138ed3e2470909c38419ebbbc5f3a71757abb926af4fd614c69c"
+  },
+  {
+    "path": "evidence/2026-10-16/client-native-hotkey-disassembly.txt",
+    "source": "C:\\Users\\jianm\\OneDrive\\文档\\ChatGPT\\2026-10-12\\qing\\work\\phase26-shell-entry\\client-native-hotkey-disassembly.txt",
+    "sha256": "4efd19ac9e1f6c2f3c78b999523ac9fe4bdbfe3ff636714c36403559f9fc5dc4"
+  },
+  {
+    "path": "evidence/2026-10-16/native-win-q-gate-evidence.json",
+    "source": "C:\\Users\\jianm\\OneDrive\\文档\\ChatGPT\\2026-10-12\\qing\\work\\phase26-shell-entry\\native-win-q-gate-evidence.json",
+    "sha256": "6aef660e5db59a5b6c276c730fc786e7567052a9ea8ff9c4a2c851446f2a404e"
+  },
+  {
+    "path": "evidence/2026-10-16/hotkey-register-function-evidence.json",
+    "source": "C:\\Users\\jianm\\OneDrive\\文档\\ChatGPT\\2026-10-12\\qing\\work\\phase26-shell-entry\\hotkey-register-function-evidence.json",
+    "sha256": "0ba6c1562868ecdcb3ae10ea2398460a31f031fa9e9fe46892e95290756b7bb6"
+  },
+  {
+    "path": "evidence/2026-10-16/explorer-hardware-factory-evidence.json",
+    "source": "C:\\Users\\jianm\\OneDrive\\文档\\ChatGPT\\2026-10-12\\qing\\work\\phase26-shell-entry\\explorer-hardware-factory-evidence.json",
+    "sha256": "0d63ba9d12d4e023b0a3fcce58e1bf4debd14bd7d68180a0592b5252b20a4289"
+  },
+  {
+    "path": "evidence/2026-10-16/completed-session-state.json",
+    "source": "C:\\Users\\jianm\\OneDrive\\文档\\ChatGPT\\2026-10-12\\qing\\outputs\\ClickToDo-实验启动器\\runtime\\phase24-manual-test\\session-state.json",
+    "sha256": "dd551ac44418ab86fbd0a5c589bea3178b82cc35ffbb1be2799af4bdc5502ef5"
+  },
+  {
+    "path": "evidence/2026-10-16/interactive-20261016-104656-7c5cff-native.log",
+    "source": "C:\\Users\\jianm\\OneDrive\\文档\\ChatGPT\\2026-10-12\\qing\\outputs\\ClickToDo-实验启动器\\runtime\\phase26-shell-entry\\interactive-20261016-104656-7c5cff-native.jsonl",
+    "sha256": "042942ccc86aaf6590d26b1f894777e9021056279ef4af3e180a7759bfcc6646"
+  },
+  {
+    "path": "evidence/2026-10-16/interactive-20261016-104656-7c5cff-native-done.json",
+    "source": "C:\\Users\\jianm\\OneDrive\\文档\\ChatGPT\\2026-10-12\\qing\\outputs\\ClickToDo-实验启动器\\runtime\\phase26-shell-entry\\interactive-20261016-104656-7c5cff-native-done.json",
+    "sha256": "f236d68e36d4c915ae9524035c2a44e3226a1e18c2316efa9659b1fe931114d2"
+  },
+  {
+    "path": "studio-cpu/Prepare.ps1",
+    "source": "C:\\Users\\jianm\\OneDrive\\文档\\ChatGPT\\2026-10-12\\qing\\outputs\\StudioEffects-CPU-Service-2026-10-15\\Prepare.ps1",
+    "sha256": "ed8776275093a0f7e8422e59683aca986417609347e3332758f929d9e2e28d24"
+  },
+  {
+    "path": "studio-cpu/Setup.ps1",
+    "source": "C:\\Users\\jianm\\OneDrive\\文档\\ChatGPT\\2026-10-12\\qing\\outputs\\StudioEffects-CPU-Service-2026-10-15\\Setup.ps1",
+    "sha256": "a6e23a162685f3f2ab7930dc0ffefea440e11be803a2ddc964a9f178528b0040"
+  },
+  {
+    "path": "studio-cpu/Install-Bridge.ps1",
+    "source": "C:\\Users\\jianm\\OneDrive\\文档\\ChatGPT\\2026-10-12\\qing\\outputs\\StudioEffects-CPU-Service-2026-10-15\\Install-Bridge.ps1",
+    "sha256": "31f0c8fe8a994d177fef0099435d8042daaa65325f96cbe320c501b7330a7f05"
+  },
+  {
+    "path": "studio-cpu/Uninstall-All.ps1",
+    "source": "C:\\Users\\jianm\\OneDrive\\文档\\ChatGPT\\2026-10-12\\qing\\outputs\\StudioEffects-CPU-Service-2026-10-15\\Uninstall-All.ps1",
+    "sha256": "2a351d394619bd2e108e7d84035c13a22a11c755f3196f2d93ef9dbea964df32"
+  },
+  {
+    "path": "studio-cpu/Uninstall-Bridge.ps1",
+    "source": "C:\\Users\\jianm\\OneDrive\\文档\\ChatGPT\\2026-10-12\\qing\\outputs\\StudioEffects-CPU-Service-2026-10-15\\Uninstall-Bridge.ps1",
+    "sha256": "4dc2e3d71cdd0e51825f8c200076f9f7eb7c6b6e9317526b66cf390a7c3e1962"
+  },
+  {
+    "path": "studio-cpu/Verify-Bridge.ps1",
+    "source": "C:\\Users\\jianm\\OneDrive\\文档\\ChatGPT\\2026-10-12\\qing\\outputs\\StudioEffects-CPU-Service-2026-10-15\\Verify-Bridge.ps1",
+    "sha256": "3cebd74ec064ef9d889f2ad0289ab8d84c93c9a58ecf736e2d7773eaf124a1c9"
+  },
+  {
+    "path": "studio-cpu/Update-Models.ps1",
+    "source": "C:\\Users\\jianm\\OneDrive\\文档\\ChatGPT\\2026-10-12\\qing\\outputs\\StudioEffects-CPU-Service-2026-10-15\\Update-Models.ps1",
+    "sha256": "7522188fec4144f36dcd1b2255b94b720de25cfcd8e0d8e08b4a2d1e0f0f8976"
+  },
+  {
+    "path": "studio-cpu/Confirm-AfterReboot.ps1",
+    "source": "C:\\Users\\jianm\\OneDrive\\文档\\ChatGPT\\2026-10-12\\qing\\outputs\\StudioEffects-CPU-Service-2026-10-15\\Confirm-AfterReboot.ps1",
+    "sha256": "1e72c48bd4ec3643ee092d44214b60dd6e0d25853c9a0a9ced540e3e26cf2da6"
+  },
+  {
+    "path": "studio-cpu/profile-template.json",
+    "source": "C:\\Users\\jianm\\OneDrive\\文档\\ChatGPT\\2026-10-12\\qing\\outputs\\StudioEffects-CPU-Service-2026-10-15\\profile-template.json",
+    "sha256": "e971a3d8c2b83389eb558b024842cc7a183cd6f34f66ff0e047205d4216b4053"
+  },
+  {
+    "path": "studio-cpu/asset-provenance.json",
+    "source": "C:\\Users\\jianm\\OneDrive\\文档\\ChatGPT\\2026-10-12\\qing\\outputs\\StudioEffects-CPU-Service-2026-10-15\\asset-provenance.json",
+    "sha256": "98657900c6a9258bbe12f33e2542ef610511651b79ce9caaed11898333614ed4"
+  },
+  {
+    "path": "studio-cpu/source/Build.ps1",
+    "source": "C:\\Users\\jianm\\OneDrive\\文档\\ChatGPT\\2026-10-12\\qing\\outputs\\StudioEffects-CPU-Service-2026-10-15\\source\\Build.ps1",
+    "sha256": "feffeaf5614d970edb6414a488eac0e61d434c2e3ba28b88c1cc8e4117e98b0e"
+  },
+  {
+    "path": "studio-cpu/source/ModelBuilder.cpp",
+    "source": "C:\\Users\\jianm\\OneDrive\\文档\\ChatGPT\\2026-10-12\\qing\\outputs\\StudioEffects-CPU-Service-2026-10-15\\source\\ModelBuilder.cpp",
+    "sha256": "fcafc12f1f54835c0710f7c29da9171b3fc6079de4583d857b888dc8a9f5c67e"
+  },
+  {
+    "path": "studio-cpu/source/README.md",
+    "source": "C:\\Users\\jianm\\OneDrive\\文档\\ChatGPT\\2026-10-12\\qing\\outputs\\StudioEffects-CPU-Service-2026-10-15\\source\\README.md",
+    "sha256": "f47fff10daf3c39aebedb137e6398c9739c7535ae926f19429d2f5a0af159732"
+  },
+  {
+    "path": "studio-cpu/source/StudioCpuService.cpp",
+    "source": "C:\\Users\\jianm\\OneDrive\\文档\\ChatGPT\\2026-10-12\\qing\\outputs\\StudioEffects-CPU-Service-2026-10-15\\source\\StudioCpuService.cpp",
+    "sha256": "967e46605d320556a5f1cde59f4478af12006d32439c43a56ab52b92bf672325"
+  },
+  {
+    "path": "studio-cpu/source/Test-Lifecycle.ps1",
+    "source": "C:\\Users\\jianm\\OneDrive\\文档\\ChatGPT\\2026-10-12\\qing\\outputs\\StudioEffects-CPU-Service-2026-10-15\\source\\Test-Lifecycle.ps1",
+    "sha256": "3a5c964d38e11949601feac3cd2fc1bd17ecc0b31093a9eb3ae39930fbcce9bd"
+  },
+  {
+    "path": "studio-cpu/device-host/CameraDurationProbe.cpp",
+    "source": "C:\\Users\\jianm\\OneDrive\\文档\\ChatGPT\\2026-10-12\\qing\\outputs\\StudioEffects-CPU-Service-2026-10-15\\device-host\\CameraDurationProbe.cpp",
+    "sha256": "12723ecd88d3998929bfb4ee46c873df55817aa6c769acebe92c5f564f44e867"
+  },
+  {
+    "path": "studio-cpu/device-host/Install-DeviceHost.ps1",
+    "source": "C:\\Users\\jianm\\OneDrive\\文档\\ChatGPT\\2026-10-12\\qing\\outputs\\StudioEffects-CPU-Service-2026-10-15\\device-host\\Install-DeviceHost.ps1",
+    "sha256": "3ede38a2da63fd7ef12352fb9a3a2dacd58404fb0200bb1d21441e31978fbe7b"
+  },
+  {
+    "path": "studio-cpu/device-host/SoftwareMepNode.cpp",
+    "source": "C:\\Users\\jianm\\OneDrive\\文档\\ChatGPT\\2026-10-12\\qing\\outputs\\StudioEffects-CPU-Service-2026-10-15\\device-host\\SoftwareMepNode.cpp",
+    "sha256": "3c864fb57a37e0e0feb4efc9e8fcfe3ead1a025c810a3527a952dfc6f7f03185"
+  },
+  {
+    "path": "studio-cpu/device-host/Studio.Common.ps1",
+    "source": "C:\\Users\\jianm\\OneDrive\\文档\\ChatGPT\\2026-10-12\\qing\\outputs\\StudioEffects-CPU-Service-2026-10-15\\device-host\\Studio.Common.ps1",
+    "sha256": "126df251a7c475156fcda7448fda6b925a55f6cd55a7fb77f3e03fed28e41f12"
+  },
+  {
+    "path": "studio-cpu/device-host/StudioSoftwareHost.cpp",
+    "source": "C:\\Users\\jianm\\OneDrive\\文档\\ChatGPT\\2026-10-12\\qing\\outputs\\StudioEffects-CPU-Service-2026-10-15\\device-host\\StudioSoftwareHost.cpp",
+    "sha256": "31cdc361cf890868d46ac8450edae01ee253595633003d9076554ffd7e8701e3"
+  },
+  {
+    "path": "studio-cpu/device-host/Uninstall.ps1",
+    "source": "C:\\Users\\jianm\\OneDrive\\文档\\ChatGPT\\2026-10-12\\qing\\outputs\\StudioEffects-CPU-Service-2026-10-15\\device-host\\Uninstall.ps1",
+    "sha256": "fd3afa93111fc1bb8fe4153d437f82bfa31ec5d27b2738c3373e23ff9a71e8cd"
+  },
+  {
+    "path": "studio-cpu/device-host/Verify.ps1",
+    "source": "C:\\Users\\jianm\\OneDrive\\文档\\ChatGPT\\2026-10-12\\qing\\outputs\\StudioEffects-CPU-Service-2026-10-15\\device-host\\Verify.ps1",
+    "sha256": "ef8f2802eb49ea8351ea322c4a55bf0de18da4d728544288b513f4ae757bc897"
+  },
+  {
+    "path": "studio-cpu/tools/context_wire.py",
+    "source": "C:\\Users\\jianm\\OneDrive\\文档\\ChatGPT\\2026-10-12\\qing\\outputs\\StudioEffects-CPU-Service-2026-10-15\\tools\\context_wire.py",
+    "sha256": "52f98024a4bee9f45391126b0750caaf198b7fd0824c6c076bcd4a865cfae97d"
+  },
+  {
+    "path": "studio-cpu/tools/PrepareModels.py",
+    "source": "C:\\Users\\jianm\\OneDrive\\文档\\ChatGPT\\2026-10-12\\qing\\outputs\\StudioEffects-CPU-Service-2026-10-15\\tools\\PrepareModels.py",
+    "sha256": "9862e9e709781ebb855c1b309a973ad042546ff38e0d547f1451590a10e4bead"
+  },
+  {
+    "path": "studio-cpu/payload/runtime-agent.js",
+    "source": "C:\\Users\\jianm\\OneDrive\\文档\\ChatGPT\\2026-10-12\\qing\\outputs\\StudioEffects-CPU-Service-2026-10-15\\payload\\runtime-agent.js",
+    "sha256": "9846674b0e987e52f4bbaecf90470339ba714801e1eccda3fe550cab1f0f21fa"
+  },
+  {
+    "path": "studio-cpu/payload/worker.py",
+    "source": "C:\\Users\\jianm\\OneDrive\\文档\\ChatGPT\\2026-10-12\\qing\\outputs\\StudioEffects-CPU-Service-2026-10-15\\payload\\worker.py",
+    "sha256": "09c81ae8f9871eddc4e05e9ab25ff15a9f63b823dd85346ad634dc6ab2248a46"
+  },
+  {
+    "path": "evidence/studio-cpu/camera-download.json",
+    "source": "C:\\Users\\jianm\\OneDrive\\文档\\ChatGPT\\2026-10-12\\qing\\outputs\\StudioEffects-CPU-Service-2026-10-15\\evidence\\camera-download.json",
+    "sha256": "7fd347359a21b41a87d1ca558b0b05b50d0320421726e51d9ed3c77d139255be"
+  },
+  {
+    "path": "evidence/studio-cpu/catalog-binary-comparison.json",
+    "source": "C:\\Users\\jianm\\OneDrive\\文档\\ChatGPT\\2026-10-12\\qing\\outputs\\StudioEffects-CPU-Service-2026-10-15\\evidence\\catalog-binary-comparison.json",
+    "sha256": "8835ba7aae0d6f31a59eaa55eb4ca4199050be4a95edca1b953b301368e0b942"
+  },
+  {
+    "path": "evidence/studio-cpu/installed-services.json",
+    "source": "C:\\Users\\jianm\\OneDrive\\文档\\ChatGPT\\2026-10-12\\qing\\outputs\\StudioEffects-CPU-Service-2026-10-15\\evidence\\installed-services.json",
+    "sha256": "4022956a8aeb5e8eada3b49af5e4720b5f2327eaba601341f8f507b507c17497"
+  },
+  {
+    "path": "evidence/studio-cpu/lifecycle-results.json",
+    "source": "C:\\Users\\jianm\\OneDrive\\文档\\ChatGPT\\2026-10-12\\qing\\outputs\\StudioEffects-CPU-Service-2026-10-15\\evidence\\lifecycle-results.json",
+    "sha256": "e31985489998bd20fe54c5f27ea89a00c02eca872220b1f032a06d96a108926d"
+  },
+  {
+    "path": "evidence/studio-cpu/status-lock-test.json",
+    "source": "C:\\Users\\jianm\\OneDrive\\文档\\ChatGPT\\2026-10-12\\qing\\outputs\\StudioEffects-CPU-Service-2026-10-15\\evidence\\status-lock-test.json",
+    "sha256": "196340e9369ce523ca2f7d258611ca5389eef7e1fe55b6acf5ad9cb12eecdaf5"
+  },
+  {
+    "path": "evidence/studio-cpu/cpu-success-summary.json",
+    "source": "C:\\Users\\jianm\\OneDrive\\文档\\ChatGPT\\2026-10-12\\qing\\work\\studio-effects-investigation\\studio-effects-cpu-success-summary.json",
+    "sha256": "1ee3d6e115c4861701734f9f64fd1746ff3e98f23e55c11cb724fc21abb1e78c"
+  },
+  {
+    "path": "docs/03-WSE-WindowsStudioEffects-攻坚记录.md",
+    "source": "C:\\Users\\jianm\\OneDrive\\文档\\ChatGPT\\2026-10-12\\qing\\outputs\\StudioEffects-CPU-Service-2026-10-15\\README.md",
+    "sha256": "7485b618024961d1dae324b880d80539fefa3cb8bf0bd4619b1530270a67c4d0"
+  },
+  {
+    "path": "tools/acquire/download_utils.py",
+    "source": "C:\\Users\\jianm\\OneDrive\\文档\\ChatGPT\\2026-10-12\\qing\\outputs\\Windows-AI-包获取核验\\提取工具\\download_utils.py",
+    "sha256": "ffeeed339e0b0ec6ee6d4efd688dbc6df25caa3245cf53e7882aacb37de85fed"
+  },
+  {
+    "path": "tools/acquire/msu_range_probe.py",
+    "source": "C:\\Users\\jianm\\OneDrive\\文档\\ChatGPT\\2026-10-12\\qing\\outputs\\Windows-AI-包获取核验\\提取工具\\msu_range_probe.py",
+    "sha256": "82f5b1d6c1e29d63739ba4c449d3511a4bb8be04bd677e37bd21b6eff46679b6"
+  },
+  {
+    "path": "tools/acquire/wim_metadata_probe.py",
+    "source": "C:\\Users\\jianm\\OneDrive\\文档\\ChatGPT\\2026-10-12\\qing\\outputs\\Windows-AI-包获取核验\\提取工具\\wim_metadata_probe.py",
+    "sha256": "af20014e71fdf25929da75e6f0688bdba170f37348967ef5fc7dc92ee09a6127"
+  },
+  {
+    "path": "tools/acquire/wim_list_payloads.py",
+    "source": "C:\\Users\\jianm\\OneDrive\\文档\\ChatGPT\\2026-10-12\\qing\\outputs\\Windows-AI-包获取核验\\提取工具\\wim_list_payloads.py",
+    "sha256": "de69137b33414a64c14d0ed097f0bcfd9a1080c73aa716b00f4d538651c96e3a"
+  },
+  {
+    "path": "tools/acquire/msu-payloads.json",
+    "source": "C:\\Users\\jianm\\OneDrive\\文档\\ChatGPT\\2026-10-12\\qing\\outputs\\Windows-AI-包获取核验\\提取工具\\msu-payloads.json",
+    "sha256": "6eafe49c438ea490792b18f9fdedb64e96373c9917ee4bf5cabbc0ff6494b22b"
+  },
+  {
+    "path": "tools/acquire/oct-msu-payloads.json",
+    "source": "C:\\Users\\jianm\\OneDrive\\文档\\ChatGPT\\2026-10-12\\qing\\outputs\\Windows-AI-包获取核验\\提取工具\\oct-msu-payloads.json",
+    "sha256": "c027c5de8dd0a21fa8439cdbcbf62db37eae56c68843c560a730b0a263d4660f"
+  },
+  {
+    "path": "evidence/rum-definitions/Windows.Workload.Analysis.365.amd64.rum.json",
+    "source": "C:\\Users\\jianm\\Code\\DeepseekHarness\\.dsh-tmp\\onepkg\\unwrap3\\Windows_Workload_Analysis_365_amd64__0_1\\Windows.Workload.Analysis.365.amd64.rum.json",
+    "sha256": "f47b62de832a3ad89a6b4758aa2969499506b64f3feadd23c16dc720b4c03b24"
+  },
+  {
+    "path": "evidence/rum-definitions/Windows.Workload.Analysis.LNL.amd64.rum.json",
+    "source": "C:\\Users\\jianm\\Code\\DeepseekHarness\\.dsh-tmp\\onepkg\\unwrap3\\Windows_Workload_Analysis_LNL_amd64__0_1\\Windows.Workload.Analysis.LNL.amd64.rum.json",
+    "sha256": "f3c7758f1454907e8ce1a6cd7ac8a54164b7764bf16c52406d5b2dbab2415b43"
+  },
+  {
+    "path": "evidence/rum-definitions/Windows.Workload.Analysis.STX.amd64.rum.json",
+    "source": "C:\\Users\\jianm\\Code\\DeepseekHarness\\.dsh-tmp\\onepkg\\unwrap3\\Windows_Workload_Analysis_STX_amd64__0_1\\Windows.Workload.Analysis.STX.amd64.rum.json",
+    "sha256": "7d2742a7ba2d053850baeac5e6ac74f471e73b3565804ba7d659b2b7b7b23bd7"
+  },
+  {
+    "path": "evidence/rum-definitions/Windows.Workload.ContentExtraction.365.amd64.rum.json",
+    "source": "C:\\Users\\jianm\\Code\\DeepseekHarness\\.dsh-tmp\\onepkg\\unwrap3\\Windows_Workload_ContentExtraction_3_0_1\\Windows.Workload.ContentExtraction.365.amd64.rum.json",
+    "sha256": "353950441a8f955f1e0449453b012780c05e0c0e7b25b9480f73550e72642e63"
+  },
+  {
+    "path": "evidence/rum-definitions/Windows.Workload.ContentExtraction.LNL.amd64.rum.json",
+    "source": "C:\\Users\\jianm\\Code\\DeepseekHarness\\.dsh-tmp\\onepkg\\unwrap3\\Windows_Workload_ContentExtraction_L_0_1\\Windows.Workload.ContentExtraction.LNL.amd64.rum.json",
+    "sha256": "2ae5df28198daa5b5d1c63e2f71ec370dc2c6eb79566c1058757cd4edf50dedd"
+  },
+  {
+    "path": "evidence/rum-definitions/Windows.Workload.ContentExtraction.STX.amd64.rum.json",
+    "source": "C:\\Users\\jianm\\Code\\DeepseekHarness\\.dsh-tmp\\onepkg\\unwrap3\\Windows_Workload_ContentExtraction_S_0_1\\Windows.Workload.ContentExtraction.STX.amd64.rum.json",
+    "sha256": "aa31ede9091eef70147c1f296bae086848ed49af5b2dd3e6a96ad4bec98390ac"
+  },
+  {
+    "path": "evidence/rum-definitions/Windows.Workload.ImageSearch.365.amd64.rum.json",
+    "source": "C:\\Users\\jianm\\Code\\DeepseekHarness\\.dsh-tmp\\onepkg\\unwrap3\\Windows_Workload_ImageSearch_365_amd_0_1\\Windows.Workload.ImageSearch.365.amd64.rum.json",
+    "sha256": "0a787eecb0598d68a26ba1b395ea028204fc79401fdf6098011aeb4fc66c1be5"
+  },
+  {
+    "path": "evidence/rum-definitions/Windows.Workload.ImageSearch.LNL.amd64.rum.json",
+    "source": "C:\\Users\\jianm\\Code\\DeepseekHarness\\.dsh-tmp\\onepkg\\unwrap3\\Windows_Workload_ImageSearch_LNL_amd_0_1\\Windows.Workload.ImageSearch.LNL.amd64.rum.json",
+    "sha256": "d4e7052bda21959e0d8ad2f309f58b9c39140f323cf8807c524cedd8b1ed321a"
+  },
+  {
+    "path": "evidence/rum-definitions/Windows.Workload.ImageSearch.STX.amd64.rum.json",
+    "source": "C:\\Users\\jianm\\Code\\DeepseekHarness\\.dsh-tmp\\onepkg\\unwrap3\\Windows_Workload_ImageSearch_STX_amd_0_1\\Windows.Workload.ImageSearch.STX.amd64.rum.json",
+    "sha256": "7837bbbb3069b968ce73d9d30a42e1ca17129bb069e3359dc6b2e7118cb24efe"
+  },
+  {
+    "path": "evidence/rum-definitions/Windows.Workload.SettingsModel.LNL.amd64.rum.json",
+    "source": "C:\\Users\\jianm\\Code\\DeepseekHarness\\.dsh-tmp\\onepkg\\unwrap3\\Windows_Workload_SettingsModel_LNL_a_0_1\\Windows.Workload.SettingsModel.LNL.amd64.rum.json",
+    "sha256": "8f12ba231c41a58d32f8b900d42371ed5eae8328ba405f7e55b44a75e31992f1"
+  },
+  {
+    "path": "evidence/rum-definitions/Windows.Workload.SettingsModel.STX.amd64.rum.json",
+    "source": "C:\\Users\\jianm\\Code\\DeepseekHarness\\.dsh-tmp\\onepkg\\unwrap3\\Windows_Workload_SettingsModel_STX_a_0_1\\Windows.Workload.SettingsModel.STX.amd64.rum.json",
+    "sha256": "67ce0e9e2d57b6f535992cd2fde1bedce6ed51f77b9179151533e26fb7e73613"
+  },
+  {
+    "path": "evidence/installer-config/device_information.json",
+    "source": "C:\\Users\\jianm\\Code\\DeepseekHarness\\native-install\\source-analysis365\\metadata\\device_information.json",
+    "sha256": "2c614bc71bc58edeb1b405663ea295c52438ae03f7bb279c8a35192c637420a4"
+  },
+  {
+    "path": "evidence/installer-config/hardware.installer.json",
+    "source": "C:\\Users\\jianm\\Code\\DeepseekHarness\\native-install\\source-analysis365\\metadata\\hardware.installer.json",
+    "sha256": "e7c7afdfa959ee8e883848e53580a328e4e35fda2fdbb6cae3e3f34c2e4cc5bd"
+  },
+  {
+    "path": "evidence/installer-config/msix.installer.json",
+    "source": "C:\\Users\\jianm\\Code\\DeepseekHarness\\native-install\\source-analysis365\\metadata\\msix.installer.json",
+    "sha256": "1c2d214892493812643f8e755100c847aa104f87114743976df0487ea76b5dfb"
+  },
+  {
+    "path": "evidence/installer-config/package_change_report.json",
+    "source": "C:\\Users\\jianm\\Code\\DeepseekHarness\\native-install\\source-analysis365\\metadata\\package_change_report.json",
+    "sha256": "a5cc2188189950ed68748175af3a810a9d216b71967fd3f27a27db267495f778"
+  }
+]

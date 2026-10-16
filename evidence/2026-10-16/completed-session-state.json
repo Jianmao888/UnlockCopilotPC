@@ -1,0 +1,18 @@
+{
+  "Status": "Stopped",
+  "Label": "interactive-20261016-105503-38971f",
+  "ControllerPid": 10284,
+  "StartedUtc": "2026-10-16T02:55:03.4565873Z",
+  "ExpiresUtc": "2026-10-16T03:10:03.4542264+00:00",
+  "ExpiresLocal": "2026-10-16 11:10:03 +08:00",
+  "StopSignal": "C:\\Users\\jianm\\OneDrive\\文档\\ChatGPT\\2026-10-12\\qing\\outputs\\ClickToDo-实验启动器\\runtime\\phase21-host-ifeo\\interactive-20261016-105503-38971f-stop.signal",
+  "ClientLog": "C:\\Users\\jianm\\OneDrive\\文档\\ChatGPT\\2026-10-12\\qing\\outputs\\ClickToDo-实验启动器\\runtime\\phase24-manual-test\\runtime\\startup-hook.jsonl",
+  "NativeStopSignal": "C:\\Users\\jianm\\OneDrive\\文档\\ChatGPT\\2026-10-12\\qing\\outputs\\ClickToDo-实验启动器\\runtime\\phase26-shell-entry\\interactive-20261016-105503-38971f-native-stop.signal",
+  "NativeWinQReady": true,
+  "NativeCleanup": {
+    "SearchRestored": true,
+    "ReleaseAttempted": true
+  },
+  "StoppedUtc": "2026-10-16T03:10:04.8957304Z",
+  "IfeoAbsent": true
+}

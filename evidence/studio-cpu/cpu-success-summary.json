@@ -1,0 +1,48 @@
+{
+  "created": "2026-10-15T19:42:25.046129+08:00",
+  "recording": {
+    "path": "C:\\Users\\jianm\\OneDrive\\文档\\ChatGPT\\2026-10-12\\qing\\work\\studio-effects-investigation\\studio-effects-cpu-autoframing-5sec.mp4",
+    "bytes": 2523649,
+    "tracks": [
+      {
+        "handler": "vide",
+        "codec": "avc1",
+        "sample_count": 152
+      }
+    ],
+    "duration_seconds": 5.066633333333334
+  },
+  "successful_session_model_sizes": [
+    676521,
+    762671,
+    1905580,
+    12686153
+  ],
+  "max_observed_runs_per_model": {
+    "762671": 960,
+    "12686153": 960,
+    "1905580": 960
+  },
+  "error_count": 1,
+  "errors": [
+    {
+      "event": "private_session_return",
+      "model_size": 7774942,
+      "status": "0x1e71c1d58a0",
+      "error": "Exception during initialization: D:\\a\\_work\\1\\s\\onnxruntime\\onnxruntime\\core\\providers\\openvino\\backend_manager.cc:185 __cdecl onnxruntime::openvino_ep::BackendManager::BackendManager(struct onnxruntime::openvino_ep::SessionContext &,class onnxruntime::openvino_ep::SharedContext &,const struct onnxruntime::Node &,const class onnxruntime::GraphViewer &,const struct onnxruntime::logging::Logger &,class onnxruntime::openvino_ep::EPCtxHandler &) D:\\a\\_work\\1\\s\\onnxruntime\\onnxruntime\\core\\providers\\openvino\\ov_interface.cc:24 class onnxruntime::openvino_ep::OVExeNetwork __cdecl onnxruntime::openvino_ep::OvExceptionBoundary<class onnxruntime::openvino_ep::OVCore::ImportModel::<lambda_1>,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >&>(class onnxruntime::openvino_ep::OVCore::ImportModel::<lambda_1> &&,struct std::basic_format_string<char,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &> &&,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &) [OpenVINO-EP] Exception while Loading Network for graph OpenVINOExecutionProvider_OpenVINO-EP-subgraph_5_0: Exception from src\\inference\\src\\cpp\\core.cpp:192:\nException from src\\inference\\src\\dev\\plugin.cpp:73:\nCheck 'is_valid_model' failed at src\\plugins\\intel_cpu\\src\\utils\\serialize.cpp:167:\n[CPU] Could not deserialize by device xml header.\n\n\n\n\n"
+    }
+  ],
+  "user_confirmation": {
+    "automatic_framing": "Preview normal; visibly follows person, confirmed 2026-10-15",
+    "background_blur": "Visibly works, confirmed 2026-10-15",
+    "other_two_effects": "No crash observed; visual effect not confirmed"
+  },
+  "hook_status": {
+    "active": true,
+    "controller_pid": 19444,
+    "time": 1792064520.4519792,
+    "service_pid": 27908,
+    "expires_unix": 1792066148.061979,
+    "stop_file": "C:\\Users\\jianm\\OneDrive\\文档\\ChatGPT\\2026-10-12\\qing\\work\\studio-effects-investigation\\studio-effects-cpu-hook.stop"
+  }
+}
