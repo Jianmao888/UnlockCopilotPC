@@ -1,0 +1,20 @@
+{
+  "plugins": [
+    {
+      "id": "HardwareEnumerator",
+      "ext": "Microsoft.UALite.Plugin.HardwareEnumerator.dll",
+      "enumerator": {
+        "classId": "HardwareEnumerator.DeviceEnumerator",
+        "packageTypes": [],
+        "properties": [
+          { "id": "Device\\Detect\\Hardware\\CPU" },
+          { "id": "Device\\Detect\\Hardware\\GPU" },
+          { "id": "Device\\Detect\\Hardware\\NPU" },
+          { "id": "Device\\Detect\\Software\\HybridCompute" }
+        ]
+      }
+    }
+  ],
+  "packageTypes": [],
+  "payloadTypes": []
+}

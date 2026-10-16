@@ -1,0 +1,94 @@
+{
+    "plugins": [
+        {
+            "id": "MSIX",
+            "ext": "Microsoft.UALite.Plugin.MsixDeployment.dll",
+            "enumerator": {
+                "classId": "Microsoft.UALite.MsixDeployment.DeviceEnumerator",
+                "packageTypes": [
+                    "MSIX"
+                ]
+            },
+            "installer": {
+                "classId": "Microsoft.UALite.MsixDeployment.Installer",
+                "packageTypes": [
+                    "MSIX"
+                ],
+                "phases": [
+                    {
+                        "phase": "immediateInstall",
+                        "weight": 100
+                    }
+                ]
+            },
+            "expander": {
+                "classId": "Microsoft.UALite.MsixDeployment.Expander",
+                "packageTypes": [
+                    "MSIX"
+                ],
+                "writerFactory": {
+                    "classId": "Microsoft.UALite.MsixDeployment.ExpandedPayloadWriterFactory"
+                }
+            }
+        }
+    ],
+    "packageTypes": [
+        {
+            "type": "MSIX",
+            "enumerated": true,
+            "properties": [
+                {
+                    "id": "PackageFullName",
+                    "required": true,
+                    "validate": false
+                },
+                {
+                    "id": "MsixProvisioned",
+                    "required": false,
+                    "validate": true,
+                    "inheritedFromProduct": true,
+                    "restoreFromDevice": true,
+                    "allowedValues": [
+                        "Provisioned",
+                        "NotProvisioned"
+                    ],
+                    "ignoreValues": [
+                        "Absent"
+                    ],
+                    "aliases": {
+                        "Provisioned": "1",
+                        "NotProvisioned": "0"
+                    }
+                },
+                {
+                    "id": "MsixPinned",
+                    "required": false,
+                    "validate": true,
+                    "inheritedFromProduct": true,
+                    "restoreFromDevice": true,
+                    "allowedValues": [
+                        "Pinned",
+                        "NotPinned"
+                    ],
+                    "ignoreValues": [
+                        "Absent"
+                    ],
+                    "aliases": {
+                        "Pinned": "1",
+                        "NotPinned": "0"
+                    }
+                }
+            ]
+        }
+    ],
+    "payloadTypes": [
+        {
+            "type": "MSIX",
+            "schemas": {
+                "propertySchema": {
+                    "type": "object"
+                }
+            }
+        }
+    ]
+}

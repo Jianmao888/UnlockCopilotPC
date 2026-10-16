@@ -19,7 +19,6 @@ mitm-ca/
 oem/*.html
 oem/*.cab
 .research/
-docs/
 .dsh-tmp/
 
 # ---- state repository snapshots (8 MB each) ----
@@ -72,3 +71,25 @@ native-install/**/*.jsonl
 .dsh-tmp/
 dumps/
 wse/*.log
+
+# Rebuildable local outputs; documentation and source must remain tracked.
+outputs/
+studio-cpu/downloads/
+studio-cpu/prepared-model-blobs/
+studio-cpu/payload/python/
+studio-cpu/payload/cpu-runtime/
+studio-cpu/vendor/
+studio-cpu/prepared.json
+studio-cpu/payload-sha256.json
+studio-cpu/model-build-results.json
+*.obj
+*.pdb
+*.exe
+*.dll
+*.lib
+*.blob
+*.onnx
+work/phase25-packaged-launcher/Launcher.generated.cs
+work/**/*.signal
+work/**/*session-state.json
+work/**/*.jsonl

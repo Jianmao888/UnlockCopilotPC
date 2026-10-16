@@ -1,0 +1,107 @@
+[
+  {
+    "name": "AppxDeviceInventory.dll",
+    "bytes": 1035640,
+    "sha256": "1c5d41b94c50a1d61a96b450d7b1bca25f40f5554ae9b72ac8ffa4597fcaac37"
+  },
+  {
+    "name": "device_information.json",
+    "bytes": 64855,
+    "sha256": "2c614bc71bc58edeb1b405663ea295c52438ae03f7bb279c8a35192c637420a4"
+  },
+  {
+    "name": "dpx.dll",
+    "bytes": 1105248,
+    "sha256": "bb510bbd13051d3a6f4c8bd6d0c9b5f0264239e9df67b88f859cbd0a9fc7304d"
+  },
+  {
+    "name": "featurestaging.dll",
+    "bytes": 105824,
+    "sha256": "26434af1e64bc0af38243a02b12b7d7f7acf253e0b6d57f58a094581704963d3"
+  },
+  {
+    "name": "hardware.installer.json",
+    "bytes": 547,
+    "sha256": "e7c7afdfa959ee8e883848e53580a328e4e35fda2fdbb6cae3e3f34c2e4cc5bd"
+  },
+  {
+    "name": "Microsoft.UALite.Plugin.HardwareEnumerator.dll",
+    "bytes": 807312,
+    "sha256": "e953380c95206e469d8dae8dff6ba04f4bc7b2c6e6a5cfddcd39ef82e6347c7a"
+  },
+  {
+    "name": "Microsoft.UALite.Plugin.MsixDeployment.dll",
+    "bytes": 1442736,
+    "sha256": "953bae4080a784fc93b3aba38153c4bb78689c874a1660e99928b99a06d0abef"
+  },
+  {
+    "name": "Mitigation.dll",
+    "bytes": 712056,
+    "sha256": "8f81f2f9893f715c29da10779f799c6252d6f6685fd43d2204fcd982b14f9032"
+  },
+  {
+    "name": "msix.installer.json",
+    "bytes": 2908,
+    "sha256": "1c2d214892493812643f8e755100c847aa104f87114743976df0487ea76b5dfb"
+  },
+  {
+    "name": "MsixPackageProvisioner.dll",
+    "bytes": 896320,
+    "sha256": "b7fe578a9691210ed457967a41f6ce0baad9ba4022c24891cd3893f789e27056"
+  },
+  {
+    "name": "package_change_report.json",
+    "bytes": 11610,
+    "sha256": "a5cc2188189950ed68748175af3a810a9d216b71967fd3f27a27db267495f778"
+  },
+  {
+    "name": "ReserveManager.dll",
+    "bytes": 359752,
+    "sha256": "d50ee4d278a91a2c7e8d87aa2e6a01457708a7bf950b680deb06b94a917d7d21"
+  },
+  {
+    "name": "turbocontainer.dll",
+    "bytes": 1420640,
+    "sha256": "e8aec74a20e4b77ef2dcd102915be3c5ae099d13ba958dbbca9cbc63e08a2724"
+  },
+  {
+    "name": "TurboStack.dll",
+    "bytes": 2354576,
+    "sha256": "56b7d76b79f9a3c9c3b271d97f2cbc09347dfd4410bd18784c9be1c34c4c476d"
+  },
+  {
+    "name": "ualite.dll",
+    "bytes": 6249248,
+    "sha256": "c76872428a364ec19812a04f449f2d532c7f10e43d5690c8d8590c2dad01aada"
+  },
+  {
+    "name": "UAOneSettings.dll",
+    "bytes": 163192,
+    "sha256": "86c7dfc4570102abc1e8eaf6dc0c5dc08aa6000fa6513c50b931bbbebe0d69c9"
+  },
+  {
+    "name": "UpdateAgent.dll",
+    "bytes": 4451656,
+    "sha256": "48c658c5f79afd5d9bc75b83a48f727ec2eef39ea09ff268035b6af108a0fb6c"
+  },
+  {
+    "name": "UpdateCompression.dll",
+    "bytes": 626064,
+    "sha256": "26dfb67a9d85f3c71aecf5af67ee120ce5bad9d0c1d8f3f117ecb612de46b7cd"
+  },
+  {
+    "name": "updatedeploy.dll",
+    "bytes": 726368,
+    "sha256": "23246de70cd4490d2c9a46c0d3b99e3cf523e3acf0cd7c8acceb3e01a127bc58"
+  },
+  {
+    "name": "wcp.dll",
+    "bytes": 4566368,
+    "sha256": "e98c2395458df7ceb47991e167b59e777556bda0dab157e95650065ae9d1ea4b"
+  },
+  {
+    "name": "WinREAgent.dll",
+    "bytes": 851296,
+    "sha256": "7d2f96a15094f578c17ea5936cc8fc07ecb8581393ff4496c5962b8428103bda"
+  }
+]

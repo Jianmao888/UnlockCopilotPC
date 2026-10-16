@@ -1,0 +1,16 @@
+[
+  {
+    "Name": "CodexStudioSoftwareHostV2",
+    "State": "Running",
+    "StartMode": "Auto",
+    "StartName": "LocalSystem",
+    "PathName": "\"C:\\ProgramData\\CodexStudioHostV2\\StudioSoftwareHost.exe\" --service"
+  },
+  {
+    "Name": "CodexStudioCpuBridge",
+    "State": "Running",
+    "StartMode": "Auto",
+    "StartName": "LocalSystem",
+    "PathName": "\"C:\\ProgramData\\CodexStudioCpuBridge\\StudioCpuService.exe\" --service"
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "File": "onnxruntime_providers_openvino.dll",
+    "SHA256": "38ABAEE748B023FA0C7686E2310C653FE44DA956A369FE496046466CFA44718B",
+    "MatchesInstalled": true,
+    "Signature": "Valid"
+  },
+  {
+    "File": "onnxruntime_providers_shared.dll",
+    "SHA256": "598347280EE389FBE5A86E2B5AB03AC0063244C3859FE33A1C115F87FBC420B4",
+    "MatchesInstalled": true,
+    "Signature": "Valid"
+  },
+  {
+    "File": "openvino_intel_npu_plugin.dll",
+    "SHA256": "BE67ADDADE004F03AFE934DC37F3F895C39D57868442C490FC9F4759047D4FE1",
+    "MatchesInstalled": true,
+    "Signature": "Valid"
+  },
+  {
+    "File": "openvino_onnx_frontend.dll",
+    "SHA256": "E25C879B4D414C2E39F3464FCD43934719BE76ADA88170DEC5BD70CBDD120749",
+    "MatchesInstalled": true,
+    "Signature": "Valid"
+  },
+  {
+    "File": "openvino.dll",
+    "SHA256": "A3CCE37F033DD5AFC4D74D150D2640199DABFBECA786C77283365A0B9BA6BF0D",
+    "MatchesInstalled": true,
+    "Signature": "Valid"
+  },
+  {
+    "File": "PerceptionCore.dll",
+    "SHA256": "374F9DDCF450B063F98F81B7ACDDD1C94F8977A525B4D82504E7779B44AAD4F9",
+    "MatchesInstalled": true,
+    "Signature": "Valid"
+  },
+  {
+    "File": "PerceptionCoreResources.dll",
+    "SHA256": "9C988E751D0AEBB85FC75DCE3F252AC32DA23C408AC6BF73773D8431B64ECCAA",
+    "MatchesInstalled": true,
+    "Signature": "Valid"
+  },
+  {
+    "File": "ps-onnxruntime.dll",
+    "SHA256": "2BEE89D82184EDEEB2E7EA6DEA43E44D5759D27D2298B39BFCF42C0A5232E9E8",
+    "MatchesInstalled": true,
+    "Signature": "Valid"
+  },
+  {
+    "File": "tbb12.dll",
+    "SHA256": "3E80D29692C0719298217897EDF9A4F419B90DFDFD96041A1DA9AC7401FD4EFD",
+    "MatchesInstalled": true,
+    "Signature": "Valid"
+  }
+]

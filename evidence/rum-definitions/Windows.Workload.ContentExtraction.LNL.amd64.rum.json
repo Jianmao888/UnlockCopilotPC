@@ -1,0 +1,469 @@
+{
+  "UDIManifestSchema": "3.0.0",
+  "UpdateProduct": [
+    {
+      "ProductIdentifier": "Windows.Workload.ContentExtraction.LNL",
+      "ProductArchitecture": "amd64",
+      "ProductVersion": "1.2608.951.0",
+      "ProductAttributes": {
+        "UpdateUXHistoryClassification": "AIFabricModel",
+        "IsRemovable": "False"
+      },
+      "ConditionDefinitions": {
+        "INTEL_PTL_SYSTEM": {
+          "===": [
+            {
+              "registry_string_value": [
+                "HKEY_LOCAL_MACHINE\\SYSTEM\\WaaS\\Device\\Detect\\Hardware\\NPU",
+                "B2D7B485-2A57-48EA-9032-07D6BD4B3F87",
+                "0"
+              ]
+            },
+            "1"
+          ]
+        },
+        "INTEL_PTL_SOFTWARE": {
+          "===": [
+            {
+              "registry_string_value": [
+                "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows NT\\CurrentVersion\\UnattendSettings\\WaaS\\Device\\Detect\\Hardware\\NPU",
+                "B2D7B485-2A57-48EA-9032-07D6BD4B3F87",
+                "0"
+              ]
+            },
+            "1"
+          ]
+        },
+        "INTEL_LNL_SYSTEM": {
+          "===": [
+            {
+              "registry_string_value": [
+                "HKEY_LOCAL_MACHINE\\SYSTEM\\WaaS\\Device\\Detect\\Hardware\\NPU",
+                "A6EEA85C-3D59-4FF8-A673-F88D85107D0C",
+                "0"
+              ]
+            },
+            "1"
+          ]
+        },
+        "INTEL_LNL_SOFTWARE": {
+          "===": [
+            {
+              "registry_string_value": [
+                "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows NT\\CurrentVersion\\UnattendSettings\\WaaS\\Device\\Detect\\Hardware\\NPU",
+                "A6EEA85C-3D59-4FF8-A673-F88D85107D0C",
+                "0"
+              ]
+            },
+            "1"
+          ]
+        },
+        "INTEL_PTL_GLOBAL_PROPERTIES": {
+          "global_property_contains": [
+            "Device\\Detect\\Hardware\\NPU",
+            "B2D7B485-2A57-48EA-9032-07D6BD4B3F87"
+          ]
+        },
+        "INTEL_LNL_GLOBAL_PROPERTIES": {
+          "global_property_contains": [
+            "Device\\Detect\\Hardware\\NPU",
+            "A6EEA85C-3D59-4FF8-A673-F88D85107D0C"
+          ]
+        }
+      },
+      "UpdateEntityCollection": [
+        {
+          "EntityIdentifier": {
+            "EntityName": "WindowsWorkload.Data.ContentExtraction.Lnl.1_0.0.0.0_x64__8wekyb3d8bbwe",
+            "EntityVersion": "1.2608.951.0",
+            "EntityType": "MSIX"
+          },
+          "EntityProperties": {
+            "PackageFullName": [
+              "WindowsWorkload.Data.ContentExtraction.Lnl.1_1.2608.951.0_x64__8wekyb3d8bbwe"
+            ]
+          },
+          "EntityPayload": {
+            "Canonical": [
+              {
+                "PayloadName": "WindowsWorkload.Data.ContentExtraction.Lnl.1_1.2608.951.0_x64.msix",
+                "PayloadType": "MSIX",
+                "PayloadVersion": "1.2608.951.0",
+                "PayloadSize": 51003,
+                "SHA256": "s6b6a1KzCR3Bptk93qmr+P+z88RE71c8Ycgg2jEm83Q="
+              }
+            ],
+            "Range": [
+              {
+                "PayloadName": "WindowsWorkload.Data.ContentExtraction.Lnl.1_1.2608.951.0_x64.msix",
+                "SHA256": "s6b6a1KzCR3Bptk93qmr+P+z88RE71c8Ycgg2jEm83Q=",
+                "RangeIndexFiles": [
+                  {
+                    "PayloadName": "WindowsWorkload.Data.ContentExtraction.Lnl.1_1.2608.951.0_x64.msix.rif.cab",
+                    "SHA256": "7HyuzRUp2v1kpO7MlfzyKJEP2jK996xki29BUPLnwdo=",
+                    "PayloadSize": 10811
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "EntityIdentifier": {
+            "EntityName": "WindowsWorkload.Manager.1_8wekyb3d8bbwe",
+            "EntityVersion": "1.2511.1196.0",
+            "EntityType": "MSIX"
+          },
+          "EntityProperties": {
+            "PackageFullName": [
+              "WindowsWorkload.Manager.1_1.2511.1196.0_x64__8wekyb3d8bbwe"
+            ]
+          },
+          "EntityPayload": {
+            "Canonical": [
+              {
+                "PayloadName": "WindowsWorkload.Manager.1_1.2511.1196.0_x64.msix",
+                "PayloadType": "MSIX",
+                "PayloadVersion": "1.2511.1196.0",
+                "PayloadSize": 425261,
+                "SHA256": "y8iBKehkC65h6abh5s9JtenHEc6BRbuIl3pStA6/Ecs="
+              }
+            ],
+            "Range": [
+              {
+                "PayloadName": "WindowsWorkload.Manager.1_1.2511.1196.0_x64.msix",
+                "SHA256": "y8iBKehkC65h6abh5s9JtenHEc6BRbuIl3pStA6/Ecs=",
+                "RangeIndexFiles": [
+                  {
+                    "PayloadName": "WindowsWorkload.Manager.1_1.2511.1196.0_x64.msix.rif.cab",
+                    "SHA256": "arNHxiFZuysS16oFtA2EK/ompeEnnuORbX7pQj009uc=",
+                    "PayloadSize": 11474
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "EntityIdentifier": {
+            "EntityName": "WindowsWorkload.ScrRegDetection.Data.1_0.0.0.0_x64__8wekyb3d8bbwe",
+            "EntityVersion": "1.2608.951.0",
+            "EntityType": "MSIX"
+          },
+          "EntityProperties": {
+            "PackageFullName": [
+              "WindowsWorkload.ScrRegDetection.Data.1_1.2608.951.0_x64__8wekyb3d8bbwe"
+            ]
+          },
+          "EntityPayload": {
+            "Canonical": [
+              {
+                "PayloadName": "WindowsWorkload.ScrRegDetection.Data.1_1.2608.951.0_x64.msix",
+                "PayloadType": "MSIX",
+                "PayloadVersion": "1.2608.951.0",
+                "PayloadSize": 16939639,
+                "SHA256": "PVgrpPTjicmnnee3eMYFklBHcy6nFiqgLDFPt+stuX0="
+              }
+            ],
+            "Range": [
+              {
+                "PayloadName": "WindowsWorkload.ScrRegDetection.Data.1_1.2608.951.0_x64.msix",
+                "SHA256": "PVgrpPTjicmnnee3eMYFklBHcy6nFiqgLDFPt+stuX0=",
+                "RangeIndexFiles": [
+                  {
+                    "PayloadName": "WindowsWorkload.ScrRegDetection.Data.1_1.2608.951.0_x64.msix.rif.cab",
+                    "SHA256": "j8JJMI7pLkn3f4YvIKIad/IxSmyCM4bX+fB0fi/2yEE=",
+                    "PayloadSize": 10801
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "EntityIdentifier": {
+            "EntityName": "WindowsWorkload.ScrRegDetection.Lnl.1_0.0.0.0_x64__8wekyb3d8bbwe",
+            "EntityVersion": "1.2608.951.0",
+            "EntityType": "MSIX"
+          },
+          "EntityProperties": {
+            "PackageFullName": [
+              "WindowsWorkload.ScrRegDetection.Lnl.1_1.2608.951.0_x64__8wekyb3d8bbwe"
+            ]
+          },
+          "EntityPayload": {
+            "Canonical": [
+              {
+                "PayloadName": "WindowsWorkload.ScrRegDetection.Lnl.1_1.2608.951.0_x64.msix",
+                "PayloadType": "MSIX",
+                "PayloadVersion": "1.2608.951.0",
+                "PayloadSize": 922192,
+                "SHA256": "mrDDhDDLR10RWekpbJcpHNTiPmlnc1kNXGNaZzmvTSk="
+              }
+            ],
+            "Range": [
+              {
+                "PayloadName": "WindowsWorkload.ScrRegDetection.Lnl.1_1.2608.951.0_x64.msix",
+                "SHA256": "mrDDhDDLR10RWekpbJcpHNTiPmlnc1kNXGNaZzmvTSk=",
+                "RangeIndexFiles": [
+                  {
+                    "PayloadName": "WindowsWorkload.ScrRegDetection.Lnl.1_1.2608.951.0_x64.msix.rif.cab",
+                    "SHA256": "CMdMQ/v2basJNfWTsmtEplKoNEXO0Zp47t96hSOh7Yc=",
+                    "PayloadSize": 11997
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "EntityIdentifier": {
+            "EntityName": "WindowsWorkload.SessionManager.1_0.0.0.0_x64__8wekyb3d8bbwe",
+            "EntityVersion": "1.2608.951.0",
+            "EntityType": "MSIX"
+          },
+          "EntityProperties": {
+            "PackageFullName": [
+              "WindowsWorkload.SessionManager.1_1.2608.951.0_x64__8wekyb3d8bbwe"
+            ]
+          },
+          "EntityPayload": {
+            "Canonical": [
+              {
+                "PayloadName": "WindowsWorkload.SessionManager.1_1.2608.951.0_x64.msix",
+                "PayloadType": "MSIX",
+                "PayloadVersion": "1.2608.951.0",
+                "PayloadSize": 336851,
+                "SHA256": "F1jwooAf9yYOzW5PP787SfvhsxAABVbBVgVE9BbZrCQ="
+              }
+            ],
+            "Range": [
+              {
+                "PayloadName": "WindowsWorkload.SessionManager.1_1.2608.951.0_x64.msix",
+                "SHA256": "F1jwooAf9yYOzW5PP787SfvhsxAABVbBVgVE9BbZrCQ=",
+                "RangeIndexFiles": [
+                  {
+                    "PayloadName": "WindowsWorkload.SessionManager.1_1.2608.951.0_x64.msix.rif.cab",
+                    "SHA256": "2bmCJdan8KGOQTlnVEkYVf3qdJJnylyMGOvwHdMvTXM=",
+                    "PayloadSize": 11343
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "EntityIdentifier": {
+            "EntityName": "WindowsWorkload.TextRecognition.Data.OPT.1_0.0.0.0_x64__8wekyb3d8bbwe",
+            "EntityVersion": "1.2606.719.0",
+            "EntityType": "MSIX"
+          },
+          "EntityProperties": {
+            "PackageFullName": [
+              "WindowsWorkload.TextRecognition.Data.OPT.1_1.2606.719.0_x64__8wekyb3d8bbwe"
+            ]
+          },
+          "EntityPayload": {
+            "Canonical": [
+              {
+                "PayloadName": "WindowsWorkload.TextRecognition.Data.OPT.1_1.2606.719.0_x64.msix",
+                "PayloadType": "MSIX",
+                "PayloadVersion": "1.2606.719.0",
+                "PayloadSize": 153897503,
+                "SHA256": "FRaunVp3HNQTGKdyVJlSs32XK0roXh5zOYAIzOKzUwQ="
+              }
+            ],
+            "Range": [
+              {
+                "PayloadName": "WindowsWorkload.TextRecognition.Data.OPT.1_1.2606.719.0_x64.msix",
+                "SHA256": "FRaunVp3HNQTGKdyVJlSs32XK0roXh5zOYAIzOKzUwQ=",
+                "RangeIndexFiles": [
+                  {
+                    "PayloadName": "WindowsWorkload.TextRecognition.Data.OPT.1_1.2606.719.0_x64.msix.rif.cab",
+                    "SHA256": "J5iMxS+RCwWEWaMoPbpyC3Xue546pXTiXnoKs9K4DzE=",
+                    "PayloadSize": 11258
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "EntityIdentifier": {
+            "EntityName": "WindowsWorkload.TextRecognition.Lnl.1_0.0.0.0_x64__8wekyb3d8bbwe",
+            "EntityVersion": "1.2608.951.0",
+            "EntityType": "MSIX"
+          },
+          "EntityProperties": {
+            "PackageFullName": [
+              "WindowsWorkload.TextRecognition.Lnl.1_1.2608.951.0_x64__8wekyb3d8bbwe"
+            ]
+          },
+          "EntityPayload": {
+            "Canonical": [
+              {
+                "PayloadName": "WindowsWorkload.TextRecognition.Lnl.1_1.2608.951.0_x64.msix",
+                "PayloadType": "MSIX",
+                "PayloadVersion": "1.2608.951.0",
+                "PayloadSize": 17154335,
+                "SHA256": "Ay6IQrjXJvxK3brU6eIIHs2KBhV21iqfFMQR+KsvRv4="
+              }
+            ],
+            "Range": [
+              {
+                "PayloadName": "WindowsWorkload.TextRecognition.Lnl.1_1.2608.951.0_x64.msix",
+                "SHA256": "Ay6IQrjXJvxK3brU6eIIHs2KBhV21iqfFMQR+KsvRv4=",
+                "RangeIndexFiles": [
+                  {
+                    "PayloadName": "WindowsWorkload.TextRecognition.Lnl.1_1.2608.951.0_x64.msix.rif.cab",
+                    "SHA256": "H3CynRzFKuyLlRtmqFbW3PPLtskclVhkizGIXqEHFbM=",
+                    "PayloadSize": 12308
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "EntityIdentifier": {
+            "EntityName": "WindowsWorkload.WinMLShared.5.2_0.0.0.0_x64__8wekyb3d8bbwe",
+            "EntityVersion": "1.2608.951.0",
+            "EntityType": "MSIX"
+          },
+          "EntityProperties": {
+            "PackageFullName": [
+              "WindowsWorkload.WinMLShared.5.2_1.2608.951.0_x64__8wekyb3d8bbwe"
+            ]
+          },
+          "EntityPayload": {
+            "Canonical": [
+              {
+                "PayloadName": "WindowsWorkload.WinMLShared.5.2_1.2608.951.0_x64.msix",
+                "PayloadType": "MSIX",
+                "PayloadVersion": "1.2608.951.0",
+                "PayloadSize": 17872329,
+                "SHA256": "I/Wkde22EeWGrC9cGzQQf8Rx0CiNApNF4NIFDrw8Oo4="
+              }
+            ],
+            "Range": [
+              {
+                "PayloadName": "WindowsWorkload.WinMLShared.5.2_1.2608.951.0_x64.msix",
+                "SHA256": "I/Wkde22EeWGrC9cGzQQf8Rx0CiNApNF4NIFDrw8Oo4=",
+                "RangeIndexFiles": [
+                  {
+                    "PayloadName": "WindowsWorkload.WinMLShared.5.2_1.2608.951.0_x64.msix.rif.cab",
+                    "SHA256": "xhTq8y3gYtZqTkCawExsFTyDVgC51S4E2OemcGfSmeg=",
+                    "PayloadSize": 11185
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "EntityIdentifier": {
+            "EntityName": "WindowsWorkload.EP.Intel.OpenVINO.Framework.1.8_0.0.0.0_x64__8wekyb3d8bbwe",
+            "EntityVersion": "1.8.81.0",
+            "EntityType": "MSIX"
+          },
+          "EntityProperties": {
+            "PackageFullName": [
+              "WindowsWorkload.EP.Intel.OpenVINO.Framework.1.8_1.8.81.0_x64__8wekyb3d8bbwe"
+            ]
+          },
+          "EntityPayload": {
+            "Canonical": [
+              {
+                "PayloadName": "WindowsWorkload.EP.Intel.OpenVINO.Framework.1.8_1.8.81.0_x64.msix",
+                "PayloadType": "MSIX",
+                "PayloadVersion": "1.8.81.0",
+                "PayloadSize": 57780487,
+                "SHA256": "3lo/kp93i0Xux3cwAr1gcLBA6yBt+FcvVrJLs0dyl6A="
+              }
+            ],
+            "Range": [
+              {
+                "PayloadName": "WindowsWorkload.EP.Intel.OpenVINO.Framework.1.8_1.8.81.0_x64.msix",
+                "SHA256": "3lo/kp93i0Xux3cwAr1gcLBA6yBt+FcvVrJLs0dyl6A=",
+                "RangeIndexFiles": [
+                  {
+                    "PayloadName": "WindowsWorkload.EP.Intel.OpenVINO.Framework.1.8_1.8.81.0_x64.msix.rif.cab",
+                    "SHA256": "PvRL+THshaJ3TEV2eGfq19bxn88GlLXPw++VvHyJlLk=",
+                    "PayloadSize": 12748
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "UpdateEntityActions": {
+        "InstallEntities": [
+          {
+            "EntityIdentifer": {
+              "EntityName": "WindowsWorkload.Data.ContentExtraction.Lnl.1_0.0.0.0_x64__8wekyb3d8bbwe",
+              "EntityVersion": "1.2608.951.0",
+              "EntityType": "MSIX"
+            }
+          },
+          {
+            "EntityIdentifer": {
+              "EntityName": "WindowsWorkload.Manager.1_8wekyb3d8bbwe",
+              "EntityVersion": "1.2511.1196.0",
+              "EntityType": "MSIX"
+            }
+          },
+          {
+            "EntityIdentifer": {
+              "EntityName": "WindowsWorkload.ScrRegDetection.Data.1_0.0.0.0_x64__8wekyb3d8bbwe",
+              "EntityVersion": "1.2608.951.0",
+              "EntityType": "MSIX"
+            }
+          },
+          {
+            "EntityIdentifer": {
+              "EntityName": "WindowsWorkload.ScrRegDetection.Lnl.1_0.0.0.0_x64__8wekyb3d8bbwe",
+              "EntityVersion": "1.2608.951.0",
+              "EntityType": "MSIX"
+            }
+          },
+          {
+            "EntityIdentifer": {
+              "EntityName": "WindowsWorkload.SessionManager.1_0.0.0.0_x64__8wekyb3d8bbwe",
+              "EntityVersion": "1.2608.951.0",
+              "EntityType": "MSIX"
+            }
+          },
+          {
+            "EntityIdentifer": {
+              "EntityName": "WindowsWorkload.TextRecognition.Data.OPT.1_0.0.0.0_x64__8wekyb3d8bbwe",
+              "EntityVersion": "1.2606.719.0",
+              "EntityType": "MSIX"
+            }
+          },
+          {
+            "EntityIdentifer": {
+              "EntityName": "WindowsWorkload.TextRecognition.Lnl.1_0.0.0.0_x64__8wekyb3d8bbwe",
+              "EntityVersion": "1.2608.951.0",
+              "EntityType": "MSIX"
+            }
+          },
+          {
+            "EntityIdentifer": {
+              "EntityName": "WindowsWorkload.WinMLShared.5.2_0.0.0.0_x64__8wekyb3d8bbwe",
+              "EntityVersion": "1.2608.951.0",
+              "EntityType": "MSIX"
+            }
+          },
+          {
+            "EntityIdentifer": {
+              "EntityName": "WindowsWorkload.EP.Intel.OpenVINO.Framework.1.8_0.0.0.0_x64__8wekyb3d8bbwe",
+              "EntityVersion": "1.8.81.0",
+              "EntityType": "MSIX"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,654 @@
+{
+  "UDIManifestSchema": "3.0.0",
+  "UpdateProduct": [
+    {
+      "ProductIdentifier": "Windows.Workload.ImageSearch.STX",
+      "ProductArchitecture": "amd64",
+      "ProductVersion": "1.2608.951.0",
+      "ProductAttributes": {
+        "UpdateUXHistoryClassification": "AIFabricModel",
+        "IsRemovable": "False"
+      },
+      "ConditionDefinitions": {
+        "AMD_STX_SYSTEM": {
+          "===": [
+            {
+              "registry_string_value": [
+                "HKEY_LOCAL_MACHINE\\SYSTEM\\WaaS\\Device\\Detect\\Hardware\\NPU",
+                "FF3398C2-DC93-4A64-8959-EE363977FB1A",
+                "0"
+              ]
+            },
+            "1"
+          ]
+        },
+        "AMD_STX_SOFTWARE": {
+          "===": [
+            {
+              "registry_string_value": [
+                "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows NT\\CurrentVersion\\UnattendSettings\\WaaS\\Device\\Detect\\Hardware\\NPU",
+                "FF3398C2-DC93-4A64-8959-EE363977FB1A",
+                "0"
+              ]
+            },
+            "1"
+          ]
+        },
+        "AMD_STX_GLOBAL_PROPERTIES": {
+          "global_property_contains": [
+            "Device\\Detect\\Hardware\\NPU",
+            "FF3398C2-DC93-4A64-8959-EE363977FB1A"
+          ]
+        }
+      },
+      "UpdateEntityCollection": [
+        {
+          "EntityIdentifier": {
+            "EntityName": "WindowsWorkload.Data.ImageSearch.Stx.1_0.0.0.0_x64__8wekyb3d8bbwe",
+            "EntityVersion": "1.2608.951.0",
+            "EntityType": "MSIX"
+          },
+          "EntityProperties": {
+            "PackageFullName": [
+              "WindowsWorkload.Data.ImageSearch.Stx.1_1.2608.951.0_x64__8wekyb3d8bbwe"
+            ]
+          },
+          "EntityPayload": {
+            "Canonical": [
+              {
+                "PayloadName": "WindowsWorkload.Data.ImageSearch.Stx.1_1.2608.951.0_x64.msix",
+                "PayloadType": "MSIX",
+                "PayloadVersion": "1.2608.951.0",
+                "PayloadSize": 51064,
+                "SHA256": "lMls97urzPOn6m/AjZiZRkov1qN/RQiBcZZ+rIJaZ8Y="
+              }
+            ],
+            "Range": [
+              {
+                "PayloadName": "WindowsWorkload.Data.ImageSearch.Stx.1_1.2608.951.0_x64.msix",
+                "SHA256": "lMls97urzPOn6m/AjZiZRkov1qN/RQiBcZZ+rIJaZ8Y=",
+                "RangeIndexFiles": [
+                  {
+                    "PayloadName": "WindowsWorkload.Data.ImageSearch.Stx.1_1.2608.951.0_x64.msix.rif.cab",
+                    "SHA256": "TfM28tn3trVDvt2EnJJuhVKkglB6rjepmZvLqKz5SUk=",
+                    "PayloadSize": 10846
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "EntityIdentifier": {
+            "EntityName": "WindowsWorkload.ImageContentModeration.1_0.0.0.0_x64__8wekyb3d8bbwe",
+            "EntityVersion": "1.2608.951.0",
+            "EntityType": "MSIX"
+          },
+          "EntityProperties": {
+            "PackageFullName": [
+              "WindowsWorkload.ImageContentModeration.1_1.2608.951.0_x64__8wekyb3d8bbwe"
+            ]
+          },
+          "EntityPayload": {
+            "Canonical": [
+              {
+                "PayloadName": "WindowsWorkload.ImageContentModeration.1_1.2608.951.0_x64.msix",
+                "PayloadType": "MSIX",
+                "PayloadVersion": "1.2608.951.0",
+                "PayloadSize": 920900,
+                "SHA256": "YkJ9qqwyI6aejQw6Vb5ByvnhY0saMjP15G49izEZ050="
+              }
+            ],
+            "Range": [
+              {
+                "PayloadName": "WindowsWorkload.ImageContentModeration.1_1.2608.951.0_x64.msix",
+                "SHA256": "YkJ9qqwyI6aejQw6Vb5ByvnhY0saMjP15G49izEZ050=",
+                "RangeIndexFiles": [
+                  {
+                    "PayloadName": "WindowsWorkload.ImageContentModeration.1_1.2608.951.0_x64.msix.rif.cab",
+                    "SHA256": "orOqcUy8g77pw5A7JZwyL2M70Sjoba2ngTpJ5pb1fbs=",
+                    "PayloadSize": 11918
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "EntityIdentifier": {
+            "EntityName": "WindowsWorkload.ImageContentModeration.Data.1_0.0.0.0_x64__8wekyb3d8bbwe",
+            "EntityVersion": "1.2605.851.0",
+            "EntityType": "MSIX"
+          },
+          "EntityProperties": {
+            "PackageFullName": [
+              "WindowsWorkload.ImageContentModeration.Data.1_1.2605.851.0_x64__8wekyb3d8bbwe"
+            ]
+          },
+          "EntityPayload": {
+            "Canonical": [
+              {
+                "PayloadName": "WindowsWorkload.ImageContentModeration.Data.1_1.2605.851.0_x64.msix",
+                "PayloadType": "MSIX",
+                "PayloadVersion": "1.2605.851.0",
+                "PayloadSize": 43387772,
+                "SHA256": "W7qYhRf+9+OYsD8lMMvaxAMMLjU9gGG2qu5+yQiQ73I="
+              }
+            ],
+            "Range": [
+              {
+                "PayloadName": "WindowsWorkload.ImageContentModeration.Data.1_1.2605.851.0_x64.msix",
+                "SHA256": "W7qYhRf+9+OYsD8lMMvaxAMMLjU9gGG2qu5+yQiQ73I=",
+                "RangeIndexFiles": [
+                  {
+                    "PayloadName": "WindowsWorkload.ImageContentModeration.Data.1_1.2605.851.0_x64.msix.rif.cab",
+                    "SHA256": "ArXwixVUPm3cpfW6ddtMypsJ5BTCX17PlLxR+QyKkRs=",
+                    "PayloadSize": 10719
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "EntityIdentifier": {
+            "EntityName": "WindowsWorkload.ImageSearch.Data.3_0.0.0.0_x64__8wekyb3d8bbwe",
+            "EntityVersion": "1.2511.1196.0",
+            "EntityType": "MSIX"
+          },
+          "EntityProperties": {
+            "PackageFullName": [
+              "WindowsWorkload.ImageSearch.Data.3_1.2511.1196.0_x64__8wekyb3d8bbwe"
+            ]
+          },
+          "EntityPayload": {
+            "Canonical": [
+              {
+                "PayloadName": "WindowsWorkload.ImageSearch.Data.3_1.2511.1196.0_x64.msix",
+                "PayloadType": "MSIX",
+                "PayloadVersion": "1.2511.1196.0",
+                "PayloadSize": 80702487,
+                "SHA256": "iUIZZBjCZD0Wm+IpUmWVN4fkMpS+1sLM0ahLuBJ2t3Y="
+              }
+            ],
+            "Range": [
+              {
+                "PayloadName": "WindowsWorkload.ImageSearch.Data.3_1.2511.1196.0_x64.msix",
+                "SHA256": "iUIZZBjCZD0Wm+IpUmWVN4fkMpS+1sLM0ahLuBJ2t3Y=",
+                "RangeIndexFiles": [
+                  {
+                    "PayloadName": "WindowsWorkload.ImageSearch.Data.3_1.2511.1196.0_x64.msix.rif.cab",
+                    "SHA256": "PM9BTt0hy+CI8AlVTAh/nHYs2kXpbRIQT3sc7M5ZjkQ=",
+                    "PayloadSize": 10715
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "EntityIdentifier": {
+            "EntityName": "WindowsWorkload.ImageSearch.Stx.3_0.0.0.0_x64__8wekyb3d8bbwe",
+            "EntityVersion": "1.2608.951.0",
+            "EntityType": "MSIX"
+          },
+          "EntityProperties": {
+            "PackageFullName": [
+              "WindowsWorkload.ImageSearch.Stx.3_1.2608.951.0_x64__8wekyb3d8bbwe"
+            ]
+          },
+          "EntityPayload": {
+            "Canonical": [
+              {
+                "PayloadName": "WindowsWorkload.ImageSearch.Stx.3_1.2608.951.0_x64.msix",
+                "PayloadType": "MSIX",
+                "PayloadVersion": "1.2608.951.0",
+                "PayloadSize": 1299626,
+                "SHA256": "4OuPwwE4YjfgwWx/2JbiIzCxGykSp61dC+w/VAoZBE8="
+              }
+            ],
+            "Range": [
+              {
+                "PayloadName": "WindowsWorkload.ImageSearch.Stx.3_1.2608.951.0_x64.msix",
+                "SHA256": "4OuPwwE4YjfgwWx/2JbiIzCxGykSp61dC+w/VAoZBE8=",
+                "RangeIndexFiles": [
+                  {
+                    "PayloadName": "WindowsWorkload.ImageSearch.Stx.3_1.2608.951.0_x64.msix.rif.cab",
+                    "SHA256": "kv9ScOpkpdGbPiZ5soyxy3ZBYv84vJtIV+U2ROBBBII=",
+                    "PayloadSize": 12229
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "EntityIdentifier": {
+            "EntityName": "WindowsWorkload.ImageTextSearch.Data.3_0.0.0.0_x64__8wekyb3d8bbwe",
+            "EntityVersion": "1.2511.1196.0",
+            "EntityType": "MSIX"
+          },
+          "EntityProperties": {
+            "PackageFullName": [
+              "WindowsWorkload.ImageTextSearch.Data.3_1.2511.1196.0_x64__8wekyb3d8bbwe"
+            ]
+          },
+          "EntityPayload": {
+            "Canonical": [
+              {
+                "PayloadName": "WindowsWorkload.ImageTextSearch.Data.3_1.2511.1196.0_x64.msix",
+                "PayloadType": "MSIX",
+                "PayloadVersion": "1.2511.1196.0",
+                "PayloadSize": 81208863,
+                "SHA256": "fg47LfuHH/aRu4Kp5iFrgZssj7TIDtXSBOhb33gmGDs="
+              }
+            ],
+            "Range": [
+              {
+                "PayloadName": "WindowsWorkload.ImageTextSearch.Data.3_1.2511.1196.0_x64.msix",
+                "SHA256": "fg47LfuHH/aRu4Kp5iFrgZssj7TIDtXSBOhb33gmGDs=",
+                "RangeIndexFiles": [
+                  {
+                    "PayloadName": "WindowsWorkload.ImageTextSearch.Data.3_1.2511.1196.0_x64.msix.rif.cab",
+                    "SHA256": "y8Yi/3BiAI+cZnZmi0UQ9gI41B5qk+tcuUA/H+JyyHQ=",
+                    "PayloadSize": 10719
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "EntityIdentifier": {
+            "EntityName": "WindowsWorkload.ImageTextSearch.Stx.3_0.0.0.0_x64__8wekyb3d8bbwe",
+            "EntityVersion": "1.2608.951.0",
+            "EntityType": "MSIX"
+          },
+          "EntityProperties": {
+            "PackageFullName": [
+              "WindowsWorkload.ImageTextSearch.Stx.3_1.2608.951.0_x64__8wekyb3d8bbwe"
+            ]
+          },
+          "EntityPayload": {
+            "Canonical": [
+              {
+                "PayloadName": "WindowsWorkload.ImageTextSearch.Stx.3_1.2608.951.0_x64.msix",
+                "PayloadType": "MSIX",
+                "PayloadVersion": "1.2608.951.0",
+                "PayloadSize": 1148679,
+                "SHA256": "IRoeOiWtoTqSz8kjyunmpa4mGd2dN5fgCymIivYS5Ok="
+              }
+            ],
+            "Range": [
+              {
+                "PayloadName": "WindowsWorkload.ImageTextSearch.Stx.3_1.2608.951.0_x64.msix",
+                "SHA256": "IRoeOiWtoTqSz8kjyunmpa4mGd2dN5fgCymIivYS5Ok=",
+                "RangeIndexFiles": [
+                  {
+                    "PayloadName": "WindowsWorkload.ImageTextSearch.Stx.3_1.2608.951.0_x64.msix.rif.cab",
+                    "SHA256": "Uy9URZIPzPxloEcq97hNciiUbdbWUep/oUrQotvp1lQ=",
+                    "PayloadSize": 11815
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "EntityIdentifier": {
+            "EntityName": "WindowsWorkload.Manager.1_8wekyb3d8bbwe",
+            "EntityVersion": "1.2511.1196.0",
+            "EntityType": "MSIX"
+          },
+          "EntityProperties": {
+            "PackageFullName": [
+              "WindowsWorkload.Manager.1_1.2511.1196.0_x64__8wekyb3d8bbwe"
+            ]
+          },
+          "EntityPayload": {
+            "Canonical": [
+              {
+                "PayloadName": "WindowsWorkload.Manager.1_1.2511.1196.0_x64.msix",
+                "PayloadType": "MSIX",
+                "PayloadVersion": "1.2511.1196.0",
+                "PayloadSize": 425261,
+                "SHA256": "y8iBKehkC65h6abh5s9JtenHEc6BRbuIl3pStA6/Ecs="
+              }
+            ],
+            "Range": [
+              {
+                "PayloadName": "WindowsWorkload.Manager.1_1.2511.1196.0_x64.msix",
+                "SHA256": "y8iBKehkC65h6abh5s9JtenHEc6BRbuIl3pStA6/Ecs=",
+                "RangeIndexFiles": [
+                  {
+                    "PayloadName": "WindowsWorkload.Manager.1_1.2511.1196.0_x64.msix.rif.cab",
+                    "SHA256": "arNHxiFZuysS16oFtA2EK/ompeEnnuORbX7pQj009uc=",
+                    "PayloadSize": 11474
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "EntityIdentifier": {
+            "EntityName": "WindowsWorkload.PSTokenizer.Stx.2.7_0.0.0.0_x64__8wekyb3d8bbwe",
+            "EntityVersion": "1.2608.951.0",
+            "EntityType": "MSIX"
+          },
+          "EntityProperties": {
+            "PackageFullName": [
+              "WindowsWorkload.PSTokenizer.Stx.2.7_1.2608.951.0_x64__8wekyb3d8bbwe"
+            ]
+          },
+          "EntityPayload": {
+            "Canonical": [
+              {
+                "PayloadName": "WindowsWorkload.PSTokenizer.Stx.2.7_1.2608.951.0_x64.msix",
+                "PayloadType": "MSIX",
+                "PayloadVersion": "1.2608.951.0",
+                "PayloadSize": 352435,
+                "SHA256": "/h9jGEloA63MK2vpD65qC76hqWbTsWig+sujD6l/vy8="
+              }
+            ],
+            "Range": [
+              {
+                "PayloadName": "WindowsWorkload.PSTokenizer.Stx.2.7_1.2608.951.0_x64.msix",
+                "SHA256": "/h9jGEloA63MK2vpD65qC76hqWbTsWig+sujD6l/vy8=",
+                "RangeIndexFiles": [
+                  {
+                    "PayloadName": "WindowsWorkload.PSTokenizer.Stx.2.7_1.2608.951.0_x64.msix.rif.cab",
+                    "SHA256": "Ybs2GrYIA1ooD506+kZaZz01TRzDI0gTk2aeGCtGQ0s=",
+                    "PayloadSize": 11185
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "EntityIdentifier": {
+            "EntityName": "WindowsWorkload.PSTokenizerShared.Data.5.2_0.0.0.0_x64__8wekyb3d8bbwe",
+            "EntityVersion": "1.2607.837.0",
+            "EntityType": "MSIX"
+          },
+          "EntityProperties": {
+            "PackageFullName": [
+              "WindowsWorkload.PSTokenizerShared.Data.5.2_1.2607.837.0_x64__8wekyb3d8bbwe"
+            ]
+          },
+          "EntityPayload": {
+            "Canonical": [
+              {
+                "PayloadName": "WindowsWorkload.PSTokenizerShared.Data.5.2_1.2607.837.0_x64.msix",
+                "PayloadType": "MSIX",
+                "PayloadVersion": "1.2607.837.0",
+                "PayloadSize": 638215050,
+                "SHA256": "e97f2bm9Lkvc2nNEeunNHqquupqVInMwO/001b1f4Q4="
+              }
+            ],
+            "Range": [
+              {
+                "PayloadName": "WindowsWorkload.PSTokenizerShared.Data.5.2_1.2607.837.0_x64.msix",
+                "SHA256": "e97f2bm9Lkvc2nNEeunNHqquupqVInMwO/001b1f4Q4=",
+                "RangeIndexFiles": [
+                  {
+                    "PayloadName": "WindowsWorkload.PSTokenizerShared.Data.5.2_1.2607.837.0_x64.msix.rif.cab",
+                    "SHA256": "KHYjsHjW+BVJ68HOCVl0CzVgOU4jSPNra+IC6eSGwjQ=",
+                    "PayloadSize": 11238
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "EntityIdentifier": {
+            "EntityName": "WindowsWorkload.PSTokenizerShared.Stx.5.2_0.0.0.0_x64__8wekyb3d8bbwe",
+            "EntityVersion": "1.2608.951.0",
+            "EntityType": "MSIX"
+          },
+          "EntityProperties": {
+            "PackageFullName": [
+              "WindowsWorkload.PSTokenizerShared.Stx.5.2_1.2608.951.0_x64__8wekyb3d8bbwe"
+            ]
+          },
+          "EntityPayload": {
+            "Canonical": [
+              {
+                "PayloadName": "WindowsWorkload.PSTokenizerShared.Stx.5.2_1.2608.951.0_x64.msix",
+                "PayloadType": "MSIX",
+                "PayloadVersion": "1.2608.951.0",
+                "PayloadSize": 26410675,
+                "SHA256": "7LioLQpBYjxxt9Jd1QhQR4TUUVdemCkoPNx3m+9Qaog="
+              }
+            ],
+            "Range": [
+              {
+                "PayloadName": "WindowsWorkload.PSTokenizerShared.Stx.5.2_1.2608.951.0_x64.msix",
+                "SHA256": "7LioLQpBYjxxt9Jd1QhQR4TUUVdemCkoPNx3m+9Qaog=",
+                "RangeIndexFiles": [
+                  {
+                    "PayloadName": "WindowsWorkload.PSTokenizerShared.Stx.5.2_1.2608.951.0_x64.msix.rif.cab",
+                    "SHA256": "CR6Rfi0F6osPpM9iMvrFx8njitwuJzbsl1PtzQvV/Ao=",
+                    "PayloadSize": 11341
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "EntityIdentifier": {
+            "EntityName": "WindowsWorkload.SessionManager.1_0.0.0.0_x64__8wekyb3d8bbwe",
+            "EntityVersion": "1.2608.951.0",
+            "EntityType": "MSIX"
+          },
+          "EntityProperties": {
+            "PackageFullName": [
+              "WindowsWorkload.SessionManager.1_1.2608.951.0_x64__8wekyb3d8bbwe"
+            ]
+          },
+          "EntityPayload": {
+            "Canonical": [
+              {
+                "PayloadName": "WindowsWorkload.SessionManager.1_1.2608.951.0_x64.msix",
+                "PayloadType": "MSIX",
+                "PayloadVersion": "1.2608.951.0",
+                "PayloadSize": 336851,
+                "SHA256": "F1jwooAf9yYOzW5PP787SfvhsxAABVbBVgVE9BbZrCQ="
+              }
+            ],
+            "Range": [
+              {
+                "PayloadName": "WindowsWorkload.SessionManager.1_1.2608.951.0_x64.msix",
+                "SHA256": "F1jwooAf9yYOzW5PP787SfvhsxAABVbBVgVE9BbZrCQ=",
+                "RangeIndexFiles": [
+                  {
+                    "PayloadName": "WindowsWorkload.SessionManager.1_1.2608.951.0_x64.msix.rif.cab",
+                    "SHA256": "2bmCJdan8KGOQTlnVEkYVf3qdJJnylyMGOvwHdMvTXM=",
+                    "PayloadSize": 11343
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "EntityIdentifier": {
+            "EntityName": "WindowsWorkload.WinMLShared.5.2_0.0.0.0_x64__8wekyb3d8bbwe",
+            "EntityVersion": "1.2608.951.0",
+            "EntityType": "MSIX"
+          },
+          "EntityProperties": {
+            "PackageFullName": [
+              "WindowsWorkload.WinMLShared.5.2_1.2608.951.0_x64__8wekyb3d8bbwe"
+            ]
+          },
+          "EntityPayload": {
+            "Canonical": [
+              {
+                "PayloadName": "WindowsWorkload.WinMLShared.5.2_1.2608.951.0_x64.msix",
+                "PayloadType": "MSIX",
+                "PayloadVersion": "1.2608.951.0",
+                "PayloadSize": 17872329,
+                "SHA256": "I/Wkde22EeWGrC9cGzQQf8Rx0CiNApNF4NIFDrw8Oo4="
+              }
+            ],
+            "Range": [
+              {
+                "PayloadName": "WindowsWorkload.WinMLShared.5.2_1.2608.951.0_x64.msix",
+                "SHA256": "I/Wkde22EeWGrC9cGzQQf8Rx0CiNApNF4NIFDrw8Oo4=",
+                "RangeIndexFiles": [
+                  {
+                    "PayloadName": "WindowsWorkload.WinMLShared.5.2_1.2608.951.0_x64.msix.rif.cab",
+                    "SHA256": "xhTq8y3gYtZqTkCawExsFTyDVgC51S4E2OemcGfSmeg=",
+                    "PayloadSize": 11185
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "EntityIdentifier": {
+            "EntityName": "WindowsWorkload.EP.AMD.VitisAI.Framework.1.8_0.0.0.0_x64__8wekyb3d8bbwe",
+            "EntityVersion": "1.8.63.0",
+            "EntityType": "MSIX"
+          },
+          "EntityProperties": {
+            "PackageFullName": [
+              "WindowsWorkload.EP.AMD.VitisAI.Framework.1.8_1.8.63.0_x64__8wekyb3d8bbwe"
+            ]
+          },
+          "EntityPayload": {
+            "Canonical": [
+              {
+                "PayloadName": "WindowsWorkload.EP.AMD.VitisAI.Framework.1.8_1.8.63.0_x64.msix",
+                "PayloadType": "MSIX",
+                "PayloadVersion": "1.8.63.0",
+                "PayloadSize": 252389027,
+                "SHA256": "xcur/+RjJdr+KM79Hvcf9tQfScpG2rMkpNV/XI26YTg="
+              }
+            ],
+            "Range": [
+              {
+                "PayloadName": "WindowsWorkload.EP.AMD.VitisAI.Framework.1.8_1.8.63.0_x64.msix",
+                "SHA256": "xcur/+RjJdr+KM79Hvcf9tQfScpG2rMkpNV/XI26YTg=",
+                "RangeIndexFiles": [
+                  {
+                    "PayloadName": "WindowsWorkload.EP.AMD.VitisAI.Framework.1.8_1.8.63.0_x64.msix.rif.cab",
+                    "SHA256": "Wt2jeQL+8XXRYy51jnT66EjT5uqEft7Q3Ngl+YzLQo4=",
+                    "PayloadSize": 11901
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "UpdateEntityActions": {
+        "InstallEntities": [
+          {
+            "EntityIdentifer": {
+              "EntityName": "WindowsWorkload.Data.ImageSearch.Stx.1_0.0.0.0_x64__8wekyb3d8bbwe",
+              "EntityVersion": "1.2608.951.0",
+              "EntityType": "MSIX"
+            }
+          },
+          {
+            "EntityIdentifer": {
+              "EntityName": "WindowsWorkload.ImageContentModeration.1_0.0.0.0_x64__8wekyb3d8bbwe",
+              "EntityVersion": "1.2608.951.0",
+              "EntityType": "MSIX"
+            }
+          },
+          {
+            "EntityIdentifer": {
+              "EntityName": "WindowsWorkload.ImageContentModeration.Data.1_0.0.0.0_x64__8wekyb3d8bbwe",
+              "EntityVersion": "1.2605.851.0",
+              "EntityType": "MSIX"
+            }
+          },
+          {
+            "EntityIdentifer": {
+              "EntityName": "WindowsWorkload.ImageSearch.Data.3_0.0.0.0_x64__8wekyb3d8bbwe",
+              "EntityVersion": "1.2511.1196.0",
+              "EntityType": "MSIX"
+            }
+          },
+          {
+            "EntityIdentifer": {
+              "EntityName": "WindowsWorkload.ImageSearch.Stx.3_0.0.0.0_x64__8wekyb3d8bbwe",
+              "EntityVersion": "1.2608.951.0",
+              "EntityType": "MSIX"
+            }
+          },
+          {
+            "EntityIdentifer": {
+              "EntityName": "WindowsWorkload.ImageTextSearch.Data.3_0.0.0.0_x64__8wekyb3d8bbwe",
+              "EntityVersion": "1.2511.1196.0",
+              "EntityType": "MSIX"
+            }
+          },
+          {
+            "EntityIdentifer": {
+              "EntityName": "WindowsWorkload.ImageTextSearch.Stx.3_0.0.0.0_x64__8wekyb3d8bbwe",
+              "EntityVersion": "1.2608.951.0",
+              "EntityType": "MSIX"
+            }
+          },
+          {
+            "EntityIdentifer": {
+              "EntityName": "WindowsWorkload.Manager.1_8wekyb3d8bbwe",
+              "EntityVersion": "1.2511.1196.0",
+              "EntityType": "MSIX"
+            }
+          },
+          {
+            "EntityIdentifer": {
+              "EntityName": "WindowsWorkload.PSTokenizer.Stx.2.7_0.0.0.0_x64__8wekyb3d8bbwe",
+              "EntityVersion": "1.2608.951.0",
+              "EntityType": "MSIX"
+            }
+          },
+          {
+            "EntityIdentifer": {
+              "EntityName": "WindowsWorkload.PSTokenizerShared.Data.5.2_0.0.0.0_x64__8wekyb3d8bbwe",
+              "EntityVersion": "1.2607.837.0",
+              "EntityType": "MSIX"
+            }
+          },
+          {
+            "EntityIdentifer": {
+              "EntityName": "WindowsWorkload.PSTokenizerShared.Stx.5.2_0.0.0.0_x64__8wekyb3d8bbwe",
+              "EntityVersion": "1.2608.951.0",
+              "EntityType": "MSIX"
+            }
+          },
+          {
+            "EntityIdentifer": {
+              "EntityName": "WindowsWorkload.SessionManager.1_0.0.0.0_x64__8wekyb3d8bbwe",
+              "EntityVersion": "1.2608.951.0",
+              "EntityType": "MSIX"
+            }
+          },
+          {
+            "EntityIdentifer": {
+              "EntityName": "WindowsWorkload.WinMLShared.5.2_0.0.0.0_x64__8wekyb3d8bbwe",
+              "EntityVersion": "1.2608.951.0",
+              "EntityType": "MSIX"
+            }
+          },
+          {
+            "EntityIdentifer": {
+              "EntityName": "WindowsWorkload.EP.AMD.VitisAI.Framework.1.8_0.0.0.0_x64__8wekyb3d8bbwe",
+              "EntityVersion": "1.8.63.0",
+              "EntityType": "MSIX"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,5 +1,7 @@
 # Windows.Workload.Analysis.365.amd64
 
+> 2026-10-16 审核注：本页是原整理时的文件清单。exact 指当时机器上存在匹配载荷，Git 中不含 MSIX；“本次未安装”不是后续产品状态。实际登记和功能见 docs/02。
+
 RUM: `Windows.Workload.Analysis.365.amd64.rum.json.cab` (new generation, via 7z)
 
 | package | needed version | status |

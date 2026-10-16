@@ -1,0 +1,41 @@
+{
+  "CapturedLocal": "2026-10-16T11:29:02.1896748+08:00",
+  "Scope": "Read-only service/status observation; no camera opened",
+  "Boot": "2026-10-16T10:02:38.5+08:00",
+  "Services": [
+    {
+      "Name": "CodexStudioCpuBridge",
+      "Status": "Running",
+      "StartType": "Automatic"
+    },
+    {
+      "Name": "CodexStudioSoftwareHostV2",
+      "Status": "Running",
+      "StartType": "Automatic"
+    }
+  ],
+  "Deployment": {
+    "status": "Installed",
+    "root": "C:\\ProgramData\\CodexStudioCpuBridge",
+    "hostPreviousDependencies": [
+      "PlugPlay"
+    ],
+    "boot": "2026-10-15T09:17:43.5Z",
+    "rebootVerified": false,
+    "installed": "2026-10-15T19:57:41.9756542+08:00"
+  },
+  "Bridge": {
+    "worker_pid": 5568,
+    "active": true,
+    "time": 1792121341.6394334,
+    "service_pid": 7584,
+    "reason": null,
+    "inference_counts": {
+      "face101": 137,
+      "pose113": 137,
+      "matting109": 137
+    },
+    "error_events": 2,
+    "automatic_camera_capture": false
+  }
+}

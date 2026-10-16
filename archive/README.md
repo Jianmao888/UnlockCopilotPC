@@ -18,8 +18,8 @@ legacy-data\misc\    ETW 抓取、补丁前快照等（3 个）
 
 | 归档内容 | 现在用什么 |
 |---|---|
-| `srd*.py` / `srd-probe*` / 各种 `.srd` 副本（已删除 37 份、约 216 MB） | `native-install\tools\` + `.dsh-tmp\srd-wal-check.py`（**必须带 `-wal`**） |
-| `frida_*.py`（WinRT 就绪态探针） | `native-install\tools\install-observer.js`（插件降权）+ `run_install.py` |
+| `srd*.py` / `srd-probe*` / 各种 `.srd` 副本 | `tools/inspect-uup-products.py`（只读事务/SQLite backup；见 docs/01 的 WAL 一致性说明） |
+| `frida_*.py`（早期 WinRT 就绪态探针） | 安装用 `native-install/tools/`；模型执行/Click to Do 另见 docs/04，二者不可互换 |
 | `fetch_all_ai_payloads.py` / `fetch_legacy_payloads.py` | `native-install\tools\auto-fetch-missing.py`、`prepare-new-products2.py` |
 | `wu_*.py` / `wu-*.ps1`（WU 元数据侦察） | `native-install\tools\metaA-*.py`、`find-product-metadata.py` |
 | `register_uup_products.py` / `write-uup-rows*.ps1`（手写 SRD 行） | ❌ **已弃用**：产品登记必须走部署会话（见 docs/01），不要手改 StateRepository |
