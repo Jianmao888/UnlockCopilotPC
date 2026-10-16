@@ -19,13 +19,7 @@ import frida
 ROOT = Path(__file__).resolve().parent.parent / "phase19-clicktodo"
 PROBE_DIR = ROOT.parent / "phase24-manual-test" / "runtime"
 HOOK_FILE = ROOT.parent / "phase2-hook" / "capability-hook.js"
-TRACE_FILE = ROOT / "hardware-requirements-trace.js"
-ETW_FILE = ROOT / "tracelogging-hardware.js"
-AI_TRACE_FILE = ROOT / "ai-runtime-trace.js"
 SUPPORT_HOOK_FILE = ROOT / "clicktodo-support-result-hook.js"
-SCREEN_CONTEXT_HOOK_FILE = ROOT / "ai-context-readiness-hook.js"
-ERROR_TRACE_FILE = ROOT.parent / "phase22-overlay-entry" / "ai-error-passive.js"
-SESSION_TRACE_FILE = ROOT / "session-failure-observer.js"
 TARGET_NAME = "clicktodo.exe"
 MAX_SECONDS = 1800
 

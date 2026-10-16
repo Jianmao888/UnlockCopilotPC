@@ -1,0 +1,57 @@
+{
+  "platform": "Windows-11-10.0.26300-SP0",
+  "architecture": "AMD64",
+  "clickToDoPinnedFilesMatch": true,
+  "files": [
+    {
+      "path": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CoreAI_cw5n1h2txyewy\\ClickToDo.exe",
+      "expected": "6f709cb5e0b3506dcda250ae3ee27d67f25153a7f8db33f6173c7a3c4c889961",
+      "actual": "6f709cb5e0b3506dcda250ae3ee27d67f25153a7f8db33f6173c7a3c4c889961",
+      "matches": true
+    },
+    {
+      "path": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CoreAI_cw5n1h2txyewy\\DiscoveryOverlay.dll",
+      "expected": "0196208387b97bcd0ef59b3cc7782af941cc53e258ddaa6644fee6eb0fc6d37d",
+      "actual": "0196208387b97bcd0ef59b3cc7782af941cc53e258ddaa6644fee6eb0fc6d37d",
+      "matches": true
+    },
+    {
+      "path": "C:\\Windows\\SystemApps\\Microsoft.WindowsAppRuntime.CBS_8wekyb3d8bbwe\\Microsoft.Windows.Workloads.dll",
+      "expected": "19d6f9fb8cdf32caa522d887bd2023a1a03886ade0d09cc0ce7dead85e6850c4",
+      "actual": "19d6f9fb8cdf32caa522d887bd2023a1a03886ade0d09cc0ce7dead85e6850c4",
+      "matches": true
+    },
+    {
+      "path": "C:\\Windows\\System32\\WSAIFabricHost.dll",
+      "expected": "dbe0d2a3a7f314f8764deef43354af19dd73ffd660d086a792ce37e4f7ca7717",
+      "actual": "dbe0d2a3a7f314f8764deef43354af19dd73ffd660d086a792ce37e4f7ca7717",
+      "matches": true
+    },
+    {
+      "path": "C:\\Windows\\explorer.exe",
+      "expected": "34ac55b23b6d840cc9fa8304c0149b8bb026d817b39610728092878d634a61eb",
+      "actual": "34ac55b23b6d840cc9fa8304c0149b8bb026d817b39610728092878d634a61eb",
+      "matches": true
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\WindowsWorkload.Manager.1_1.2511.1196.0_x64__8wekyb3d8bbwe\\WorkloadsSessionHost.exe",
+      "expected": "14ba0122022b54681cbf8f90ecc5566e48aabeb98537b5fd1b1befedbc68c6d8",
+      "actual": "14ba0122022b54681cbf8f90ecc5566e48aabeb98537b5fd1b1befedbc68c6d8",
+      "matches": true
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\WindowsWorkload.WinMLShared.5.2_1.2608.951.0_x64__8wekyb3d8bbwe\\cacheapi.dll",
+      "expected": "671de69b81da93bd2ce3e5cd6048a9a398f68dda7ef62112461dd01a43c6a8cd",
+      "actual": "671de69b81da93bd2ce3e5cd6048a9a398f68dda7ef62112461dd01a43c6a8cd",
+      "matches": true
+    },
+    {
+      "path": "C:\\Program Files\\WindowsApps\\WindowsWorkload.ScrRegDetection.Lnl.1_1.2608.951.0_x64__8wekyb3d8bbwe\\srdapi.dll",
+      "expected": "fe2049fb2da34080fed109661b940b1612a47bbbfee6c2649fb3ac1f536ba440",
+      "actual": "fe2049fb2da34080fed109661b940b1612a47bbbfee6c2649fb3ac1f536ba440",
+      "matches": true
+    }
+  ],
+  "note": "A matching file set is necessary, not proof of products, device readiness or UI success",
+  "systemChanges": false
+}

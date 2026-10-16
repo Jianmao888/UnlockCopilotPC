@@ -1,0 +1,74 @@
+{
+  "startedUtc": "2026-10-16T05:38:42Z",
+  "gitSource": "6fbc92c712489b0bc17a83d9abf3577a36b67010",
+  "freshTrackedSourceDirectory": true,
+  "cleanOperatingSystem": false,
+  "noSystemInstallHookPatchOrCamera": true,
+  "steps": [
+    {
+      "name": "runtime",
+      "exitCode": 0,
+      "expected": 0
+    },
+    {
+      "name": "studio-build",
+      "exitCode": 0,
+      "expected": 0
+    },
+    {
+      "name": "studio-prepare",
+      "exitCode": 0,
+      "expected": 0
+    },
+    {
+      "name": "host-build",
+      "exitCode": 0,
+      "expected": 0
+    },
+    {
+      "name": "launcher-build",
+      "exitCode": 0,
+      "expected": 0
+    },
+    {
+      "name": "launcher-selfcheck",
+      "exitCode": 0,
+      "expected": 0
+    },
+    {
+      "name": "generated-powershell-parse",
+      "exitCode": 0,
+      "expected": 0
+    },
+    {
+      "name": "native-result-tests",
+      "exitCode": 0,
+      "expected": 0
+    },
+    {
+      "name": "product-layout",
+      "exitCode": 0,
+      "expected": 0
+    },
+    {
+      "name": "install-files-only",
+      "exitCode": 0,
+      "expected": 0
+    },
+    {
+      "name": "reject-corrupt-payload",
+      "exitCode": 1,
+      "expected": 1
+    },
+    {
+      "name": "restored-product-valid",
+      "exitCode": 0,
+      "expected": 0
+    }
+  ],
+  "productFileRebuildPassed": true,
+  "passed": true,
+  "actualCpuModelsInferred": 4,
+  "note": "File/runtime rebuild only; no fresh-system installation or UI/reboot acceptance",
+  "finishedUtc": "2026-10-16T05:39:10Z"
+}

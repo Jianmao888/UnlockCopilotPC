@@ -1,0 +1,46 @@
+{
+  "Windows.Workload.Analysis.365.amd64": {
+    "bytes": 12657,
+    "sha256": "359a493e569c1d14ae5a9e1a70835c3f2f2acfc459098b40dc4fcf0d318d9171"
+  },
+  "Windows.Workload.Analysis.LNL.amd64": {
+    "bytes": 12819,
+    "sha256": "6596455431799ea439a7e82f2da84bbe7f4acec7e2ea423101a68ea1b9a4aeb1"
+  },
+  "Windows.Workload.Analysis.STX.amd64": {
+    "bytes": 12804,
+    "sha256": "3b83cb4217608e15276e122352d3147293ebbb9ab38dd4f9034a19b5a8d7fde4"
+  },
+  "Windows.Workload.ContentExtraction.365.amd64": {
+    "bytes": 11936,
+    "sha256": "6bdf06f671c9f0213bea795614b3382ab8548813053a264e2b45828b4b75d7d8"
+  },
+  "Windows.Workload.ContentExtraction.LNL.amd64": {
+    "bytes": 12306,
+    "sha256": "6f2c0acf60c49fcaa5f6bbc6e44a997f79ca96a67c9a7163a503b6dfdafe5979"
+  },
+  "Windows.Workload.ContentExtraction.STX.amd64": {
+    "bytes": 12238,
+    "sha256": "17f3dd1ef981eecad7f3e1ef50ec60b307803d2c38a0c4fbfba6ca1cb94a5370"
+  },
+  "Windows.Workload.ImageSearch.365.amd64": {
+    "bytes": 12760,
+    "sha256": "021fe37dd083823b1fe7397c54dcba2c00b8c3d44d198460490dbb47b6c9fdb3"
+  },
+  "Windows.Workload.ImageSearch.LNL.amd64": {
+    "bytes": 12940,
+    "sha256": "e220dfb9ffbc9531e193a0257bd84f820e463c310018fcdbca66088f0fad117e"
+  },
+  "Windows.Workload.ImageSearch.STX.amd64": {
+    "bytes": 12929,
+    "sha256": "eced465bc6bbe4d6ee5a5b52c5abf323625f29237ce8d3366e6f779f845101cf"
+  },
+  "Windows.Workload.SettingsModel.LNL.amd64": {
+    "bytes": 12305,
+    "sha256": "6423a92af4245974cd9927cfd2045189edcb51ad894154b2028aea1821010f8a"
+  },
+  "Windows.Workload.SettingsModel.STX.amd64": {
+    "bytes": 12260,
+    "sha256": "77df2cdfb9234fb458faad0a10706a6a22d566b928bc5e3c3e2f12d41a10d162"
+  }
+}

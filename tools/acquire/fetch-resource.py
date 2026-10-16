@@ -4,7 +4,10 @@ import hashlib
 import json
 import pathlib
 import urllib.request
+import urllib.error
+import sys
 
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 from download_utils import microsoft_url, safe_filename
 
 parser = argparse.ArgumentParser(description=__doc__)
@@ -13,6 +16,8 @@ parser.add_argument('--list', action='store_true')
 parser.add_argument('--name')
 parser.add_argument('--out', type=pathlib.Path)
 parser.add_argument('--max-mib', type=int, default=512)
+parser.add_argument('--metadata-json', type=pathlib.Path, help='Use a saved current UUP API response instead of making an API request')
+parser.add_argument('--msu-file', type=pathlib.Path, help='Read the recorded full MSU locally; no network requests')
 args = parser.parse_args()
 root = pathlib.Path(__file__).resolve().parent
 samples = {
@@ -41,16 +46,38 @@ target = args.out / name
 if target.exists() and hashlib.sha1(target.read_bytes()).hexdigest() == row['sha1']:
     print('Already matches recorded SHA1:', name)
     raise SystemExit(0)
+parents = json.loads((root / 'sample-parents.json').read_text(encoding='utf-8'))
+parent = next(p for p in parents[args.generation] if p['Name'] == msu_name)
+if args.msu_file:
+    if args.metadata_json:
+        parser.error('Choose --msu-file or --metadata-json')
+    if args.msu_file.stat().st_size != int(parent['Size']):
+        raise SystemExit('Local MSU size differs from pinned sample')
+    with args.msu_file.open('rb') as stream:
+        if hashlib.file_digest(stream, 'sha256').hexdigest() != parent['Sha256']:
+            raise SystemExit('Local full MSU SHA256 differs from pinned sample')
+        stream.seek(offset)
+        data = stream.read(size)
+    if len(data) != size or hashlib.sha1(data).hexdigest() != row['sha1']:
+        raise SystemExit('Local resource SHA1 mismatch')
+    partial = target.with_name(target.name + '.partial')
+    partial.write_bytes(data)
+    partial.replace(target)
+    print('Verified local-MSU resource:', target)
+    raise SystemExit(0)
 api = 'https://api.uupdump.net/get.php?id=' + build + '&pack=0&edition=0'
-with urllib.request.urlopen(api, timeout=45) as response:
-    metadata = json.load(response)
+if args.metadata_json:
+    metadata = json.loads(args.metadata_json.read_text(encoding='utf-8-sig'))
+else:
+    try:
+        with urllib.request.urlopen(urllib.request.Request(api, headers={'User-Agent': 'UnlockCopilotPC-recovery/1.0'}), timeout=45) as response:
+            metadata = json.load(response)
+    except urllib.error.HTTPError as error:
+        parser.exit(1, f'Index API returned HTTP {error.code}. Use saved assets, --msu-file, or a current --metadata-json; this does not prove the product is absent.\n')
 files = metadata.get('response', {}).get('files', {})
 item = files.get(msu_name)
 if not item:
     raise SystemExit('The current index did not return the recorded MSU; inspect API error/version')
-# All byte ranges must belong to the same-sized parent used by this index.
-parents = json.loads((root / 'sample-parents.json').read_text(encoding='utf-8'))
-parent = next(p for p in parents[args.generation] if p['Name'] == msu_name)
 if int(item['size']) != int(parent['Size']):
     raise SystemExit('Parent MSU size differs from recorded resource index')
 if parent.get('Sha256') and item.get('sha256') and item['sha256'].lower() != parent['Sha256'].lower():
