@@ -1,0 +1,27 @@
+model=face101 cpu_inference=passed
+model=matting109 cpu_inference=passed
+model=pose113 cpu_inference=passed
+model=light132 cpu_inference=passed
+[
+  {
+    "model": "face101",
+    "bytes": 799339,
+    "sha256": "16866edeb6139ade30883cfc1da390e516ebcbad8cceece5a7957837b1890765"
+  },
+  {
+    "model": "matting109",
+    "bytes": 1647492,
+    "sha256": "89c747e9206c1f0397f4ef112414e0276b7ba382ee3ef57eb122e1a752eb6641"
+  },
+  {
+    "model": "pose113",
+    "bytes": 12623518,
+    "sha256": "1c0e51073d98c38a762d431d5bf4c58600f1dbdcc55ec301b4c356282abe4dd5"
+  },
+  {
+    "model": "light132",
+    "bytes": 233655,
+    "sha256": "6b07216add361f025667a06d29cd9fdc3c10002829ba667bbfd45e522a4c8f75"
+  }
+]
+Prepared. Close camera applications, then run Setup.ps1 as administrator.

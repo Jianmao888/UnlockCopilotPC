@@ -1,0 +1,9 @@
+{
+  "product": "Windows.Workload.ContentExtraction.LNL.amd64",
+  "source": "C:\\Users\\jianm\\AppData\\Local\\Temp\\UnlockCopilotPC-Cold-20261016-133840\\prepared-products\\Windows.Workload.ContentExtraction.LNL.amd64",
+  "payloads": 9,
+  "engineFiles": 20,
+  "contentValidated": true,
+  "signatureCheckStillRequired": true,
+  "installCalled": false
+}

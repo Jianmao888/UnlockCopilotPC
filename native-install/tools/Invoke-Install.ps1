@@ -36,3 +36,5 @@ $library = Join-Path $Source 'metadata\ualite.dll'
 $result = [InstallRunner]::Run($library, $Source, $events, $InstallProduct.IsPresent)
 $result | ConvertTo-Json -Depth 5 | Set-Content -LiteralPath (Join-Path $PSScriptRoot ($RunName + '.json')) -Encoding utf8
 $result | Format-Table -AutoSize
+. (Join-Path $PSScriptRoot 'Assert-DeploymentResult.ps1')
+Assert-DeploymentResult -Events $result -InstallRequested:$InstallProduct

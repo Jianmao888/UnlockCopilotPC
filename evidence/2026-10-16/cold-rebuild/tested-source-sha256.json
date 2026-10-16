@@ -1,0 +1,226 @@
+[
+  {
+    "path": "studio-cpu/Build-All.ps1",
+    "sha256": "2b8f6936e03e56e21d262f2d4cafc92afdde317d1ee295bd0290fc5022b9d054"
+  },
+  {
+    "path": "studio-cpu/Confirm-AfterReboot.ps1",
+    "sha256": "3521022c9a49e18b76938024c0834d49cdf9416b39949f0b18d5b08b93d7d91e"
+  },
+  {
+    "path": "studio-cpu/Install-Bridge.ps1",
+    "sha256": "7ca134298ed1b8ab2a6c21cde9c8fd5f0caac4b28fdbbb169cc883ac805de0d1"
+  },
+  {
+    "path": "studio-cpu/Prepare-Runtime.py",
+    "sha256": "2c7911e43206d6f445c830dba29bde6f121b26fec753a50daac21b43b85e3bbc"
+  },
+  {
+    "path": "studio-cpu/Prepare.ps1",
+    "sha256": "150e0754ec85281f9a0e05a0934af47dfaf645905eae9053925fd78401996771"
+  },
+  {
+    "path": "studio-cpu/Setup.ps1",
+    "sha256": "cb4ac66e501555617798c7d4b92d45358ddba227b2f0e0b9a38972ae56ab07de"
+  },
+  {
+    "path": "studio-cpu/Uninstall-All.ps1",
+    "sha256": "f7874e30b910a3b34ac5bb09086fc6107b24149fb28f0f5470fd0836f0a6f2ce"
+  },
+  {
+    "path": "studio-cpu/Uninstall-Bridge.ps1",
+    "sha256": "7bcb5dcbbbbb1695e27c7fbae1e80a2f264a62d9114f4b02f61f8c02c0316e0f"
+  },
+  {
+    "path": "studio-cpu/Update-Models.ps1",
+    "sha256": "b931393d524ed62d6e74c69993293bb88136967203caef8f3a2724ff6efb2f08"
+  },
+  {
+    "path": "studio-cpu/Verify-Bridge.ps1",
+    "sha256": "1129a2147831a6b90e228ff36881357ca8d86bbcc0bdfb00d1b8e9266ed0e239"
+  },
+  {
+    "path": "studio-cpu/device-host/CameraDurationProbe.cpp",
+    "sha256": "19bae888331999b8e3ddefae88479119ab885d11db0079d7443cbdca1435d022"
+  },
+  {
+    "path": "studio-cpu/device-host/Install-DeviceHost.ps1",
+    "sha256": "3ede38a2da63fd7ef12352fb9a3a2dacd58404fb0200bb1d21441e31978fbe7b"
+  },
+  {
+    "path": "studio-cpu/device-host/SoftwareMepNode.cpp",
+    "sha256": "52f86403fe4722705f198b48cd0d9caa59ee004de222eaf9dfd76d8316341e72"
+  },
+  {
+    "path": "studio-cpu/device-host/Studio.Common.ps1",
+    "sha256": "91421881e1729992619cb9df1e867ddc677639fd5384f3b7db6f6dd8fc2049de"
+  },
+  {
+    "path": "studio-cpu/device-host/StudioSoftwareHost.cpp",
+    "sha256": "473a8f39186cd8d033597923117438506c47162fc2ff3ce4fa4730428c469c59"
+  },
+  {
+    "path": "studio-cpu/device-host/Uninstall.ps1",
+    "sha256": "cf14044b8406ffc348c2958308ef973c0a33661102554421e2435ce6aad32761"
+  },
+  {
+    "path": "studio-cpu/device-host/Verify.ps1",
+    "sha256": "4dd4a40478259a9facfddb6a36be326ecf0468434aa730bf9589c8ac8caec4ec"
+  },
+  {
+    "path": "studio-cpu/payload/runtime-agent.js",
+    "sha256": "e69c18268a856c546ded8884d4add6621c8c6e67b20b70afa27960f0f7405dee"
+  },
+  {
+    "path": "studio-cpu/payload/worker.py",
+    "sha256": "9b3d9b956e740cb290a483eabd4f6c6caae9ec958a2d3e553d092cde19ad904b"
+  },
+  {
+    "path": "studio-cpu/source/Build.ps1",
+    "sha256": "eafa7d0b64b4b1e43f34346695b05debdf46b914cd4db98ddf025477980c5a19"
+  },
+  {
+    "path": "studio-cpu/source/ModelBuilder.cpp",
+    "sha256": "79114a4168ad43eeefcc402a2ab49c39a7400a0906aa73383af5a72fa6789827"
+  },
+  {
+    "path": "studio-cpu/source/StudioCpuService.cpp",
+    "sha256": "ef6f2b898ba216e5d62b08bc65a99f0445fe1bcd50d7914d717dc59360c104dc"
+  },
+  {
+    "path": "studio-cpu/source/Test-Lifecycle.ps1",
+    "sha256": "9a99d5d0fa9fee7d4456fa279ec90c15ad2504a49c7fd65cb15f8c9ef300bfa2"
+  },
+  {
+    "path": "studio-cpu/tools/PrepareModels.py",
+    "sha256": "12e304bfd0f4919bbb6d20a37226db49252dda6f4d8df7c9a31dfc43527b3cb9"
+  },
+  {
+    "path": "studio-cpu/tools/context_wire.py",
+    "sha256": "7492ce7b48c5ee39a3e2db746ceaa8b58df14c9e481f476e5d05c25305da2789"
+  },
+  {
+    "path": "studio-cpu/tools/regenerate-tool-manifest.py",
+    "sha256": "1574dc812cbb0f3b3fa7358a824e8c61b6499fb10f6f159a32e32c6d78e5f443"
+  },
+  {
+    "path": "studio-cpu/tools/restore-context-templates.py",
+    "sha256": "630df7d969ed72a3aa057232337efaac600c8385d97a51fa5e4769b81f5ec738"
+  },
+  {
+    "path": "tests/Test-DeploymentResult.ps1",
+    "sha256": "ddce239d53f7f3ea6493f806efbbfc3c4bc05308b982e4dff55a8177d0234254"
+  },
+  {
+    "path": "tests/cold_rebuild.py",
+    "sha256": "27c3872daef58d84b5a3ee4b7b30da0dbc94128a1aa3cf3e6a9e01e3f514bd43"
+  },
+  {
+    "path": "tools/acquire/download_utils.py",
+    "sha256": "30314478fcdbe88c9142d386cf6e5e1f621f6a5495fdecee268c456745f11c83"
+  },
+  {
+    "path": "tools/acquire/fetch-resource.py",
+    "sha256": "1cc8d3891c946e6f24843913697a6d34d8755dc788e13a507405f286bc7db7a6"
+  },
+  {
+    "path": "tools/acquire/msu_range_probe.py",
+    "sha256": "245e3bf58b2a95b6dce521fd73a8a6fe0f0b27f3bd737ea0db0c81c48daebb41"
+  },
+  {
+    "path": "tools/acquire/wim_list_payloads.py",
+    "sha256": "4164685d3d20b7dc17d251f2af60f12789cc6566bd85f4aa6222b97c92657c64"
+  },
+  {
+    "path": "tools/acquire/wim_metadata_probe.py",
+    "sha256": "9ad0521e3eaee597180f08a6ff6848459ea4d579874525c4230a40f9ad77e359"
+  },
+  {
+    "path": "tools/inspect-uup-products.py",
+    "sha256": "4c33138cf8001790a08061d8622b18bcefa140519c59db385b42d2c41e5e9902"
+  },
+  {
+    "path": "tools/prepare-product.py",
+    "sha256": "f9b614960da269ba01ddea79a1574f9d35d4f7f7c04d0d59d9a2451407ae265f"
+  },
+  {
+    "path": "tools/product_layout.py",
+    "sha256": "4ce60a49c497963e077444aa811ef2aa32765a49ddf0472bd80a278e5b992df9"
+  },
+  {
+    "path": "tools/recovery_preflight.py",
+    "sha256": "0ad2b29137f10940c91fca208a18a9a0d25c313130d7fe4264ff23413aaeae9f"
+  },
+  {
+    "path": "work/phase19-clicktodo/clicktodo-support-result-hook.js",
+    "sha256": "78ebd48239da9b9533ceed58ec4f37334fa94bd3e0f5a51c2bd07f0a5c4b3ac8"
+  },
+  {
+    "path": "work/phase19-clicktodo/package-debugging.ps1",
+    "sha256": "51d6a566b638d45a3c134bbf51c79f4c22a4f75484cc62a00fbddced3fbe9e34"
+  },
+  {
+    "path": "work/phase2-hook/capability-hook.js",
+    "sha256": "b15cf40e70d7088739a74bf6dddeaafe67819da0991b8fa73e70a852a9fcacb5"
+  },
+  {
+    "path": "work/phase21-host-ifeo/Arm-HostStartupProbe.ps1",
+    "sha256": "d4e84f0b19b0cb04d09da138f78e99fa8b516b2151d5e37bb8d50370a88070a8"
+  },
+  {
+    "path": "work/phase21-host-ifeo/HostStartupDebugger.cs",
+    "sha256": "41182edaf9b38456d250557eaf280490702bc02c96bb03748ca45a05bc86889c"
+  },
+  {
+    "path": "work/phase21-host-ifeo/activate-client.py",
+    "sha256": "a6fd25a1da2999175f2b97b5238b1df8368d0c964fb85cbc1d83d2ac0cede5fd"
+  },
+  {
+    "path": "work/phase21-host-ifeo/attach-real-hosts.py",
+    "sha256": "4a4f8f208ec89ba9a8c1930b4b4063556b6ea20d4999f9e6728ab2931c0b53ee"
+  },
+  {
+    "path": "work/phase21-host-ifeo/host-cpu-hook.js",
+    "sha256": "88455993e7d2f34cd03ec1dedc99696b304eeda8456ba5bbf1d049c4d390b7f3"
+  },
+  {
+    "path": "work/phase23-client-crash/optional-source-only.js",
+    "sha256": "794a6b7068a954e98df6a0b3125edbe192e21082423915d33e1432921cca52ca"
+  },
+  {
+    "path": "work/phase24-manual-test/Open-ClickToDo.ps1",
+    "sha256": "ce54b904a5932b71e373a20b3a15bbe957bbb20893962320f9c68742454aab7f"
+  },
+  {
+    "path": "work/phase24-manual-test/Start-ManualHookSession.ps1",
+    "sha256": "a29f35769133dc178cb0768d0e92f997c1f0bc5dc928f064887ca72af9b9b4ed"
+  },
+  {
+    "path": "work/phase24-manual-test/Stop-ManualHookSession.ps1",
+    "sha256": "4ca06e805293d68a364139cae71c68e41c969ebddba5987b5a6e60323e4c6f58"
+  },
+  {
+    "path": "work/phase24-manual-test/manual-client-debugger.py",
+    "sha256": "d015419d6b92deee60f0993947aa90b758cf59d8a57ac18b4b112e16c880d969"
+  },
+  {
+    "path": "work/phase25-packaged-launcher/Dispatch.ps1",
+    "sha256": "3a36b629c66c114fc7d43d1b815064c861a8dacebfadbe79a277ba2d6a316752"
+  },
+  {
+    "path": "work/phase25-packaged-launcher/Launcher.cs",
+    "sha256": "a88eb9daf97bf91cbb2dfa76250aa3a31bce9d4bef5401a46b9e22b854b03097"
+  },
+  {
+    "path": "work/phase25-packaged-launcher/build.py",
+    "sha256": "25bfc3118b68133a83b9cbc9a30a06c680ad05fcaa8a24f114956fd78f7a539a"
+  },
+  {
+    "path": "work/phase26-shell-entry/native-hotkey-registration.js",
+    "sha256": "7c1f3369493332db4bc3600261627ff8639385fbd8bfae6f153e0370c22ba8a0"
+  },
+  {
+    "path": "work/phase26-shell-entry/native-hotkey-session.py",
+    "sha256": "acb5fd32c7faa60e1ca085a08d3d71ee0ba7028a9472bb3867de087d316e942b"
+  }
+]

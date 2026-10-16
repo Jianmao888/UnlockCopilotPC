@@ -93,3 +93,6 @@ work/phase25-packaged-launcher/Launcher.generated.cs
 work/**/*.signal
 work/**/*session-state.json
 work/**/*.jsonl
+/downloads/
+/target-compatibility*.json
+/recovery-inputs/
